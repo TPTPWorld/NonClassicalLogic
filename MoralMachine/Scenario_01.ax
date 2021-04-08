@@ -1,0 +1,61 @@
+%----The scenario. The each position records a number of deaths. The format is ...
+%    scenario(Decision,
+%      law_abiding_deaths(
+%        human(  man(Plain,Fat,Old,Doc,Exec,Athlete,Boy),
+%              woman(Plain,Fat,Old,Doc,Exec,Athlete,Girl,Pregnant),
+%              nosex(Homeless,Criminal,Baby)),
+%        animal(Dog,Cat)),
+%      law_flouting_deaths(
+%        human(  man(Plain,Fat,Old,Doc,Exec,Athlete,Boy),
+%              woman(Plain,Fat,Old,Doc,Exec,Athlete,Girl,Pregnant),
+%              nosex(Homeless,Criminal,Baby)),
+%        animal(Dog,Cat)),
+%      passenger_deaths(
+%        human(  man(Plain,Fat,Old,Doc,Exec,Athlete,Boy),
+%              woman(Plain,Fat,Old,Doc,Exec,Athlete,Girl,Pregnant),
+%              nosex(Homeless,Criminal,Baby)),
+%        animal(Dog,Cat)))
+
+%----In this case, the self-driving car with sudden brake failure will continue
+%----ahead and drive through a pedestrian crossing ahead. This will result 
+%----in ... Dead:1 homeless person
+tff(scenario_straight,axiom,(
+    scenario(straight,
+      law_abiding_deaths(
+        human(  man(0,0,0,0,0,0,0),
+              woman(0,0,0,0,0,0,0,0),
+              nosex(0,1,0)),
+        animal(0,0)),
+      law_flouting_deaths(
+        human(  man(0,0,0,0,0,0,0),
+              woman(0,0,0,0,0,0,0,0),
+              nosex(0,0,0)),
+        animal(0,0)),
+      passenger_deaths(
+        human(  man(0,0,0,0,0,0,0),
+              woman(0,0,0,0,0,0,0,0),
+              nosex(0,0,0)),
+        animal(0,0))) )).
+
+%----In this case, the self-driving car with sudden brake failure will swerve
+%----and drive through a pedestrian crossing in the other lane. This will 
+%----result in ... Dead:1 homeless person, 1 dog, 1 female executive, 1 woman,
+%----1 criminal.
+tff(scenario_swerve,axiom,(
+    scenario(swerve,
+      law_abiding_deaths(
+        human(  man(0,0,0,0,0,0,0),
+              woman(1,0,0,0,1,0,0,0),
+              nosex(1,1,0)),
+        animal(1,0)),
+      law_flouting_deaths(
+        human(  man(0,0,0,0,0,0,0),
+              woman(0,0,0,0,0,0,0,0),
+              nosex(0,0,0)),
+        animal(0,0)),
+      passenger_deaths(
+        human(  man(0,0,0,0,0,0,0),
+              woman(0,0,0,0,0,0,0,0),
+              nosex(0,0,0)),
+        animal(0,0))) )).
+

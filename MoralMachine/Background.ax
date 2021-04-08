@@ -70,6 +70,9 @@ tff(total_animal_deaths_type,type,(
 tff(total_law_abiding_and_passenger_deaths_type,type,(
     total_law_abiding_and_passenger_deaths: decision > $int )).
 
+tff(total_law_flouting_deaths_type,type,(
+    total_law_flouting_deaths: decision > $int )).
+
 tff(total_deaths_type,type,(
     total_deaths: decision > $int )).
 
@@ -193,81 +196,3 @@ tff(one_decision,axiom,(
 tff(straight_not_swerve,axiom,(
     straight != swerve )).
 
-%----My simple morality - kill the least
-tff(less_deaths,axiom,(
-    ! [D1:decision,D2:decision] :
-      ( $less(total_deaths(D1),total_deaths(D2))
-     => take_decision(D1) ) )).
-
-%----Anjou's morality
-% TBA!
-
-%----The scenario. The each position records a number of deaths. The format is ...
-%    scenario(Decision,
-%      law_abiding_deaths(
-%        human(  man(Plain,Fat,Old,Doc,Exec,Athlete,Boy),
-%              woman(Plain,Fat,Old,Doc,Exec,Athlete,Girl,Pregnant),
-%              nosex(Homeless,Criminal,Baby)),
-%        animal(Dog,Cat)),
-%      law_flouting_deaths(
-%        human(  man(Plain,Fat,Old,Doc,Exec,Athlete,Boy),
-%              woman(Plain,Fat,Old,Doc,Exec,Athlete,Girl,Pregnant),
-%              nosex(Homeless,Criminal,Baby)),
-%        animal(Dog,Cat)),
-%      passenger_deaths(
-%        human(  man(Plain,Fat,Old,Doc,Exec,Athlete,Boy),
-%              woman(Plain,Fat,Old,Doc,Exec,Athlete,Girl,Pregnant),
-%              nosex(Homeless,Criminal,Baby)),
-%        animal(Dog,Cat)))
-
-%----In this case, the self-driving car with sudden brake failure will continue
-%----ahead and drive through a pedestrian crossing ahead. This will result 
-%----in ... Dead:1 homeless person
-tff(scenario_straight,axiom,(
-    scenario(straight,
-      law_abiding_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(0,0,0,0,0,0,0,0),
-              nosex(0,1,0)),
-        animal(0,0)),
-      law_flouting_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(0,0,0,0,0,0,0,0),
-              nosex(0,0,0)),
-        animal(0,0)),
-      passenger_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(0,0,0,0,0,0,0,0),
-              nosex(0,0,0)),
-        animal(0,0))) )).
-
-%----In this case, the self-driving car with sudden brake failure will swerve
-%----and drive through a pedestrian crossing in the other lane. This will 
-%----result in ... Dead:1 homeless person, 1 dog, 1 female executive, 1 woman,
-%----1 criminal.
-tff(scenario_swerve,axiom,(
-    scenario(swerve,
-      law_abiding_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(1,0,0,0,1,0,0,0),
-              nosex(1,1,0)),
-        animal(1,0)),
-      law_flouting_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(0,0,0,0,0,0,0,0),
-              nosex(0,0,0)),
-        animal(0,0)),
-      passenger_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(0,0,0,0,0,0,0,0),
-              nosex(0,0,0)),
-        animal(0,0))) )).
-
-tff(choose_decision,question,(
-    ? [D:decision] :take_decision(D) )).
-
-% tff(should_swerve,conjecture,
-%     take_decision(swerve)).
-
-% tff(should_go_straight,conjecture,
-%     take_decision(straight)).

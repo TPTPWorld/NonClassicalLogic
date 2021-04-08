@@ -1,0 +1,34 @@
+%----if law flouting huamn deaths is equal or less than law abiding human deaths, 
+%----then kill law flouting people.
+%----if animal deaths is greater than human deaths (regardless of law abiding 
+%----or law flouting), then kill animals. 
+%----if passenger deaths is greater than pedestrian deaths, then kill pedestrians. 
+%----(I'm pretty sure this scenario only has pedestrian deaths and no passenger deaths
+%----because the car can either continue straight and hit people flouting the law or 
+%----swerve and hit people in the pedestrian lane that abide by the law. There were also 
+%----no animals in the scenario that needed to be accounted for, but I can account for
+%----both now!)
+
+tff(less_equal_floutings_deaths,axiom,
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & $less(law_flouting_human_deaths(D1),law_abiding_and_passenger_human_deaths(D2)) )
+     => take_decision(D1) ) ).
+
+% tff(animal_deaths,axiom,
+%     ! [D1:decision,D2:decision] :
+%       ( ( $greater(law_abiding_animal_deaths(D1),total_human_deaths(D2)) 
+%         | $greater(law_flouting_animal_deaths(D1),total_human_deaths(D2)) )
+%      => take_decision(D1) ) ).
+
+%this is logically equivalent to the first axiom right? 
+% tff(greater_flouting_deaths,axiom,
+%     ! [D1:decision,D2:decision] :
+%       ( $greater(law_flouting_human_deaths(D1),law_abiding_and_passenger_human_deaths(D2))
+%      => take_decision(D2) ) ).
+ 
+% tff(greater_passenger_deaths,axiom,
+%     ! [D1:decision,D2:decision] :
+%       ( $greater(passenger_human_deaths(D1),pedestrian_human_deaths(D2))
+%      => take_decision(D2) ) ).
+

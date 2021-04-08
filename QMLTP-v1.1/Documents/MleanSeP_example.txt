@@ -1,0 +1,50 @@
+> eclipse
+ECLiPSe Constraint Logic Programming System [kernel]
+Kernel and basic libraries copyright Cisco Systems, Inc.
+and subject to the Cisco-style Mozilla Public Licence 1.1
+(see legal/cmpl.txt or www.eclipse-clp.org/licence)
+Source available at www.sourceforge.org/projects/eclipse-clp
+GMP library copyright Free Software Foundation, see legal/lgpl.txt
+For other libraries see their individual copyright notices
+Version 5.10 #145 (x86_64_linux), Sat Aug 16 01:10 2008
+[eclipse 1]: [mleansep11].                                         
+iso.eco    loaded traceable 0 bytes in 0.01 seconds
+mleansep11.pl compiled traceable 42872 bytes in 0.01 seconds
+
+Yes (0.01s cpu)
+[eclipse 2]: ['mleantap/SYM/SYM001+1'].
+SYM001+1   compiled traceable 584 bytes in 0.00 seconds
+
+Yes (0.00s cpu)
+[eclipse 3]: logic(L).
+
+L = s4
+Yes (0.00s cpu)
+[eclipse 4]: domain(D).
+
+D = const
+Yes (0.00s cpu)
+[eclipse 5]: f(F).
+
+F = all X : # f(X) => # all X : f(X)
+Yes (0.00s cpu)
+[eclipse 6]: f(F), prove(F).
+1
+0.0
+F = all X : # f(X) => # all X : f(X)
+Yes (0.00s cpu, solution 1, maybe more) ? 
+[eclipse 7]: ['mleantap/SYM/SYM167+1'].
+WARNING: f / 1 in file SYM167+1 replaces previous definition in file SYM001+1
+SYM167+1   compiled traceable 472 bytes in 0.00 seconds
+
+Yes (0.00s cpu)
+[eclipse 8]: f(F).
+
+F = * (p ; ~ p) => p, ~ p
+Yes (0.00s cpu)
+[eclipse 9]: f(F), prove(F).
+1
+
+No (0.00s cpu)
+[eclipse 10]: halt.
+> 

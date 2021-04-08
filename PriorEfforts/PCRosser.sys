@@ -1,0 +1,22 @@
+%------------------------------------------------------------------------------
+include('PCDefns.ax').
+include('OperatorDefns.ax').
+%------------------------------------------------------------------------------
+fof(rosser_op_or,axiom,op_or).
+
+fof(rosser_op_implies_and,axiom,op_implies_and).
+
+fof(rosser_op_equiv,axiom,op_equiv).
+
+fof(rosser_modus_ponens,axiom,modus_ponens).
+
+fof(rosser_kn1,axiom,kn1).
+
+fof(rosser_kn2,axiom,kn2).
+
+fof(rosser_kn3,axiom,kn3 ).
+
+%----Can I have this? Asked Ted and Branden, and Ted says it's admissible
+%----but not required for completeness. With it much more can be done.
+fof(substitution_of_equivalents,axiom,substitution_of_equivalents).
+%------------------------------------------------------------------------------

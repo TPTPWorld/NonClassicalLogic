@@ -1,0 +1,20 @@
+%------------------------------------------------------------------------------
+include('PCDefns.ax').
+include('OperatorDefns.ax').
+%------------------------------------------------------------------------------
+fof(luka_op_or,axiom,op_or).
+
+fof(luka_op_implies,axiom,op_implies).
+
+fof(luka_modus_ponens,axiom,modus_ponens).
+
+fof(luka_cn1,axiom,cn1).
+
+fof(luka_cn2,axiom,cn2).
+
+fof(luka_cn3,axiom,cn3 ).
+
+%----Can I have this? Asked Ted and Branden, and Ted says it's admissible
+%----but not required for completeness. With it much more can be done.
+% fof(substitution_of_equivalents,axiom,substitution_of_equivalents).
+%------------------------------------------------------------------------------

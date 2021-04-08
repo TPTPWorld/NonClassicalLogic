@@ -1,0 +1,43 @@
+%----MLF formulae
+<mlf_formula>        ::= <binary_formula> | <unitary_formula>
+<binary_formula>     ::= <nonassoc_binary> | <assoc_binary>
+%----Only some binary connectives are associative
+%----There's no precedence among binary connectives
+<nonassoc_binary>    ::= <unitary_formula> <binary_connective> <unitary_formula>
+<binary_connective>  ::= <=> | => | <= | <~> | ~<vline> | ~& | 
+                         <==> | ==> | <== | <~~>
+%----Associative connectives & and | are in <assoc_binary>
+<assoc_binary>       ::= <or_formula> | <and_formula>
+<or_formula>         ::= <unitary_formula> <vline> <unitary_formula>
+                         <more_or_formula>*
+<more_or_formula>    ::= <vline> <unitary_formula>
+<and_formula>        ::= <unitary_formula> & <unitary_formula>
+                         <more_and_formula>*
+<more_and_formula>   ::= & <unitary_formula>
+%----<unitary_formula> are in ()s or do not have a <binary_connective> at the 
+%----top level.
+<unitary_formula>    ::= <quantified_formula> | <modal_formula> |
+                         <unary_formula> | (<mlf_formula>) | <atomic_formula>
+<quantified_formula> ::= <quantifier> [<variable_list>] : <unitary_formula>
+<quantifier>         ::= ! | ?
+%----! is universal quantification and ? is existential. Syntactically, the 
+%----quantification is the left operand of :, and the <unitary_formula> is 
+%----the right operand. Although : is a binary operator syntactically, it is 
+%----not a <binary_connective>, and thus a <quantified_formula> is a 
+%----<unitary_formula>.
+%----Universal   example: ! [X,Y] : ((p(X) & p(Y)) => q(X,Y)).
+%----Existential example: ? [X,Y] : (p(X) & p(Y)) & ~ q(X,Y).
+%----Quantifiers have higher precedence than binary connectives, so in
+%----the existential example the quantifier applies to only (p(X) & p(Y)).
+<variable_list>      ::= <variable> | <variable>,<variable_list>
+%----Future variables may have sorts and existential counting
+%----Modal formulae have a modality out front
+<modal_formula>      ::= <modal_operator> <unitary_formula>
+<modal_operator>     ::= #<upper_word>
+<modal_operator>     :== #<modality>
+<modality>           :== L | M | L1 | M1
+%----L is neccesity, M is possibility, L1 is marked neccesity, M1 is
+%----marked possibility
+%----Unary connectives bind more tightly than binary
+<unary_formula>      ::= <unary_connective> <unitary_formula>
+<unary_connective>   ::= ~

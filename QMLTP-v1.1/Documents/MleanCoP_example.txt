@@ -1,0 +1,19 @@
+> cat SYM001+1
+f((
+% con, conjecture.
+( (all X : (# f(X))) => (# (all X : f(X))))
+
+)).
+
+> ./mleancop.sh SYM001+1
+0.0 SYM001+1 is a Modal (s4/const) Theorem
+> cat SYM167+1
+f((
+% con, conjecture.
+( (* ( p ; (~ p ))) => ( p , (~ p )))
+
+)).
+
+> ./mleancop.sh SYM167+1 
+SYM167+1 is a Modal (s4/const) Non-Theorem
+>

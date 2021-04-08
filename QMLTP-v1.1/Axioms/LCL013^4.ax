@@ -1,0 +1,59 @@
+%------------------------------------------------------------------------------
+% File     : LCL013^4 : TPTP v5.0.0. Released v4.0.0.
+% Domain   : Logic Calculi (Modal logic)
+% Axioms   : Modal logic B
+% Version  : [Ben09] axioms.
+% English  : Embedding of monomodal logic B in simple type theory.
+
+% Refs     : [Ben09] Benzmueller (2009), Email to Geoff Sutcliffe
+% Source   : [Ben09]
+% Names    :
+
+% Status   : Satisfiable
+% Syntax   : Number of formulae    :    7 (   0 unit;   3 type;   2 defn)
+%            Number of atoms       :   34 (   2 equality;   5 variable)
+%            Maximal formula depth :    9 (   4 average)
+%            Number of connectives :   10 (   1   ~;   1   |;   0   &;   8   @)
+%                                         (   0 <=>;   0  =>;   0  <=;   0 <~>)
+%                                         (   0  ~|;   0  ~&;   0  !!;   0  ??)
+%            Number of type conns  :   10 (  10   >;   0   *;   0   +)
+%            Number of symbols     :    8 (   3   :;   0  :=)
+%            Number of variables   :    4 (   0 sgn;   1   !;   0   ?;   3   ^)
+%                                         (   4   :;   0  :=;   0  !>;   0  ?*)
+% SPC      : 
+
+% Comments : Requires LCL013^0
+%------------------------------------------------------------------------------
+%----We reserve an accessibility relation constant rel_b
+thf(rel_b_type,type,(
+    rel_b: $i > $i > $o )).
+
+%----We define mbox_b and mdia_b based on rel_b
+thf(mbox_b_type,type,(
+    mbox_b: ( $i > $o ) > $i > $o )).
+
+thf(mbox_b,definition,
+    ( mbox_b
+    = ( ^ [Phi: $i > $o,W: $i] :
+        ! [V: $i] :
+          ( ~ ( rel_b @ W @ V )
+          | ( Phi @ V ) ) ) )).
+
+thf(mdia_b_type,type,(
+    mdia_b: ( $i > $o ) > $i > $o )).
+
+thf(mdia_b,definition,
+    ( mdia_b
+    = ( ^ [Phi: $i > $o] :
+          ( mnot @ ( mbox_b @ ( mnot @ Phi ) ) ) ) )).
+
+%----We have now two options for stating the B conditions: 
+%----We can (i) directly formulate conditions for the accessibility relation
+%----constant or we can (ii) state corresponding axioms. We here prefer (i)
+thf(a1,axiom,
+    ( mreflexive @ rel_b )).
+
+thf(a2,axiom,
+    ( msymmetric @ rel_b )).
+
+%------------------------------------------------------------------------------

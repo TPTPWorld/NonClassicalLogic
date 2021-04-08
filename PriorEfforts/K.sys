@@ -1,0 +1,14 @@
+%------------------------------------------------------------------------------
+include('PC.sys').
+include('ModalRuleDefns.ax',[necessitation]).
+include('ModalAxiomDefns.ax',[axiom_K]).
+include('OperatorDefns.ax').
+%------------------------------------------------------------------------------
+fof(system_K_op_possibly,axiom,op_possibly).
+
+fof(system_K_op_necessarily,axiom,op_necessarily).
+
+fof(system_K_necessitation,axiom,necessitation).
+
+fof(system_K_axiom_K,axiom,axiom_K).
+%------------------------------------------------------------------------------

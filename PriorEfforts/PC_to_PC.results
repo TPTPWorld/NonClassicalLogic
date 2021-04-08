@@ -1,0 +1,492 @@
+%----All from used subs of equiv
+%----Used E 0.99 with 180s limit. A ! means proved.
+                             | From this PC axiomatization
+To this PC axiomatization    | PCH     PCR     PCL     PCP
+-----------------------------+------------------------------
+prove_hilbert_modus_ponens   | -       E ! 0   E ! 0   E ! 0
+prove_hilbert_modus_tollens  | -       E ! 110 E 180   E ! 0
+prove_hilbert_implies_1      | -       E ! 1   E ! 9   E ! 0
+prove_hilbert_implies_2      | -       E ! 37  E ! 15  E ! 27
+prove_hilbert_implies_3      | -       E 180   E ! 0   E 180
+prove_hilbert_and_1          | -       E ! 0   E 180   E ! 6
+prove_hilbert_and_2          | -       E ! 12  E 180   E ! 0
+prove_hilbert_and_3          | -       E 180   E 180   E ! 38
+prove_hilbert_or_1           | -       E ! 7   E ! 0   E ! 6
+prove_hilbert_or_2           | -       E ! 1   E ! 9   E ! 0
+prove_hilbert_or_3           | -       E 180   E 180   E 180
+prove_hilbert_equivalence_1  | -       E ! 0   E ! 15  E ! 7
+prove_hilbert_equivalence_2  | -       E ! 12  E ! 28  E ! 1
+prove_hilbert_equivalence_3  | -       E 180   E 180   E ! 106
+-----------------------------+------------------------------
+prove_luka_modus_ponens      | E ! 0   E ! 0   -       E ! 0
+prove_luka_cn1               | E ! 0   E 180   -       E 120
+prove_luka_cn2               | E ! 0   E ! 7   -       E ! 7
+prove_luka_cn3               | E ! 0   E ! 0   -       E ! 61
+-----------------------------+------------------------------
+prove_principia_modus_ponens | E ! 0   E ! 0   E ! 0   -
+prove_principia_r1           | E ! 0   E ! 1   E 180   -
+prove_principia_r2           | E ! 0   E ! 7   E ! 136 -
+prove_principia_r3           | E ! 1   E ! 1   E 180   -
+prove_principia_r4           | E 180   E 180   E 180   -
+prove_principia_r5           | E ! 1   E 180   E 180   -
+-----------------------------+------------------------------
+prove_rosser_modus_ponens    | E ! 0   -       E ! 0   E ! 0
+prove_rosser_kn1             | E ! 0   -       E 180   E ! 0
+prove_rosser_kn2             | E ! 0   -       E 180   E ! 7
+prove_rosser_kn3             | E ! 31  -       E 180   E 180
+-----------------------------+------------------------------
+
+%----Without subs of equiv
+%----Used E 0.99 with 180s limit. A ! means proved.
+                             | From this PC axiomatization
+To this PC axiomatization    | PCH     PCR     PCL     PCP
+-----------------------------+------------------------------
+prove_hilbert_modus_ponens   | -       E ! 0   E ! 0   E ! 0
+prove_hilbert_modus_tollens  | -       E ! 132 E ! 107 E ! 0
+prove_hilbert_implies_1      | -       E ! 43  E ! 3   E ! 0
+prove_hilbert_implies_2      | -       E 180   E ! 10  E 180
+prove_hilbert_implies_3      | -       E 180   E ! 0   E ! 148
+prove_hilbert_and_1          | -       E ! 0   E 180   E ! 1
+prove_hilbert_and_2          | -       E ! 47  E 180   E ! 0
+prove_hilbert_and_3          | -       E 180   E 180   E ! 36
+prove_hilbert_or_1           | -       E ! 11  E ! 0   E !10
+prove_hilbert_or_2           | -       E ! 40  E ! 3   E ! 0
+prove_hilbert_or_3           | -       E 180   E 180   E 180
+prove_hilbert_equivalence_1  | -       E ! 0   E ! 24  E ! 3
+prove_hilbert_equivalence_2  | -       E ! 47  E ! 26  E ! 1
+prove_hilbert_equivalence_3  | -       E 180   E 180   E 180
+-----------------------------+------------------------------
+prove_rosser_modus_ponens    | E ! 0   -       E ! 0   E ! 0
+prove_rosser_kn1             | E ! 0   -       E 180   E ! 1
+prove_rosser_kn2             | E ! 0   -       E 180   E ! 1
+prove_rosser_kn3             | E ! 0   -       E 180   E 180
+-----------------------------+------------------------------
+prove_luka_modus_ponens      | E ! 0   E ! 0   -       E ! 0
+prove_luka_cn1               | E ! 0   E 180   -       E 120
+prove_luka_cn2               | E ! 0   E ! 11  -       E ! 7
+prove_luka_cn3               | E ! 0   E ! 1   -       E ! 61
+-----------------------------+------------------------------
+prove_principia_modus_ponens | E ! 0   E ! 0   E ! 0   -
+prove_principia_r1           | E ! 0   E ! 1   E 180   -
+prove_principia_r2           | E ! 0   E ! 4   E 180   -
+prove_principia_r3           | E ! 0   E ! 1   E 180   -
+prove_principia_r4           | E 180   E 180   E 180   -
+prove_principia_r5           | E 180   E 180   E 180   -
+-----------------------------+------------------------------
+
+%----All from used subs of equiv
+%----Used Vampire 8.1 with 180s limit. A ! means proved.
+                             | From this PC axiomatization
+To this PC axiomatization    | PCH     PCR     PCL     PCP
+-----------------------------+------------------------------
+prove_hilbert_modus_ponens   | -       V ! 0   V ! 0   V ! 0
+prove_hilbert_modus_tollens  | -       V ! 10  V ! 58  V ! 0
+prove_hilbert_implies_1      | -       V ! 5   V ! 3   V ! 0
+prove_hilbert_implies_2      | -       V ! 11  V ! 58  V ! 58
+prove_hilbert_implies_3      | -       V ! 130 V ! 0   V ! 16
+prove_hilbert_and_1          | -       V ! 0   V ! 58  V ! 2
+prove_hilbert_and_2          | -       V ! 5   V ! 60  V ! 0
+prove_hilbert_and_3          | -       V ! 92  V ! 60  V ! 4
+prove_hilbert_or_1           | -       V ! 2   V ! 0   V ! 2
+prove_hilbert_or_2           | -       V ! 5   V ! 3   V ! 0
+prove_hilbert_or_3           | -       V 180   V 180   V 180
+prove_hilbert_equivalence_1  | -       V ! 0   V ! 58  V ! 2
+prove_hilbert_equivalence_2  | -       V ! 5   V ! 59  V ! 0
+prove_hilbert_equivalence_3  | -       V 180   V 180   V 180
+-----------------------------+------------------------------
+prove_rosser_modus_ponens    | V ! 0   -       V ! 0   V ! 0
+prove_rosser_kn1             | V ! 0   -       V ! 58  V ! 0
+prove_rosser_kn2             | V ! 0   -       V ! 58  V ! 2
+prove_rosser_kn3             | V ! 72  -       V ! 59  V 180
+-----------------------------+------------------------------
+prove_luka_modus_ponens      | V ! 0   V ! 0   -       V ! 0
+prove_luka_cn1               | V ! 0   V 180   -       V ! 16
+prove_luka_cn2               | V ! 0   V ! 4   -       V ! 1
+prove_luka_cn3               | V ! 1   V ! 2   -       V ! 4
+-----------------------------+------------------------------
+prove_principia_modus_ponens | V ! 1   V ! 0   V ! 0   -
+prove_principia_r1           | V ! 0   V ! 1   V ! 60  -
+prove_principia_r2           | V ! 0   V ! 5   V ! 61  -
+prove_principia_r3           | V ! 2   V ! 1   V ! 125 -
+prove_principia_r4           | V ! 4   V 180   V 180   -
+prove_principia_r5           | V ! 4   V 180   V 180   -
+-----------------------------+------------------------------
+
+%----Without subs of equiv
+%----Used Vampire 8.1 with 180s limit. A ! means proved.
+                             | From this PC axiomatization
+To this PC axiomatization    | PCH     PCR     PCL     PCP
+-----------------------------+------------------------------
+prove_hilbert_modus_ponens   | -       V ! 0   V ! 0   V ! 0
+prove_hilbert_modus_tollens  | -       V ! 110 V ! 124 V ! 0
+prove_hilbert_implies_1      | -       V ! 5   V ! 3   V ! 0
+prove_hilbert_implies_2      | -       V ! 11  V ! 68  V ! 55
+prove_hilbert_implies_3      | -       V 180   V ! 0   V ! 16
+prove_hilbert_and_1          | -       V ! 0   V 180   V ! 2
+prove_hilbert_and_2          | -       V ! 5   V 180   V ! 0
+prove_hilbert_and_3          | -       V ! 132 V 180   V ! 4
+prove_hilbert_or_1           | -       V ! 2   V ! 0   V ! 2
+prove_hilbert_or_2           | -       V ! 5   V ! 3   V ! 0
+prove_hilbert_or_3           | -       V 180   V 180   V 180
+prove_hilbert_equivalence_1  | -       V ! 0   V ! 69  V ! 2
+prove_hilbert_equivalence_2  | -       V ! 4   V ! 72  V ! 0
+prove_hilbert_equivalence_3  | -       V 180   V 180   V 180
+-----------------------------+------------------------------
+prove_rosser_modus_ponens    | V ! 0   -       V ! 0   V ! 0
+prove_rosser_kn1             | V ! 0   -       V ! 58  V ! 0
+prove_rosser_kn2             | V ! 0   -       V ! 58  V ! 2
+prove_rosser_kn3             | V 180   -       V ! 59  V 180
+-----------------------------+------------------------------
+prove_luka_modus_ponens      | V ! 0   V ! 0   -       V ! 0
+prove_luka_cn1               | V ! 0   V 180   -       V ! 16
+prove_luka_cn2               | V ! 0   V ! 4   -       V ! 1
+prove_luka_cn3               | V ! 1   V ! 3   -       V ! 4
+-----------------------------+------------------------------
+prove_principia_modus_ponens | V ! 0   V ! 0   V ! 0   -
+prove_principia_r1           | V ! 1   V ! 1   V ! 112 -
+prove_principia_r2           | V ! 0   V ! 5   V 180   -
+prove_principia_r3           | V ! 2   V ! 1   V 180   -
+prove_principia_r4           | V ! 4   V 180   V 180   -
+prove_principia_r5           | V ! 4   V 180   V 180   -
+-----------------------------+------------------------------
+
+------------ without subs of equiv -------------- r4 and r5 swapped
+RESULT: PCH_to_PCL_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_4 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCH_to_PCP_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_2 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCH_to_PCP_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_4 - Vampire---8.1 says Theorem - CPU = 1.5
+RESULT: PCH_to_PCP_5 - Vampire---8.1 says Theorem - CPU = 4.2
+RESULT: PCH_to_PCP_6 - Vampire---8.1 says Theorem - CPU = 3.9
+RESULT: PCH_to_PCR_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_4 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_2 - Vampire---8.1 says Theorem - CPU = 124.4
+RESULT: PCL_to_PCH_3 - Vampire---8.1 says Theorem - CPU = 2.5
+RESULT: PCL_to_PCH_4 - Vampire---8.1 says Theorem - CPU = 68.2
+RESULT: PCL_to_PCH_5 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_6 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_7 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_8 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_9 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_10 - Vampire---8.1 says Theorem - CPU = 2.4
+RESULT: PCL_to_PCH_11 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_12 - Vampire---8.1 says Theorem - CPU = 69.8
+RESULT: PCL_to_PCH_13 - Vampire---8.1 says Theorem - CPU = 72.1
+RESULT: PCL_to_PCH_14 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCP_2 - Vampire---8.1 says Theorem - CPU = 112.9
+RESULT: PCL_to_PCP_3 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_4 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCP_5 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_6 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCR_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCR_2 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCR_3 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCR_4 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_4 - Vampire---8.1 says Theorem - CPU = 54.6
+RESULT: PCP_to_PCH_5 - Vampire---8.1 says Theorem - CPU = 15.8
+RESULT: PCP_to_PCH_6 - Vampire---8.1 says Theorem - CPU = 1.3
+RESULT: PCP_to_PCH_7 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_8 - Vampire---8.1 says Theorem - CPU = 3.6
+RESULT: PCP_to_PCH_9 - Vampire---8.1 says Theorem - CPU = 1.3
+RESULT: PCP_to_PCH_10 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_11 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_12 - Vampire---8.1 says Theorem - CPU = 1.4
+RESULT: PCP_to_PCH_13 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCP_to_PCH_14 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCL_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCL_2 - Vampire---8.1 says Theorem - CPU = 15.8
+RESULT: PCP_to_PCL_3 - Vampire---8.1 says Theorem - CPU = 0.8
+RESULT: PCP_to_PCL_4 - Vampire---8.1 says Theorem - CPU = 4.3
+RESULT: PCP_to_PCR_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCR_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCR_3 - Vampire---8.1 says Theorem - CPU = 1.3
+RESULT: PCP_to_PCR_4 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_2 - Vampire---8.1 says Theorem - CPU = 109.8
+RESULT: PCR_to_PCH_3 - Vampire---8.1 says Theorem - CPU = 4.5
+RESULT: PCR_to_PCH_4 - Vampire---8.1 says Theorem - CPU = 10.9
+RESULT: PCR_to_PCH_5 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_6 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_7 - Vampire---8.1 says Theorem - CPU = 4.5
+RESULT: PCR_to_PCH_8 - Vampire---8.1 says Theorem - CPU = 132.4
+RESULT: PCR_to_PCH_9 - Vampire---8.1 says Theorem - CPU = 1.8
+RESULT: PCR_to_PCH_10 - Vampire---8.1 says Theorem - CPU = 4.4
+RESULT: PCR_to_PCH_11 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_12 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_13 - Vampire---8.1 says Theorem - CPU = 4.1
+RESULT: PCR_to_PCH_14 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCL_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCL_2 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCL_3 - Vampire---8.1 says Theorem - CPU = 4.2
+RESULT: PCR_to_PCL_4 - Vampire---8.1 says Theorem - CPU = 2.3
+RESULT: PCR_to_PCP_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCP_2 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCR_to_PCP_3 - Vampire---8.1 says Theorem - CPU = 4.7
+RESULT: PCR_to_PCP_4 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCR_to_PCP_5 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCP_6 - Vampire---8.1 says Timeout - CPU = 180.4
+
+---------- with subs of equiv ------------------------------
+RESULT: PCH_to_PCL_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_2 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_3 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_4 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_2 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_3 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_4 - E---0.99 says Theorem - CPU = 0.4
+RESULT: PCH_to_PCP_5 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCH_to_PCP_6 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCH_to_PCR_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_2 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_3 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_4 - E---0.99 says Theorem - CPU = 5.8
+RESULT: PCL_to_PCH_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_2 - E---0.99 says Theorem - CPU = 107.0
+RESULT: PCL_to_PCH_3 - E---0.99 says Theorem - CPU = 3.0
+RESULT: PCL_to_PCH_4 - E---0.99 says Theorem - CPU = 10.4
+RESULT: PCL_to_PCH_5 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_6 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_7 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_8 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_9 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_10 - E---0.99 says Theorem - CPU = 2.8
+RESULT: PCL_to_PCH_11 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_12 - E---0.99 says Theorem - CPU = 23.6
+RESULT: PCL_to_PCH_13 - E---0.99 says Theorem - CPU = 26.1
+RESULT: PCL_to_PCH_14 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCP_2 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCP_3 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCP_4 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCP_5 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_6 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCR_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCR_2 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCR_3 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCR_4 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_2 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_3 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_4 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_5 - E---0.99 says Theorem - CPU = 147.9
+RESULT: PCP_to_PCH_6 - E---0.99 says Theorem - CPU = 0.3
+RESULT: PCP_to_PCH_7 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_8 - E---0.99 says Theorem - CPU = 36.4
+RESULT: PCP_to_PCH_9 - E---0.99 says Theorem - CPU = 1.0
+RESULT: PCP_to_PCH_10 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_11 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_12 - E---0.99 says Theorem - CPU = 2.5
+RESULT: PCP_to_PCH_13 - E---0.99 says Theorem - CPU = 0.1
+RESULT: PCP_to_PCH_14 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCL_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCL_2 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCL_3 - E---0.99 says Theorem - CPU = 6.6
+RESULT: PCP_to_PCL_4 - E---0.99 says Theorem - CPU = 61.4
+RESULT: PCP_to_PCR_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCR_2 - E---0.99 says Theorem - CPU = 0.2
+RESULT: PCP_to_PCR_3 - E---0.99 says Theorem - CPU = 0.3
+RESULT: PCP_to_PCR_4 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_2 - E---0.99 says Theorem - CPU = 131.9
+RESULT: PCR_to_PCH_3 - E---0.99 says Theorem - CPU = 42.8
+RESULT: PCR_to_PCH_4 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_5 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_6 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_7 - E---0.99 says Theorem - CPU = 46.9
+RESULT: PCR_to_PCH_8 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_9 - E---0.99 says Theorem - CPU = 10.9
+RESULT: PCR_to_PCH_10 - E---0.99 says Theorem - CPU = 39.8
+RESULT: PCR_to_PCH_11 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_12 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_13 - E---0.99 says Theorem - CPU = 46.7
+RESULT: PCR_to_PCH_14 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCL_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCL_2 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCL_3 - E---0.99 says Theorem - CPU = 10.9
+RESULT: PCR_to_PCL_4 - E---0.99 says Theorem - CPU = 0.7
+RESULT: PCR_to_PCP_1 - E---0.99 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCP_2 - E---0.99 says Theorem - CPU = 0.2
+RESULT: PCR_to_PCP_3 - E---0.99 says Theorem - CPU = 3.3
+RESULT: PCR_to_PCP_4 - E---0.99 says Theorem - CPU = 0.4
+RESULT: PCR_to_PCP_5 - E---0.99 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCP_6 - E---0.99 says Timeout - CPU = 180.4
+RESULT: PCH_to_PCL_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCL_4 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCH_to_PCP_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_2 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCH_to_PCP_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCP_4 - Vampire---8.1 says Theorem - CPU = 1.3
+RESULT: PCH_to_PCP_5 - Vampire---8.1 says Theorem - CPU = 4.2
+RESULT: PCH_to_PCP_6 - Vampire---8.1 says Theorem - CPU = 3.9
+RESULT: PCH_to_PCR_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCH_to_PCR_4 - Vampire---8.1 says Theorem - CPU = 71.7
+RESULT: PCL_to_PCH_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_2 - Vampire---8.1 says Theorem - CPU = 57.9
+RESULT: PCL_to_PCH_3 - Vampire---8.1 says Theorem - CPU = 2.5
+RESULT: PCL_to_PCH_4 - Vampire---8.1 says Theorem - CPU = 58.1
+RESULT: PCL_to_PCH_5 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_6 - Vampire---8.1 says Theorem - CPU = 58.1
+RESULT: PCL_to_PCH_7 - Vampire---8.1 says Theorem - CPU = 59.3
+RESULT: PCL_to_PCH_8 - Vampire---8.1 says Theorem - CPU = 59.8
+RESULT: PCL_to_PCH_9 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCH_10 - Vampire---8.1 says Theorem - CPU = 2.5
+RESULT: PCL_to_PCH_11 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_12 - Vampire---8.1 says Theorem - CPU = 58.4
+RESULT: PCL_to_PCH_13 - Vampire---8.1 says Theorem - CPU = 59.4
+RESULT: PCL_to_PCH_14 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCP_2 - Vampire---8.1 says Theorem - CPU = 61.4
+RESULT: PCL_to_PCP_3 - Vampire---8.1 says Theorem - CPU = 60.9
+RESULT: PCL_to_PCP_4 - Vampire---8.1 says Theorem - CPU = 124.5
+RESULT: PCL_to_PCP_5 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_6 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCR_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCL_to_PCR_2 - Vampire---8.1 says Theorem - CPU = 58.1
+RESULT: PCL_to_PCR_3 - Vampire---8.1 says Theorem - CPU = 58.1
+RESULT: PCL_to_PCR_4 - Vampire---8.1 says Theorem - CPU = 59.1
+RESULT: PCP_to_PCH_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_3 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_4 - Vampire---8.1 says Theorem - CPU = 57.5
+RESULT: PCP_to_PCH_5 - Vampire---8.1 says Theorem - CPU = 15.8
+RESULT: PCP_to_PCH_6 - Vampire---8.1 says Theorem - CPU = 1.4
+RESULT: PCP_to_PCH_7 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_8 - Vampire---8.1 says Theorem - CPU = 3.7
+RESULT: PCP_to_PCH_9 - Vampire---8.1 says Theorem - CPU = 1.3
+RESULT: PCP_to_PCH_10 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_11 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_12 - Vampire---8.1 says Theorem - CPU = 1.4
+RESULT: PCP_to_PCH_13 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCH_14 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCL_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCL_2 - Vampire---8.1 says Theorem - CPU = 15.8
+RESULT: PCP_to_PCL_3 - Vampire---8.1 says Theorem - CPU = 0.8
+RESULT: PCP_to_PCL_4 - Vampire---8.1 says Theorem - CPU = 4.3
+RESULT: PCP_to_PCR_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCR_2 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCP_to_PCR_3 - Vampire---8.1 says Theorem - CPU = 1.4
+RESULT: PCP_to_PCR_4 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_2 - Vampire---8.1 says Theorem - CPU = 10.0
+RESULT: PCR_to_PCH_3 - Vampire---8.1 says Theorem - CPU = 4.4
+RESULT: PCR_to_PCH_4 - Vampire---8.1 says Theorem - CPU = 11.1
+RESULT: PCR_to_PCH_5 - Vampire---8.1 says Theorem - CPU = 130.2
+RESULT: PCR_to_PCH_6 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_7 - Vampire---8.1 says Theorem - CPU = 4.4
+RESULT: PCR_to_PCH_8 - Vampire---8.1 says Theorem - CPU = 92.0
+RESULT: PCR_to_PCH_9 - Vampire---8.1 says Theorem - CPU = 1.9
+RESULT: PCR_to_PCH_10 - Vampire---8.1 says Theorem - CPU = 4.4
+RESULT: PCR_to_PCH_11 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_12 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCH_13 - Vampire---8.1 says Theorem - CPU = 4.1
+RESULT: PCR_to_PCH_14 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCL_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCL_2 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCL_3 - Vampire---8.1 says Theorem - CPU = 4.2
+RESULT: PCR_to_PCL_4 - Vampire---8.1 says Theorem - CPU = 2.3
+RESULT: PCR_to_PCP_1 - Vampire---8.1 says Theorem - CPU = 0.0
+RESULT: PCR_to_PCP_2 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCR_to_PCP_3 - Vampire---8.1 says Theorem - CPU = 4.6
+RESULT: PCR_to_PCP_4 - Vampire---8.1 says Theorem - CPU = 0.1
+RESULT: PCR_to_PCP_5 - Vampire---8.1 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCP_6 - Vampire---8.1 says Timeout - CPU = 180.4
+RESULT: PCH_to_PCL_1 - Paradox---1.3 says GaveUp - CPU = 0.3
+RESULT: PCH_to_PCL_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCH_to_PCL_3 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCH_to_PCL_4 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCH_to_PCP_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCH_to_PCP_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCH_to_PCP_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCH_to_PCP_4 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCH_to_PCP_5 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCH_to_PCP_6 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCH_to_PCR_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCH_to_PCR_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCH_to_PCR_3 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCH_to_PCR_4 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCL_to_PCH_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_4 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_5 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_6 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_7 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_8 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCH_9 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_10 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_11 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_12 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_13 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCH_14 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCP_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCL_to_PCP_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCP_4 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCP_5 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCP_6 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCR_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCL_to_PCR_2 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCL_to_PCR_3 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCL_to_PCR_4 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCP_to_PCH_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_4 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_5 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_6 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_7 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_8 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_9 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_10 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_11 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCH_12 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_13 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCH_14 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCL_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCP_to_PCL_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCL_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCL_4 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCR_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCP_to_PCR_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCP_to_PCR_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCP_to_PCR_4 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCR_to_PCH_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_4 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_5 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_6 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_7 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_8 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_9 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_10 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCH_11 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_12 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_13 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCH_14 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCL_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCR_to_PCL_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCL_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCL_4 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCP_1 - Paradox---1.3 says GaveUp - CPU = 0.2
+RESULT: PCR_to_PCP_2 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCP_3 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCP_4 - Paradox---1.3 says Timeout - CPU = 180.3
+RESULT: PCR_to_PCP_5 - Paradox---1.3 says Timeout - CPU = 180.4
+RESULT: PCR_to_PCP_6 - Paradox---1.3 says Timeout - CPU = 180.3
+

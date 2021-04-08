@@ -1,0 +1,152 @@
+%------------------------------------------------------------------------------
+fof(modus_ponens,axiom,(
+    ! [X,Y] : 
+      ( ( is_a_theorem(X)
+        & is_a_theorem(implies(X,Y)) )
+     => is_a_theorem(Y) ) )).
+
+fof(modus_tollens,axiom,(
+    ! [X,Y] : is_a_theorem(implies(implies(not(Y),not(X)),implies(X,Y))) )).
+
+fof(not_is_idempotent,axiom,(
+    ! [X] : not(not(X)) = X )).
+
+fof(implies_1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(X,implies(Y,X))) )).
+
+fof(implies_2,axiom,(
+    ! [X,Y,Z] : is_a_theorem(implies(implies(X,implies(Y,Z)),implies(implies(X,Y),implies(X,Z)))) )).
+
+fof(and_defn1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(and(X,Y),X)) )).
+
+fof(and_defn2,axiom,(
+    ! [X,Y] : is_a_theorem(implies(and(X,Y),Y)) )).
+
+fof(and_defn3,axiom,(
+    ! [X,Y] : is_a_theorem(implies(X,implies(Y,and(X,Y)))) )).
+
+fof(or_defn1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(X,or(X,Y))) )).
+
+fof(or_defn2,axiom,(
+    ! [X,Y] : is_a_theorem(implies(Y,or(X,Y))) )).
+
+fof(or_defn3,axiom,(
+    ! [X,Y,Z] : is_a_theorem(implies(implies(X,Z),implies(implies(Y,Z),implies(or(X,Y),Z)))) )).
+
+fof(equivalence_defn1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(equiv(X,Y),implies(X,Y))) )).
+
+fof(equivalence_defn2,axiom,(
+    ! [X,Y] : is_a_theorem(implies(equiv(X,Y),implies(Y,X))) )).
+
+fof(equivalence_defn3,axiom,(
+    ! [X,Y] : is_a_theorem(implies(implies(X,Y),implies(implies(Y,X),equiv(X,Y)))) )).
+
+fof(op_implies,axiom,(
+    ! [X,Y] : implies(X,Y) = not(and(X,not(Y))) )).
+
+fof(op_or,axiom,(
+    ! [X,Y] : or(X,Y) = not(and(not(X),not(Y))) )).
+
+fof(op_possibly,axiom,(
+    ! [X] : possibly(X) = not(necessarily(not(X))) )).
+
+fof(op_necessarily,axiom,(
+    ! [X] : necessarily(X) = not(possibly(not(X))) )).
+
+fof(strict_implies,axiom,(
+    ! [X,Y] : strict_implies(X,Y) = necessarily(implies(X,Y)) )).
+
+fof(op_strict_equiv,axiom,(
+    ! [X,Y] : strict_equiv(X,Y) = and(strict_implies(X,Y),strict_implies(Y,X)) )).
+
+fof(necessitation,axiom,(
+    ! [X] : 
+      ( is_a_theorem(X)
+     => is_a_theorem(necessarily(X)) ) )).
+
+fof(axiom_K,axiom,(
+    ! [X,Y] : is_a_theorem(implies(necessarily(implies(X,Y)),implies(necessarily(X),necessarily(Y)))) )).
+
+fof(axiom_M,axiom,(
+    ! [X] : is_a_theorem(implies(necessarily(X),X)) )).
+
+fof(axiom_5,axiom,
+    ( axiom_5
+  <=> ! [X] : is_a_theorem(implies(possibly(X),necessarily(possibly(X)))) )).
+
+fof(axiom_4,axiom,
+    ( axiom_4
+  <=> ! [X] : is_a_theorem(implies(necessarily(X),necessarily(necessarily(X)))) )).
+
+fof(axiom_B,axiom,
+    ( axiom_B
+  <=> ! [X] : is_a_theorem(implies(X,necessarily(possibly(X)))) )).
+
+fof(axiom_s1_1,axiom,
+    ( axiom_s1_1
+  <=> ! [X,Y] : is_a_theorem(strict_implies(and(X,Y),and(Y,X))) )).
+
+fof(axiom_s1_2,axiom,
+    ( axiom_s1_2
+  <=> ! [X,Y] : is_a_theorem(strict_implies(and(X,Y),X)) )).
+
+fof(axiom_s1_3,axiom,
+    ( axiom_s1_3
+  <=> ! [X] : is_a_theorem(strict_implies(X,and(X,X))) )).
+
+fof(axiom_s1_4,axiom,
+    ( axiom_s1_4
+  <=> ! [X,Y,Z] : is_a_theorem(strict_implies(and(and(X,Y),Z),and(X,and(Y,Z)))) )).
+
+fof(axiom_s1_5,axiom,
+    ( axiom_s1_5
+  <=> ! [X,Y,Z] : is_a_theorem(strict_implies(and(strict_implies(X,Y),strict_implies(Y,Z)),strict_implies(X,Z))) )).
+
+fof(axiom_s1_6,axiom,
+    ( axiom_s1_6
+  <=> ! [X,Y] : is_a_theorem(strict_implies(and(X,strict_implies(X,Y)),Y)) )).
+
+fof(axiom_m6,axiom,
+    ( axiom_m6
+  <=> ! [X] : is_a_theorem(strict_implies(X,possibly(X))) )).
+
+fof(axiom_m8,axiom,
+    ( axiom_m8
+  <=> ! [X,Y] : is_a_theorem(strict_implies(strict_implies(X,Y),strict_implies(possibly(X),possibly(Y)))) )).
+
+fof(axiom_m9,axiom,
+    ( axiom_m9
+  <=> ! [X,Y] : is_a_theorem(strict_implies(possibly(possibly(X)),possibly(X))) )).
+
+fof(axiom_m10,axiom,
+    ( axiom_m10
+  <=> ! [X] : is_a_theorem(strict_implies(possibly(X),necessarily(possibly(X)))) )).
+
+fof(axiom_s4_1,axiom,
+    ( axiom_s4_1
+  <=> ! [X] : is_a_theorem(strict_implies(necessarily(X),necessarily(necessarily(X)))) )).
+
+fof(axiom_S3,axiom,
+    ( axiom_S3
+  <=> ! [X,Y] : is_a_theorem(strict_implies(strict_implies(X,Y),strict_implies(not(possibly(X)),not(possibly(Y))))) )).
+
+fof(axiom_Simons,axiom,
+    ( axiom_Simons
+  <=> ! [X] : is_a_theorem(strict_implies(possibly(X),not(possibly(not(X))))) )).
+
+fof(axiom_Ander,axiom,
+    ( axiom_Ander
+  <=> ! [X] : is_a_theorem(strict_implies(strict_implies(not(possibly(not(X))),possibly(X)),strict_implies(X,not(possibly(not(X)))))) )).
+
+fof(axiom_KM4Bis4,axiom,(
+    axiom_4 )).
+
+fof(axiom_KM4BisB,axiom,(
+    axiom_B )).
+
+fof(axiom_KM4Bis5,conjecture,(
+    axiom_5 )).
+%------------------------------------------------------------------------------

@@ -1,0 +1,92 @@
+%------------------------------------------------------------------------------
+fof(axiom_K,axiom,
+    ( axiom_K
+  <=> ! [X,Y] : is_a_theorem(implies(necessarily(implies(X,Y)),implies(necessarily(X),necessarily(Y))))  )).
+
+fof(axiom_D,axiom,
+    ( axiom_D
+  <=> ! [X] : is_a_theorem(implies(necessarily(X),possibly(X))) )).
+
+fof(axiom_M,axiom,
+    ( axiom_M
+  <=> ! [X] : is_a_theorem(implies(necessarily(X),X)) )).
+
+fof(axiom_5,axiom,
+    ( axiom_5
+  <=> ! [X] : is_a_theorem(implies(possibly(X),necessarily(possibly(X)))) )).
+
+fof(axiom_4,axiom,
+    ( axiom_4
+  <=> ! [X] : is_a_theorem(implies(necessarily(X),necessarily(necessarily(X)))) )).
+
+fof(axiom_B,axiom,
+    ( axiom_B
+  <=> ! [X] : is_a_theorem(implies(X,necessarily(possibly(X)))) )).
+
+fof(axiom_S1,axiom,
+    ( axiom_S1
+  <=> ! [X,Y,Z] : is_a_theorem(implies(and(necessarily(implies(X,Y)),necessarily(implies(Y,Z))),necessarily(implies(X,Z)))) )).
+
+%----These capture the Axioms of the S1 System
+%----This axiom same as M1
+fof(axiom_s1_1,axiom,
+    ( axiom_s1_1
+  <=> ! [X,Y] : is_a_theorem(strict_implies(and(X,Y),and(Y,X))) )).
+
+%----This axiom same as M2
+fof(axiom_s1_2,axiom,
+    ( axiom_s1_2
+  <=> ! [X,Y] : is_a_theorem(strict_implies(and(X,Y),X)) )).
+
+%----This axiom same as M4
+fof(axiom_s1_3,axiom,
+    ( axiom_s1_3
+  <=> ! [X] : is_a_theorem(strict_implies(X,and(X,X))) )).
+
+%----This axiom same as M3
+fof(axiom_s1_4,axiom,
+    ( axiom_s1_4
+  <=> ! [X,Y,Z] : is_a_theorem(strict_implies(and(and(X,Y),Z),and(X,and(Y,Z)))) )).
+
+%----This axiom same as M5
+fof(axiom_s1_5,axiom,
+    ( axiom_s1_5
+  <=> ! [X,Y,Z] : is_a_theorem(strict_implies(and(strict_implies(X,Y),strict_implies(Y,Z)),strict_implies(X,Z))) )).
+
+fof(axiom_s1_6,axiom,
+    ( axiom_s1_6
+  <=> ! [X,Y] : is_a_theorem(strict_implies(and(X,strict_implies(X,Y)),Y)) )).
+
+fof(axiom_s3,axiom,
+    ( axiom_s3
+  <=> ! [X,Y] : is_a_theorem(strict_implies(strict_implies(X,Y),strict_implies(not(possibly(Y)),not(possibly(X)))))  )).
+
+fof(axiom_s4,axiom,
+    ( axiom_s4
+  <=> ! [X] : is_a_theorem(strict_implies(necessarily(X),necessarily(necessarily(X))))   )).
+
+fof(axiom_m6,axiom,
+    ( axiom_m6
+  <=> ! [X] : is_a_theorem(strict_implies(X,possibly(X)))  )).
+
+fof(axiom_m9,axiom,
+    ( axiom_m9
+  <=> ! [X] : is_a_theorem(necessarily(necessarily(implies(X,X))))   )).
+
+%----This is S5.1 in H&C
+fof(axiom_m10,axiom,
+    ( axiom_m10
+  <=> ! [X] : is_a_theorem(strict_implies(possibly(X),necessarily(possibly(X)))) )).
+
+%----I need to add axiom_A7 (WHAT'S THIS?), axiom_m8 axiom_Simons, 
+%----axiom_Anderson
+%----Need to resolve Sn (H&C) vs Mn vs other axiom names
+%------------------------------------------------------------------------------
+fof(necessarily_axiom_M,axiom,
+    ( necessarily_axiom_M
+  <=> ! [X] : is_a_theorem(necessarily(implies(necessarily(X),X))) )).
+
+fof(necessarily_axiom_S1,axiom,
+    ( necessarily_axiom_S1
+  <=> ! [X,Y,Z] : is_a_theorem(necessarily(implies(and(necessarily(implies(X,Y)),necessarily(implies(Y,Z))),necessarily(implies(X,Z))))) )).
+%------------------------------------------------------------------------------

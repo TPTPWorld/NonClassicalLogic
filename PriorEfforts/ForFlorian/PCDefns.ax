@@ -1,0 +1,96 @@
+%------------------------------------------------------------------------------
+%----The only rule of PC
+fof(modus_ponens,axiom,(
+    ! [X,Y] : 
+      ( ( is_a_theorem(X)
+        & is_a_theorem(implies(X,Y)) )
+     => is_a_theorem(Y) ) )).
+
+%----Meta-rule of PC, which Ted says is not necessary
+fof(substitution_of_equivalents,axiom,(
+    ! [X,Y] : 
+      ( is_a_theorem(equiv(X,Y))
+     => X = Y ) )).
+
+%------------------------------------------------------------------------------
+%----The axioms of Hilbert PC
+fof(modus_tollens,axiom,(
+    ! [X,Y] : is_a_theorem(implies(implies(not(Y),not(X)),implies(X,Y))) )).
+
+fof(implies_1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(X,implies(Y,X))) )).
+
+fof(implies_2,axiom,(
+    ! [X,Y] : is_a_theorem(implies(implies(X,implies(X,Y)),implies(X,Y))) )).
+
+fof(implies_3,axiom,(
+    ! [X,Y,Z] : is_a_theorem(implies(implies(X,Y),implies(implies(Y,Z),implies(X,Z)))) )).
+
+fof(and_1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(and(X,Y),X)) )).
+
+fof(and_2,axiom,(
+    ! [X,Y] : is_a_theorem(implies(and(X,Y),Y)) )).
+
+fof(and_3,axiom,(
+    ! [X,Y] : is_a_theorem(implies(X,implies(Y,and(X,Y)))) )).
+
+fof(or_1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(X,or(X,Y))) )).
+
+fof(or_2,axiom,(
+    ! [X,Y] : is_a_theorem(implies(Y,or(X,Y))) )).
+
+fof(or_3,axiom,(
+    ! [X,Y,Z] : is_a_theorem(implies(implies(X,Z),implies(implies(Y,Z),implies(or(X,Y),Z)))) )).
+
+fof(equivalence_1,axiom,(
+    ! [X,Y] : is_a_theorem(implies(equiv(X,Y),implies(X,Y))) )).
+
+fof(equivalence_2,axiom,(
+    ! [X,Y] : is_a_theorem(implies(equiv(X,Y),implies(Y,X))) )).
+
+fof(equivalence_3,axiom,(
+    ! [X,Y] : is_a_theorem(implies(implies(X,Y),implies(implies(Y,X),equiv(X,Y)))) )).
+
+%------------------------------------------------------------------------------
+%----Axioms for Rosser
+fof(kn1,axiom,(
+    ! [P] : is_a_theorem(implies(P,and(P,P))) )).
+
+fof(kn2,axiom,(
+    ! [P,Q] : is_a_theorem(implies(and(P,Q),P)) )).
+
+fof(kn3,axiom,(
+    ! [P,Q,R] : is_a_theorem(implies(implies(P,Q),implies(not(and(Q,R)),not(and(R,P))))) )).
+
+%------------------------------------------------------------------------------
+%----Axioms for Luka
+fof(cn1,axiom,(
+    ! [P,Q,R] : is_a_theorem(implies(implies(P,Q),implies(implies(Q,R),implies(P,R)))) )).
+
+fof(cn2,axiom,(
+    ! [P,Q] : is_a_theorem(implies(P,implies(not(P),Q))) )).
+
+fof(cn3,axiom,(
+    ! [P] : is_a_theorem(implies(implies(not(P),P),P)) )).
+
+%------------------------------------------------------------------------------
+%----Axioms for Principia
+fof(r1,axiom,(
+    ! [P] : is_a_theorem(implies(or(P,P),P)) )).
+
+fof(r2,axiom,(
+    ! [P,Q] : is_a_theorem(implies(Q,or(P,Q))) )).
+
+fof(r3,axiom,(
+    ! [P,Q] : is_a_theorem(implies(or(P,Q),or(Q,P))) )).
+
+%----This is the dependent one
+fof(r4,axiom,(
+    ! [P,Q,R] : is_a_theorem(implies(or(P,or(Q,R)),or(Q,or(P,R)))) )).
+
+fof(r5,axiom,(
+    ! [P,Q,R] : is_a_theorem(implies(implies(Q,R),implies(or(P,Q),or(P,R)))) )).
+
+%------------------------------------------------------------------------------

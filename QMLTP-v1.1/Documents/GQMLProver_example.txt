@@ -1,0 +1,19 @@
+> ./proof -log S4 -dom 2 -rigid -local -f SYM/SYM001+1
+
+
+This formula is a theorem in the logic you've chosen!
+
+
+Program performance
+-------------------------
+Program time evaluation : 0. secondes
+> ./proof -log S4 -dom 1  -rigid -local -f SYM/SYM001+1
+
+
+I do not know if this formula is a theorem in the logic you've chosen...
+
+
+Program performance
+-------------------------
+Program time evaluation : 0. secondes
+> 

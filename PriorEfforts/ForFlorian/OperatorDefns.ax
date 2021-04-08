@@ -1,0 +1,34 @@
+%------------------------------------------------------------------------------
+%----These define the operators
+fof(op_possibly,axiom,(
+    ! [X] : possibly(X) = not(necessarily(not(X))) )).
+
+fof(op_necessarily,axiom,(
+    ! [X] : necessarily(X) = not(possibly(not(X))) )).
+
+fof(op_or,axiom,(
+    ! [X,Y] : or(X,Y) = not(and(not(X),not(Y))) )).
+
+fof(op_and,axiom,(
+    ! [X,Y] : and(X,Y) = not(or(not(X),not(Y))) )).
+
+fof(op_implies_and,axiom,(
+    ! [X,Y] : implies(X,Y) = not(and(X,not(Y))) )).
+
+fof(op_implies_or,axiom,(
+    ! [X,Y] : implies(X,Y) = or(not(X),Y) )).
+
+fof(op_equiv,axiom,(
+    ! [X,Y] : equiv(X,Y) = and(implies(X,Y),implies(Y,X)) )).
+
+fof(op_strict_implies,axiom,(
+    ! [X,Y] : strict_implies(X,Y) = necessarily(implies(X,Y)) )).
+
+%fof(op_strict_implies,axiom,
+%    ( op_strict_implies
+%   => ! [X,Y] : strict_implies(X,Y) = not(possibly(and(X,not(Y)))) )).
+
+fof(op_strict_equiv,axiom,(
+    ! [X,Y] : strict_equiv(X,Y) = and(strict_implies(X,Y),strict_implies(Y,X)) )).
+
+%------------------------------------------------------------------------------

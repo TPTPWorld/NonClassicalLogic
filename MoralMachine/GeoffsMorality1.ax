@@ -1,6 +1,0 @@
-%----My simple morality - kill the least
-tff(less_deaths,axiom,(
-    ! [D1:decision,D2:decision] :
-      ( $less(total_deaths(D1),total_deaths(D2))
-     => take_decision(D1) ) )).
-

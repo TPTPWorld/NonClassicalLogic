@@ -15,20 +15,23 @@ tff(less_equal_floutings_deaths,axiom,
         & $less(law_flouting_human_deaths(D1),law_abiding_and_passenger_human_deaths(D2)) )
      => take_decision(D1) ) ).
 
-% tff(animal_deaths,axiom,
-%     ! [D1:decision,D2:decision] :
-%       ( ( $greater(law_abiding_animal_deaths(D1),total_human_deaths(D2)) 
-%         | $greater(law_flouting_animal_deaths(D1),total_human_deaths(D2)) )
-%      => take_decision(D1) ) ).
+tff(animal_deaths,axiom,
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & ( $greater(law_abiding_animal_deaths(D1),total_human_deaths(D2)) 
+          | $greater(law_flouting_animal_deaths(D1),total_human_deaths(D2)) ) )
+     => take_decision(D1) ) ).
 
 %this is logically equivalent to the first axiom right? 
-% tff(greater_flouting_deaths,axiom,
-%     ! [D1:decision,D2:decision] :
-%       ( $greater(law_flouting_human_deaths(D1),law_abiding_and_passenger_human_deaths(D2))
-%      => take_decision(D2) ) ).
+tff(greater_flouting_deaths,axiom,
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & $greater(law_flouting_human_deaths(D1),law_abiding_and_passenger_human_deaths(D2)) )
+     => take_decision(D2) ) ).
  
-% tff(greater_passenger_deaths,axiom,
-%     ! [D1:decision,D2:decision] :
-%       ( $greater(passenger_human_deaths(D1),pedestrian_human_deaths(D2))
-%      => take_decision(D2) ) ).
+tff(greater_passenger_deaths,axiom,
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & $greater(passenger_human_deaths(D1),pedestrian_human_deaths(D2)) )
+     => take_decision(D2) ) ).
 

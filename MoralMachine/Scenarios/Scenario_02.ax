@@ -1,0 +1,53 @@
+%----Encoding for law_abiding_deaths, law_flouting_deaths, passenger_deaths:
+%----    man(plain,large,elderly,doctor,executive,athlete,boy)
+%----    woman(plain,large,elderly,doctor,executive,athlete,girl,pregnant)
+%----    nosex(homeless,criminal,baby)
+%----    animal(dog,cat)
+
+%----The self-driving car with sudden brake failure will continue ahead and 
+%----drive through a pedestrian crossing ahead. 
+%----This will result in deaths ... 
+%----    1 law flouting male athlete
+%----    1 law flouting woman
+%----    2 law flouting female athletes
+tff(scenario1_straight,axiom,
+    scenario(straight,
+      law_abiding_deaths(
+        man(0,0,0,0,0,0,0),
+        woman(0,0,0,0,0,0,0,0),
+        nosex(0,0,0),
+        animal(0,0)),
+      law_flouting_deaths(
+        man(0,0,0,0,0,1,0),
+        woman(1,0,0,0,0,2,0,0),
+        nosex(0,0,0),
+        animal(0,0)),
+      passenger_deaths(
+        man(0,0,0,0,0,0,0),
+        woman(0,0,0,0,0,0,0,0),
+        nosex(0,0,0),
+        animal(0,0))) ).
+
+%----The self-driving car with sudden brake failure will swerve and drive 
+%----through a pedestrian crossing in the other lane. 
+%----This will result in deaths ... 
+%----    1 law abiding man
+%----    1 law abiding woman
+%----    2 law abiding large women
+tff(scenario1_swerve,axiom,
+    scenario(swerve,
+      law_abiding_deaths(
+        man(1,0,0,0,0,0,0),
+        woman(1,2,0,0,0,0,0,0),
+        nosex(0,0,0),
+        animal(1,0)),
+      law_flouting_deaths(
+        man(0,0,0,0,0,0,0),
+        woman(0,0,0,0,0,0,0,0),
+        nosex(0,0,0),
+        animal(0,0)),
+      passenger_deaths(
+        man(0,0,0,0,0,0,0),
+        woman(0,0,0,0,0,0,0,0),
+        nosex(0,0,0),
+        animal(0,0))) ).

@@ -11,5 +11,5 @@ include('Scenario_01a.ax').
 %    take_decision(swerve)).
 
 %----Take some decision
-tff(choose_decision,conjecture,(
+tff(choose_decision,question,(
     ? [D:decision] : take_decision(D) )).

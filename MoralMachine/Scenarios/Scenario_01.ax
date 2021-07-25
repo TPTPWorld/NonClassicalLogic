@@ -49,18 +49,18 @@ tff(scenario_straight,axiom,(
 tff(scenario_swerve,axiom,(
     scenario(swerve,
       law_abiding_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(1,0,0,0,1,0,0,0),
-              nosex(1,1,0)),
+        man(0,0,0,0,0,0,0),
+        woman(1,0,0,0,1,0,0,0),
+        nosex(1,1,0),
         animal(1,0)),
       law_flouting_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(0,0,0,0,0,0,0,0),
-              nosex(0,0,0)),
+        man(0,0,0,0,0,0,0),
+        woman(0,0,0,0,0,0,0,0),
+        nosex(0,0,0),
         animal(0,0)),
       passenger_deaths(
-        human(  man(0,0,0,0,0,0,0),
-              woman(0,0,0,0,0,0,0,0),
-              nosex(0,0,0)),
+        man(0,0,0,0,0,0,0),
+        woman(0,0,0,0,0,0,0,0),
+        nosex(0,0,0),
         animal(0,0))) )).
 

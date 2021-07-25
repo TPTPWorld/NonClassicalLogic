@@ -188,13 +188,29 @@ ManF:$int,WomanF:$int,NosexF:$int,AnimalF:$int,ManP:$int,WomanP:$int,NosexP:$int
 
 tff(children_deaths,axiom,(
     ! [D:decision,
-       ManA:$int,WomanA:$int,HomelessA:$int,CriminalA:$int,BabyA:$int,AnimalA:$int,
-       ManF:$int,WomanF:$int,HomelessF:$int,CriminalF:$int,BabyF:$int,AnimalF:$int,
-       ManP:$int,WomanP:$int,HomelessP:$int,CriminalP:$int,BabyP:$int,AnimalP:$int] :
-      ( scenario(D,law_abiding_deaths(ManA,WomanA,nosex(HomelessA,CriminalA,BabyA),AnimalA),
-                   law_flouting_deaths(ManF,WomanF,nosex(HomelessF,CriminalF,BabyF),AnimalF),
-                   passenger_deaths(ManP,WomanP,nosex(HomelessP,CriminalP,BabyP),AnimalP))
-     => children_deaths(D) = $sum(BabyA,$sum(BabyF,BabyP)) ) )).
+PlainMA:$int,FatMA:$int,OldMA:$int,DocMA:$int,ExecMA:$int,AthleteMA:$int,BoyA:$int,
+PlainWA:$int,FatWA:$int,OldWA:$int,DocWA:$int,ExecWA:$int,AthleteWA:$int,GirlA:$int,PregnantWA:$int,
+HomelessA:$int,CriminalA:$int,BabyA:$int,AnimalA:$int,
+PlainMF:$int,FatMF:$int,OldMF:$int,DocMF:$int,ExecMF:$int,AthleteMF:$int,BoyF:$int,
+PlainWF:$int,FatWF:$int,OldWF:$int,DocWF:$int,ExecWF:$int,AthleteWF:$int,GirlF:$int,PregnantWF:$int,
+HomelessF:$int,CriminalF:$int,BabyF:$int,AnimalF:$int,
+PlainMP:$int,FatMP:$int,OldMP:$int,DocMP:$int,ExecMP:$int,AthleteMP:$int,BoyP:$int,
+PlainWP:$int,FatWP:$int,OldWP:$int,DocWP:$int,ExecWP:$int,AthleteWP:$int,GirlP:$int,PregnantWP:$int,
+HomelessP:$int,CriminalP:$int,BabyP:$int,AnimalP:$int] :
+      ( scenario(D,law_abiding_deaths(
+man(PlainMA,FatMA,OldMA,DocMA,ExecMA,AthleteMA,BoyA),
+woman(PlainWA,FatWA,OldWA,DocWA,ExecWA,AthleteWA,GirlA,PregnantWA),
+nosex(HomelessA,CriminalA,BabyA),AnimalA),
+                   law_flouting_deaths(
+man(PlainMF,FatMF,OldMF,DocMF,ExecMF,AthleteMF,BoyF),
+woman(PlainWF,FatWF,OldWF,DocWF,ExecWF,AthleteWF,GirlF,PregnantWF),
+nosex(HomelessF,CriminalF,BabyF),AnimalF),
+                   passenger_deaths(
+man(PlainMP,FatMP,OldMP,DocMP,ExecMP,AthleteMP,BoyP),
+woman(PlainWP,FatWP,OldWP,DocWP,ExecWP,AthleteWP,GirlP,PregnantWP),
+nosex(HomelessP,CriminalP,BabyP),AnimalP))
+     => children_deaths(D) = $sum(BoyA,$sum(BoyF,$sum(BoyP,$sum(GirlA,$sum(GirlF,$sum(GirlP,
+$sum(BabyA,$sum(BabyF,BabyP)))))))) ) )).
 
 tff(women_and_children_deaths,axiom,(
     ! [D:decision] :

@@ -1,0 +1,20 @@
+tff(kill_less,axiom,(
+    ! [D1:decision,D2:decision] :
+      ( D1 != D2
+%----Save the passengers
+     => $ite( ( $greater(passenger_human_deaths(D1),0)
+              & $less(passenger_human_deaths(D1),pedestrian_human_deaths(D2)) ),
+%----kill pedestrians.
+             take_decision(D2),
+%----Kill the least
+             $ite($less(total_deaths(D1),total_deaths(D2)),
+%----kill less
+                  take_decision(D1),
+%----Save the women and children
+                  $ite($less(women_and_children_human_deaths(D1),
+                             women_and_children_human_deaths(D2)),
+                       take_decision(D1),
+                       $ite($less(women_and_children_human_deaths(D2),
+                                  women_and_children_human_deaths(D1)),
+                            take_decision(D2),
+                            $true)))) ) )).

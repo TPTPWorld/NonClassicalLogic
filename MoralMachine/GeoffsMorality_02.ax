@@ -1,0 +1,19 @@
+%----My simple morality - kill the least
+tff(less_deaths,axiom,(
+    ! [D1:decision,D2:decision] :
+      ( D1 != D2 
+     => $ite($less(total_deaths(D1),total_deaths(D2)),
+             take_decision(D1),
+             $ite(total_deaths(D1) = total_deaths(D2),
+                  take_decision(straight),
+                  $true)) ) )).
+
+% if (total_deaths(D1) < total_deaths(D2)) {
+%     take_decision(D1);
+% } else {
+%     if (total_deaths(D1) = total_deaths(D2)) {
+%         take_decision(straight);
+%     } else {
+%         "don't know"
+%     }
+% }

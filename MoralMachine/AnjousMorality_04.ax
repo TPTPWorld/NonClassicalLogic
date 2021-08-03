@@ -1,0 +1,51 @@
+%----Kill the least humans.
+tff(kill_least,axiom,(
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & $less(total_human_deaths(D1),total_human_deaths(D2)) )
+     => take_decision(D1) ) )).
+
+%----If same human deaths then kill the least human passengers.
+tff(kill_least_passengers,axiom,(
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & total_human_deaths(D1) = total_human_deaths(D2)
+        & $less(passenger_human_deaths(D1),passenger_human_deaths(D2)) )
+     => take_decision(D1) ) )).
+
+%----If same human deaths and human passenger deaths (i.e., also same human pedestrian deaths) 
+%----then save law abiding human pedestrians.
+tff(kill_least_law_abiding,axiom,(
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & total_human_deaths(D1) = total_human_deaths(D2)
+        & passenger_human_deaths(D1) = passenger_human_deaths(D2)
+%Has to be        & pedestrian_human_deaths(D1) = pedestrian_human_deaths(D2)
+        & $less(law_abiding_human_deaths(D1),law_abiding_human_deaths(D2)) )
+     => take_decision(D1) ) )).
+
+%----If same human deaths and human passenger deaths (i.e., also same human pedestrian deaths) 
+%----and same law abiding human deaths (i.e., also same law flouting human pedestrian deaths)
+%----then save woman and children.
+tff(kill_least_women_and_children,axiom,(
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2
+        & total_human_deaths(D1) = total_human_deaths(D2)
+        & passenger_human_deaths(D1) = passenger_human_deaths(D2)
+%Has to be        & pedestrian_human_deaths(D1) = pedestrian_human_deaths(D2)
+        & law_abiding_human_deaths(D1) = law_abiding_human_deaths(D2)
+%Has to be        & law_flouting_human_deaths(D1) = law_flouting_human_deaths(D2)
+        & $less(women_and_children_deaths(D1),women_and_children_deaths(D2)) )
+     => take_decision(D1) ) )).
+
+%----By default, go straight
+tff(default_straight,axiom,(
+    ! [D1:decision,D2:decision] :
+      ( ( D1 != D2 & D1 = straight
+        & total_human_deaths(D1) = total_human_deaths(D2)
+        & passenger_human_deaths(D1) = passenger_human_deaths(D2)
+%Has to be        & pedestrian_human_deaths(D1) = pedestrian_human_deaths(D2)
+        & law_abiding_human_deaths(D1) = law_abiding_human_deaths(D2)
+%Has to be        & law_flouting_human_deaths(D1) = law_flouting_human_deaths(D2)
+        & women_and_children_deaths(D1) = women_and_children_deaths(D2) )
+     => take_decision(D1) ) )).

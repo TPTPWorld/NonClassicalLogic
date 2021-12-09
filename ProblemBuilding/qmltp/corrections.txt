@@ -1,0 +1,60 @@
+APM004+1.p: parentheses (fixed)
+APM007+1.p: symbol "qmltpeq" without axiomatization (removed)
+SYM035+1.p: parentheses (fixed)
+SYM054+1.p: symbol "qmltpeq" without axiomatization (removed)
+SYM055+1.p: symbol "=" without axiomatization (removed)
+SYM056+1.p: symbol "=" without axiomatization (removed)
+SYM057+1.p: symbol "=" without axiomatization (removed)
+SYM058+1.p: symbol "qmltpeq" without axiomatization (removed)
+SYM064+1.p: symbol "=" without axiomatization (removed)
+SYM068+1.p: symbol "=" and "qmltpeq" without axiomatization (removed)
+SYM069+1.p: symbol "qmltpeq" without axiomatization (removed)
+SYM070+1.p: symbol "qmltpeq" without axiomatization (removed)
+SYM071+1.p: symbol "qmltpeq" without axiomatization (removed)
+SYM072+1.p: symbol "qmltpeq" without axiomatization (removed)
+SYM082+1.p: parentheses (fixed)
+SYM085+1.p: symbol "=" without axiomatization (removed)
+SYM113+1.p: parentheses (fixed)
+SYM114+1.p: parentheses (fixed)
+SYM122+1.p: parentheses (fixed)
+SYM163+1.p: parentheses (fixed)
+
+MML:
+2: removed superfluous parentheses from axiom_4_for_fool_2
+   added needed parentheses for first operand of implication in axiom axiom_4_for_fool_2
+
+3: right operand of equivalence in axiom someone_knows_its_forhead misses parentheses
+
+4: missing parentheses around second operand of implication in axiom axiom_2
+
+5: a lot of missing parentheses around the first operand (which had a modality) of implications. This does not conform to TPTP FOF style
+   several duplicate axiom names
+
+6: semantics poor instead of pour
+   semantics for make(c) missing, added axiomatization k for make(c)
+   changed pour(a) to pour_a and pour(b) to pour_b and make(c) to make_c
+
+8: additional ). ending removed
+
+9: conjecture had . instead of : after #box(wu)
+
+10: conjecture had . instead of : after #box(wu)
+
+13: missing parenthese at the end of axiom not_a_axiom_1
+
+14: semantics fo i(bob) missing, added axiomatization s5 for i(bob)
+    changed i(alice) to i_alice and i(bob) to i_bob and b(alice) to b_alice and b(bob) to b_bob
+
+15: changed i(alice) to i_alice and i(bob) to i_bob and b(alice) to b_alice and b(bob) to b_bob
+    missing parentheses in axioms axiom_1_a and axiom_1_b after #box(i(alice) and #box(i(bob)
+    one parenthese too much at the end of axioms axiom_1_a and axiom_1_b
+    conjecture missing parentheses before first #box(b_bob) and after second bigcity(portland)
+
+16: changed b(s) to b_s and b(u) to b_u
+
+17: mistakes in axioms with phi (parentheses)
+
+19: many mistakes (parentheses)
+
+20: missing comma in axiom 7
+

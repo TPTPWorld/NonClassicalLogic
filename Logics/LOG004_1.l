@@ -1,11 +1,11 @@
 %------------------------------------------------------------------------------
 % File     : LOG004_1 : TPTP v9.0.0. Released v9.0.0.
-% Domain   : Deontic modal logics
-% Name     : Deontic modal logic definitions
+% Domain   : Modal logics
+% Defines  : Alethic modal logic 
 % Version  : Especial.
 % English  : 
 
-% Refs     : [Hil71] Hilpinen (1971), Deontic Logic: Introductory and Syste
+% Refs     : [BBW06] Blackburn  et al. (2006), Handbook of Modal Logic
 % Source   : [TPTP]
 % Names    : 
 
@@ -16,16 +16,16 @@
 %----Include common definitions
 include('Logics/LOG001_1.l').
 %------------------------------------------------------------------------------
-tff(name,logic,$deontic_modal).
+tff(name,logic,$alethic_modal).
 
-tff(obligatory_type,type,'{$obligatory}' : $o > $o ).
+tff(necessary_type,type,'{$necessary}' : $o > $o ).
 
-tff(permissible_type,type,'{$permissible}' : $o > $o ).
+tff(possible_type,type,'{$possible}' : $o > $o ).
 
-tff(obligatory_shortform,definition,
-    '{$obligatory}' == '[.]' ).
+tff(necessary_shortform,definition,
+    '{$necessary}' == '[.]' ).
 
-tff(permissible_shortform,definition,
-    '{$permissible}' == '<.>' ).
+tff(possible_shortform,definition,
+    '{$possible}' == '<.>' ).
 
 %------------------------------------------------------------------------------

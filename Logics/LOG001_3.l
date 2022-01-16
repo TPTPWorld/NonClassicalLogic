@@ -1,7 +1,7 @@
 %------------------------------------------------------------------------------
 % File     : LOG001_3 : TPTP v9.0.0. Released v9.0.0.
-% Domain   : Non-normal modal logics
-% Name     : Common elements for non-normal modal logics
+% Domain   : Modal logics
+% Defines  : Axioms for normal modal logics
 % Version  : Especial.
 % English  : 
 
@@ -13,46 +13,86 @@
 
 % Comments : 
 %------------------------------------------------------------------------------
-%----Non-normal modal axiom schemes
+tff(modal_axiom_K,definition,
+    ( $modal_axiom_K
+   == ( [.](A => B)
+     => ( [.](A)
+       => [.](B) ) ) ) ).
+
+tff(modal_axiom_T,definition,
+    ( $modal_axiom_T
+   == ( [.](A)
+     => A ) ) ).
+
+tff(modal_axiom_B,definition,
+    ( $modal_axiom_B
+   == ( A
+     => [.](<.>(A)) ) ) ).
+
+tff(modal_axiom_D,definition,
+    ( $modal_axiom_D
+   == ( [.](A)
+     => <.>(A) ) ) ).
+
+tff(modal_axiom_4,definition,
+    ( $modal_axiom_4
+   == ( [.](A)
+     => [.]([.](A)) ) ) ).
+
+tff(modal_axiom_5,definition,
+    ( $modal_axiom_5 
+   == ( <.>(A)
+     => [.](<.>(A)) ) ) ).
+
+tff(modal_axiom_boxM,definition,
+    ( $modal_axiom_boxM
+   == [.]
+        ( [.](A)
+       => A ) ) ).
+
 tff(modal_axiom_C,definition,
     ( $modal_axiom_C
-   == ( ( [.](A)
-        & [.](B) )
-     => [.]
-          ( A
-          & B ) ) ) ).
-
-tff(modal_axiom_Cstar,definition,
-    ( $modal_axiom_Cstar
-   == ( [.]
-          ( A
-          & B ) 
-     => ( [.](A)
-        & [.](B) ) ) ) ).
-
-tff(modal_axiom_nnM,definition,
-    ( $modal_axiom_nnM
-   == ( [.]
-          ( A
-          & B )
+   == ( <.>([.](A))
+     => [.](<.>(A)) ) ) ).
+      
+tff(modal_axiom_C4,definition,
+    ( $modal_axiom_C4
+   == ( [.]([.](A))
      => [.](A) ) ) ).
 
-%----If (A => B) is a theorem then ([.](A) => [.](B)) is a theorem too.
-%----Here --> is global consequence.
-tff(modal_axiom_RM,definition,
-    ( $modal_axiom_RM
-   == ( [ ( A
-         => B ) ]
-    --> [ ( [.](A)
-         => [.](B) ) ] ) ) ).
+tff(modal_axiom_CD,definition,
+    ( $modal_axiom_CD
+   == ( <.>(A)
+     => [.](A) ) ) ).
 
-%----If (A <=> B) is a theorem then ([.](A) <=> [.](B)) is a theorem too.
-%----Here --> is global consequence.
-tff(modal_axiom_RE,definition,
-    ( $modal_axiom_RE
-   == ( [ ( A
-        <=> B ) ]
-    --> [ ( [.](A)
-        <=> [.](B) ) ] ) ) ).
+tff(modal_axiom_G,definition,
+    ( $modal_axiom_G
+   == ( <.>([.](A))
+     => [.](<.>(A)) ) ) ).
+
+tff(modal_axiom_GL,definition,
+    ( $modal_axiom_GL
+   == ( [.](
+          ( [.](A)
+         => A ) )
+     => [.](A) ) ) ).
+
+tff(modal_axiom_Grz,definition,
+    ( $modal_axiom_Grz
+   == ( [.]
+          ( [.]
+              ( A
+             => [.](A) )
+         => A )
+     => A ) ) ).
+
+tff(modal_axiom_H,definition,
+    ( $modal_axiom_H
+   == ( [.]
+          ( [.](A)
+         => B )
+      | [.]
+          ( [.](B)
+         => A ) ) ) ).
 
 %------------------------------------------------------------------------------

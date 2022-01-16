@@ -1,35 +1,31 @@
 %------------------------------------------------------------------------------
 % File     : LOG005_1 : TPTP v9.0.0. Released v9.0.0.
-% Domain   : Epistemic modal logics
-% Name     : Epistemic modal logic definitions
+% Domain   : Modal logics
+% Defines  : Deontic modal logic
 % Version  : Especial.
 % English  : 
 
-% Refs     : [vDH15] van Ditmarsch et al. (2015), Handbook of Epistemic Log
+% Refs     : [Hil71] Hilpinen (1971), Deontic Logic: Introductory and Syste
 % Source   : [TPTP]
 % Names    : 
 
-% Syntax   : 
+% Syntax   : TBA
 
 % Comments : See Logics/LOG001_2.l for details of the modal logic systems
 %------------------------------------------------------------------------------
 %----Include common definitions
 include('Logics/LOG001_1.l').
 %------------------------------------------------------------------------------
-tff(name,logic,$epistemic_modal).
+tff(name,logic,$deontic_modal).
 
-tff(knows_type,type,'{$knows}' : $o > $o ).
+tff(obligatory_type,type,'{$obligatory}' : $o > $o ).
 
-tff(possible_type,type,'{$possible}' : $o > $o ).
+tff(permissible_type,type,'{$permissible}' : $o > $o ).
 
-tff(group_type,type,'{$group($agents := $tuple)}' : $o > $o ).
+tff(obligatory_shortform,definition,
+    '{$obligatory}' == '[.]' ).
 
-tff(common_type,type,'{$common($agents := $tuple)}' : $o > $o ).
-
-tff(knows_shortform,definition,
-    '{$knows}' == '[.]' ).
-
-tff(knows_shortform,definition,
-    '{$possible}' == '<.>' ).
+tff(permissible_shortform,definition,
+    '{$permissible}' == '<.>' ).
 
 %------------------------------------------------------------------------------

@@ -1,31 +1,35 @@
 %------------------------------------------------------------------------------
-% File     : LOG003_1 : TPTP v9.0.0. Released v9.0.0.
+% File     : LOG006_1 : TPTP v9.0.0. Released v9.0.0.
 % Domain   : Modal logics
-% Defines  : Generic modal logic
+% Defines  : Epistemic modal logic
 % Version  : Especial.
 % English  : 
 
-% Refs     : [BBW06] Blackburn  et al. (2006), Handbook of Modal Logic
+% Refs     : [vDH15] van Ditmarsch et al. (2015), Handbook of Epistemic Log
 % Source   : [TPTP]
 % Names    : 
 
-% Syntax   : TBA
+% Syntax   : 
 
 % Comments : See Logics/LOG001_2.l for details of the modal logic systems
 %------------------------------------------------------------------------------
 %----Include common definitions
 include('Logics/LOG001_1.l').
 %------------------------------------------------------------------------------
-tff(name,logic,$modal).
+tff(name,logic,$epistemic_modal).
 
-tff(box_type,type,'{$box}' : $o > $o ).
+tff(knows_type,type,'{$knows}' : $o > $o ).
 
-tff(dia_type,type,'{$dia}' : $o > $o ).
+tff(possible_type,type,'{$possible}' : $o > $o ).
 
-tff(box_shortform,definition,
-    '{$box}' == '[.]' ).
+tff(group_type,type,'{$group($agents := $tuple)}' : $o > $o ).
 
-tff(dia_shortform,definition,
-    '{$dia}' == '<.>' ).
+tff(common_type,type,'{$common($agents := $tuple)}' : $o > $o ).
+
+tff(knows_shortform,definition,
+    '{$knows}' == '[.]' ).
+
+tff(knows_shortform,definition,
+    '{$possible}' == '<.>' ).
 
 %------------------------------------------------------------------------------

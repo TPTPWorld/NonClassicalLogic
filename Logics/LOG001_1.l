@@ -18,7 +18,7 @@ tff(box_type,type,'[.]' : $o > $o ).
 
 tff(dia_type,type,'<.>' : $o > $o ).
 
-tff(diamond,definition,
+tff(diamond_defn,definition,
     ( <.>(P)
    == ~ [.](~ P) ) ).
 

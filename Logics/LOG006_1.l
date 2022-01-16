@@ -11,7 +11,7 @@
 
 % Syntax   : 
 
-% Comments : See Logics/LOG001_2.l for details of the modal logic systems
+% Comments : 
 %------------------------------------------------------------------------------
 %----Include common definitions
 include('Logics/LOG001_1.l').

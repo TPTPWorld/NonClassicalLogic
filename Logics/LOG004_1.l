@@ -11,7 +11,7 @@
 
 % Syntax   : TBA
 
-% Comments : See Logics/LOG001_2.l for details of the modal logic systems
+% Comments : 
 %------------------------------------------------------------------------------
 %----Include common definitions
 include('Logics/LOG001_1.l').
@@ -27,5 +27,9 @@ tff(necessary_shortform,definition,
 
 tff(possible_shortform,definition,
     '{$possible}' == '<.>' ).
+
+tff(possible_defn,definition,
+    ( {$possible}(P)
+   == ~ {$necessary}(~ P) ) ).
 
 %------------------------------------------------------------------------------

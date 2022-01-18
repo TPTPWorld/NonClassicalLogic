@@ -17,8 +17,6 @@
 include('Logics/LOG001_2.l').
 include('Logics/LOG001_3.l').
 %------------------------------------------------------------------------------
-%----Add many more here
-
 tff(modal_system_K,definition,
     ( $modal_system_K 
    == ( $modus_ponens

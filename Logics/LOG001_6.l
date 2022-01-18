@@ -13,16 +13,16 @@
 
 % Comments : 
 %------------------------------------------------------------------------------
-tff(modal_axiom_C,definition,
-    ( $modal_axiom_C
+tff(modal_axiom_nnC,definition,
+    ( $modal_axiom_nnC
    == ( ( [.](A)
         & [.](B) )
      => [.]
           ( A
           & B ) ) ) ).
 
-tff(modal_axiom_Cstar,definition,
-    ( $modal_axiom_Cstar
+tff(modal_axiom_nnCstar,definition,
+    ( $modal_axiom_nnCstar
    == ( [.]
           ( A
           & B ) 

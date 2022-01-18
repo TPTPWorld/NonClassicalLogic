@@ -13,13 +13,10 @@
 
 % Comments : 
 %------------------------------------------------------------------------------
-%----Syntax extensions (additionally to classical connectives)
-tff(box_type,type,'[.]' : $o > $o ).
+tff('[.]_type',type,'[.]' : $o > $o ).
 
-tff(dia_type,type,'<.>' : $o > $o ).
+tff('<.>_type',type,'<.>' : $o > $o ).
 
-tff(diamond_defn,definition,
-    ( <.>(P)
-   == ~ [.](~ P) ) ).
+tff('{.}_type',type,'{.}' : $o > $o ).
 
 %------------------------------------------------------------------------------

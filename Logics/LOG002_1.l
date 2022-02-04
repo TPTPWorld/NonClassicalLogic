@@ -24,8 +24,6 @@
 %            Semantics parameters: Four dimensions as follows ...
 %            - $constants      - Whether constants are (a) rigid or
 %                                (b) flexible (world dependent).
-%            - $consequence    - Whether formulae are assumed true in (a) the
-%                                current local world or (b) all global worlds.
 %            - $quantification - Whether quantification domains are
 %                                (a) varying, (b) cumulative, (c) decreasing,
 %                                or (d) constant.
@@ -54,10 +52,6 @@ tff(quantification_values,definition,
    == [$varying, $cumulative, $decreasing, $constant] ) ).
 % ... TBA
 
-%----Consequence
-tff(consequence_values,definition,
-    ( $consequence
-   == [$local, $global] ) ).
 % ... TBA
 
 %------------------------------------------------------------------------------

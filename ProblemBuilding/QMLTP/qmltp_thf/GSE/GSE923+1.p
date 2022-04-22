@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -49,19 +53,19 @@ thf(set_difference_type,type,(set_difference : ($i>$i>$i))).
 %  term conditions for all terms: designation: rigid, extension: local
 %
 %--------------------------------------------------------------------------
-thf ( reflexivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( qmltpeq @ X @ X ) ) ) ) ) ) .
-thf ( symmetry , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ X ) ) ) ) ) ) ) ) ) ) .
-thf ( transitivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) & ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ X @ Z ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( set_difference_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ C ) @ ( set_difference @ B @ C ) ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( set_difference_substitution_2 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( set_difference @ C @ A ) @ ( set_difference @ C @ B ) ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( singleton_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( singleton @ A ) @ ( singleton @ B ) ) ) ) ) ) ) ) ) ) ) .
-thf ( empty_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( empty @ A ) ) ) ) => ( {$box} @ ( ( empty @ B ) ) ) ) ) ) ) ) ) ) .
-thf ( subset_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( subset @ A @ C ) ) ) ) => ( {$box} @ ( ( subset @ B @ C ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( subset_substitution_2 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( subset @ C @ A ) ) ) ) => ( {$box} @ ( ( subset @ C @ B ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( fc1_xboole_0 , axiom , ( {$box} @ ( ( empty @ empty_set ) ) ) ) .
-thf ( l4_zfmisc_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( subset @ A @ ( singleton @ B ) ) ) ) => ( ( {$box} @ ( ( qmltpeq @ A @ empty_set ) ) ) | ( {$box} @ ( ( qmltpeq @ A @ ( singleton @ B ) ) ) ) ) ) ) & ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ empty_set ) ) ) | ( {$box} @ ( ( qmltpeq @ A @ ( singleton @ B ) ) ) ) ) => ( {$box} @ ( ( subset @ A @ ( singleton @ B ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ( empty @ A ) ) ) ) ) .
-thf ( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( empty @ A ) ) ) ) ) ) ) ) .
-thf ( reflexivity_r1_tarski , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( subset @ A @ A ) ) ) ) ) ) ) ) .
-thf ( t37_xboole_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ B ) @ empty_set ) ) ) => ( {$box} @ ( ( subset @ A @ B ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( subset @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ B ) @ empty_set ) ) ) ) ) ) ) ) ) ) ) .
-thf ( t66_zfmisc_1 , conjecture , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ ( singleton @ B ) ) @ empty_set ) ) ) & ( ( {$box} @ ( ~ ( ( {$box} @ ( ( qmltpeq @ A @ empty_set ) ) ) ) ) ) & ( {$box} @ ( ~ ( ( {$box} @ ( ( qmltpeq @ A @ ( singleton @ B ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( reflexivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( qmltpeq @ X @ X ) ) ) ) ) ) .
+thf( symmetry , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ X ) ) ) ) ) ) ) ) ) ) .
+thf( transitivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) & ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ X @ Z ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( set_difference_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ C ) @ ( set_difference @ B @ C ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( set_difference_substitution_2 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( set_difference @ C @ A ) @ ( set_difference @ C @ B ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( singleton_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( singleton @ A ) @ ( singleton @ B ) ) ) ) ) ) ) ) ) ) ) .
+thf( empty_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( empty @ A ) ) ) ) => ( {$box} @ ( ( empty @ B ) ) ) ) ) ) ) ) ) ) .
+thf( subset_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( subset @ A @ C ) ) ) ) => ( {$box} @ ( ( subset @ B @ C ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( subset_substitution_2 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( subset @ C @ A ) ) ) ) => ( {$box} @ ( ( subset @ C @ B ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( fc1_xboole_0 , axiom , ( {$box} @ ( ( empty @ empty_set ) ) ) ) .
+thf( l4_zfmisc_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( subset @ A @ ( singleton @ B ) ) ) ) => ( ( {$box} @ ( ( qmltpeq @ A @ empty_set ) ) ) | ( {$box} @ ( ( qmltpeq @ A @ ( singleton @ B ) ) ) ) ) ) ) & ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ empty_set ) ) ) | ( {$box} @ ( ( qmltpeq @ A @ ( singleton @ B ) ) ) ) ) => ( {$box} @ ( ( subset @ A @ ( singleton @ B ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ( empty @ A ) ) ) ) ) .
+thf( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( empty @ A ) ) ) ) ) ) ) ) .
+thf( reflexivity_r1_tarski , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( subset @ A @ A ) ) ) ) ) ) ) ) .
+thf( t37_xboole_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ B ) @ empty_set ) ) ) => ( {$box} @ ( ( subset @ A @ B ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( subset @ A @ B ) ) ) => ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ B ) @ empty_set ) ) ) ) ) ) ) ) ) ) ) .
+thf( t66_zfmisc_1 , conjecture , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( ( {$box} @ ( ( qmltpeq @ ( set_difference @ A @ ( singleton @ B ) ) @ empty_set ) ) ) & ( ( {$box} @ ( ~ ( ( {$box} @ ( ( qmltpeq @ A @ empty_set ) ) ) ) ) ) & ( {$box} @ ( ~ ( ( {$box} @ ( ( qmltpeq @ A @ ( singleton @ B ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .

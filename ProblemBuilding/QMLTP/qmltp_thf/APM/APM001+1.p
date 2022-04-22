@@ -1,8 +1,8 @@
 % semantics
 thf(semantics,logic,$modal ==
 [$constants == $rigid,
-$quantification == $cumulative,
-$modalities == $modal_system_S4]).
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 
 % modalities
 
@@ -52,10 +52,10 @@ thf(class_type,type,(class : ($i>$o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( law1 , axiom , ( {$box} @ ( ( ( dest @ paris ) & ( class @ first ) ) => ( price @ ninetyfive ) ) ) ) .
-thf ( law2 , axiom , ( {$box} @ ( ( ( dest @ paris ) & ( class @ second ) ) => ( price @ seventy ) ) ) ) .
-thf ( law3 , axiom , ( {$box} @ ( ~ ( ( ( class @ first ) & ( class @ second ) ) ) ) ) ) .
-thf ( law4 , axiom , ( {$box} @ ( ~ ( ( ( price @ ninetyfive ) & ( price @ seventy ) ) ) ) ) ) .
-thf ( belief1 , axiom , ( {$box} @ ( ( dest @ paris ) ) ) ) .
-thf ( belief2 , axiom , ( {$box} @ ( ( class @ second ) ) ) ) .
-thf ( con , conjecture , ( {$box} @ ( ( price @ seventy ) ) ) ) .
+thf( law1 , axiom , ( {$box} @ ( ( ( dest @ paris ) & ( class @ first ) ) => ( price @ ninetyfive ) ) ) ) .
+thf( law2 , axiom , ( {$box} @ ( ( ( dest @ paris ) & ( class @ second ) ) => ( price @ seventy ) ) ) ) .
+thf( law3 , axiom , ( {$box} @ ( ~ ( ( ( class @ first ) & ( class @ second ) ) ) ) ) ) .
+thf( law4 , axiom , ( {$box} @ ( ~ ( ( ( price @ ninetyfive ) & ( price @ seventy ) ) ) ) ) ) .
+thf( belief1 , axiom , ( {$box} @ ( ( dest @ paris ) ) ) ) .
+thf( belief2 , axiom , ( {$box} @ ( ( class @ second ) ) ) ) .
+thf(con,conjecture, ( {$box} @ ( ( price @ seventy ) ) ) ) .

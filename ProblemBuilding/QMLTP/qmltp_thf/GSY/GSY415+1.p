@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,9 +50,9 @@ thf(f_type,type,(f : ($i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( reflexivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( qmltpeq @ X @ X ) ) ) ) ) ) .
-thf ( symmetry , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ X ) ) ) ) ) ) ) ) ) ) .
-thf ( transitivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) & ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ X @ Z ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( f_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( f @ A ) ) ) ) => ( {$box} @ ( ( f @ B ) ) ) ) ) ) ) ) ) ) .
-thf ( kalish317 , conjecture , ( ( {$box} @ ( ( ( ? [ X :$i ] : ( {$box} @ ( ( f @ X ) ) ) ) & ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( f @ Y ) ) ) & ( {$box} @ ( ( f @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) ) ) ) ) ) ) => ( ? [ U :$i ] : ( ( {$box} @ ( ( f @ U ) ) ) & ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ( {$box} @ ( ( f @ V ) ) ) => ( {$box} @ ( ( qmltpeq @ U @ V ) ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( ? [ U :$i ] : ( ( {$box} @ ( ( f @ U ) ) ) & ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ( {$box} @ ( ( f @ V ) ) ) => ( {$box} @ ( ( qmltpeq @ U @ V ) ) ) ) ) ) ) ) ) => ( ( ? [ X :$i ] : ( {$box} @ ( ( f @ X ) ) ) ) & ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( f @ Y ) ) ) & ( {$box} @ ( ( f @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( reflexivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( qmltpeq @ X @ X ) ) ) ) ) ) .
+thf( symmetry , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ X ) ) ) ) ) ) ) ) ) ) .
+thf( transitivity , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ X @ Y ) ) ) & ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ X @ Z ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( f_substitution_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( qmltpeq @ A @ B ) ) ) & ( {$box} @ ( ( f @ A ) ) ) ) => ( {$box} @ ( ( f @ B ) ) ) ) ) ) ) ) ) ) .
+thf( kalish317 , conjecture , ( ( {$box} @ ( ( ( ? [ X :$i ] : ( {$box} @ ( ( f @ X ) ) ) ) & ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( f @ Y ) ) ) & ( {$box} @ ( ( f @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) ) ) ) ) ) ) => ( ? [ U :$i ] : ( ( {$box} @ ( ( f @ U ) ) ) & ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ( {$box} @ ( ( f @ V ) ) ) => ( {$box} @ ( ( qmltpeq @ U @ V ) ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( ? [ U :$i ] : ( ( {$box} @ ( ( f @ U ) ) ) & ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ( {$box} @ ( ( f @ V ) ) ) => ( {$box} @ ( ( qmltpeq @ U @ V ) ) ) ) ) ) ) ) ) => ( ( ? [ X :$i ] : ( {$box} @ ( ( f @ X ) ) ) ) & ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( f @ Y ) ) ) & ( {$box} @ ( ( f @ Z ) ) ) ) => ( {$box} @ ( ( qmltpeq @ Y @ Z ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -43,7 +47,7 @@ thf(r_type,type,(r : ($i>$o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( schema1 , axiom , ( ( ( ~ ( ( r @ a ) ) ) | ( r @ b ) ) & ( ( r @ c ) <=> ( r @ a ) ) & ( ( r @ a ) => ( $dia @ ( ( r @ b ) ) ) ) & ( ( ~ ( ( ( r @ a ) ) ) ) => ( $dia @ ( ( ~ ( ( r @ b ) ) ) & ( ~ ( ( r @ c ) ) ) ) ) ) ) ) .
-thf ( schema2 , axiom , ( ( ( p @ a ) => ( p @ b ) ) & ( ( p @ c ) | ( ~ ( ( p @ b ) ) ) ) & ( ( ( p @ a ) & ( p @ b ) ) => ( $dia @ ( ~ ( ( p @ b ) ) ) ) ) ) ) .
-thf ( integration_assertion , axiom , ( ! [ X :$i ] : ( ( p @ X ) <=> ( r @ X ) ) ) ) .
-thf ( con , conjecture , $false ) .
+thf( schema1 , axiom , ( ( ( ~ ( ( r @ a ) ) ) | ( r @ b ) ) & ( ( r @ c ) <=> ( r @ a ) ) & ( ( r @ a ) => ( $dia @ ( ( r @ b ) ) ) ) & ( ( ~ ( ( ( r @ a ) ) ) ) => ( $dia @ ( ( ~ ( ( r @ b ) ) ) & ( ~ ( ( r @ c ) ) ) ) ) ) ) ) .
+thf( schema2 , axiom , ( ( ( p @ a ) => ( p @ b ) ) & ( ( p @ c ) | ( ~ ( ( p @ b ) ) ) ) & ( ( ( p @ a ) & ( p @ b ) ) => ( $dia @ ( ~ ( ( p @ b ) ) ) ) ) ) ) .
+thf( integration_assertion , axiom , ( ! [ X :$i ] : ( ( p @ X ) <=> ( r @ X ) ) ) ) .
+thf( con , conjecture , $false ) .

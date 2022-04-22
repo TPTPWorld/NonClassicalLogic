@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -48,7 +52,7 @@ thf(userid_type,type,(userid : ($i>$i>$o))).
 % Comments : slightly adapted from the original example: used only one
 %            modal operator (#box) for both user and common-ground beliefs
 %--------------------------------------------------------------------------
-thf ( ax1 , axiom , ( {$box} @ ( ? [ I :$i ] : ( {$box} @ ( ( userid @ u @ I ) & ( string @ I ) ) ) ) ) ) .
-thf ( ax2 , axiom , ( ? [ B :$i ] : ( {$box} @ ( ( entry_box @ B ) & ( number @ B @ one ) ) ) ) ) .
-thf ( ax3 , axiom , ( {$box} @ ( ! [ S :$i , I :$i , B :$i ] : ( ( ( string @ I ) & ( entry_box @ B ) ) => ( ? [ A :$i ] : ( {$box} @ ( ! [ S2 :$i ] : ( ( do @ S @ A @ S2 ) => ( in @ I @ B @ S2 ) ) ) ) ) ) ) ) ) .
-thf ( con , conjecture , ( {$box} @ ( ? [ I :$i , B :$i , A :$i , S :$i ] : ( ( {$box} @ ( ( userid @ u @ I ) & ( entry_box @ B ) & ( number @ B @ one ) ) ) & ( {$box} @ ( ! [ S2 :$i ] : ( ( do @ S @ A @ S2 ) => ( in @ I @ B @ S2 ) ) ) ) ) ) ) ) .
+thf( ax1 , axiom , ( {$box} @ ( ? [ I :$i ] : ( {$box} @ ( ( userid @ u @ I ) & ( string @ I ) ) ) ) ) ) .
+thf( ax2 , axiom , ( ? [ B :$i ] : ( {$box} @ ( ( entry_box @ B ) & ( number @ B @ one ) ) ) ) ) .
+thf( ax3 , axiom , ( {$box} @ ( ! [ S :$i , I :$i , B :$i ] : ( ( ( string @ I ) & ( entry_box @ B ) ) => ( ? [ A :$i ] : ( {$box} @ ( ! [ S2 :$i ] : ( ( do @ S @ A @ S2 ) => ( in @ I @ B @ S2 ) ) ) ) ) ) ) ) ) .
+thf( con , conjecture , ( {$box} @ ( ? [ I :$i , B :$i , A :$i , S :$i ] : ( ( {$box} @ ( ( userid @ u @ I ) & ( entry_box @ B ) & ( number @ B @ one ) ) ) & ( {$box} @ ( ! [ S2 :$i ] : ( ( do @ S @ A @ S2 ) => ( in @ I @ B @ S2 ) ) ) ) ) ) ) ) .

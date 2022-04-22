@@ -1,4 +1,8 @@
 thf(typedecl_customqmltpeq,type,customqmltpeq: ($i > $i > $o)).% semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 % propositions
 

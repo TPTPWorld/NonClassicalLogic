@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -47,5 +51,5 @@ thf(big_d_type,type,(big_d : ($i>$i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( x2138 , conjecture , ( {$box} @ ( ( ( {$box} @ ( ! [ X :$i ] : ( ? [ Y :$i ] : ( {$box} @ ( ( big_f @ X @ Y ) ) ) ) ) ) & ( ( ? [ X :$i ] : ( {$box} @ ( ! [ E :$i ] : ( ? [ N :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_s @ N @ W ) ) ) => ( {$box} @ ( ( big_d @ W @ X @ E ) ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ! [ E :$i ] : ( ? [ D :$i ] : ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_d @ A @ B @ D ) ) ) => ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( big_f @ A @ Y ) ) ) & ( {$box} @ ( ( big_f @ B @ Z ) ) ) ) => ( {$box} @ ( ( big_d @ Y @ Z @ E ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) => ( ? [ Y :$i ] : ( {$box} @ ( ! [ E :$i ] : ( ? [ M :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_s @ M @ W ) ) ) => ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_f @ W @ Z ) ) ) => ( {$box} @ ( ( big_d @ Z @ Y @ E ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( x2138 , conjecture , ( {$box} @ ( ( ( {$box} @ ( ! [ X :$i ] : ( ? [ Y :$i ] : ( {$box} @ ( ( big_f @ X @ Y ) ) ) ) ) ) & ( ( ? [ X :$i ] : ( {$box} @ ( ! [ E :$i ] : ( ? [ N :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_s @ N @ W ) ) ) => ( {$box} @ ( ( big_d @ W @ X @ E ) ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ! [ E :$i ] : ( ? [ D :$i ] : ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_d @ A @ B @ D ) ) ) => ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( big_f @ A @ Y ) ) ) & ( {$box} @ ( ( big_f @ B @ Z ) ) ) ) => ( {$box} @ ( ( big_d @ Y @ Z @ E ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) => ( ? [ Y :$i ] : ( {$box} @ ( ! [ E :$i ] : ( ? [ M :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_s @ M @ W ) ) ) => ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_f @ W @ Z ) ) ) => ( {$box} @ ( ( big_d @ Z @ Y @ E ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -42,7 +46,7 @@ thf(defused_type,type,(defused : ($i>$o))).
 % Comments : slightly adapted from the original example: left out modal
 %            operators for "true after next time step" and "true indefinitely"
 %--------------------------------------------------------------------------
-thf ( ax1 , axiom , ( {$box} @ ( ? [ B :$i ] : ( bomb @ B ) ) ) ) .
-thf ( ax2 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ! [ X :$i ] : ( ( ( bomb @ X ) & ( h @ A ) ) => ( {$box} @ ( ( bomb @ X ) ) ) ) ) ) ) ) .
-thf ( ax3 , axiom , ( {$box} @ ( ! [ X :$i ] : ( ? [ D :$i ] : ( {$box} @ ( ( ( bomb @ X ) & ( h @ D ) ) => ( defused @ X ) ) ) ) ) ) ) .
-thf ( con , conjecture , ( {$box} @ ( ! [ X :$i ] : ( ? [ D :$i ] : ( ( ( bomb @ X ) & ( h @ D ) ) => ( defused @ X ) ) ) ) ) ) .
+thf( ax1 , axiom , ( {$box} @ ( ? [ B :$i ] : ( bomb @ B ) ) ) ) .
+thf( ax2 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ! [ X :$i ] : ( ( ( bomb @ X ) & ( h @ A ) ) => ( {$box} @ ( ( bomb @ X ) ) ) ) ) ) ) ) .
+thf( ax3 , axiom , ( {$box} @ ( ! [ X :$i ] : ( ? [ D :$i ] : ( {$box} @ ( ( ( bomb @ X ) & ( h @ D ) ) => ( defused @ X ) ) ) ) ) ) ) .
+thf( con , conjecture , ( {$box} @ ( ! [ X :$i ] : ( ? [ D :$i ] : ( ( ( bomb @ X ) & ( h @ D ) ) => ( defused @ X ) ) ) ) ) ) .

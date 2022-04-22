@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -67,18 +71,18 @@ thf(pair_type,type,(pair : ($i>$i>$i))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( a_holds_key_at_for_t , axiom , ( {$box} @ ( ( a_holds @ ( key @ at @ t ) ) ) ) ) .
-thf ( a_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ a ) ) ) ) .
-thf ( a_sent_message_i_to_b , axiom , ( {$box} @ ( ( message @ ( sent @ a @ b @ ( pair @ a @ an_a_nonce ) ) ) ) ) ) .
-thf ( a_stored_message_i , axiom , ( {$box} @ ( ( a_stored @ ( pair @ b @ an_a_nonce ) ) ) ) ) .
-thf ( a_forwards_secure , axiom , ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ t @ a @ ( triple @ ( encrypt @ ( quadruple @ Y @ Z @ W @ V ) @ at ) @ X @ U ) ) ) ) ) & ( {$box} @ ( ( a_stored @ ( pair @ Y @ Z ) ) ) ) ) => ( ( {$box} @ ( ( message @ ( sent @ a @ Y @ ( pair @ X @ ( encrypt @ U @ W ) ) ) ) ) ) & ( {$box} @ ( ( a_holds @ ( key @ W @ Y ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( b_hold_key_bt_for_t , axiom , ( {$box} @ ( ( b_holds @ ( key @ bt @ t ) ) ) ) ) .
-thf ( b_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ b ) ) ) ) .
-thf ( nonce_a_is_fresh_to_b , axiom , ( {$box} @ ( ( fresh_to_b @ an_a_nonce ) ) ) ) .
-thf ( b_creates_freash_nonces_in_time , axiom , ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ U @ b @ ( pair @ U @ V ) ) ) ) ) & ( {$box} @ ( ( fresh_to_b @ V ) ) ) ) => ( ( {$box} @ ( ( message @ ( sent @ b @ t @ ( triple @ b @ ( generate_b_nonce @ V ) @ ( encrypt @ ( triple @ U @ V @ ( generate_expiration_time @ V ) ) @ bt ) ) ) ) ) ) & ( {$box} @ ( ( b_stored @ ( pair @ U @ V ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( b_accepts_secure_session_key , axiom , ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ X @ b @ ( pair @ ( encrypt @ ( triple @ X @ V @ ( generate_expiration_time @ Y ) ) @ bt ) @ ( encrypt @ ( generate_b_nonce @ Y ) @ V ) ) ) ) ) ) & ( {$box} @ ( ( b_stored @ ( pair @ X @ Y ) ) ) ) ) => ( {$box} @ ( ( b_holds @ ( key @ V @ X ) ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( t_holds_key_at_for_a , axiom , ( {$box} @ ( ( t_holds @ ( key @ at @ a ) ) ) ) ) .
-thf ( t_holds_key_bt_for_b , axiom , ( {$box} @ ( ( t_holds @ ( key @ bt @ b ) ) ) ) ) .
-thf ( t_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ t ) ) ) ) .
-thf ( server_t_generates_key , axiom , ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ! [ X1 :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ U @ t @ ( triple @ U @ V @ ( encrypt @ ( triple @ W @ X @ Y ) @ Z ) ) ) ) ) ) & ( ( {$box} @ ( ( t_holds @ ( key @ Z @ U ) ) ) ) & ( {$box} @ ( ( t_holds @ ( key @ X1 @ W ) ) ) ) ) ) => ( {$box} @ ( ( message @ ( sent @ t @ W @ ( triple @ ( encrypt @ ( quadruple @ U @ X @ ( generate_key @ X ) @ Y ) @ X1 ) @ ( encrypt @ ( triple @ W @ ( generate_key @ X ) @ Y ) @ Z ) @ V ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( a_holds_key_at_for_t , axiom , ( {$box} @ ( ( a_holds @ ( key @ at @ t ) ) ) ) ) .
+thf( a_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ a ) ) ) ) .
+thf( a_sent_message_i_to_b , axiom , ( {$box} @ ( ( message @ ( sent @ a @ b @ ( pair @ a @ an_a_nonce ) ) ) ) ) ) .
+thf( a_stored_message_i , axiom , ( {$box} @ ( ( a_stored @ ( pair @ b @ an_a_nonce ) ) ) ) ) .
+thf( a_forwards_secure , axiom , ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ t @ a @ ( triple @ ( encrypt @ ( quadruple @ Y @ Z @ W @ V ) @ at ) @ X @ U ) ) ) ) ) & ( {$box} @ ( ( a_stored @ ( pair @ Y @ Z ) ) ) ) ) => ( ( {$box} @ ( ( message @ ( sent @ a @ Y @ ( pair @ X @ ( encrypt @ U @ W ) ) ) ) ) ) & ( {$box} @ ( ( a_holds @ ( key @ W @ Y ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( b_hold_key_bt_for_t , axiom , ( {$box} @ ( ( b_holds @ ( key @ bt @ t ) ) ) ) ) .
+thf( b_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ b ) ) ) ) .
+thf( nonce_a_is_fresh_to_b , axiom , ( {$box} @ ( ( fresh_to_b @ an_a_nonce ) ) ) ) .
+thf( b_creates_freash_nonces_in_time , axiom , ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ U @ b @ ( pair @ U @ V ) ) ) ) ) & ( {$box} @ ( ( fresh_to_b @ V ) ) ) ) => ( ( {$box} @ ( ( message @ ( sent @ b @ t @ ( triple @ b @ ( generate_b_nonce @ V ) @ ( encrypt @ ( triple @ U @ V @ ( generate_expiration_time @ V ) ) @ bt ) ) ) ) ) ) & ( {$box} @ ( ( b_stored @ ( pair @ U @ V ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( b_accepts_secure_session_key , axiom , ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ X @ b @ ( pair @ ( encrypt @ ( triple @ X @ V @ ( generate_expiration_time @ Y ) ) @ bt ) @ ( encrypt @ ( generate_b_nonce @ Y ) @ V ) ) ) ) ) ) & ( {$box} @ ( ( b_stored @ ( pair @ X @ Y ) ) ) ) ) => ( {$box} @ ( ( b_holds @ ( key @ V @ X ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( t_holds_key_at_for_a , axiom , ( {$box} @ ( ( t_holds @ ( key @ at @ a ) ) ) ) ) .
+thf( t_holds_key_bt_for_b , axiom , ( {$box} @ ( ( t_holds @ ( key @ bt @ b ) ) ) ) ) .
+thf( t_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ t ) ) ) ) .
+thf( server_t_generates_key , axiom , ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ! [ X1 :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( message @ ( sent @ U @ t @ ( triple @ U @ V @ ( encrypt @ ( triple @ W @ X @ Y ) @ Z ) ) ) ) ) ) & ( ( {$box} @ ( ( t_holds @ ( key @ Z @ U ) ) ) ) & ( {$box} @ ( ( t_holds @ ( key @ X1 @ W ) ) ) ) ) ) => ( {$box} @ ( ( message @ ( sent @ t @ W @ ( triple @ ( encrypt @ ( quadruple @ U @ X @ ( generate_key @ X ) @ Y ) @ X1 ) @ ( encrypt @ ( triple @ W @ ( generate_key @ X ) @ Y ) @ Z ) @ V ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

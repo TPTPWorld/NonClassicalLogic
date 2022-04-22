@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,7 +50,7 @@ thf(big_f_type,type,(big_f : ($i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( pel21_1 , axiom , ( ? [ X :$i ] : ( {$box} @ ( ( {$box} @ ( p ) ) => ( {$box} @ ( ( big_f @ X ) ) ) ) ) ) ) .
-thf ( pel21_2 , axiom , ( ? [ X :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_f @ X ) ) ) => ( {$box} @ ( p ) ) ) ) ) ) .
-thf ( pel21 , conjecture , ( ? [ X :$i ] : ( ( {$box} @ ( ( {$box} @ ( p ) ) => ( {$box} @ ( ( big_f @ X ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( big_f @ X ) ) ) => ( {$box} @ ( p ) ) ) ) ) ) ) .
+thf( pel21_1 , axiom , ( ? [ X :$i ] : ( {$box} @ ( ( {$box} @ ( p ) ) => ( {$box} @ ( ( big_f @ X ) ) ) ) ) ) ) .
+thf( pel21_2 , axiom , ( ? [ X :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_f @ X ) ) ) => ( {$box} @ ( p ) ) ) ) ) ) .
+thf( pel21 , conjecture , ( ? [ X :$i ] : ( ( {$box} @ ( ( {$box} @ ( p ) ) => ( {$box} @ ( ( big_f @ X ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( big_f @ X ) ) ) => ( {$box} @ ( p ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

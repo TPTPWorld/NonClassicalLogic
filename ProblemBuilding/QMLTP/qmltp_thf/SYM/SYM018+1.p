@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -39,4 +43,4 @@ thf(f_type,type,(f : ($i>$o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( con , conjecture , ( {$box} @ ( ( $dia @ ( ? [ X :$i ] : ( f @ X ) ) ) => ( ? [ X :$i ] : ( $dia @ ( ( f @ X ) ) ) ) ) ) ) .
+thf( con , conjecture , ( {$box} @ ( ( $dia @ ( ? [ X :$i ] : ( f @ X ) ) ) => ( ? [ X :$i ] : ( $dia @ ( ( f @ X ) ) ) ) ) ) ) .

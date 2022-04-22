@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,8 +50,8 @@ thf(member_type,type,(member : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( intersect_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( intersect @ B @ C ) <=> ? [ D :$i ] : ( ( member @ D @ B ) & ( member @ D @ C ) ) ) ) ) .
-thf ( disjoint_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( disjoint @ B @ C ) <=> ~ ( ( intersect @ B @ C ) ) ) ) ) .
-thf ( symmetry_of_intersect , axiom , ( ! [ B :$i , C :$i ] : ( ( intersect @ B @ C ) => ( intersect @ C @ B ) ) ) ) .
-thf ( prove_th17 , conjecture , ( ! [ B :$i , C :$i ] : ( ! [ D :$i ] : ( ( member @ D @ B ) => ~ ( ( member @ D @ C ) ) ) => ( disjoint @ B @ C ) ) ) ) .
+thf( intersect_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( intersect @ B @ C ) <=> ? [ D :$i ] : ( ( member @ D @ B ) & ( member @ D @ C ) ) ) ) ) .
+thf( disjoint_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( disjoint @ B @ C ) <=> ~ ( ( intersect @ B @ C ) ) ) ) ) .
+thf( symmetry_of_intersect , axiom , ( ! [ B :$i , C :$i ] : ( ( intersect @ B @ C ) => ( intersect @ C @ B ) ) ) ) .
+thf( prove_th17 , conjecture , ( ! [ B :$i , C :$i ] : ( ! [ D :$i ] : ( ( member @ D @ B ) => ~ ( ( member @ D @ C ) ) ) => ( disjoint @ B @ C ) ) ) ) .
 %------------------------------------------------------------------------------

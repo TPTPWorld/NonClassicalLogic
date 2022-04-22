@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -47,5 +51,5 @@ thf(h_type,type,(h : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( kalish265 , conjecture , ( ( {$box} @ ( ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( ? [ Y :$i ] : ( ( {$box} @ ( ( h @ X @ Y ) ) ) & ( {$box} @ ( ( f @ Y ) ) ) ) ) => ( ? [ Z :$i ] : ( ( {$box} @ ( ( h @ X @ Z ) ) ) & ( {$box} @ ( ( g @ Z ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( h @ U @ V ) ) ) & ( {$box} @ ( ( f @ V ) ) ) ) => ( ( {$box} @ ( ( h @ U @ W ) ) ) & ( {$box} @ ( ( g @ W ) ) ) ) ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( h @ U @ V ) ) ) & ( {$box} @ ( ( f @ V ) ) ) ) => ( ( {$box} @ ( ( h @ U @ W ) ) ) & ( {$box} @ ( ( g @ W ) ) ) ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( ? [ Y :$i ] : ( ( {$box} @ ( ( h @ X @ Y ) ) ) & ( {$box} @ ( ( f @ Y ) ) ) ) ) => ( ? [ Z :$i ] : ( ( {$box} @ ( ( h @ X @ Z ) ) ) & ( {$box} @ ( ( g @ Z ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( kalish265 , conjecture , ( ( {$box} @ ( ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( ? [ Y :$i ] : ( ( {$box} @ ( ( h @ X @ Y ) ) ) & ( {$box} @ ( ( f @ Y ) ) ) ) ) => ( ? [ Z :$i ] : ( ( {$box} @ ( ( h @ X @ Z ) ) ) & ( {$box} @ ( ( g @ Z ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( h @ U @ V ) ) ) & ( {$box} @ ( ( f @ V ) ) ) ) => ( ( {$box} @ ( ( h @ U @ W ) ) ) & ( {$box} @ ( ( g @ W ) ) ) ) ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( h @ U @ V ) ) ) & ( {$box} @ ( ( f @ V ) ) ) ) => ( ( {$box} @ ( ( h @ U @ W ) ) ) & ( {$box} @ ( ( g @ W ) ) ) ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( ? [ Y :$i ] : ( ( {$box} @ ( ( h @ X @ Y ) ) ) & ( {$box} @ ( ( f @ Y ) ) ) ) ) => ( ? [ Z :$i ] : ( ( {$box} @ ( ( h @ X @ Z ) ) ) & ( {$box} @ ( ( g @ Z ) ) ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

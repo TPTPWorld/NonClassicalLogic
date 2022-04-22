@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -47,8 +51,8 @@ thf(difference_type,type,(difference : ($i>$i>$i))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( difference_defn , axiom , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ D @ ( difference @ B @ C ) ) <=> ( ( member @ D @ B ) & ~ ( ( member @ D @ C ) ) ) ) ) ) .
-thf ( subset_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( subset @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) => ( member @ D @ C ) ) ) ) ) .
-thf ( reflexivity_of_subset , axiom , ( ! [ B :$i ] : ( subset @ B @ B ) ) ) .
-thf ( prove_subset_difference , conjecture , ( ! [ B :$i , C :$i , D :$i ] : ( ( subset @ B @ C ) => ( subset @ ( difference @ D @ C ) @ ( difference @ D @ B ) ) ) ) ) .
+thf( difference_defn , axiom , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ D @ ( difference @ B @ C ) ) <=> ( ( member @ D @ B ) & ~ ( ( member @ D @ C ) ) ) ) ) ) .
+thf( subset_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( subset @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) => ( member @ D @ C ) ) ) ) ) .
+thf( reflexivity_of_subset , axiom , ( ! [ B :$i ] : ( subset @ B @ B ) ) ) .
+thf( prove_subset_difference , conjecture , ( ! [ B :$i , C :$i , D :$i ] : ( ( subset @ B @ C ) => ( subset @ ( difference @ D @ C ) @ ( difference @ D @ B ) ) ) ) ) .
 %------------------------------------------------------------------------------

@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -67,21 +71,21 @@ thf(pair_type,type,(pair : ($i>$i>$i))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( a_holds_key_at_for_t , axiom , ( {$box} @ ( ( a_holds @ ( key @ at @ t ) ) ) ) ) .
-thf ( a_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ a ) ) ) ) .
-thf ( a_sent_message_i_to_b , axiom , ( {$box} @ ( ( message @ ( sent @ a @ b @ ( pair @ a @ an_a_nonce ) ) ) ) ) ) .
-thf ( a_stored_message_i , axiom , ( {$box} @ ( ( a_stored @ ( pair @ b @ an_a_nonce ) ) ) ) ) .
-thf ( b_hold_key_bt_for_t , axiom , ( {$box} @ ( ( b_holds @ ( key @ bt @ t ) ) ) ) ) .
-thf ( b_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ b ) ) ) ) .
-thf ( nonce_a_is_fresh_to_b , axiom , ( {$box} @ ( ( fresh_to_b @ an_a_nonce ) ) ) ) .
-thf ( t_holds_key_at_for_a , axiom , ( {$box} @ ( ( t_holds @ ( key @ at @ a ) ) ) ) ) .
-thf ( t_holds_key_bt_for_b , axiom , ( {$box} @ ( ( t_holds @ ( key @ bt @ b ) ) ) ) ) .
-thf ( t_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ t ) ) ) ) .
-thf ( ax1 , axiom , ( {$box} @ ( ( b_holds @ ( key @ ( generate_key @ an_a_nonce ) @ a ) ) ) ) ) .
-thf ( ax2 , axiom , ( {$box} @ ( ( message @ ( sent @ a @ b @ ( pair @ ( encrypt @ ( triple @ a @ ( generate_key @ an_a_nonce ) @ ( generate_expiration_time @ an_a_nonce ) ) @ bt ) @ ( encrypt @ ( generate_b_nonce @ an_a_nonce ) @ ( generate_key @ an_a_nonce ) ) ) ) ) ) ) ) .
-thf ( ax3 , axiom , ( {$box} @ ( ( a_holds @ ( key @ ( generate_key @ an_a_nonce ) @ b ) ) ) ) ) .
-thf ( ax4 , axiom , ( {$box} @ ( ( message @ ( sent @ t @ a @ ( triple @ ( encrypt @ ( quadruple @ b @ an_a_nonce @ ( generate_key @ an_a_nonce ) @ ( generate_expiration_time @ an_a_nonce ) ) @ at ) @ ( encrypt @ ( triple @ a @ ( generate_key @ an_a_nonce ) @ ( generate_expiration_time @ an_a_nonce ) ) @ bt ) @ ( generate_b_nonce @ an_a_nonce ) ) ) ) ) ) ) .
-thf ( ax5 , axiom , ( {$box} @ ( ( message @ ( sent @ b @ t @ ( triple @ b @ ( generate_b_nonce @ an_a_nonce ) @ ( encrypt @ ( triple @ a @ an_a_nonce @ ( generate_expiration_time @ an_a_nonce ) ) @ bt ) ) ) ) ) ) ) .
-thf ( ax6 , axiom , ( {$box} @ ( ( b_stored @ ( pair @ a @ an_a_nonce ) ) ) ) ) .
-thf ( co1 , conjecture , ( ? [ U :$i ] : ( ( {$box} @ ( ( a_holds @ ( key @ U @ b ) ) ) ) & ( {$box} @ ( ( b_holds @ ( key @ U @ a ) ) ) ) ) ) ) .
+thf( a_holds_key_at_for_t , axiom , ( {$box} @ ( ( a_holds @ ( key @ at @ t ) ) ) ) ) .
+thf( a_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ a ) ) ) ) .
+thf( a_sent_message_i_to_b , axiom , ( {$box} @ ( ( message @ ( sent @ a @ b @ ( pair @ a @ an_a_nonce ) ) ) ) ) ) .
+thf( a_stored_message_i , axiom , ( {$box} @ ( ( a_stored @ ( pair @ b @ an_a_nonce ) ) ) ) ) .
+thf( b_hold_key_bt_for_t , axiom , ( {$box} @ ( ( b_holds @ ( key @ bt @ t ) ) ) ) ) .
+thf( b_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ b ) ) ) ) .
+thf( nonce_a_is_fresh_to_b , axiom , ( {$box} @ ( ( fresh_to_b @ an_a_nonce ) ) ) ) .
+thf( t_holds_key_at_for_a , axiom , ( {$box} @ ( ( t_holds @ ( key @ at @ a ) ) ) ) ) .
+thf( t_holds_key_bt_for_b , axiom , ( {$box} @ ( ( t_holds @ ( key @ bt @ b ) ) ) ) ) .
+thf( t_is_party_of_protocol , axiom , ( {$box} @ ( ( party_of_protocol @ t ) ) ) ) .
+thf( ax1 , axiom , ( {$box} @ ( ( b_holds @ ( key @ ( generate_key @ an_a_nonce ) @ a ) ) ) ) ) .
+thf( ax2 , axiom , ( {$box} @ ( ( message @ ( sent @ a @ b @ ( pair @ ( encrypt @ ( triple @ a @ ( generate_key @ an_a_nonce ) @ ( generate_expiration_time @ an_a_nonce ) ) @ bt ) @ ( encrypt @ ( generate_b_nonce @ an_a_nonce ) @ ( generate_key @ an_a_nonce ) ) ) ) ) ) ) ) .
+thf( ax3 , axiom , ( {$box} @ ( ( a_holds @ ( key @ ( generate_key @ an_a_nonce ) @ b ) ) ) ) ) .
+thf( ax4 , axiom , ( {$box} @ ( ( message @ ( sent @ t @ a @ ( triple @ ( encrypt @ ( quadruple @ b @ an_a_nonce @ ( generate_key @ an_a_nonce ) @ ( generate_expiration_time @ an_a_nonce ) ) @ at ) @ ( encrypt @ ( triple @ a @ ( generate_key @ an_a_nonce ) @ ( generate_expiration_time @ an_a_nonce ) ) @ bt ) @ ( generate_b_nonce @ an_a_nonce ) ) ) ) ) ) ) .
+thf( ax5 , axiom , ( {$box} @ ( ( message @ ( sent @ b @ t @ ( triple @ b @ ( generate_b_nonce @ an_a_nonce ) @ ( encrypt @ ( triple @ a @ an_a_nonce @ ( generate_expiration_time @ an_a_nonce ) ) @ bt ) ) ) ) ) ) ) .
+thf( ax6 , axiom , ( {$box} @ ( ( b_stored @ ( pair @ a @ an_a_nonce ) ) ) ) ) .
+thf( co1 , conjecture , ( ? [ U :$i ] : ( ( {$box} @ ( ( a_holds @ ( key @ U @ b ) ) ) ) & ( {$box} @ ( ( b_holds @ ( key @ U @ a ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

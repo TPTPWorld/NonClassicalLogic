@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -45,5 +49,5 @@ thf(f_type,type,(f : ($i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( kalish229 , conjecture , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( f @ Y ) ) ) ) ) => ( {$box} @ ( ( f @ X ) ) ) ) ) ) ) ) .
+thf( kalish229 , conjecture , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( f @ Y ) ) ) ) ) => ( {$box} @ ( ( f @ X ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

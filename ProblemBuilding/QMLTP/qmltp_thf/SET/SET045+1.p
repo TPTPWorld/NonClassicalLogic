@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -49,6 +53,6 @@ thf(element_type,type,(element : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( pel41_1 , axiom , ( ! [ Z :$i ] : ? [ Y :$i ] : ! [ X :$i ] : ( ( element @ X @ Y ) <=> ( ( element @ X @ Z ) & ~ ( ( element @ X @ X ) ) ) ) ) ) .
-thf ( pel41 , conjecture , ( ~ ( ( ? [ Z :$i ] : ! [ X :$i ] : ( element @ X @ Z ) ) ) ) ) .
+thf( pel41_1 , axiom , ( ! [ Z :$i ] : ? [ Y :$i ] : ! [ X :$i ] : ( ( element @ X @ Y ) <=> ( ( element @ X @ Z ) & ~ ( ( element @ X @ X ) ) ) ) ) ) .
+thf( pel41 , conjecture , ( ~ ( ( ? [ Z :$i ] : ! [ X :$i ] : ( element @ X @ Z ) ) ) ) ) .
 %------------------------------------------------------------------------------

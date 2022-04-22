@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -45,5 +49,5 @@ thf(big_p_type,type,(big_p : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( x2120 , conjecture , ( {$box} @ ( ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( ( {$box} @ ( ( big_p @ U @ V ) ) ) | ( {$box} @ ( ( big_p @ V @ W ) ) ) ) ) ) ) ) ) ) => ( ? [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( big_p @ X @ Y ) ) ) ) ) ) ) ) ) .
+thf( x2120 , conjecture , ( {$box} @ ( ( {$box} @ ( ! [ U :$i ] : ( {$box} @ ( ! [ V :$i ] : ( {$box} @ ( ! [ W :$i ] : ( ( {$box} @ ( ( big_p @ U @ V ) ) ) | ( {$box} @ ( ( big_p @ V @ W ) ) ) ) ) ) ) ) ) ) => ( ? [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( {$box} @ ( ( big_p @ X @ Y ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -48,9 +52,9 @@ thf(empty_type,type,(empty : ($i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( empty_set_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ B @ empty_set ) ) ) ) ) ) ) ) ) .
-thf ( subset_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( subset @ B @ C ) ) ) => ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( {$box} @ ( ( member @ D @ B ) ) ) => ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( {$box} @ ( ( member @ D @ B ) ) ) => ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) => ( {$box} @ ( ( subset @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
-thf ( reflexivity_of_subset , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( subset @ B @ B ) ) ) ) ) ) .
-thf ( empty_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( empty @ B ) ) ) => ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ C @ B ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ C @ B ) ) ) ) ) ) ) ) => ( {$box} @ ( ( empty @ B ) ) ) ) ) ) ) ) ) .
-thf ( prove_empty_set_subset , conjecture , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( subset @ empty_set @ B ) ) ) ) ) ) .
+thf( empty_set_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ B @ empty_set ) ) ) ) ) ) ) ) ) .
+thf( subset_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( subset @ B @ C ) ) ) => ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( {$box} @ ( ( member @ D @ B ) ) ) => ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( {$box} @ ( ( member @ D @ B ) ) ) => ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) => ( {$box} @ ( ( subset @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
+thf( reflexivity_of_subset , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( subset @ B @ B ) ) ) ) ) ) .
+thf( empty_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( empty @ B ) ) ) => ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ C @ B ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ C @ B ) ) ) ) ) ) ) ) => ( {$box} @ ( ( empty @ B ) ) ) ) ) ) ) ) ) .
+thf( prove_empty_set_subset , conjecture , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( subset @ empty_set @ B ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

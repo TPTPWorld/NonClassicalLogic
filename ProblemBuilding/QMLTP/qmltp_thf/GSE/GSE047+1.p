@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,6 +50,6 @@ thf(element_type,type,(element : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( pel43_1 , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( set_equal @ X @ Y ) ) ) => ( {$box} @ ( ! [ Z :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( element @ Z @ X ) ) ) => ( {$box} @ ( ( element @ Z @ Y ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( element @ Z @ Y ) ) ) => ( {$box} @ ( ( element @ Z @ X ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ Z :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( element @ Z @ X ) ) ) => ( {$box} @ ( ( element @ Z @ Y ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( element @ Z @ Y ) ) ) => ( {$box} @ ( ( element @ Z @ X ) ) ) ) ) ) ) ) => ( {$box} @ ( ( set_equal @ X @ Y ) ) ) ) ) ) ) ) ) ) ) .
-thf ( pel43 , conjecture , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( set_equal @ X @ Y ) ) ) => ( {$box} @ ( ( set_equal @ Y @ X ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( set_equal @ Y @ X ) ) ) => ( {$box} @ ( ( set_equal @ X @ Y ) ) ) ) ) ) ) ) ) ) ) .
+thf( pel43_1 , axiom , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( set_equal @ X @ Y ) ) ) => ( {$box} @ ( ! [ Z :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( element @ Z @ X ) ) ) => ( {$box} @ ( ( element @ Z @ Y ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( element @ Z @ Y ) ) ) => ( {$box} @ ( ( element @ Z @ X ) ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ! [ Z :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( element @ Z @ X ) ) ) => ( {$box} @ ( ( element @ Z @ Y ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( element @ Z @ Y ) ) ) => ( {$box} @ ( ( element @ Z @ X ) ) ) ) ) ) ) ) => ( {$box} @ ( ( set_equal @ X @ Y ) ) ) ) ) ) ) ) ) ) ) .
+thf( pel43 , conjecture , ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ! [ Y :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( set_equal @ X @ Y ) ) ) => ( {$box} @ ( ( set_equal @ Y @ X ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ( set_equal @ Y @ X ) ) ) => ( {$box} @ ( ( set_equal @ X @ Y ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

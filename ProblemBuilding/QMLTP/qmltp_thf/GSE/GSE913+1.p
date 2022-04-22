@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -48,10 +52,10 @@ thf(singleton_type,type,(singleton : ($i>$i))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( symmetry_r1_xboole_0 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( disjoint @ A @ B ) ) ) => ( {$box} @ ( ( disjoint @ B @ A ) ) ) ) ) ) ) ) ) ) .
-thf ( antisymmetry_r2_hidden , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( in @ A @ B ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( in @ B @ A ) ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ( empty @ A ) ) ) ) ) .
-thf ( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( empty @ A ) ) ) ) ) ) ) ) .
-thf ( t54_zfmisc_1 , conjecture , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( ( {$box} @ ( ( disjoint @ ( singleton @ A ) @ B ) ) ) & ( {$box} @ ( ( in @ A @ B ) ) ) ) ) ) ) ) ) ) ) ) .
-thf ( l25_zfmisc_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( ( {$box} @ ( ( disjoint @ ( singleton @ A ) @ B ) ) ) & ( {$box} @ ( ( in @ A @ B ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( symmetry_r1_xboole_0 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( disjoint @ A @ B ) ) ) => ( {$box} @ ( ( disjoint @ B @ A ) ) ) ) ) ) ) ) ) ) .
+thf( antisymmetry_r2_hidden , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ( {$box} @ ( ( in @ A @ B ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( in @ B @ A ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ( empty @ A ) ) ) ) ) .
+thf( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( empty @ A ) ) ) ) ) ) ) ) .
+thf( t54_zfmisc_1 , conjecture , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( ( {$box} @ ( ( disjoint @ ( singleton @ A ) @ B ) ) ) & ( {$box} @ ( ( in @ A @ B ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( l25_zfmisc_1 , axiom , ( {$box} @ ( ! [ A :$i ] : ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ~ ( ( ( {$box} @ ( ( disjoint @ ( singleton @ A ) @ B ) ) ) & ( {$box} @ ( ( in @ A @ B ) ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

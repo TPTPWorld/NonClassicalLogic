@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -56,5 +60,5 @@ thf(lonely_type,type,(lonely : ($i>$o))).
 %--------------------------------------------------------------------------
 % Comments :
 %--------------------------------------------------------------------------
-thf ( co1 , conjecture , ( ( ? [ U :$i , V :$i , W :$i , X :$i ] : ( ( hollywood @ U ) & ( city @ U ) & ( event @ V ) & ( street @ W ) & ( way @ W ) & ( lonely @ W ) & ( chevy @ X ) & ( car @ X ) & ( white @ X ) & ( dirty @ X ) & ( old @ X ) & ( barrel @ V @ X ) & ( down @ V @ W ) & ( in @ V @ U ) ) => ? [ Y :$i , Z :$i , X1 :$i , X2 :$i ] : ( ( hollywood @ Y ) & ( city @ Y ) & ( event @ Z ) & ( chevy @ X1 ) & ( car @ X1 ) & ( white @ X1 ) & ( dirty @ X1 ) & ( old @ X1 ) & ( street @ X2 ) & ( way @ X2 ) & ( lonely @ X2 ) & ( barrel @ Z @ X1 ) & ( down @ Z @ X2 ) & ( in @ Z @ Y ) ) ) & ( ? [ X3 :$i , X4 :$i , X5 :$i , X6 :$i ] : ( ( hollywood @ X3 ) & ( city @ X3 ) & ( event @ X4 ) & ( chevy @ X5 ) & ( car @ X5 ) & ( white @ X5 ) & ( dirty @ X5 ) & ( old @ X5 ) & ( street @ X6 ) & ( way @ X6 ) & ( lonely @ X6 ) & ( barrel @ X4 @ X5 ) & ( down @ X4 @ X6 ) & ( in @ X4 @ X3 ) ) => ? [ X7 :$i , X8 :$i , X9 :$i , X10 :$i ] : ( ( hollywood @ X7 ) & ( city @ X7 ) & ( event @ X8 ) & ( street @ X9 ) & ( way @ X9 ) & ( lonely @ X9 ) & ( chevy @ X10 ) & ( car @ X10 ) & ( white @ X10 ) & ( dirty @ X10 ) & ( old @ X10 ) & ( barrel @ X8 @ X10 ) & ( down @ X8 @ X9 ) & ( in @ X8 @ X7 ) ) ) ) ) .
+thf( co1 , conjecture , ( ( ? [ U :$i , V :$i , W :$i , X :$i ] : ( ( hollywood @ U ) & ( city @ U ) & ( event @ V ) & ( street @ W ) & ( way @ W ) & ( lonely @ W ) & ( chevy @ X ) & ( car @ X ) & ( white @ X ) & ( dirty @ X ) & ( old @ X ) & ( barrel @ V @ X ) & ( down @ V @ W ) & ( in @ V @ U ) ) => ? [ Y :$i , Z :$i , X1 :$i , X2 :$i ] : ( ( hollywood @ Y ) & ( city @ Y ) & ( event @ Z ) & ( chevy @ X1 ) & ( car @ X1 ) & ( white @ X1 ) & ( dirty @ X1 ) & ( old @ X1 ) & ( street @ X2 ) & ( way @ X2 ) & ( lonely @ X2 ) & ( barrel @ Z @ X1 ) & ( down @ Z @ X2 ) & ( in @ Z @ Y ) ) ) & ( ? [ X3 :$i , X4 :$i , X5 :$i , X6 :$i ] : ( ( hollywood @ X3 ) & ( city @ X3 ) & ( event @ X4 ) & ( chevy @ X5 ) & ( car @ X5 ) & ( white @ X5 ) & ( dirty @ X5 ) & ( old @ X5 ) & ( street @ X6 ) & ( way @ X6 ) & ( lonely @ X6 ) & ( barrel @ X4 @ X5 ) & ( down @ X4 @ X6 ) & ( in @ X4 @ X3 ) ) => ? [ X7 :$i , X8 :$i , X9 :$i , X10 :$i ] : ( ( hollywood @ X7 ) & ( city @ X7 ) & ( event @ X8 ) & ( street @ X9 ) & ( way @ X9 ) & ( lonely @ X9 ) & ( chevy @ X10 ) & ( car @ X10 ) & ( white @ X10 ) & ( dirty @ X10 ) & ( old @ X10 ) & ( barrel @ X8 @ X10 ) & ( down @ X8 @ X9 ) & ( in @ X8 @ X7 ) ) ) ) ) .
 %--------------------------------------------------------------------------

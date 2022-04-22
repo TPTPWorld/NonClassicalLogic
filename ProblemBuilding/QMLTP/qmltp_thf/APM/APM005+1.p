@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,9 +50,9 @@ thf(open_type,type,(open : ($i>$o))).
 % Comments : slightly adapted from the original example: left out modal
 %            operators for "true after next time step" and "true indefinitely"
 %--------------------------------------------------------------------------
-thf ( ax1 , axiom , ( {$box} @ ( ! [ S :$i , V :$i ] : ( ? [ O :$i ] : ( ( {$box} @ ( ( ( closed @ S ) & ( combo @ S @ V ) & ( h @ O ) ) => ( {$box} @ ( ( open @ S ) ) ) ) ) & ( {$box} @ ( ( ( closed @ S ) & ( ~ ( ( combo @ S @ V ) ) ) & ( h @ o ) ) => ( {$box} @ ( ( closed @ S ) ) ) ) ) ) ) ) ) ) .
-thf ( ax2 , axiom , ( {$box} @ ( ( closed @ d ) ) ) ) .
-thf ( ax3 , axiom , ( {$box} @ ( ( combo @ d @ n ) | ( ~ ( ( combo @ d @ n ) ) ) ) ) ) .
-thf ( ax4 , axiom , ( {$box} @ ( ! [ S :$i ] : ( ~ ( ( ( open @ S ) & ( closed @ S ) ) ) ) ) ) ) .
-thf ( ax5 , axiom , ( ? [ V :$i ] : ( {$box} @ ( ( combo @ d @ V ) ) ) ) ) .
-thf ( con , conjecture , ( {$box} @ ( ? [ V :$i , O :$i ] : ( ( {$box} @ ( ( combo @ d @ V ) & ( h @ O ) ) ) => ( {$box} @ ( ( open @ d ) ) ) ) ) ) ) .
+thf( ax1 , axiom , ( {$box} @ ( ! [ S :$i , V :$i ] : ( ? [ O :$i ] : ( ( {$box} @ ( ( ( closed @ S ) & ( combo @ S @ V ) & ( h @ O ) ) => ( {$box} @ ( ( open @ S ) ) ) ) ) & ( {$box} @ ( ( ( closed @ S ) & ( ~ ( ( combo @ S @ V ) ) ) & ( h @ o ) ) => ( {$box} @ ( ( closed @ S ) ) ) ) ) ) ) ) ) ) .
+thf( ax2 , axiom , ( {$box} @ ( ( closed @ d ) ) ) ) .
+thf( ax3 , axiom , ( {$box} @ ( ( combo @ d @ n ) | ( ~ ( ( combo @ d @ n ) ) ) ) ) ) .
+thf( ax4 , axiom , ( {$box} @ ( ! [ S :$i ] : ( ~ ( ( ( open @ S ) & ( closed @ S ) ) ) ) ) ) ) .
+thf( ax5 , axiom , ( ? [ V :$i ] : ( {$box} @ ( ( combo @ d @ V ) ) ) ) ) .
+thf( con , conjecture , ( {$box} @ ( ? [ V :$i , O :$i ] : ( ( {$box} @ ( ( combo @ d @ V ) & ( h @ O ) ) ) => ( {$box} @ ( ( open @ d ) ) ) ) ) ) ) .

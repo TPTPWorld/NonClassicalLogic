@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -49,5 +53,5 @@ thf(g_type,type,(g : ($i>$i))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( x2115 , conjecture , ( {$box} @ ( ( ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( ? [ Y :$i ] : ( {$box} @ ( ( big_p @ X @ Y ) ) ) ) => ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( big_p @ Z @ Z ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ U :$i ] : ( ? [ V :$i ] : ( ( {$box} @ ( ( big_p @ U @ V ) ) ) | ( ( {$box} @ ( ( big_m @ U ) ) ) & ( {$box} @ ( ( big_q @ ( f @ U @ V ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_q @ W ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( big_m @ ( g @ W ) ) ) ) ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ! [ U :$i ] : ( ? [ V :$i ] : ( ( {$box} @ ( ( big_p @ ( g @ U ) @ V ) ) ) & ( {$box} @ ( ( big_p @ U @ U ) ) ) ) ) ) ) ) ) ) .
+thf( x2115 , conjecture , ( {$box} @ ( ( ( {$box} @ ( ! [ X :$i ] : ( {$box} @ ( ( ? [ Y :$i ] : ( {$box} @ ( ( big_p @ X @ Y ) ) ) ) => ( {$box} @ ( ! [ Z :$i ] : ( {$box} @ ( ( big_p @ Z @ Z ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ U :$i ] : ( ? [ V :$i ] : ( ( {$box} @ ( ( big_p @ U @ V ) ) ) | ( ( {$box} @ ( ( big_m @ U ) ) ) & ( {$box} @ ( ( big_q @ ( f @ U @ V ) ) ) ) ) ) ) ) ) & ( {$box} @ ( ! [ W :$i ] : ( {$box} @ ( ( {$box} @ ( ( big_q @ W ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( big_m @ ( g @ W ) ) ) ) ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ! [ U :$i ] : ( ? [ V :$i ] : ( ( {$box} @ ( ( big_p @ ( g @ U ) @ V ) ) ) & ( {$box} @ ( ( big_p @ U @ U ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

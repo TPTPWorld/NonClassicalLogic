@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -47,8 +51,8 @@ thf(r_type,type,(r : ($o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( pel10_1 , axiom , ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( r ) ) ) ) ) .
-thf ( pel10_2 , axiom , ( {$box} @ ( ( {$box} @ ( r ) ) => ( ( {$box} @ ( p ) ) & ( {$box} @ ( q ) ) ) ) ) ) .
-thf ( pel10_3 , axiom , ( {$box} @ ( ( {$box} @ ( p ) ) => ( ( {$box} @ ( q ) ) | ( {$box} @ ( r ) ) ) ) ) ) .
-thf ( pel10 , conjecture , ( ( {$box} @ ( ( {$box} @ ( p ) ) => ( {$box} @ ( q ) ) ) ) & ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( p ) ) ) ) ) ) .
+thf( pel10_1 , axiom , ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( r ) ) ) ) ) .
+thf( pel10_2 , axiom , ( {$box} @ ( ( {$box} @ ( r ) ) => ( ( {$box} @ ( p ) ) & ( {$box} @ ( q ) ) ) ) ) ) .
+thf( pel10_3 , axiom , ( {$box} @ ( ( {$box} @ ( p ) ) => ( ( {$box} @ ( q ) ) | ( {$box} @ ( r ) ) ) ) ) ) .
+thf( pel10 , conjecture , ( ( {$box} @ ( ( {$box} @ ( p ) ) => ( {$box} @ ( q ) ) ) ) & ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( p ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,7 +50,7 @@ thf(subset_type,type,(subset : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( subset_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( subset @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) => ( member @ D @ C ) ) ) ) ) .
-thf ( reflexivity_of_subset , axiom , ( ! [ B :$i ] : ( subset @ B @ B ) ) ) .
-thf ( prove_transitivity_of_subset , conjecture , ( ! [ B :$i , C :$i , D :$i ] : ( ( ( subset @ B @ C ) & ( subset @ C @ D ) ) => ( subset @ B @ D ) ) ) ) .
+thf( subset_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( subset @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) => ( member @ D @ C ) ) ) ) ) .
+thf( reflexivity_of_subset , axiom , ( ! [ B :$i ] : ( subset @ B @ B ) ) ) .
+thf( prove_transitivity_of_subset , conjecture , ( ! [ B :$i , C :$i , D :$i ] : ( ( ( subset @ B @ C ) & ( subset @ C @ D ) ) => ( subset @ B @ D ) ) ) ) .
 %------------------------------------------------------------------------------

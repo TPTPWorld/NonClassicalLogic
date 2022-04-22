@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -50,7 +54,7 @@ thf(male_type,type,(male : ($i>$o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( abox , axiom , ( {$box} @ ( ( female @ mary ) & ( female @ ann ) & ( female @ jane ) & ( male @ bob ) & ( male @ john ) & ( male @ paul ) & ( parent @ bob @ mary ) & ( parent @ bob @ ann ) & ( parent @ john @ paul ) & ( parent @ mary @ jane ) ) ) ) .
-thf ( tbox , axiom , ( ! [ X :$i ] : ( ( {$box} @ ( ( male @ X ) ) ) => ( {$box} @ ( ~ ( ( female @ X ) ) ) ) ) ) ) .
-thf ( query , axiom , ( ! [ X :$i ] : ( ( q2 @ X ) <=> ( ( {$box} @ ( ( male @ X ) ) ) & ( ~ ( ( {$box} @ ( ? [ Y :$i ] : ( ( parent @ X @ Y ) & ( female @ Y ) ) ) ) ) ) ) ) ) ) .
-thf ( con , conjecture , ( ( q2 @ john ) & ( q2 @ paul ) ) ) .
+thf( abox , axiom , ( {$box} @ ( ( female @ mary ) & ( female @ ann ) & ( female @ jane ) & ( male @ bob ) & ( male @ john ) & ( male @ paul ) & ( parent @ bob @ mary ) & ( parent @ bob @ ann ) & ( parent @ john @ paul ) & ( parent @ mary @ jane ) ) ) ) .
+thf( tbox , axiom , ( ! [ X :$i ] : ( ( {$box} @ ( ( male @ X ) ) ) => ( {$box} @ ( ~ ( ( female @ X ) ) ) ) ) ) ) .
+thf( query , axiom , ( ! [ X :$i ] : ( ( q2 @ X ) <=> ( ( {$box} @ ( ( male @ X ) ) ) & ( ~ ( ( {$box} @ ( ? [ Y :$i ] : ( ( parent @ X @ Y ) & ( female @ Y ) ) ) ) ) ) ) ) ) ) .
+thf( con , conjecture , ( ( q2 @ john ) & ( q2 @ paul ) ) ) .

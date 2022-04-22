@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,10 +50,10 @@ thf(singleton_type,type,(singleton : ($i>$i))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( symmetry_r1_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( ( disjoint @ A @ B ) => ( disjoint @ B @ A ) ) ) ) .
-thf ( antisymmetry_r2_hidden , axiom , ( ! [ A :$i , B :$i ] : ( ( in @ A @ B ) => ~ ( ( in @ B @ A ) ) ) ) ) .
-thf ( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( empty @ A ) ) ) .
-thf ( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ~ ( ( empty @ A ) ) ) ) .
-thf ( t56_zfmisc_1 , conjecture , ( ! [ A :$i , B :$i ] : ( ~ ( ( in @ A @ B ) ) => ( disjoint @ ( singleton @ A ) @ B ) ) ) ) .
-thf ( l28_zfmisc_1 , axiom , ( ! [ A :$i , B :$i ] : ( ~ ( ( in @ A @ B ) ) => ( disjoint @ ( singleton @ A ) @ B ) ) ) ) .
+thf( symmetry_r1_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( ( disjoint @ A @ B ) => ( disjoint @ B @ A ) ) ) ) .
+thf( antisymmetry_r2_hidden , axiom , ( ! [ A :$i , B :$i ] : ( ( in @ A @ B ) => ~ ( ( in @ B @ A ) ) ) ) ) .
+thf( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( empty @ A ) ) ) .
+thf( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ~ ( ( empty @ A ) ) ) ) .
+thf( t56_zfmisc_1 , conjecture , ( ! [ A :$i , B :$i ] : ( ~ ( ( in @ A @ B ) ) => ( disjoint @ ( singleton @ A ) @ B ) ) ) ) .
+thf( l28_zfmisc_1 , axiom , ( ! [ A :$i , B :$i ] : ( ~ ( ( in @ A @ B ) ) => ( disjoint @ ( singleton @ A ) @ B ) ) ) ) .
 %------------------------------------------------------------------------------

@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -46,7 +50,7 @@ thf(member_type,type,(member : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( intersect_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) & ( {$box} @ ( ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) => ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
-thf ( symmetry_of_intersect , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( {$box} @ ( ( intersect @ C @ B ) ) ) ) ) ) ) ) ) ) .
-thf ( prove_th13 , conjecture , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( member @ B @ C ) ) ) & ( {$box} @ ( ( member @ B @ D ) ) ) ) => ( {$box} @ ( ( intersect @ C @ D ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( intersect_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) & ( {$box} @ ( ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) => ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
+thf( symmetry_of_intersect , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( {$box} @ ( ( intersect @ C @ B ) ) ) ) ) ) ) ) ) ) .
+thf( prove_th13 , conjecture , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( ( {$box} @ ( ( member @ B @ C ) ) ) & ( {$box} @ ( ( member @ B @ D ) ) ) ) => ( {$box} @ ( ( intersect @ C @ D ) ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

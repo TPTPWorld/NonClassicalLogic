@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -45,5 +49,5 @@ thf(teach_type,type,(teach : ($i>$i>$o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( db , axiom , ( {$box} @ ( ( teach @ john @ math ) & ( ? [ X :$i ] : ( ( teach @ X @ cs ) ) ) & ( teach @ mary @ psych ) & ( teach @ sue @ psych ) ) ) ) .
-thf ( query , conjecture , ( ? [ X :$i ] : ( ( teach @ X @ psych ) & ( ~ ( ( {$box} @ ( ( teach @ X @ cs ) ) ) ) ) ) ) ) .
+thf( db , axiom , ( {$box} @ ( ( teach @ john @ math ) & ( ? [ X :$i ] : ( ( teach @ X @ cs ) ) ) & ( teach @ mary @ psych ) & ( teach @ sue @ psych ) ) ) ) .
+thf( query , conjecture , ( ? [ X :$i ] : ( ( teach @ X @ psych ) & ( ~ ( ( {$box} @ ( ( teach @ X @ cs ) ) ) ) ) ) ) ) .

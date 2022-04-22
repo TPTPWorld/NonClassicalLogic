@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -48,5 +52,5 @@ thf(s_type,type,(s : ($o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( pel17 , conjecture , ( ( {$box} @ ( ( {$box} @ ( ( ( {$box} @ ( p ) ) & ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( r ) ) ) ) ) => ( {$box} @ ( s ) ) ) ) => ( ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( q ) ) | ( {$box} @ ( s ) ) ) ) & ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( ~ ( ( {$box} @ ( r ) ) ) ) ) | ( {$box} @ ( s ) ) ) ) ) ) ) & ( {$box} @ ( ( ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( q ) ) | ( {$box} @ ( s ) ) ) ) & ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( ~ ( ( {$box} @ ( r ) ) ) ) ) | ( {$box} @ ( s ) ) ) ) ) => ( {$box} @ ( ( ( {$box} @ ( p ) ) & ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( r ) ) ) ) ) => ( {$box} @ ( s ) ) ) ) ) ) ) ) .
+thf( pel17 , conjecture , ( ( {$box} @ ( ( {$box} @ ( ( ( {$box} @ ( p ) ) & ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( r ) ) ) ) ) => ( {$box} @ ( s ) ) ) ) => ( ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( q ) ) | ( {$box} @ ( s ) ) ) ) & ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( ~ ( ( {$box} @ ( r ) ) ) ) ) | ( {$box} @ ( s ) ) ) ) ) ) ) & ( {$box} @ ( ( ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( q ) ) | ( {$box} @ ( s ) ) ) ) & ( ( {$box} @ ( ~ ( ( {$box} @ ( p ) ) ) ) ) | ( ( {$box} @ ( ~ ( ( {$box} @ ( r ) ) ) ) ) | ( {$box} @ ( s ) ) ) ) ) => ( {$box} @ ( ( ( {$box} @ ( p ) ) & ( {$box} @ ( ( {$box} @ ( q ) ) => ( {$box} @ ( r ) ) ) ) ) => ( {$box} @ ( s ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

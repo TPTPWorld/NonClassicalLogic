@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -48,25 +52,25 @@ thf(v5_type,type,(v5 : ($o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( persat1 , axiom , ( v1 | v7 | ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
-thf ( persat2 , axiom , ( v2 | ( ~ ( v5 ) ) | ( ~ ( v8 ) ) | ( {$box} @ v2 ) ) ) .
-thf ( persat3 , axiom , ( v4 | v5 | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
-thf ( persat4 , axiom , ( v4 | ( {$box} @ v3 ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
-thf ( persat5 , axiom , ( v5 | v7 | ( {$box} @ ( ~ ( v4 ) ) ) | ( {$box} @ ( ~ ( v8 ) ) ) ) ) .
-thf ( persat6 , axiom , ( v5 | ( ~ ( v4 ) ) | ( {$box} @ v3 ) | ( {$box} @ v5 ) ) ) .
-thf ( persat7 , axiom , ( v6 | v8 | ( {$box} @ v5 ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
-thf ( persat8 , axiom , ( v6 | ( ~ ( v3 ) ) | ( ~ ( v4 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
-thf ( persat9 , axiom , ( v7 | ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( ~ ( v5 ) ) ) ) ) .
-thf ( persat10 , axiom , ( v8 | ( ~ ( v1 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
-thf ( persat11 , axiom , ( ( ~ ( v1 ) ) | ( ~ ( v2 ) ) | ( {$box} @ v4 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
-thf ( persat12 , axiom , ( ( ~ ( v1 ) ) | ( ~ ( v6 ) ) | ( {$box} @ v7 ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
-thf ( persat13 , axiom , ( ( ~ ( v3 ) ) | ( ~ ( v8 ) ) | ( {$box} @ v7 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
-thf ( persat14 , axiom , ( ( ~ ( v3 ) ) | ( ~ ( v8 ) ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
-thf ( persat15 , axiom , ( ( ~ ( v3 ) ) | ( {$box} @ v6 ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v6 ) ) ) ) ) .
-thf ( persat16 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v5 ) ) | ( {$box} @ v6 ) | ( {$box} @ ( ~ ( v6 ) ) ) ) ) .
-thf ( persat17 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( ~ ( v4 ) ) ) ) ) .
-thf ( persat18 , axiom , ( ( ~ ( v4 ) ) | ( {$box} @ v5 ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( ~ ( v6 ) ) ) ) ) .
-thf ( persat19 , axiom , ( ( ~ ( v5 ) ) | ( {$box} @ v4 ) | ( {$box} @ v6 ) | ( {$box} @ ( ~ ( v5 ) ) ) ) ) .
-thf ( persat20 , axiom , ( ( ~ ( v7 ) ) | ( {$box} @ v7 ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
-thf ( deontic1 , axiom , ( $dia @ $true ) ) .
-thf ( result1 , conjecture , $false ) .
+thf( persat1 , axiom , ( v1 | v7 | ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
+thf( persat2 , axiom , ( v2 | ( ~ ( v5 ) ) | ( ~ ( v8 ) ) | ( {$box} @ v2 ) ) ) .
+thf( persat3 , axiom , ( v4 | v5 | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
+thf( persat4 , axiom , ( v4 | ( {$box} @ v3 ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
+thf( persat5 , axiom , ( v5 | v7 | ( {$box} @ ( ~ ( v4 ) ) ) | ( {$box} @ ( ~ ( v8 ) ) ) ) ) .
+thf( persat6 , axiom , ( v5 | ( ~ ( v4 ) ) | ( {$box} @ v3 ) | ( {$box} @ v5 ) ) ) .
+thf( persat7 , axiom , ( v6 | v8 | ( {$box} @ v5 ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
+thf( persat8 , axiom , ( v6 | ( ~ ( v3 ) ) | ( ~ ( v4 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
+thf( persat9 , axiom , ( v7 | ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( ~ ( v5 ) ) ) ) ) .
+thf( persat10 , axiom , ( v8 | ( ~ ( v1 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
+thf( persat11 , axiom , ( ( ~ ( v1 ) ) | ( ~ ( v2 ) ) | ( {$box} @ v4 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
+thf( persat12 , axiom , ( ( ~ ( v1 ) ) | ( ~ ( v6 ) ) | ( {$box} @ v7 ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
+thf( persat13 , axiom , ( ( ~ ( v3 ) ) | ( ~ ( v8 ) ) | ( {$box} @ v7 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
+thf( persat14 , axiom , ( ( ~ ( v3 ) ) | ( ~ ( v8 ) ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v7 ) ) ) ) ) .
+thf( persat15 , axiom , ( ( ~ ( v3 ) ) | ( {$box} @ v6 ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v6 ) ) ) ) ) .
+thf( persat16 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v5 ) ) | ( {$box} @ v6 ) | ( {$box} @ ( ~ ( v6 ) ) ) ) ) .
+thf( persat17 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( ~ ( v4 ) ) ) ) ) .
+thf( persat18 , axiom , ( ( ~ ( v4 ) ) | ( {$box} @ v5 ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( ~ ( v6 ) ) ) ) ) .
+thf( persat19 , axiom , ( ( ~ ( v5 ) ) | ( {$box} @ v4 ) | ( {$box} @ v6 ) | ( {$box} @ ( ~ ( v5 ) ) ) ) ) .
+thf( persat20 , axiom , ( ( ~ ( v7 ) ) | ( {$box} @ v7 ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( ~ ( v3 ) ) ) ) ) .
+thf( deontic1 , axiom , ( $dia @ $true ) ) .
+thf( result1 , conjecture , $false ) .

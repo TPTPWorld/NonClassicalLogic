@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -47,5 +51,5 @@ thf(implies_type,type,(implies : ($i>$i>$i))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( thm147 , conjecture , ( {$box} @ ( ~ ( ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( ( {$box} @ ( ~ ( ( {$box} @ ( ( a_truth @ ( implies @ P @ Q ) ) ) ) ) ) ) | ( ( {$box} @ ( ~ ( ( {$box} @ ( ( a_truth @ P ) ) ) ) ) ) | ( {$box} @ ( ( a_truth @ Q ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( {$box} @ ( ( a_truth @ ( implies @ P @ ( implies @ Q @ P ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( {$box} @ ( ! [ R :$i ] : ( {$box} @ ( ( a_truth @ ( implies @ ( implies @ P @ ( implies @ Q @ R ) ) @ ( implies @ ( implies @ P @ Q ) @ ( implies @ P @ R ) ) ) ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( {$box} @ ( ( a_truth @ ( implies @ ( implies @ ( not @ P ) @ ( not @ Q ) ) @ ( implies @ Q @ P ) ) ) ) ) ) ) ) ) & ( ? [ A :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( a_truth @ ( implies @ A @ A ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
+thf( thm147 , conjecture , ( {$box} @ ( ~ ( ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( ( {$box} @ ( ~ ( ( {$box} @ ( ( a_truth @ ( implies @ P @ Q ) ) ) ) ) ) ) | ( ( {$box} @ ( ~ ( ( {$box} @ ( ( a_truth @ P ) ) ) ) ) ) | ( {$box} @ ( ( a_truth @ Q ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( {$box} @ ( ( a_truth @ ( implies @ P @ ( implies @ Q @ P ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( {$box} @ ( ! [ R :$i ] : ( {$box} @ ( ( a_truth @ ( implies @ ( implies @ P @ ( implies @ Q @ R ) ) @ ( implies @ ( implies @ P @ Q ) @ ( implies @ P @ R ) ) ) ) ) ) ) ) ) ) ) ) & ( ( {$box} @ ( ! [ P :$i ] : ( {$box} @ ( ! [ Q :$i ] : ( {$box} @ ( ( a_truth @ ( implies @ ( implies @ ( not @ P ) @ ( not @ Q ) ) @ ( implies @ Q @ P ) ) ) ) ) ) ) ) ) & ( ? [ A :$i ] : ( {$box} @ ( ~ ( ( {$box} @ ( ( a_truth @ ( implies @ A @ A ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

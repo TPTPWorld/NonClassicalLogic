@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -48,55 +52,55 @@ thf(v8_type,type,(v8 : ($o))).
 %
 % Comments :
 %--------------------------------------------------------------------------
-thf ( persat1 , axiom , ( v1 | v6 | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) ) ) .
-thf ( persat2 , axiom , ( v1 | ( ~ ( v5 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
-thf ( persat3 , axiom , ( v1 | ( ~ ( v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) ) ) .
-thf ( persat4 , axiom , ( v1 | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
-thf ( persat5 , axiom , ( v2 | v3 | ( ~ ( v6 ) ) | ( {$box} @ ( {$box} @ v3 ) ) ) ) .
-thf ( persat6 , axiom , ( v2 | v3 | ( {$box} @ v8 ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
-thf ( persat7 , axiom , ( v2 | v3 | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ v8 ) ) ) ) .
-thf ( persat8 , axiom , ( v2 | v6 | ( ~ ( v1 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
-thf ( persat9 , axiom , ( v2 | ( ~ ( v4 ) ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ v7 ) ) ) ) .
-thf ( persat10 , axiom , ( v2 | ( ~ ( v5 ) ) | ( {$box} @ v2 ) | ( {$box} @ ( {$box} @ v7 ) ) ) ) .
-thf ( persat11 , axiom , ( v2 | ( ~ ( v6 ) ) | ( {$box} @ ( ~ ( v5 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) ) ) .
-thf ( persat12 , axiom , ( v2 | ( {$box} @ v4 ) | ( {$box} @ ( {$box} @ v5 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
-thf ( persat13 , axiom , ( v3 | v5 | ( ~ ( v7 ) ) | ( {$box} @ ( {$box} @ v3 ) ) ) ) .
-thf ( persat14 , axiom , ( v3 | v8 | ( {$box} @ ( ~ ( v4 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
-thf ( persat15 , axiom , ( v3 | ( ~ ( v4 ) ) | ( {$box} @ ( ~ ( v4 ) ) ) | ( {$box} @ ( {$box} @ v5 ) ) ) ) .
-thf ( persat16 , axiom , ( v3 | ( ~ ( v4 ) ) | ( {$box} @ ( ~ ( v8 ) ) ) | ( {$box} @ ( {$box} @ v7 ) ) ) ) .
-thf ( persat17 , axiom , ( v3 | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v6 ) ) ) | ( {$box} @ ( {$box} @ v4 ) ) ) ) .
-thf ( persat18 , axiom , ( v4 | v6 | ( {$box} @ ( {$box} @ v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
-thf ( persat19 , axiom , ( v4 | v7 | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) ) ) .
-thf ( persat20 , axiom , ( v4 | ( ~ ( v7 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( {$box} @ v6 ) ) ) ) .
-thf ( persat21 , axiom , ( v4 | ( {$box} @ v8 ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ v6 ) ) ) ) .
-thf ( persat22 , axiom , ( v4 | ( {$box} @ v8 ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
-thf ( persat23 , axiom , ( v5 | v8 | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
-thf ( persat24 , axiom , ( v5 | ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v6 ) ) ) ) .
-thf ( persat25 , axiom , ( v5 | ( {$box} @ v1 ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
-thf ( persat26 , axiom , ( v5 | ( {$box} @ v4 ) | ( {$box} @ ( {$box} @ v3 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) ) ) .
-thf ( persat27 , axiom , ( v5 | ( {$box} @ v5 ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) ) ) .
-thf ( persat28 , axiom , ( v6 | ( ~ ( v1 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
-thf ( persat29 , axiom , ( v6 | ( {$box} @ v7 ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) ) ) .
-thf ( persat30 , axiom , ( v6 | ( {$box} @ ( {$box} @ v3 ) ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
-thf ( persat31 , axiom , ( v7 | ( ~ ( v3 ) ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
-thf ( persat32 , axiom , ( v8 | ( ~ ( v1 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
-thf ( persat33 , axiom , ( v8 | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v2 ) ) ) ) .
-thf ( persat34 , axiom , ( v8 | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( {$box} @ v3 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
-thf ( persat35 , axiom , ( v8 | ( {$box} @ ( ~ ( v6 ) ) ) | ( {$box} @ ( ~ ( v8 ) ) ) | ( {$box} @ ( {$box} @ v1 ) ) ) ) .
-thf ( persat36 , axiom , ( ( ~ ( v2 ) ) | ( ~ ( v4 ) ) | ( {$box} @ v5 ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
-thf ( persat37 , axiom , ( ( ~ ( v2 ) ) | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( {$box} @ v1 ) ) ) ) .
-thf ( persat38 , axiom , ( ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v5 ) ) ) ) .
-thf ( persat39 , axiom , ( ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( {$box} @ v2 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
-thf ( persat40 , axiom , ( ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
-thf ( persat41 , axiom , ( ( ~ ( v3 ) ) | ( ~ ( v7 ) ) | ( {$box} @ v2 ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
-thf ( persat42 , axiom , ( ( ~ ( v3 ) ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) ) ) .
-thf ( persat43 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v5 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v8 ) ) ) ) .
-thf ( persat44 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
-thf ( persat45 , axiom , ( ( ~ ( v4 ) ) | ( {$box} @ v2 ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( {$box} @ v5 ) ) ) ) .
-thf ( persat46 , axiom , ( ( ~ ( v5 ) ) | ( ~ ( v6 ) ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
-thf ( persat47 , axiom , ( ( ~ ( v5 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
-thf ( persat48 , axiom , ( ( ~ ( v6 ) ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
-thf ( persat49 , axiom , ( ( ~ ( v8 ) ) | ( {$box} @ v4 ) | ( {$box} @ ( ~ ( v5 ) ) ) | ( {$box} @ ( {$box} @ v1 ) ) ) ) .
-thf ( persat50 , axiom , ( ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) ) ) .
-thf ( deontic1 , axiom , ( $dia @ $true ) ) .
-thf ( result1 , conjecture , $false ) .
+thf( persat1 , axiom , ( v1 | v6 | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) ) ) .
+thf( persat2 , axiom , ( v1 | ( ~ ( v5 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
+thf( persat3 , axiom , ( v1 | ( ~ ( v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) ) ) .
+thf( persat4 , axiom , ( v1 | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
+thf( persat5 , axiom , ( v2 | v3 | ( ~ ( v6 ) ) | ( {$box} @ ( {$box} @ v3 ) ) ) ) .
+thf( persat6 , axiom , ( v2 | v3 | ( {$box} @ v8 ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
+thf( persat7 , axiom , ( v2 | v3 | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ v8 ) ) ) ) .
+thf( persat8 , axiom , ( v2 | v6 | ( ~ ( v1 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
+thf( persat9 , axiom , ( v2 | ( ~ ( v4 ) ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ v7 ) ) ) ) .
+thf( persat10 , axiom , ( v2 | ( ~ ( v5 ) ) | ( {$box} @ v2 ) | ( {$box} @ ( {$box} @ v7 ) ) ) ) .
+thf( persat11 , axiom , ( v2 | ( ~ ( v6 ) ) | ( {$box} @ ( ~ ( v5 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) ) ) .
+thf( persat12 , axiom , ( v2 | ( {$box} @ v4 ) | ( {$box} @ ( {$box} @ v5 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
+thf( persat13 , axiom , ( v3 | v5 | ( ~ ( v7 ) ) | ( {$box} @ ( {$box} @ v3 ) ) ) ) .
+thf( persat14 , axiom , ( v3 | v8 | ( {$box} @ ( ~ ( v4 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
+thf( persat15 , axiom , ( v3 | ( ~ ( v4 ) ) | ( {$box} @ ( ~ ( v4 ) ) ) | ( {$box} @ ( {$box} @ v5 ) ) ) ) .
+thf( persat16 , axiom , ( v3 | ( ~ ( v4 ) ) | ( {$box} @ ( ~ ( v8 ) ) ) | ( {$box} @ ( {$box} @ v7 ) ) ) ) .
+thf( persat17 , axiom , ( v3 | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v6 ) ) ) | ( {$box} @ ( {$box} @ v4 ) ) ) ) .
+thf( persat18 , axiom , ( v4 | v6 | ( {$box} @ ( {$box} @ v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
+thf( persat19 , axiom , ( v4 | v7 | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) ) ) .
+thf( persat20 , axiom , ( v4 | ( ~ ( v7 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( {$box} @ v6 ) ) ) ) .
+thf( persat21 , axiom , ( v4 | ( {$box} @ v8 ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ v6 ) ) ) ) .
+thf( persat22 , axiom , ( v4 | ( {$box} @ v8 ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
+thf( persat23 , axiom , ( v5 | v8 | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
+thf( persat24 , axiom , ( v5 | ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v6 ) ) ) ) .
+thf( persat25 , axiom , ( v5 | ( {$box} @ v1 ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
+thf( persat26 , axiom , ( v5 | ( {$box} @ v4 ) | ( {$box} @ ( {$box} @ v3 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) ) ) .
+thf( persat27 , axiom , ( v5 | ( {$box} @ v5 ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) ) ) .
+thf( persat28 , axiom , ( v6 | ( ~ ( v1 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
+thf( persat29 , axiom , ( v6 | ( {$box} @ v7 ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v7 ) ) ) ) ) ) .
+thf( persat30 , axiom , ( v6 | ( {$box} @ ( {$box} @ v3 ) ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
+thf( persat31 , axiom , ( v7 | ( ~ ( v3 ) ) | ( {$box} @ ( {$box} @ v6 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
+thf( persat32 , axiom , ( v8 | ( ~ ( v1 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
+thf( persat33 , axiom , ( v8 | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v2 ) ) ) ) .
+thf( persat34 , axiom , ( v8 | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( {$box} @ v3 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
+thf( persat35 , axiom , ( v8 | ( {$box} @ ( ~ ( v6 ) ) ) | ( {$box} @ ( ~ ( v8 ) ) ) | ( {$box} @ ( {$box} @ v1 ) ) ) ) .
+thf( persat36 , axiom , ( ( ~ ( v2 ) ) | ( ~ ( v4 ) ) | ( {$box} @ v5 ) | ( {$box} @ ( {$box} @ ( ~ ( v2 ) ) ) ) ) ) .
+thf( persat37 , axiom , ( ( ~ ( v2 ) ) | ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v2 ) ) ) | ( {$box} @ ( {$box} @ v1 ) ) ) ) .
+thf( persat38 , axiom , ( ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v5 ) ) ) ) .
+thf( persat39 , axiom , ( ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( {$box} @ v2 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
+thf( persat40 , axiom , ( ( ~ ( v2 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
+thf( persat41 , axiom , ( ( ~ ( v3 ) ) | ( ~ ( v7 ) ) | ( {$box} @ v2 ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) ) ) .
+thf( persat42 , axiom , ( ( ~ ( v3 ) ) | ( {$box} @ v8 ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) ) ) .
+thf( persat43 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v5 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ v8 ) ) ) ) .
+thf( persat44 , axiom , ( ( ~ ( v4 ) ) | ( ~ ( v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v8 ) ) ) ) ) ) .
+thf( persat45 , axiom , ( ( ~ ( v4 ) ) | ( {$box} @ v2 ) | ( {$box} @ ( ~ ( v1 ) ) ) | ( {$box} @ ( {$box} @ v5 ) ) ) ) .
+thf( persat46 , axiom , ( ( ~ ( v5 ) ) | ( ~ ( v6 ) ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v6 ) ) ) ) ) ) .
+thf( persat47 , axiom , ( ( ~ ( v5 ) ) | ( {$box} @ ( ~ ( v7 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v3 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
+thf( persat48 , axiom , ( ( ~ ( v6 ) ) | ( {$box} @ ( {$box} @ v4 ) ) | ( {$box} @ ( {$box} @ v8 ) ) | ( {$box} @ ( {$box} @ ( ~ ( v4 ) ) ) ) ) ) .
+thf( persat49 , axiom , ( ( ~ ( v8 ) ) | ( {$box} @ v4 ) | ( {$box} @ ( ~ ( v5 ) ) ) | ( {$box} @ ( {$box} @ v1 ) ) ) ) .
+thf( persat50 , axiom , ( ( ~ ( v8 ) ) | ( {$box} @ ( ~ ( v3 ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v1 ) ) ) ) | ( {$box} @ ( {$box} @ ( ~ ( v5 ) ) ) ) ) ) .
+thf( deontic1 , axiom , ( $dia @ $true ) ) .
+thf( result1 , conjecture , $false ) .

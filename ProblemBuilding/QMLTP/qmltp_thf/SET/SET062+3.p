@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -47,9 +51,9 @@ thf(empty_type,type,(empty : ($i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( empty_set_defn , axiom , ( ! [ B :$i ] : ~ ( ( member @ B @ empty_set ) ) ) ) .
-thf ( subset_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( subset @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) => ( member @ D @ C ) ) ) ) ) .
-thf ( reflexivity_of_subset , axiom , ( ! [ B :$i ] : ( subset @ B @ B ) ) ) .
-thf ( empty_defn , axiom , ( ! [ B :$i ] : ( ( empty @ B ) <=> ! [ C :$i ] : ~ ( ( member @ C @ B ) ) ) ) ) .
-thf ( prove_empty_set_subset , conjecture , ( ! [ B :$i ] : ( subset @ empty_set @ B ) ) ) .
+thf( empty_set_defn , axiom , ( ! [ B :$i ] : ~ ( ( member @ B @ empty_set ) ) ) ) .
+thf( subset_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( subset @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) => ( member @ D @ C ) ) ) ) ) .
+thf( reflexivity_of_subset , axiom , ( ! [ B :$i ] : ( subset @ B @ B ) ) ) .
+thf( empty_defn , axiom , ( ! [ B :$i ] : ( ( empty @ B ) <=> ! [ C :$i ] : ~ ( ( member @ C @ B ) ) ) ) ) .
+thf( prove_empty_set_subset , conjecture , ( ! [ B :$i ] : ( subset @ empty_set @ B ) ) ) .
 %------------------------------------------------------------------------------

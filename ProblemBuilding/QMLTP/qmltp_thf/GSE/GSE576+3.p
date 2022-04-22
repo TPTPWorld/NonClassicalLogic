@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -47,8 +51,8 @@ thf(member_type,type,(member : ($i>$i>$o))).
 %
 % Comments : equality axioms included
 %--------------------------------------------------------------------------
-thf ( intersect_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) & ( {$box} @ ( ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) => ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
-thf ( disjoint_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( disjoint @ B @ C ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ~ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) => ( {$box} @ ( ( disjoint @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
-thf ( symmetry_of_intersect , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( {$box} @ ( ( intersect @ C @ B ) ) ) ) ) ) ) ) ) ) .
-thf ( prove_th17 , conjecture , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( {$box} @ ( ( member @ D @ B ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ( disjoint @ B @ C ) ) ) ) ) ) ) ) ) ) .
+thf( intersect_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) & ( {$box} @ ( ( ? [ D :$i ] : ( ( {$box} @ ( ( member @ D @ B ) ) ) & ( {$box} @ ( ( member @ D @ C ) ) ) ) ) => ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
+thf( disjoint_defn , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( ( {$box} @ ( ( {$box} @ ( ( disjoint @ B @ C ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) ) ) & ( {$box} @ ( ( {$box} @ ( ~ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) ) ) ) => ( {$box} @ ( ( disjoint @ B @ C ) ) ) ) ) ) ) ) ) ) ) .
+thf( symmetry_of_intersect , axiom , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ( intersect @ B @ C ) ) ) => ( {$box} @ ( ( intersect @ C @ B ) ) ) ) ) ) ) ) ) ) .
+thf( prove_th17 , conjecture , ( {$box} @ ( ! [ B :$i ] : ( {$box} @ ( ! [ C :$i ] : ( {$box} @ ( ( {$box} @ ( ! [ D :$i ] : ( {$box} @ ( ( {$box} @ ( ( member @ D @ B ) ) ) => ( {$box} @ ( ~ ( ( {$box} @ ( ( member @ D @ C ) ) ) ) ) ) ) ) ) ) => ( {$box} @ ( ( disjoint @ B @ C ) ) ) ) ) ) ) ) ) ) .
 %--------------------------------------------------------------------------

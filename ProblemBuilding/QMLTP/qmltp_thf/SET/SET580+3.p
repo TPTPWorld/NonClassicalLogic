@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -44,22 +48,22 @@ thf(union_type,type,(union : ($i>$i>$i))).
 %  term conditions for all terms: designation: rigid, extension: local
 % Comments :
 %--------------------------------------------------------------------------
-thf ( reflexivity , axiom , ( ! [ X :$i ] : ( qmltpeq @ X @ X ) ) ) .
-thf ( symmetry , axiom , ( ! [ X :$i , Y :$i ] : ( ( qmltpeq @ X @ Y ) => ( qmltpeq @ Y @ X ) ) ) ) .
-thf ( transitivity , axiom , ( ! [ X :$i , Y :$i , Z :$i ] : ( ( ( qmltpeq @ X @ Y ) & ( qmltpeq @ Y @ Z ) ) => ( qmltpeq @ X @ Z ) ) ) ) .
-thf ( difference_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( difference @ A @ C ) @ ( difference @ B @ C ) ) ) ) ) .
-thf ( difference_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( difference @ C @ A ) @ ( difference @ C @ B ) ) ) ) ) .
-thf ( symmetric_difference_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( symmetric_difference @ A @ C ) @ ( symmetric_difference @ B @ C ) ) ) ) ) .
-thf ( symmetric_difference_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( symmetric_difference @ C @ A ) @ ( symmetric_difference @ C @ B ) ) ) ) ) .
-thf ( union_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( union @ A @ C ) @ ( union @ B @ C ) ) ) ) ) .
-thf ( union_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( union @ C @ A ) @ ( union @ C @ B ) ) ) ) ) .
-thf ( member_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( member @ A @ C ) ) => ( member @ B @ C ) ) ) ) .
-thf ( member_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( member @ C @ A ) ) => ( member @ C @ B ) ) ) ) .
-thf ( union_defn , axiom , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ D @ ( union @ B @ C ) ) <=> ( ( member @ D @ B ) | ( member @ D @ C ) ) ) ) ) .
-thf ( difference_defn , axiom , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ D @ ( difference @ B @ C ) ) <=> ( ( member @ D @ B ) & ~ ( ( member @ D @ C ) ) ) ) ) ) .
-thf ( symmetric_difference_defn , axiom , ( ! [ B :$i , C :$i ] : ( qmltpeq @ ( symmetric_difference @ B @ C ) @ ( union @ ( difference @ B @ C ) @ ( difference @ C @ B ) ) ) ) ) .
-thf ( commutativity_of_union , axiom , ( ! [ B :$i , C :$i ] : ( qmltpeq @ ( union @ B @ C ) @ ( union @ C @ B ) ) ) ) .
-thf ( commutativity_of_symmetric_difference , axiom , ( ! [ B :$i , C :$i ] : ( qmltpeq @ ( symmetric_difference @ B @ C ) @ ( symmetric_difference @ C @ B ) ) ) ) .
-thf ( equal_member_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( qmltpeq @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) <=> ( member @ D @ C ) ) ) ) ) .
-thf ( prove_th23 , conjecture , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ B @ ( symmetric_difference @ C @ D ) ) <=> ~ ( ( ( member @ B @ C ) <=> ( member @ B @ D ) ) ) ) ) ) .
+thf( reflexivity , axiom , ( ! [ X :$i ] : ( qmltpeq @ X @ X ) ) ) .
+thf( symmetry , axiom , ( ! [ X :$i , Y :$i ] : ( ( qmltpeq @ X @ Y ) => ( qmltpeq @ Y @ X ) ) ) ) .
+thf( transitivity , axiom , ( ! [ X :$i , Y :$i , Z :$i ] : ( ( ( qmltpeq @ X @ Y ) & ( qmltpeq @ Y @ Z ) ) => ( qmltpeq @ X @ Z ) ) ) ) .
+thf( difference_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( difference @ A @ C ) @ ( difference @ B @ C ) ) ) ) ) .
+thf( difference_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( difference @ C @ A ) @ ( difference @ C @ B ) ) ) ) ) .
+thf( symmetric_difference_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( symmetric_difference @ A @ C ) @ ( symmetric_difference @ B @ C ) ) ) ) ) .
+thf( symmetric_difference_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( symmetric_difference @ C @ A ) @ ( symmetric_difference @ C @ B ) ) ) ) ) .
+thf( union_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( union @ A @ C ) @ ( union @ B @ C ) ) ) ) ) .
+thf( union_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( union @ C @ A ) @ ( union @ C @ B ) ) ) ) ) .
+thf( member_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( member @ A @ C ) ) => ( member @ B @ C ) ) ) ) .
+thf( member_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( member @ C @ A ) ) => ( member @ C @ B ) ) ) ) .
+thf( union_defn , axiom , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ D @ ( union @ B @ C ) ) <=> ( ( member @ D @ B ) | ( member @ D @ C ) ) ) ) ) .
+thf( difference_defn , axiom , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ D @ ( difference @ B @ C ) ) <=> ( ( member @ D @ B ) & ~ ( ( member @ D @ C ) ) ) ) ) ) .
+thf( symmetric_difference_defn , axiom , ( ! [ B :$i , C :$i ] : ( qmltpeq @ ( symmetric_difference @ B @ C ) @ ( union @ ( difference @ B @ C ) @ ( difference @ C @ B ) ) ) ) ) .
+thf( commutativity_of_union , axiom , ( ! [ B :$i , C :$i ] : ( qmltpeq @ ( union @ B @ C ) @ ( union @ C @ B ) ) ) ) .
+thf( commutativity_of_symmetric_difference , axiom , ( ! [ B :$i , C :$i ] : ( qmltpeq @ ( symmetric_difference @ B @ C ) @ ( symmetric_difference @ C @ B ) ) ) ) .
+thf( equal_member_defn , axiom , ( ! [ B :$i , C :$i ] : ( ( qmltpeq @ B @ C ) <=> ! [ D :$i ] : ( ( member @ D @ B ) <=> ( member @ D @ C ) ) ) ) ) .
+thf( prove_th23 , conjecture , ( ! [ B :$i , C :$i , D :$i ] : ( ( member @ B @ ( symmetric_difference @ C @ D ) ) <=> ~ ( ( ( member @ B @ C ) <=> ( member @ B @ D ) ) ) ) ) ) .
 %------------------------------------------------------------------------------

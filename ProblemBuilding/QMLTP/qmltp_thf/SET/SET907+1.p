@@ -1,4 +1,8 @@
 % semantics
+thf(semantics,logic,$modal ==
+[$constants == $rigid,
+$quantification == $constant,
+$modalities == $modal_system_S5]).
 % modalities
 
 % propositions
@@ -43,28 +47,28 @@ thf(set_union2_type,type,(set_union2 : ($i>$i>$i))).
 %  term conditions for all terms: designation: rigid, extension: local
 % Comments :
 %--------------------------------------------------------------------------
-thf ( reflexivity , axiom , ( ! [ X :$i ] : ( qmltpeq @ X @ X ) ) ) .
-thf ( symmetry , axiom , ( ! [ X :$i , Y :$i ] : ( ( qmltpeq @ X @ Y ) => ( qmltpeq @ Y @ X ) ) ) ) .
-thf ( transitivity , axiom , ( ! [ X :$i , Y :$i , Z :$i ] : ( ( ( qmltpeq @ X @ Y ) & ( qmltpeq @ Y @ Z ) ) => ( qmltpeq @ X @ Z ) ) ) ) .
-thf ( set_union2_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( set_union2 @ A @ C ) @ ( set_union2 @ B @ C ) ) ) ) ) .
-thf ( set_union2_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( set_union2 @ C @ A ) @ ( set_union2 @ C @ B ) ) ) ) ) .
-thf ( unordered_pair_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( unordered_pair @ A @ C ) @ ( unordered_pair @ B @ C ) ) ) ) ) .
-thf ( unordered_pair_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( unordered_pair @ C @ A ) @ ( unordered_pair @ C @ B ) ) ) ) ) .
-thf ( empty_substitution_1 , axiom , ( ! [ A :$i , B :$i ] : ( ( ( qmltpeq @ A @ B ) & ( empty @ A ) ) => ( empty @ B ) ) ) ) .
-thf ( in_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( in @ A @ C ) ) => ( in @ B @ C ) ) ) ) .
-thf ( in_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( in @ C @ A ) ) => ( in @ C @ B ) ) ) ) .
-thf ( subset_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( subset @ A @ C ) ) => ( subset @ B @ C ) ) ) ) .
-thf ( subset_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( subset @ C @ A ) ) => ( subset @ C @ B ) ) ) ) .
-thf ( antisymmetry_r2_hidden , axiom , ( ! [ A :$i , B :$i ] : ( ( in @ A @ B ) => ~ ( ( in @ B @ A ) ) ) ) ) .
-thf ( commutativity_k2_tarski , axiom , ( ! [ A :$i , B :$i ] : ( qmltpeq @ ( unordered_pair @ A @ B ) @ ( unordered_pair @ B @ A ) ) ) ) .
-thf ( commutativity_k2_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( qmltpeq @ ( set_union2 @ A @ B ) @ ( set_union2 @ B @ A ) ) ) ) .
-thf ( fc2_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( ~ ( ( empty @ A ) ) => ~ ( ( empty @ ( set_union2 @ A @ B ) ) ) ) ) ) .
-thf ( fc3_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( ~ ( ( empty @ A ) ) => ~ ( ( empty @ ( set_union2 @ B @ A ) ) ) ) ) ) .
-thf ( idempotence_k2_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( qmltpeq @ ( set_union2 @ A @ A ) @ A ) ) ) .
-thf ( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( empty @ A ) ) ) .
-thf ( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ~ ( ( empty @ A ) ) ) ) .
-thf ( reflexivity_r1_tarski , axiom , ( ! [ A :$i , B :$i ] : ( subset @ A @ A ) ) ) .
-thf ( t12_xboole_1 , axiom , ( ! [ A :$i , B :$i ] : ( ( subset @ A @ B ) => ( qmltpeq @ ( set_union2 @ A @ B ) @ B ) ) ) ) .
-thf ( t38_zfmisc_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( subset @ ( unordered_pair @ A @ B ) @ C ) <=> ( ( in @ A @ C ) & ( in @ B @ C ) ) ) ) ) .
-thf ( t48_zfmisc_1 , conjecture , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( in @ A @ B ) & ( in @ C @ B ) ) => ( qmltpeq @ ( set_union2 @ ( unordered_pair @ A @ C ) @ B ) @ B ) ) ) ) .
+thf( reflexivity , axiom , ( ! [ X :$i ] : ( qmltpeq @ X @ X ) ) ) .
+thf( symmetry , axiom , ( ! [ X :$i , Y :$i ] : ( ( qmltpeq @ X @ Y ) => ( qmltpeq @ Y @ X ) ) ) ) .
+thf( transitivity , axiom , ( ! [ X :$i , Y :$i , Z :$i ] : ( ( ( qmltpeq @ X @ Y ) & ( qmltpeq @ Y @ Z ) ) => ( qmltpeq @ X @ Z ) ) ) ) .
+thf( set_union2_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( set_union2 @ A @ C ) @ ( set_union2 @ B @ C ) ) ) ) ) .
+thf( set_union2_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( set_union2 @ C @ A ) @ ( set_union2 @ C @ B ) ) ) ) ) .
+thf( unordered_pair_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( unordered_pair @ A @ C ) @ ( unordered_pair @ B @ C ) ) ) ) ) .
+thf( unordered_pair_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( qmltpeq @ A @ B ) => ( qmltpeq @ ( unordered_pair @ C @ A ) @ ( unordered_pair @ C @ B ) ) ) ) ) .
+thf( empty_substitution_1 , axiom , ( ! [ A :$i , B :$i ] : ( ( ( qmltpeq @ A @ B ) & ( empty @ A ) ) => ( empty @ B ) ) ) ) .
+thf( in_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( in @ A @ C ) ) => ( in @ B @ C ) ) ) ) .
+thf( in_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( in @ C @ A ) ) => ( in @ C @ B ) ) ) ) .
+thf( subset_substitution_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( subset @ A @ C ) ) => ( subset @ B @ C ) ) ) ) .
+thf( subset_substitution_2 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( qmltpeq @ A @ B ) & ( subset @ C @ A ) ) => ( subset @ C @ B ) ) ) ) .
+thf( antisymmetry_r2_hidden , axiom , ( ! [ A :$i , B :$i ] : ( ( in @ A @ B ) => ~ ( ( in @ B @ A ) ) ) ) ) .
+thf( commutativity_k2_tarski , axiom , ( ! [ A :$i , B :$i ] : ( qmltpeq @ ( unordered_pair @ A @ B ) @ ( unordered_pair @ B @ A ) ) ) ) .
+thf( commutativity_k2_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( qmltpeq @ ( set_union2 @ A @ B ) @ ( set_union2 @ B @ A ) ) ) ) .
+thf( fc2_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( ~ ( ( empty @ A ) ) => ~ ( ( empty @ ( set_union2 @ A @ B ) ) ) ) ) ) .
+thf( fc3_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( ~ ( ( empty @ A ) ) => ~ ( ( empty @ ( set_union2 @ B @ A ) ) ) ) ) ) .
+thf( idempotence_k2_xboole_0 , axiom , ( ! [ A :$i , B :$i ] : ( qmltpeq @ ( set_union2 @ A @ A ) @ A ) ) ) .
+thf( rc1_xboole_0 , axiom , ( ? [ A :$i ] : ( empty @ A ) ) ) .
+thf( rc2_xboole_0 , axiom , ( ? [ A :$i ] : ~ ( ( empty @ A ) ) ) ) .
+thf( reflexivity_r1_tarski , axiom , ( ! [ A :$i , B :$i ] : ( subset @ A @ A ) ) ) .
+thf( t12_xboole_1 , axiom , ( ! [ A :$i , B :$i ] : ( ( subset @ A @ B ) => ( qmltpeq @ ( set_union2 @ A @ B ) @ B ) ) ) ) .
+thf( t38_zfmisc_1 , axiom , ( ! [ A :$i , B :$i , C :$i ] : ( ( subset @ ( unordered_pair @ A @ B ) @ C ) <=> ( ( in @ A @ C ) & ( in @ B @ C ) ) ) ) ) .
+thf( t48_zfmisc_1 , conjecture , ( ! [ A :$i , B :$i , C :$i ] : ( ( ( in @ A @ B ) & ( in @ C @ B ) ) => ( qmltpeq @ ( set_union2 @ ( unordered_pair @ A @ C ) @ B ) @ B ) ) ) ) .
 %------------------------------------------------------------------------------

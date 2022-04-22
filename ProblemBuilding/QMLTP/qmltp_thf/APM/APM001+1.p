@@ -1,8 +1,8 @@
 % semantics
-thf(semantics,logic,($modal ==
+thf(semantics,logic,$modal ==
 [$constants == $rigid,
 $quantification == $cumulative,
-$modalities == $modal_system_S4])).
+$modalities == $modal_system_S4]).
 
 % modalities
 

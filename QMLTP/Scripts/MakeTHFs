@@ -4,6 +4,6 @@
 foreach problem (*/*.p)
     set name = `basename $problem .p`
     set domain = `dirname $problem`
-    java -jar ~/Systems/NTF2THF---1.7.2/logic-embedding-app.jar $problem > ../qmltp_THF_SEMs/$domain/${name}.p
+    java -jar ~/Systems/NTF2THF---1.7.2/logic-embedding-app.jar $problem > ../5_THF_S5U/$domain/${name}.p
     echo "Done $name"
 end

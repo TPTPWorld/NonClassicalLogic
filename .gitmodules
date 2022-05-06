@@ -1,0 +1,3 @@
+[submodule "QMLTP/TobiasGleissnerQMLTP"]
+	path = QMLTP/TobiasGleissnerQMLTP
+	url = https://github.com/TobiasGleissner/QMLTP.git

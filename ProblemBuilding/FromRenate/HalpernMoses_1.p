@@ -4,7 +4,7 @@ tff(k_constant_rigid,logic, ( $modal ==
      $modalities == $modal_system_K
     ] )).
 
-tff(prove,conjecture,
+tff(prove,axiom,
     ~ ( d0
       & ~d1
       & ( d1 => d0 )

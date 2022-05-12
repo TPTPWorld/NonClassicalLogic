@@ -1,11 +1,12 @@
-The 0_QMF-v1.1 directory is the original from the QMLTP library (I believe!).
-It includes Axioms (none of which are used) and Documents (with results from
-experiments, etc.)
+The 0_QMF-v1.1 directory not in the repository. Locally it is the original 
+QMLTP library (I believe!). It includes Axioms (none of which are used) and 
+Documents (with results from experiments, etc.). The 0_QMF-v1.1.md file
+provides direct links to the QMLTP online.
 
-The 1_QMF directory is just the Problems from 0_QMF-v1.1, so I had a clean
-starting point.
+The 1_QMF directory is not in the repository. Locally it is just the 
+Problems from 0_QMF-v1.1, so I had a clean starting point.
 
-The 2_NH0 is the Problems in THF with your corrections, a default semantics
+The 2_NH0 is the Problems in THF with corrections, a default semantics
 specification, and types. I converted the "#box :" style to "{$box} @".
 
 The 3_NX0 is 2_NH0 converted to NX0, done by Alex using one of his tools.

@@ -19,5 +19,3 @@ constants that we can't process yet. Now also merged in the non-flexible
 S5 problems from 4_NX0_SEMs but with S5U.
 
 The 5_THF directory is 4_NX0_SEMs converted to TH0 by the embedding tool.
-
-The 5_THF_S5U directory is 4_NX0_S5U converted to TH0 by the embedding tool.

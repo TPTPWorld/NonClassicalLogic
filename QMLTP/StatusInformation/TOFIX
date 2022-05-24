@@ -1,0 +1,130 @@
+1589,1593d1597
+< GSE016^1.005_s5_constant_rigid.p
+< GSE016^1.006_s5u_constant_rigid.p
+< GSE016^1.007_k_varying_rigid.p
+< GSE016^1.008_t_varying_rigid.p
+< GSE016^1.009_d_varying_rigid.p
+1608a1613,1614
+> GSE016^2.002_t_constant_rigid.p
+> GSE016^3.003_d_constant_rigid.p
+1632a1639,1643
+> GSE016^5.005_s5_constant_rigid.p
+> GSE016^6.006_s5u_constant_rigid.p
+> GSE016^7.007_k_varying_rigid.p
+> GSE016^8.008_t_varying_rigid.p
+> GSE016^9.009_d_varying_rigid.p
+1661,1665d1671
+< GSE018^1.005_s5_constant_rigid.p
+< GSE018^1.006_s5u_constant_rigid.p
+< GSE018^1.007_k_varying_rigid.p
+< GSE018^1.008_t_varying_rigid.p
+< GSE018^1.009_d_varying_rigid.p
+1704a1711,1716
+> GSE018^5.005_s5_constant_rigid.p
+> GSE018^6.006_s5u_constant_rigid.p
+> GSE018^7.007_k_varying_rigid.p
+> GSE018^8.008_t_varying_rigid.p
+> GSE018^9.009_d_varying_rigid.p
+> GSE019^1.004_s4_constant_rigid.p
+2256a2269
+> GSE573^1.003_d_constant_rigid.p
+2280a2294
+> GSE574^1.003_d_constant_rigid.p
+2304a2319
+> GSE575^1.003_d_constant_rigid.p
+2328a2344
+> GSE576^1.003_d_constant_rigid.p
+2352a2369
+> GSE577^1.003_d_constant_rigid.p
+2376a2394
+> GSE578^1.003_d_constant_rigid.p
+2400a2419
+> GSE579^1.003_d_constant_rigid.p
+2424a2444,2445
+> GSE580^1.003_d_constant_rigid.p
+> GSE580^1.003_k_cumulative_rigid.p
+2437d2457
+< GSE580^3.013_k_cumulative_rigid.p
+2448a2469
+> GSE581^1.003_d_constant_rigid.p
+2472a2494
+> GSE582^1.003_d_constant_rigid.p
+2496a2519
+> GSE583^1.003_d_constant_rigid.p
+4323,4329d4345
+< GSY036^1.003_d_constant_rigid.p
+< GSY036^1.004_s4_constant_rigid.p
+< GSY036^1.005_s5_constant_rigid.p
+< GSY036^1.006_s5u_constant_rigid.p
+< GSY036^1.007_k_varying_rigid.p
+< GSY036^1.008_t_varying_rigid.p
+< GSY036^1.009_d_varying_rigid.p
+4368a4385,4391
+> GSY036^3.003_d_constant_rigid.p
+> GSY036^4.004_s4_constant_rigid.p
+> GSY036^5.005_s5_constant_rigid.p
+> GSY036^6.006_s5u_constant_rigid.p
+> GSY036^7.007_k_varying_rigid.p
+> GSY036^8.008_t_varying_rigid.p
+> GSY036^9.009_d_varying_rigid.p
+6720a6744,6745
+> SET002^1.003_d_constant_rigid.p
+> SET002^1.004_s4_constant_rigid.p
+6768a6794
+> SET008^1.003_d_constant_rigid.p
+6792a6819
+> SET009^1.003_d_constant_rigid.p
+6816a6844
+> SET010^1.003_d_constant_rigid.p
+6840a6869
+> SET011^1.003_d_constant_rigid.p
+6864a6894
+> SET012^1.004_s4_constant_rigid.p
+6888a6919
+> SET013^1.004_s4_constant_rigid.p
+6912a6944,6945
+> SET014^1.003_d_constant_rigid.p
+> SET014^1.004_s4_constant_rigid.p
+6960a6994
+> SET015^1.004_s4_constant_rigid.p
+6986,6987d7019
+< SET016^1.002_t_constant_rigid.p
+< SET016^1.003_d_constant_rigid.p
+7008a7041,7042
+> SET016^2.002_t_constant_rigid.p
+> SET016^3.003_d_constant_rigid.p
+7104a7139
+> SET019^1.004_s4_constant_rigid.p
+7589,7593d7623
+< SET063^1.005_s5_constant_rigid.p
+< SET063^1.006_s5u_constant_rigid.p
+< SET063^1.007_k_varying_rigid.p
+< SET063^1.008_t_varying_rigid.p
+< SET063^1.009_d_varying_rigid.p
+7656a7687,7692
+> SET063^5.005_s5_constant_rigid.p
+> SET063^6.006_s5u_constant_rigid.p
+> SET063^7.007_k_varying_rigid.p
+> SET063^8.008_t_varying_rigid.p
+> SET063^9.009_d_varying_rigid.p
+> SET573^1.003_d_constant_rigid.p
+7680a7717
+> SET574^1.003_d_constant_rigid.p
+7704a7742
+> SET575^1.003_d_constant_rigid.p
+7728a7767
+> SET576^1.003_d_constant_rigid.p
+7752a7792
+> SET577^1.003_d_constant_rigid.p
+7776a7817
+> SET578^1.003_d_constant_rigid.p
+7800a7842
+> SET579^1.003_d_constant_rigid.p
+7824a7867
+> SET580^1.003_d_constant_rigid.p
+7848a7892
+> SET581^1.003_d_constant_rigid.p
+7872a7917
+> SET582^1.003_d_constant_rigid.p
+7896a7942
+> SET583^1.003_d_constant_rigid.p

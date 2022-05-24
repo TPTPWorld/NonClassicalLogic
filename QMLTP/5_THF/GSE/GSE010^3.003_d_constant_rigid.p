@@ -8,7 +8,7 @@
 % Refs     : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
-% Names    : APM001+1 [QMLTP]
+% Names    : GSE010+1 [QMLTP]
 
 % Status   : Theorem
 % Rating   : ? v8.1.0

@@ -5,7 +5,8 @@
 % Version  : TBA
 % English  : TBA
 
-% Refs     : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+% Refs     : [Sto99] Stone (1999), Indefinite Information in Modal Logic Pr
+%          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML019+1 [QMLTP]

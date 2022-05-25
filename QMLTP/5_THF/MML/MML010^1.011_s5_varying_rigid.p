@@ -5,7 +5,8 @@
 % Version  : TBA
 % English  : TBA
 
-% Refs     : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+% Refs     : [KP95]  Kobsa & Pohl (1995), The User Modeling Shell System BG
+%          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML010+1 [QMLTP]

@@ -5,7 +5,8 @@
 % Version  : TBA
 % English  : TBA
 
-% Refs     : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+% Refs     : [Sto98] Stone (1998), Abductive Planning with Sensing
+%          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM005+1 [QMLTP]

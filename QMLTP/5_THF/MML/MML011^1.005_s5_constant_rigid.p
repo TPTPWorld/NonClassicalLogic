@@ -5,7 +5,8 @@
 % Version  : TBA
 % English  : TBA
 
-% Refs     : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+% Refs     : [HA97]  Huima & Aura (1997), Using Multimodal Logic to Express
+%          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML011+1 [QMLTP]

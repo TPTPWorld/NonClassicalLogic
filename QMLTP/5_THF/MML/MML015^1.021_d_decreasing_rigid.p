@@ -5,7 +5,8 @@
 % Version  : TBA
 % English  : TBA
 
-% Refs     : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+% Refs     : [BS96]  Bretier & Sadek (1996), Rational Agent as the Kernel o
+%          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML015+1 [QMLTP]

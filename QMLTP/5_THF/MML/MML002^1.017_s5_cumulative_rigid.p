@@ -5,7 +5,9 @@
 % Version  : TBA
 % English  : TBA
 
-% Refs     : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+% Refs     : [Gol92] Goldblatt (1992), Logics of Time and Computation
+%          : [Bal98] Baldoni (1998), Normal Multimodal Logics: Automatic De
+%          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML002+1 [QMLTP]

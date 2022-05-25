@@ -1,7 +1,7 @@
 %------------------------------------------------------------------------------
 % File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
 % Domain   : TBA
-% Problem  : TBA
+% Problem  : PSAT - CNF - K=4 C=20 V=4 D=2.1
 % Version  : [BP13] axioms.
 % English  : 
 

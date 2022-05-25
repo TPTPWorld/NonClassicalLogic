@@ -1,7 +1,7 @@
 %------------------------------------------------------------------------------
 % File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
 % Domain   : TBA
-% Problem  : TBA
+% Problem  : Proving disprovability
 % Version  : [BP13] axioms.
 % English  : 
 

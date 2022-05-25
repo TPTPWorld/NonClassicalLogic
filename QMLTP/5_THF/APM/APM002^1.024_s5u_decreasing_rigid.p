@@ -1,7 +1,7 @@
 %------------------------------------------------------------------------------
 % File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
 % Domain   : TBA
-% Problem  : TBA
+% Problem  : Conflict detection of 2 conceptual schemata (e.g. UML-schemata)
 % Version  : [BP13] axioms.
 % English  : 
 

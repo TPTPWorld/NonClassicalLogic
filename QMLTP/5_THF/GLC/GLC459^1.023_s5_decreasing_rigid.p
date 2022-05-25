@@ -1,7 +1,7 @@
 %------------------------------------------------------------------------------
 % File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
 % Domain   : TBA
-% Problem  : TBA
+% Problem  : Goedel translation of LCL459+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
 % English  : 
 

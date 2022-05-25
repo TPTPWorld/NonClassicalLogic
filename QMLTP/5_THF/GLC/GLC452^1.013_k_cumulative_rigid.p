@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GLC452+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Unknown 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :  131 (  11 unt;  53 typ;  10 def)
 %            Number of atoms       :  916 (  10 equ;   0 cnn)

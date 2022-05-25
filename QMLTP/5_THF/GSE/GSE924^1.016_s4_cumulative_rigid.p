@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GSE924+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Theorem 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   47 (  12 unt;  19 typ;  10 def)
 %            Number of atoms       :  214 (  10 equ;   0 cnn)

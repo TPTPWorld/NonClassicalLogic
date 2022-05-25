@@ -11,7 +11,7 @@
 % Source   : [TPTP]
 % Names    : MML017+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Unknown 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   60 (  14 unt;  32 typ;  10 def)
 %            Number of atoms       :  320 (  10 equ;   0 cnn)

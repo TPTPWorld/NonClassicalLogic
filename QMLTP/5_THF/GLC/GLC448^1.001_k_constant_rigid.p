@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GLC448+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Unknown 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :  115 (  10 unt;  51 typ;  10 def)
 %            Number of atoms       :  874 (  10 equ;   0 cnn)

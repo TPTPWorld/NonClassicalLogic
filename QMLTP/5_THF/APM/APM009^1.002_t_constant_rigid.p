@@ -11,7 +11,7 @@
 % Source   : [TPTP]
 % Names    : APM009+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Theorem 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   33 (  11 unt;  20 typ;  10 def)
 %            Number of atoms       :   37 (  10 equ;   0 cnn)

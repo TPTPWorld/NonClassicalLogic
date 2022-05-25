@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : SYM342+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Theorem 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   73 (   9 unt;  31 typ;   8 def)
 %            Number of atoms       :  956 (   8 equ;   0 cnn)

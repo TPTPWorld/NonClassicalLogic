@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GLC230+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Theorem 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   24 (   9 unt;  14 typ;   8 def)
 %            Number of atoms       :   43 (   8 equ;   0 cnn)

@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GAL023+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Countersatisfiable
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   73 (  11 unt;  21 typ;  10 def)
 %            Number of atoms       : 1251 (  10 equ;   0 cnn)

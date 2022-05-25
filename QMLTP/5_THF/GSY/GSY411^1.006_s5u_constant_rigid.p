@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GSY411+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Theorem 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   26 (  11 unt;  14 typ;  10 def)
 %            Number of atoms       :   63 (  10 equ;   0 cnn)

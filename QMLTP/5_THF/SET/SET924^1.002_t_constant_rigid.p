@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : SET924+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Theorem 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   43 (  11 unt;  18 typ;  10 def)
 %            Number of atoms       :  115 (  10 equ;   0 cnn)

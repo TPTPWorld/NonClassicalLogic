@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : NLP002+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Unknown 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :  144 (  12 unt;  51 typ;  10 def)
 %            Number of atoms       :  638 (  10 equ;   0 cnn)

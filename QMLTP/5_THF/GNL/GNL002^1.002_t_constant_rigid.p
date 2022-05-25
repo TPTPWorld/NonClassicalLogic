@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GNL002+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Unknown 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :  141 (  11 unt;  50 typ;  10 def)
 %            Number of atoms       : 1112 (  10 equ;   0 cnn)

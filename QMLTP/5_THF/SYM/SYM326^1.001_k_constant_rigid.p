@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : SYM326+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Countersatisfiable
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   75 (   8 unt;  15 typ;   8 def)
 %            Number of atoms       :  734 (   8 equ;   0 cnn)

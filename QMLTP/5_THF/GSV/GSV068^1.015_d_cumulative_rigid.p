@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GSV068+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Countersatisfiable
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :  204 (  12 unt;  50 typ;  10 def)
 %            Number of atoms       : 1930 (  10 equ;   0 cnn)

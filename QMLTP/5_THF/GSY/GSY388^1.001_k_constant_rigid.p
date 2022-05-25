@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GSY388+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Countersatisfiable
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   21 (   8 unt;  12 typ;   8 def)
 %            Number of atoms       :   30 (   8 equ;   0 cnn)

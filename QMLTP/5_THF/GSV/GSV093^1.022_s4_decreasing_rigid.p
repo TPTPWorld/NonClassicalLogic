@@ -10,7 +10,7 @@
 % Source   : [TPTP]
 % Names    : GSV093+1 [QMLTP]
 
-% Status   : Theorem
+% Status   : Unknown 
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :  224 (  12 unt;  59 typ;  10 def)
 %            Number of atoms       : 2253 (  10 equ;   0 cnn)

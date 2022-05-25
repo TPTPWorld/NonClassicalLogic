@@ -2,11 +2,12 @@
 % File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
 % Domain   : TBA
 % Problem  : TBA
-% Version  : TBA
-% English  : TBA
+% Version  : [BP13] axioms.
+% English  : 
 
 % Refs     : [Rei92] Reiter (1992), What Should a Database Know?
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+%          : [BP13]  Benzmueller & Paulson (2013), Quantified Multimodal Lo
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM008+1 [QMLTP]

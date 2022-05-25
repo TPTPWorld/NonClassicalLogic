@@ -1,12 +1,13 @@
 %------------------------------------------------------------------------------
 % File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% Domain   : Agents
 % Problem  : TBA
-% Version  : TBA
-% English  : TBA
+% Version  : [BP13] axioms.
+% English  : 
 
 % Refs     : [FH+98] Farinas del Cerro et al. (1998), Belief Reconstruction
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+%          : [BP13]  Benzmueller & Paulson (2013), Quantified Multimodal Lo
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM001+1 [QMLTP]

@@ -2,11 +2,12 @@
 % File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
 % Domain   : TBA
 % Problem  : TBA
-% Version  : TBA
-% English  : TBA
+% Version  : [BP13] axioms.
+% English  : 
 
 % Refs     : [Sto98] Stone (1998), Abductive Planning with Sensing
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
+%          : [BP13]  Benzmueller & Paulson (2013), Quantified Multimodal Lo
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM005+1 [QMLTP]

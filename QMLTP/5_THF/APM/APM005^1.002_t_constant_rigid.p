@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : APM005^1.002 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Planning
 % Problem  : Abductive planning: Safe problem
 % Version  : [BP13] axioms.
 % English  : 

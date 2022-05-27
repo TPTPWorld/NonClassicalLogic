@@ -1,9 +1,17 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML008^1.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Puzzles
 % Problem  : Consecutive numbers (Example 2.4)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : Two agents, Anne and Bill, are facing each other. They see a
+%            number on each other's forehead, and those numbers are
+%            consecutive numbers n and n+1 for a certain n in N. They both
+%            know this, and they know that they know it, etc. However, they
+%            do not have any other a priori knowledge about their own number
+%            If Anne's number is 3 and Bill's number is 2, then Anne knows
+%            that Bill knows that Anne knows that Bill's number is 0, 2 or 4,
+%            and Bill knows that Anne knows that Bill knows that Anne's number
+%            is 1, 3 or 5.
 
 % Refs     : [vvK07] van Ditmarsch et al. (2007), Dynamic Epistemic Logic
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

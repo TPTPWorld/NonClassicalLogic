@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML015^1.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Natural Language Processing
 % Problem  : Schema instantiation example 2
 % Version  : [BP13] axioms.
 % English  : 

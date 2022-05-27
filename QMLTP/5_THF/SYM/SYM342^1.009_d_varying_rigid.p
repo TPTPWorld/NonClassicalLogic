@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : SYM342^1.009 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Syntactic
 % Problem  : QBF-CNFSSS-K=4 C=30 V=4 D=4.6
 % Version  : [BP13] axioms.
 % English  : 

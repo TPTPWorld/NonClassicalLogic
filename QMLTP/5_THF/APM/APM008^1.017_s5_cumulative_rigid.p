@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : APM008^1.017 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Data Structures
 % Problem  : Database querying
 % Version  : [BP13] axioms.
 % English  : 

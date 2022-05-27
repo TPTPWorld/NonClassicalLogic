@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : SYM035^1.017 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Syntactic
 % Problem  : Forbes problem
 % Version  : [BP13] axioms.
 % English  : 

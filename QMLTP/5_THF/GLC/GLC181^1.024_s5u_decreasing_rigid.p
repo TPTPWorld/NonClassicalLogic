@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : GLC181^1.024 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Logic Calculi
 % Problem  : Goedel translation of LCL181+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
 % English  : 

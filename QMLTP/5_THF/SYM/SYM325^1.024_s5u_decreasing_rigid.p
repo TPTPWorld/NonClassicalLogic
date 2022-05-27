@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : SYM325^1.024 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Syntactic
 % Problem  : PSAT - CNF - K=4 C=50 V=4 D=2.1
 % Version  : [BP13] axioms.
 % English  : 

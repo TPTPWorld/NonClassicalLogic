@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : APM004^1.008 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Planning
 % Problem  : Abductive planning: Bomb-in-the-toilet with detector
 % Version  : [BP13] axioms.
 % English  : 

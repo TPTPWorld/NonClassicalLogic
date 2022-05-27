@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : GSY036^2.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Logic Calculi
 % Problem  : Goedel translation of SYN036+2 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
 % English  : 

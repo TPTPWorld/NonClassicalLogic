@@ -1,93 +1,91 @@
-APM/APM001^3_d_constant_rigid.p
-APM/APM001^1_k_constant_rigid.p
-APM/APM001^4_s4_constant_rigid.p
-APM/APM001^5_s5_constant_rigid.p
-APM/APM001^18_s5u_cumulative_rigid.p
-APM/APM001^2_t_constant_rigid.p
-APM/APM003^4_s4_constant_rigid.p
-APM/APM003^23_s5_decreasing_rigid.p
-APM/APM004^4_s4_constant_rigid.p
-APM/APM004^5_s5_constant_rigid.p
-APM/APM004^18_s5u_cumulative_rigid.p
-APM/APM004^2_t_constant_rigid.p
-APM/APM005^4_s4_constant_rigid.p
-APM/APM008^3_d_constant_rigid.p
-APM/APM008^6_s5u_constant_rigid.p
-APM/APM009^21_d_decreasing_rigid.p
-APM/APM009^19_k_decreasing_rigid.p
-APM/APM009^23_s5_decreasing_rigid.p
-APM/APM009^12_s5u_varying_rigid.p
-APM/APM009^8_t_varying_rigid.p
-GAL/GAL014^5_s5_constant_rigid.p
-GAL/GAL017^2_t_constant_rigid.p
-GLC/GLC230^24_s5u_decreasing_rigid.p
-GLC/GLC455^8_t_varying_rigid.p
-GNL/GNL001^9_d_varying_rigid.p
-GNL/GNL009^10_s4_varying_rigid.p
-GSE/GSE002^3_s4_varying_rigid.p
-GSE/GSE002^4_s4_varying_rigid.p
-GSE/GSE054^4_s4_constant_rigid.p
-GSE/GSE574^3_s5_cumulative_rigid.p
-GSE/GSE900^24_s5u_decreasing_rigid.p
-GSE/GSE910^12_s5u_varying_rigid.p
-GSE/GSE915^8_t_varying_rigid.p
-GSV/GSV060^10_s4_varying_rigid.p
-GSV/GSV087^24_s5u_decreasing_rigid.p
-GSY/GSY358^18_s5u_cumulative_rigid.p
-GSY/GSY371^6_s5u_constant_rigid.p
-GSY/GSY385^18_s5u_cumulative_rigid.p
-GSY/GSY396^24_s5u_decreasing_rigid.p
-GSY/GSY413^12_s5u_varying_rigid.p
-GSY/GSY416^11_s5_varying_rigid.p
-MML/MML006^13_k_cumulative_rigid.p
-MML/MML007^18_s5u_cumulative_rigid.p
-MML/MML011^16_s4_cumulative_rigid.p
-MML/MML013^16_s4_cumulative_rigid.p
-MML/MML014^17_s5_cumulative_rigid.p
-MML/MML014^18_s5u_cumulative_rigid.p
-MML/MML015^18_s5u_cumulative_rigid.p
-MML/MML016^17_s5_cumulative_rigid.p
-MML/MML016^18_s5u_cumulative_rigid.p
-NLP/NLP001^3_d_constant_rigid.p
-NLP/NLP001^17_s5_cumulative_rigid.p
-NLP/NLP004^13_k_cumulative_rigid.p
-NLP/NLP004^12_s5u_varying_rigid.p
-NLP/NLP004^8_t_varying_rigid.p
-SET/SET002^3_d_constant_rigid.p
-SET/SET002^4_d_constant_rigid.p
-SET/SET013^4_s4_constant_rigid.p
-SET/SET019^4_t_decreasing_rigid.p
-SET/SET027^3_d_constant_rigid.p
-SET/SET027^4_d_constant_rigid.p
-SET/SET044^23_s5_decreasing_rigid.p
-SET/SET047^1_k_constant_rigid.p
-SET/SET055^12_s5u_varying_rigid.p
-SET/SET063^3_s4_constant_rigid.p
-SET/SET063^4_s4_constant_rigid.p
-SET/SET574^3_t_decreasing_rigid.p
-SET/SET579^3_d_constant_rigid.p
-SET/SET924^1_k_constant_rigid.p
-SET/SET926^12_s5u_varying_rigid.p
-SET/SET926^11_s5_varying_rigid.p
-SET/SET926^20_t_decreasing_rigid.p
-SET/SET926^8_t_varying_rigid.p
-SYM/SYM001^3_d_constant_rigid.p
-SYM/SYM008^22_s4_decreasing_rigid.p
-SYM/SYM019^10_s4_varying_rigid.p
-SYM/SYM028^16_s4_cumulative_rigid.p
-SYM/SYM045^16_s4_cumulative_rigid.p
-SYM/SYM056^16_s4_cumulative_rigid.p
-SYM/SYM067^15_d_cumulative_rigid.p
-SYM/SYM101^11_s5_varying_rigid.p
-SYM/SYM105^8_t_varying_rigid.p
-SYM/SYM110^9_d_varying_rigid.p
-SYM/SYM114^7_k_varying_rigid.p
-SYM/SYM122^6_s5u_constant_rigid.p
-SYM/SYM127^9_d_varying_rigid.p
-SYM/SYM137^8_t_varying_rigid.p
-SYM/SYM157^11_s5_varying_rigid.p
-SYM/SYM168^11_s5_varying_rigid.p
-SYM/SYM190^8_t_varying_rigid.p
-SYM/SYM329^10_s4_varying_rigid.p
-SYM/SYM361^12_s5u_varying_rigid.p
-SYM/SYM362^6_s5u_constant_rigid.p
+APM/APM001^1.003_d_constant_rigid.p NLP265^3.p
+APM/APM001^1.001_k_constant_rigid.p NLP265^1.p
+APM/APM001^1.004_s4_constant_rigid.p NLP265^4.p
+APM/APM001^1.005_s5_constant_rigid.p NLP265^5.p
+APM/APM001^1.018_s5u_cumulative_rigid.p NLP265^18.p
+APM/APM001^1.002_t_constant_rigid.p NLP265^2.p
+APM/APM003^1.004_s4_constant_rigid.p NLP266^4.p
+APM/APM003^1.023_s5_decreasing_rigid.p NLP266^23.p
+APM/APM004^1.004_s4_constant_rigid.p PLA053^4.p
+APM/APM004^1.005_s5_constant_rigid.p PLA053^5.p
+APM/APM004^1.018_s5u_cumulative_rigid.p PLA053^18.p
+APM/APM004^1.002_t_constant_rigid.p PLA053^2.p
+APM/APM005^1.004_s4_constant_rigid.p PLA054^4.p
+APM/APM008^1.003_d_constant_rigid.p DAT333^3.p
+APM/APM008^1.006_s5u_constant_rigid.p DAT333^6.p
+APM/APM009^1.021_d_decreasing_rigid.p DAT334^21.p
+APM/APM009^1.019_k_decreasing_rigid.p DAT334^19.p
+APM/APM009^1.023_s5_decreasing_rigid.p DAT334^23.p
+APM/APM009^1.012_s5u_varying_rigid.p DAT334^12.p
+APM/APM009^1.008_t_varying_rigid.p DAT334^8.p
+GAL/GAL014^1.005_s5_constant_rigid.p LCL941^5.p
+GAL/GAL017^1.002_t_constant_rigid.p LCL942^2.p
+GLC/GLC230^1.024_s5u_decreasing_rigid.p LCL943^24.p
+GLC/GLC455^1.008_t_varying_rigid.p LCL944^8.p
+GNL/GNL001^1.009_d_varying_rigid.p LCL945^9.p
+GNL/GNL009^1.010_s4_varying_rigid.p LCL946^10.p
+GSE/GSE002^3.010_s4_varying_rigid.p LCL947^10.p
+GSE/GSE002^4.010_s4_varying_rigid.p LCL948^10.p
+GSE/GSE054^1.004_s4_constant_rigid.p LCL949^4.p
+GSE/GSE574^3.017_s5_cumulative_rigid.p LCL950^17.p
+GSE/GSE900^1.024_s5u_decreasing_rigid.p LCL951^24.p
+GSE/GSE910^1.012_s5u_varying_rigid.p LCL952^12.p
+GSE/GSE915^1.008_t_varying_rigid.p LCL953^8.p
+GSV/GSV060^1.010_s4_varying_rigid.p LCL954^19.p
+GSV/GSV087^1.024_s5u_decreasing_rigid.p LCL955^24.p
+GSY/GSY358^1.018_s5u_cumulative_rigid.p LCL956^18.p
+GSY/GSY371^1.006_s5u_constant_rigid.p LCL957^6.p
+GSY/GSY385^1.018_s5u_cumulative_rigid.p LCL958^18.p
+GSY/GSY396^1.024_s5u_decreasing_rigid.p LCL959^24.p
+GSY/GSY413^1.012_s5u_varying_rigid.p LCL960^12.p
+GSY/GSY416^1.011_s5_varying_rigid.p LCL961^11.p
+MML/MML006^1.013_k_cumulative_rigid.p PUZ149^13.p
+MML/MML007^1.018_s5u_cumulative_rigid.p PUZ150^18.p
+MML/MML011^1.016_s4_cumulative_rigid.p PRO029^16.p
+MML/MML013^1.016_s4_cumulative_rigid.p LCL962^16.p
+MML/MML014^1.017_s5_cumulative_rigid.p NLP265^17.p
+MML/MML014^1.018_s5u_cumulative_rigid.p NLP265^18.p
+MML/MML015^1.018_s5u_cumulative_rigid.p NLP266^18.p
+MML/MML016^1.017_s5_cumulative_rigid.p NLP267^17.p
+MML/MML016^1.018_s5u_cumulative_rigid.p NLP267^18.p
+NLP/NLP001^1.003_d_constant_rigid.p NLP001^3.p
+NLP/NLP001^1.017_s5_cumulative_rigid.p NLP001^17.p
+NLP/NLP004^1.013_k_cumulative_rigid.p NLP004^13.p
+NLP/NLP004^1.012_s5u_varying_rigid.p NLP004^12.p
+NLP/NLP004^1.008_t_varying_rigid.p NLP004^8.p
+SET/SET002^3.003_d_constant_rigid.p SET002^3.p
+SET/SET002^4.003_d_constant_rigid.p SET002^4.p
+SET/SET013^4.004_s4_constant_rigid.p SET004^4.p
+SET/SET019^4.020_t_decreasing_rigid.p SET019^4.p
+SET/SET027^1.003_d_constant_rigid.p SET027^3.p
+SET/SET044^1.023_s5_decreasing_rigid.p SET044^23.p
+SET/SET047^1.001_k_constant_rigid.p SET047^1.p
+SET/SET055^1.012_s5u_varying_rigid.p SET055^12.p
+SET/SET063^1.004_s4_constant_rigid.p SET063^4.p
+SET/SET574^3.020_t_decreasing_rigid.p SET574^20.p
+SET/SET579^3.003_d_constant_rigid.p SET579^3.p
+SET/SET924^1.001_k_constant_rigid.p SET924^1.p
+SET/SET926^1.011_s5_varying_rigid.p SET926^11.p
+SET/SET926^1.012_s5u_varying_rigid.p SET926^12.p
+SET/SET926^1.020_t_decreasing_rigid.p SET926^20.p
+SET/SET926^1.008_t_varying_rigid.p SET926^8.p
+SYM/SYM001^1.003_d_constant_rigid.p SYO886^3.p
+SYM/SYM008^1.022_s4_decreasing_rigid.p SYO887^22.p
+SYM/SYM019^1.010_s4_varying_rigid.p SYO888^10.p
+SYM/SYM028^1.016_s4_cumulative_rigid.p SYO889^16.p
+SYM/SYM045^1.016_s4_cumulative_rigid.p SYO890^16.p
+SYM/SYM056^1.016_s4_cumulative_rigid.p SYO891^16.p
+SYM/SYM067^1.015_d_cumulative_rigid.p SYO892^15.p
+SYM/SYM101^1.011_s5_varying_rigid.p SYO893^11.p
+SYM/SYM105^1.008_t_varying_rigid.p SYO894^8.p
+SYM/SYM110^1.009_d_varying_rigid.p SYO895^9.p
+SYM/SYM114^1.007_k_varying_rigid.p SYO896^7.p
+SYM/SYM122^1.006_s5u_constant_rigid.p SYO897^6.p
+SYM/SYM127^1.009_d_varying_rigid.p SYO898^9.p
+SYM/SYM137^1.008_t_varying_rigid.p SYO899^8.p
+SYM/SYM157^1.011_s5_varying_rigid.p SYO900^11.p
+SYM/SYM168^1.011_s5_varying_rigid.p SYO901^11.p
+SYM/SYM190^1.008_t_varying_rigid.p SYO902^8.p
+SYM/SYM329^1.010_s4_varying_rigid.p SYO903^10.p
+SYM/SYM361^1.012_s5u_varying_rigid.p SYO904^12.p
+SYM/SYM362^1.006_s5u_constant_rigid.p SYO905^6.p

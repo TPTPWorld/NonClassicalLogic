@@ -1,9 +1,12 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML004^1.012 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Puzzles
 % Problem  : Yale shooting problem (simple version)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : After any sequence of actions ("always") ended by "load" the
+%            gun is loaded. After any sequence of actions, if the gun is
+%            loaded then after a shoot the turkey is not alive. Then, after
+%            the actions load and shoot the turkey is not alive.
 
 % Refs     : [Bal98] Baldoni (1998), Normal Multimodal Logics: Automatic De
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

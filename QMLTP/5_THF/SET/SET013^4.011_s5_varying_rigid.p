@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
+% File     : SET013^4.011 : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Set Theory
 % Problem  : TPTP problem SET013+4.p with axiomatized equality
 % Version  : [BP13] axioms.

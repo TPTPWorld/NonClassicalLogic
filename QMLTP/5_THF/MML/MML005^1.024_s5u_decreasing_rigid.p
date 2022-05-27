@@ -1,9 +1,13 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML005^1.024 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Puzzles
 % Problem  : The fox and the raven
 % Version  : [BP13] axioms.
-% English  : 
+% English  : The fox believes that if he praises the raven, then the raven is
+%            charmed, and the fox believes that in any moment , if the raven is
+%            charmed then it is possible that the raven sings and so it drops
+%            cheese. Then the fox believes that after praising the raven may
+%            sing and so it drops the cheese.
 
 % Refs     : [Bal98] Baldoni (1998), Normal Multimodal Logics: Automatic De
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

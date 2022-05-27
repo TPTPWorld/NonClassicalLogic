@@ -1,9 +1,10 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML019^1.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Natural Language Processing
 % Problem  : Banker example (variant 3)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : Speaker S wishes to find out from a bank teller A the balance of
+%            S's account, number 42.
 
 % Refs     : [Sto99] Stone (1999), Indefinite Information in Modal Logic Pr
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

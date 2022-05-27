@@ -1,9 +1,12 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML007^1.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Puzzles
 % Problem  : Russian card problem (very simple variant)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : Anne, Bill and Cath draw 0, 1, and 2. Anne knows that Bill knows
+%            that Cath knows her own card, etc. Anne has card 0. Then Bill
+%            knows that Anne does not consider it possible that Bill considers
+%            it possible that Cath knows that Anne does not have card 0.
 
 % Refs     : [vDK06] van Ditmarsch & Kooi (2006), The Secret of My Success
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

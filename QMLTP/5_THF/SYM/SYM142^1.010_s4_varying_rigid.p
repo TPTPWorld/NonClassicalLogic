@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : SYM142^1.010 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Syntactic
 % Problem  : Modal propositional logic theorems. problem 42
 % Version  : [BP13] axioms.
 % English  : 

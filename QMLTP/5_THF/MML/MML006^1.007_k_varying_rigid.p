@@ -1,9 +1,14 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML006^1.007 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Puzzles
 % Problem  : The bungling chemist
 % Version  : [BP13] axioms.
-% English  : 
+% English  : Assume that a chemical compound c is made by pouring the elements
+%            a and b into the same beaker. The two elements a and b are not
+%            acid. It is possible that after making the compound c it results
+%            in an acid. Then it is possible that pouring element a results
+%            not in an acid, and pouring a and b in the beaker results in an
+%            acid.
 
 % Refs     : [Bal98] Baldoni (1998), Normal Multimodal Logics: Automatic De
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

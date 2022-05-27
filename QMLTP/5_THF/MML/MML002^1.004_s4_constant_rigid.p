@@ -1,9 +1,16 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML002^1.004 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Puzzles
 % Problem  : Wise men puzzle (full axiomatisation)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : Once upon a time, a king wanted to find the wisest out of his
+%            three wisest men. He arranged them in a circle and told them that
+%            he would put a white or a black spot on their foreheads and that
+%            one of the three spots would certainly be white. The three wise
+%            men could see and hear each other but, of course, they could not
+%            see their faces reflected anywhere. The king, then, asked to each
+%            of them to find out the colour of his own spot. After a while, the
+%            wisest correctly answered that his spot was white.
 
 % Refs     : [Gol92] Goldblatt (1992), Logics of Time and Computation
 %          : [Bal98] Baldoni (1998), Normal Multimodal Logics: Automatic De
@@ -12,6 +19,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML002+1 [QMLTP]
+%          : PUZ087^2 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

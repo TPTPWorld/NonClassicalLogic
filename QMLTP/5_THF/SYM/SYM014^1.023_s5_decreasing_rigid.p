@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : SYM014^1.023 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Syntactic
 % Problem  : Girle problem
 % Version  : [BP13] axioms.
 % English  : 

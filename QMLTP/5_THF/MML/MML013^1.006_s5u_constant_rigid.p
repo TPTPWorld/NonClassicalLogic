@@ -1,9 +1,11 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML013^1.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Logic calculi
 % Problem  : Proving disprovability
 % Version  : [BP13] axioms.
-% English  : 
+% English  : If A can prove that B can prove p whenever it is true, and
+%            if A can prove that B cannot prove p if that is true, and
+%            if p is not true, then A can prove that p is not true.
 
 % Refs     : [HA97]  Huima & Aura (1997), Using Multimodal Logic to Express
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

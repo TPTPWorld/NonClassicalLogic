@@ -1,9 +1,9 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML020^1.016 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Natural Language Processing
 % Problem  : Coffee and ticket example (adapted)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : When I can get ticket and coffee I can take a journey
 
 % Refs     : [Sto99] Stone (1999), Indefinite Information in Modal Logic Pr
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

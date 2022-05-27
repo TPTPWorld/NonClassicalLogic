@@ -1,9 +1,15 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML010^1.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Processes
 % Problem  : Printer example (simplified)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : If the user is believed to want a document to be printed on a
+%            printer, then (s)he is also assumed to believe that this is
+%            possible. Users want any implication of their immediate goals if
+%            they know the implication relation. The user wants to print the
+%            document userdoc. The user believes that all documents are
+%            printed on printer lw. Then the user wants the document userdoc
+%            to be printed on printer lw.
 
 % Refs     : [KP95]  Kobsa & Pohl (1995), The User Modeling Shell System BG
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

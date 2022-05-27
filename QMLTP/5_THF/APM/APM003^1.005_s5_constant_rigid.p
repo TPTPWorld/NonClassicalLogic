@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : APM003^1.005 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Natural Language Processing
 % Problem  : Generation of abstract instructions: enter a number in a box
 % Version  : [BP13] axioms.
 % English  : 

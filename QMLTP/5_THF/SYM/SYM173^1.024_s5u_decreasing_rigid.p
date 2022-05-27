@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : SYM173^1.024 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Syntactic
 % Problem  : Mixed modal propositional logic WFFs. problem 20
 % Version  : [BP13] axioms.
 % English  : 

@@ -1,9 +1,9 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML014^1.022 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Natural Language Processing
 % Problem  : Schema instantiation example
 % Version  : [BP13] axioms.
-% English  : 
+% English  : Alice intends Bob to believe that portland is a big city.
 
 % Refs     : [BS96]  Bretier & Sadek (1996), Rational Agent as the Kernel o
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

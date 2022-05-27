@@ -1,6 +1,6 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : SYM003^1.007 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Syntactic
 % Problem  : Quantified modal logic wwfs. problem 3.
 % Version  : [BP13] axioms.
 % English  : 

@@ -1,9 +1,18 @@
 %------------------------------------------------------------------------------
-% File     : NTF001^1 : TPTP v8.1.0. Released v8.1.0.
-% Domain   : TBA
+% File     : MML011^1.006 : TPTP v8.1.0. Released v8.1.0.
+% Domain   : Processes
 % Problem  : Phone user and company (requirement 1)
 % Version  : [BP13] axioms.
-% English  : 
+% English  : Phone user U and phone company C have following relationship:
+%            + U does not pay a call before he has dialled it.
+%            + Both U nd C are able to prove when U is being charged.
+%            + U is able to prove that C can prove that U has made a call,
+%            + C is able to prove that U can prove that U has paid his call,
+%            + U is able to prove that C cannot prove that U has made a call,
+%            + C is able to prove that U cannot prove that he has paid his
+%              call, whenever these facts are true.
+%            Then the following requirement is true: From U's point of view,
+%            C should charge U only if he has made a call that is not yet paid.
 
 % Refs     : [HA97]  Huima & Aura (1997), Using Multimodal Logic to Express
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi

@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GLC466^1.003 : TPTP v8.1.0. Released v8.1.0.
+% File     : GLC466^1.003_d_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of LCL466+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GLC466+1 [QMLTP]
+%          : LCL964^3 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : MML016^1.017 : TPTP v8.1.0. Released v8.1.0.
+% File     : MML016^1.017_s5_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Natural Language Processing
 % Problem  : Ticket example
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML016+1 [QMLTP]
+%          : NLP267^17 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

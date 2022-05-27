@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : APM002^1.015 : TPTP v8.1.0. Released v8.1.0.
+% File     : APM002^1.015_d_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Software Verification
 % Problem  : Conflict detection of 2 conceptual schemata (e.g. UML-schemata)
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM002+1 [QMLTP]
+%          : SWW971^15 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

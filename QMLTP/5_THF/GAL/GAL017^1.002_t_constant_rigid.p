@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GAL017^1.002 : TPTP v8.1.0. Released v8.1.0.
+% File     : GAL017^1.002_t_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of ALG017+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GAL017+1 [QMLTP]
+%          : LCL942^2 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

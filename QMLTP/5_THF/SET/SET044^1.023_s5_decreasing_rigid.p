@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SET044^1.023 : TPTP v8.1.0. Released v8.1.0.
+% File     : SET044^1.023_s5_decreasing_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Set Theory
 % Problem  : TPTP problem SET044+1.p with axiomatized equality
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SET044+1 [QMLTP]
+%          : SET044^23 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

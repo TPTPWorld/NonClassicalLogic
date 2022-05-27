@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM114^1.007 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM114^1.007_k_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Modal propositional logic theorems. problem 14
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM114+1 [QMLTP]
+%          : SYO896^7 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

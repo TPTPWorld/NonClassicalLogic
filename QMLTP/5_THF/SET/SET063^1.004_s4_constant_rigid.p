@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SET063^1.004 : TPTP v8.1.0. Released v8.1.0.
+% File     : SET063^1.004_s4_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Set Theory
 % Problem  : TPTP problem SET063+1.p with axiomatized equality
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SET063+1 [QMLTP]
+%          : SET063^4 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

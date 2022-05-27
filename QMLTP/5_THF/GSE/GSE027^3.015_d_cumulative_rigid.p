@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GSE027^3.015 : TPTP v8.1.0. Released v8.1.0.
+% File     : GSE027^3.015_d_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of SET027+3 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GSE027+1 [QMLTP]
+%          : LCL965^15 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

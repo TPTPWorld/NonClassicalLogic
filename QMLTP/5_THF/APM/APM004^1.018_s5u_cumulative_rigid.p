@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : APM004^1.018 : TPTP v8.1.0. Released v8.1.0.
+% File     : APM004^1.018_s5u_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Planning
 % Problem  : Abductive planning: Bomb-in-the-toilet with detector
 % Version  : [BP13] axioms.
@@ -11,8 +11,9 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM004+1 [QMLTP]
+%          : PLA053^18 [TPTP]
 
-% Status   : Theorem 
+% Status   : Theorem
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   34 (  12 unt;  17 typ;  10 def)
 %            Number of atoms       :   62 (  10 equ;   0 cnn)

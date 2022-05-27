@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SET002^3.003 : TPTP v8.1.0. Released v8.1.0.
+% File     : SET002^3.003_d_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Set Theory
 % Problem  : TPTP problem SET002+3.p with axiomatized equality
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SET002+1 [QMLTP]
+%          : SET002^3 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

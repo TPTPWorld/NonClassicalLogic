@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : MML006^1.013 : TPTP v8.1.0. Released v8.1.0.
+% File     : MML006^1.013_k_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Puzzles
 % Problem  : The bungling chemist
 % Version  : [BP13] axioms.
@@ -16,6 +16,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML006+1 [QMLTP]
+%          : PUZ149^13 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

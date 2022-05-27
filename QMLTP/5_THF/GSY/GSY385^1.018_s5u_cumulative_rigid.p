@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GSY385^1.018 : TPTP v8.1.0. Released v8.1.0.
+% File     : GSY385^1.018_s5u_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of SYN385+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,8 +10,9 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GSY385+1 [QMLTP]
+%          : LCL958^18 [TPTP]
 
-% Status   : Theorem 
+% Status   : Theorem
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   30 (  12 unt;  16 typ;  10 def)
 %            Number of atoms       :   42 (  10 equ;   0 cnn)

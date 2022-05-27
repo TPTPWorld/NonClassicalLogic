@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM008^1.022 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM008^1.022_s4_decreasing_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Fitting and Mendelsohn problem
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM008+1 [QMLTP]
+%          : SYO887^22 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

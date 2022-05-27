@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM155^1.015 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM155^1.015_d_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Modal propositional logic theorems. problem 55
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM155+1 [QMLTP]
+%          : SYO911^15 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

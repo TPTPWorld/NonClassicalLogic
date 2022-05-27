@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : APM004^1.004 : TPTP v8.1.0. Released v8.1.0.
+% File     : APM004^1.004_s4_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Planning
 % Problem  : Abductive planning: Bomb-in-the-toilet with detector
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM004+1 [QMLTP]
+%          : PLA053^4 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

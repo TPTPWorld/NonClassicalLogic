@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM001^1.003 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM001^1.003_d_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Barcan scheme instance. (Ted Sider's qml wwf 1)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM001+1 [QMLTP]
+%          : SYO886^3 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

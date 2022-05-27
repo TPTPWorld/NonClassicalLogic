@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GSY416^1.011 : TPTP v8.1.0. Released v8.1.0.
+% File     : GSY416^1.011_s5_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of SYN416+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GSY416+1 [QMLTP]
+%          : LCL961^11 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

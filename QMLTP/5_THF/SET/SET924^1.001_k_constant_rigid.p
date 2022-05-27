@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SET924^1.001 : TPTP v8.1.0. Released v8.1.0.
+% File     : SET924^1.001_k_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Set Theory
 % Problem  : TPTP problem SET924+1.p with axiomatized equality
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SET924+1 [QMLTP]
+%          : SET924^1 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

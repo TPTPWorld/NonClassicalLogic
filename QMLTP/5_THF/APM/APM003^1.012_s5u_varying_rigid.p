@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : APM003^1.012 : TPTP v8.1.0. Released v8.1.0.
+% File     : APM003^1.012_s5u_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Natural Language Processing
 % Problem  : Generation of abstract instructions: enter a number in a box
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM003+1 [QMLTP]
+%          : NLP266^12 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SET926^1.020 : TPTP v8.1.0. Released v8.1.0.
+% File     : SET926^1.020_t_decreasing_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Set Theory
 % Problem  : TPTP problem SET926+1.p with axiomatized equality
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SET926+1 [QMLTP]
+%          : SET926^20 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

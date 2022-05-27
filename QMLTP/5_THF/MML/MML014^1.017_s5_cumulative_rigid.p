@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : MML014^1.017 : TPTP v8.1.0. Released v8.1.0.
+% File     : MML014^1.017_s5_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Natural Language Processing
 % Problem  : Schema instantiation example
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML014+1 [QMLTP]
+%          : NLP265^17 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

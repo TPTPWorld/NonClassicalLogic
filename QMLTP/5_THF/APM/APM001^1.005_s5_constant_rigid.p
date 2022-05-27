@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : APM001^1.005 : TPTP v8.1.0. Released v8.1.0.
+% File     : APM001^1.005_s5_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Natural Language Processing
 % Problem  : Belief change in man-machine-dialogues
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM001+1 [QMLTP]
+%          : NLP265^5 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

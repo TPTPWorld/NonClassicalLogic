@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : APM010^1.018 : TPTP v8.1.0. Released v8.1.0.
+% File     : APMPM010^1.018_s5u_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Data Structures
 % Problem  : Database querying
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM010+1 [QMLTP]
+%          : DAT335^18 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

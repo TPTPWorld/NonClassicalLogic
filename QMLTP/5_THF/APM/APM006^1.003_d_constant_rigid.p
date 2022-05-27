@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : APM006^1.003 : TPTP v8.1.0. Released v8.1.0.
+% File     : APM006^1.003_d_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Semantic Web
 % Problem  : Querying description logic knowledge bases
 % Version  : [BP13] axioms.
@@ -11,6 +11,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : APM006+1 [QMLTP]
+%          : SWB109^3 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

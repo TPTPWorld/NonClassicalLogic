@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GLC230^1.024 : TPTP v8.1.0. Released v8.1.0.
+% File     : GLC230^1.024_s5u_decreasing_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of LCL230+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,8 +10,9 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GLC230+1 [QMLTP]
+%          : LCL943^24 [TPTP]
 
-% Status   : Theorem 
+% Status   : Theorem
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   24 (   9 unt;  14 typ;   8 def)
 %            Number of atoms       :   43 (   8 equ;   0 cnn)

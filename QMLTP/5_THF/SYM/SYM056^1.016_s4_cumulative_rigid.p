@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM056^1.016 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM056^1.016_s4_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Fitting and Mendelsohn problem
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM056+1 [QMLTP]
+%          : SYO891^16 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

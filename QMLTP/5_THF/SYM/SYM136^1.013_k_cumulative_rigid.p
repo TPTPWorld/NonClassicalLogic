@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM136^1.013 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM136^1.013_k_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Modal propositional logic theorems. problem 36
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM136+1 [QMLTP]
+%          : SYO910^13 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

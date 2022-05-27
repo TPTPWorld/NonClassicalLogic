@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM020^1.007 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM020^1.007_k_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Girle problem
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM020+1 [QMLTP]
+%          : SYO906^7 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

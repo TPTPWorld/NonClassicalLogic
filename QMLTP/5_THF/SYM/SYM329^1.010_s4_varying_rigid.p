@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM329^1.010 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM329^1.010_s4_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : PSAT - CNF - K=4 C=50 V=4 D=2.8
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM329+1 [QMLTP]
+%          : SYO903^10 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

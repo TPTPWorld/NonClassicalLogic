@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM173^1.009 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM173^1.009_d_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Mixed modal propositional logic WFFs. problem 20
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM173+1 [QMLTP]
+%          : SYO912^9 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

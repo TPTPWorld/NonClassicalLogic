@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GSV060^1.010 : TPTP v8.1.0. Released v8.1.0.
+% File     : GSV060^1.010_s4_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of SWV060+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GSV060+1 [QMLTP]
+%          : LCL954^19 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

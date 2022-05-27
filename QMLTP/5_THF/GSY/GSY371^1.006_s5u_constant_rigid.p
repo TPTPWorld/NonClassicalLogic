@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GSY371^1.006 : TPTP v8.1.0. Released v8.1.0.
+% File     : GSY371^1.006_s5u_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of SYN371+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GSY371+1 [QMLTP]
+%          : LCL957^6 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

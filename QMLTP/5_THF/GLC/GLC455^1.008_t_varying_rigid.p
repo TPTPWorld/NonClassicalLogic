@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GLC455^1.008 : TPTP v8.1.0. Released v8.1.0.
+% File     : GLC455^1.008_t_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of LCL455+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GLC455+1 [QMLTP]
+%          : LCL944^8 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

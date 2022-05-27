@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : NLP004^1.012 : TPTP v8.1.0. Released v8.1.0.
+% File     : NLP004^1.012_s5u_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Natural Language Processing
 % Problem  : "The old dirty white Chevy" problem 4
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : NLP004+1 [QMLTP]
+%          : NLP004^12 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

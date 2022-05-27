@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM076^1.008 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM076^1.008_t_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Quantified modal logics wwfs. problem 15.
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM076+1 [QMLTP]
+%          : SYO909^8 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

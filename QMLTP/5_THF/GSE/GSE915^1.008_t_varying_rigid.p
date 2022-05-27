@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GSE915^1.008 : TPTP v8.1.0. Released v8.1.0.
+% File     : GSE915^1.008_t_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of SET915+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GSE915+1 [QMLTP]
+%          : LCL953^8 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

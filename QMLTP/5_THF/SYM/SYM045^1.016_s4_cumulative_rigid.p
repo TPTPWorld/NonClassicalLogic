@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM045^1.016 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM045^1.016_s4_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : Forbes problem
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM045+1 [QMLTP]
+%          : SYO890^16 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

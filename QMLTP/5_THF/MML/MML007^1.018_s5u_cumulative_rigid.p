@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : MML007^1.018 : TPTP v8.1.0. Released v8.1.0.
+% File     : MML007^1.018_s5u_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Puzzles
 % Problem  : Russian card problem (very simple variant)
 % Version  : [BP13] axioms.
@@ -14,8 +14,9 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML007+1 [QMLTP]
+%          : PUZ150^18 [TPTP]
 
-% Status   : Theorem 
+% Status   : Theorem
 % Rating   : ? v8.1.0
 % Syntax   : Number of formulae    :   45 (  11 unt;  25 typ;   8 def)
 %            Number of atoms       :  108 (   8 equ;   0 cnn)

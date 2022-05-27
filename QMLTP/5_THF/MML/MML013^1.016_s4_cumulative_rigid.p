@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : MML013^1.016 : TPTP v8.1.0. Released v8.1.0.
+% File     : MML013^1.016_s4_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic calculi
 % Problem  : Proving disprovability
 % Version  : [BP13] axioms.
@@ -13,6 +13,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : MML013+1 [QMLTP]
+%          : LCL962^16 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM361^1.012 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM361^1.012_s5u_varying_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : QBF-CNFSSS-K=4 C=50 V=4 D=6.1
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM361+1 [QMLTP]
+%          : SYO904^12 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

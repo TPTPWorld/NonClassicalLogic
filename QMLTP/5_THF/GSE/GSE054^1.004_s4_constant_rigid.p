@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : GSE054^1.004 : TPTP v8.1.0. Released v8.1.0.
+% File     : GSE054^1.004_s4_constant_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Logic Calculi
 % Problem  : Goedel translation of SET054+1 (from TPTP-v5.0.0)
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : GSE054+1 [QMLTP]
+%          : LCL949^4 [TPTP]
 
 % Status   : Theorem 
 % Rating   : ? v8.1.0

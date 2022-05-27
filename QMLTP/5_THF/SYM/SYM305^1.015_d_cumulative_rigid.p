@@ -1,5 +1,5 @@
 %------------------------------------------------------------------------------
-% File     : SYM305^1.015 : TPTP v8.1.0. Released v8.1.0.
+% File     : SYM305^1.015_d_cumulative_rigid : TPTP v8.1.0. Released v8.1.0.
 % Domain   : Syntactic
 % Problem  : PSAT - CNF - K=4 C=20 V=8 D=1.8
 % Version  : [BP13] axioms.
@@ -10,6 +10,7 @@
 %          : [Ste22] Steen (2022), An Extensible Logic Embedding Tool for L
 % Source   : [TPTP]
 % Names    : SYM305+1 [QMLTP]
+%          : SYO913^15 [TPTP]
 
 % Status   : CounterSatisfiable
 % Rating   : ? v8.1.0

@@ -5,4 +5,4 @@ tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
 tff(r_decl, type, r: $o).
 tff(s_decl, type, s: $o).
-tff(pel17, conjecture, ({$box}(({$box}((({$box}(p) & {$box}(({$box}(q) => {$box}(r)))) => {$box}(s))) => (({$box}(~ ({$box}(p))) | ({$box}(q) | {$box}(s))) & ({$box}(~ ({$box}(p))) | ({$box}(~ ({$box}(r))) | {$box}(s)))))) & {$box}(((({$box}(~ ({$box}(p))) | ({$box}(q) | {$box}(s))) & ({$box}(~ ({$box}(p))) | ({$box}(~ ({$box}(r))) | {$box}(s)))) => {$box}((({$box}(p) & {$box}(({$box}(q) => {$box}(r)))) => {$box}(s))))))).
+tff(pel17, conjecture, ({$box} @ (({$box} @ ((({$box} @ (p) & {$box} @ (({$box} @ (q) => {$box} @ (r)))) => {$box} @ (s))) => (({$box} @ (~ ({$box} @ (p))) | ({$box} @ (q) | {$box} @ (s))) & ({$box} @ (~ ({$box} @ (p))) | ({$box} @ (~ ({$box} @ (r))) | {$box} @ (s)))))) & {$box} @ (((({$box} @ (~ ({$box} @ (p))) | ({$box} @ (q) | {$box} @ (s))) & ({$box} @ (~ ({$box} @ (p))) | ({$box} @ (~ ({$box} @ (r))) | {$box} @ (s)))) => {$box} @ ((({$box} @ (p) & {$box} @ (({$box} @ (q) => {$box} @ (r)))) => {$box} @ (s))))))).

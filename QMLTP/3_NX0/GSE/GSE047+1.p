@@ -3,5 +3,5 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(set_equal_decl, type, set_equal: (($i * $i) > $o)).
 tff(element_decl, type, element: (($i * $i) > $o)).
-tff(pel43_1, axiom-local, {$box}((! [X:$i]: ({$box}((! [Y:$i]: (({$box}(({$box}(set_equal(X,Y)) => {$box}((! [Z:$i]: (({$box}(({$box}(element(Z,X)) => {$box}(element(Z,Y)))) & {$box}(({$box}(element(Z,Y)) => {$box}(element(Z,X)))))))))) & {$box}(({$box}((! [Z:$i]: (({$box}(({$box}(element(Z,X)) => {$box}(element(Z,Y)))) & {$box}(({$box}(element(Z,Y)) => {$box}(element(Z,X)))))))) => {$box}(set_equal(X,Y)))))))))))).
-tff(pel43, conjecture, {$box}((! [X:$i]: ({$box}((! [Y:$i]: (({$box}(({$box}(set_equal(X,Y)) => {$box}(set_equal(Y,X)))) & {$box}(({$box}(set_equal(Y,X)) => {$box}(set_equal(X,Y)))))))))))).
+tff(pel43_1, axiom-local, {$box} @ ((! [X:$i]: ({$box} @ ((! [Y:$i]: (({$box} @ (({$box} @ (set_equal(X,Y)) => {$box} @ ((! [Z:$i]: (({$box} @ (({$box} @ (element(Z,X)) => {$box} @ (element(Z,Y)))) & {$box} @ (({$box} @ (element(Z,Y)) => {$box} @ (element(Z,X)))))))))) & {$box} @ (({$box} @ ((! [Z:$i]: (({$box} @ (({$box} @ (element(Z,X)) => {$box} @ (element(Z,Y)))) & {$box} @ (({$box} @ (element(Z,Y)) => {$box} @ (element(Z,X)))))))) => {$box} @ (set_equal(X,Y)))))))))))).
+tff(pel43, conjecture, {$box} @ ((! [X:$i]: ({$box} @ ((! [Y:$i]: (({$box} @ (({$box} @ (set_equal(X,Y)) => {$box} @ (set_equal(Y,X)))) & {$box} @ (({$box} @ (set_equal(Y,X)) => {$box} @ (set_equal(X,Y)))))))))))).

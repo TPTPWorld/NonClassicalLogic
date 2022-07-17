@@ -2,5 +2,5 @@
 %%% Generated on Wed Apr 27 15:32:06 CEST 2022 using command 'downgrade(tff)'.
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(element_decl, type, element: (($i * $i) > $o)).
-tff(pel41_1, axiom-local, {$box}((! [Z:$i]: ((? [Y:$i]: ({$box}((! [X:$i]: (({$box}(({$box}(element(X,Y)) => ({$box}(element(X,Z)) & {$box}(~ ({$box}(element(X,X))))))) & {$box}((({$box}(element(X,Z)) & {$box}(~ ({$box}(element(X,X))))) => {$box}(element(X,Y)))))))))))))).
-tff(pel41, conjecture, {$box}(~ ((? [Z:$i]: ({$box}((! [X:$i]: ({$box}(element(X,Z)))))))))).
+tff(pel41_1, axiom-local, {$box} @ ((! [Z:$i]: ((? [Y:$i]: ({$box} @ ((! [X:$i]: (({$box} @ (({$box} @ (element(X,Y)) => ({$box} @ (element(X,Z)) & {$box} @ (~ ({$box} @ (element(X,X))))))) & {$box} @ ((({$box} @ (element(X,Z)) & {$box} @ (~ ({$box} @ (element(X,X))))) => {$box} @ (element(X,Y)))))))))))))).
+tff(pel41, conjecture, {$box} @ (~ ((? [Z:$i]: ({$box} @ ((! [X:$i]: ({$box} @ (element(X,Z)))))))))).

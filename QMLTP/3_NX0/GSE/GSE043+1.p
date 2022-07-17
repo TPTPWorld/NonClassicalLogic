@@ -2,4 +2,4 @@
 %%% Generated on Wed Apr 27 15:32:04 CEST 2022 using command 'downgrade(tff)'.
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(element_decl, type, element: (($i * $i) > $o)).
-tff(pel39, conjecture, {$box}(~ ((? [X:$i]: ({$box}((! [Y:$i]: (({$box}(({$box}(element(Y,X)) => {$box}(~ ({$box}(element(Y,Y)))))) & {$box}(({$box}(~ ({$box}(element(Y,Y)))) => {$box}(element(Y,X))))))))))))).
+tff(pel39, conjecture, {$box} @ (~ ((? [X:$i]: ({$box} @ ((! [Y:$i]: (({$box} @ (({$box} @ (element(Y,X)) => {$box} @ (~ ({$box} @ (element(Y,Y)))))) & {$box} @ (({$box} @ (~ ({$box} @ (element(Y,Y)))) => {$box} @ (element(Y,X))))))))))))).

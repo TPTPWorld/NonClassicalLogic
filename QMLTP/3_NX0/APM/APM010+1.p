@@ -8,5 +8,5 @@ tff(john_decl, type, john: $i).
 tff(math_decl, type, math: $i).
 tff(psych_decl, type, psych: $i).
 tff(teach_decl, type, teach: (($i * $i) > $o)).
-tff(db, axiom-local, {$box}((teach(john,math) & ((? [X:$i]: (teach(X,cs))) & (teach(mary,psych) & teach(sue,psych)))))).
-tff(query, conjecture, (? [X:$i]: ((teach(X,psych) & ~ ({$box}(teach(X,cs))))))).
+tff(db, axiom-local, {$box} @ ((teach(john,math) & ((? [X:$i]: (teach(X,cs))) & (teach(mary,psych) & teach(sue,psych)))))).
+tff(query, conjecture, (? [X:$i]: ((teach(X,psych) & ~ ({$box} @ (teach(X,cs))))))).

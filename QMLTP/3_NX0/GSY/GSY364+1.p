@@ -6,4 +6,4 @@ tff(big_p_decl, type, big_p: (($i * $i) > $o)).
 tff(big_m_decl, type, big_m: ($i > $o)).
 tff(f_decl, type, f: (($i * $i) > $i)).
 tff(g_decl, type, g: ($i > $i)).
-tff(x2115, conjecture, {$box}((({$box}((! [X:$i]: ({$box}(((? [Y:$i]: ({$box}(big_p(X,Y)))) => {$box}((! [Z:$i]: ({$box}(big_p(Z,Z)))))))))) & ({$box}((! [U:$i]: ((? [V:$i]: (({$box}(big_p(U,V)) | ({$box}(big_m(U)) & {$box}(big_q(f(U,V)))))))))) & {$box}((! [W:$i]: ({$box}(({$box}(big_q(W)) => {$box}(~ ({$box}(big_m(g(W)))))))))))) => {$box}((! [U:$i]: ((? [V:$i]: (({$box}(big_p(g(U),V)) & {$box}(big_p(U,U))))))))))).
+tff(x2115, conjecture, {$box} @ ((({$box} @ ((! [X:$i]: ({$box} @ (((? [Y:$i]: ({$box} @ (big_p(X,Y)))) => {$box} @ ((! [Z:$i]: ({$box} @ (big_p(Z,Z)))))))))) & ({$box} @ ((! [U:$i]: ((? [V:$i]: (({$box} @ (big_p(U,V)) | ({$box} @ (big_m(U)) & {$box} @ (big_q(f(U,V)))))))))) & {$box} @ ((! [W:$i]: ({$box} @ (({$box} @ (big_q(W)) => {$box} @ (~ ({$box} @ (big_m(g(W)))))))))))) => {$box} @ ((! [U:$i]: ((? [V:$i]: (({$box} @ (big_p(g(U),V)) & {$box} @ (big_p(U,U))))))))))).

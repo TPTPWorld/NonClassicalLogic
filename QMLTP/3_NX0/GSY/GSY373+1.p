@@ -3,4 +3,4 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(big_q_decl, type, big_q: ($i > $o)).
 tff(big_p_decl, type, big_p: ($i > $o)).
-tff(x2124, conjecture, ({$box}(((? [X:$i]: ({$box}(({$box}(big_p(X)) => {$box}(big_q(X)))))) => {$box}(({$box}((! [X:$i]: ({$box}(big_p(X))))) => (? [X:$i]: ({$box}(big_q(X)))))))) & {$box}(({$box}(({$box}((! [X:$i]: ({$box}(big_p(X))))) => (? [X:$i]: ({$box}(big_q(X)))))) => (? [X:$i]: ({$box}(({$box}(big_p(X)) => {$box}(big_q(X)))))))))).
+tff(x2124, conjecture, ({$box} @ (((? [X:$i]: ({$box} @ (({$box} @ (big_p(X)) => {$box} @ (big_q(X)))))) => {$box} @ (({$box} @ ((! [X:$i]: ({$box} @ (big_p(X))))) => (? [X:$i]: ({$box} @ (big_q(X)))))))) & {$box} @ (({$box} @ (({$box} @ ((! [X:$i]: ({$box} @ (big_p(X))))) => (? [X:$i]: ({$box} @ (big_q(X)))))) => (? [X:$i]: ({$box} @ (({$box} @ (big_p(X)) => {$box} @ (big_q(X)))))))))).

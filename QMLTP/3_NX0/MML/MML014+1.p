@@ -3,8 +3,8 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $cumulative,$modalities == $modal_system_S5])).
 tff(portland_decl, type, portland: $i).
 tff(bigcity_decl, type, bigcity: ($i > $o)).
-tff(axiom_1_alice, axiom-local, {$box(#b_alice)}(((bigcity(portland) & {$box(#b_alice)}({$box(#b_bob)}(~ (bigcity(portland))))) => {$box(#i_alice)}({$box(#b_bob)}(bigcity(portland)))))).
-tff(axiom_1_bob, axiom-local, {$box(#b_bob)}(((bigcity(portland) & {$box(#b_bob)}({$box(#b_alice)}(~ (bigcity(portland))))) => {$box(#i_bob)}({$box(#b_alice)}(bigcity(portland)))))).
-tff(axiom_2, axiom-local, {$box(#b_alice)}(bigcity(portland))).
-tff(axiom_3, axiom-local, {$box(#b_alice)}({$box(#b_bob)}(~ (bigcity(portland))))).
-tff(con, conjecture, {$box(#i_alice)}({$box(#b_bob)}(bigcity(portland)))).
+tff(axiom_1_alice, axiom-local, {$box(#b_alice)} @ (((bigcity(portland) & {$box(#b_alice)} @ ({$box(#b_bob)} @ (~ (bigcity(portland))))) => {$box(#i_alice)} @ ({$box(#b_bob)} @ (bigcity(portland)))))).
+tff(axiom_1_bob, axiom-local, {$box(#b_bob)} @ (((bigcity(portland) & {$box(#b_bob)} @ ({$box(#b_alice)} @ (~ (bigcity(portland))))) => {$box(#i_bob)} @ ({$box(#b_alice)} @ (bigcity(portland)))))).
+tff(axiom_2, axiom-local, {$box(#b_alice)} @ (bigcity(portland))).
+tff(axiom_3, axiom-local, {$box(#b_alice)} @ ({$box(#b_bob)} @ (~ (bigcity(portland))))).
+tff(con, conjecture, {$box(#i_alice)} @ ({$box(#b_bob)} @ (bigcity(portland)))).

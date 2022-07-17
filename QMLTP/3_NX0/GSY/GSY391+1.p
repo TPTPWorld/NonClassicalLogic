@@ -3,4 +3,4 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(p1_decl, type, p1: $o).
 tff(p2_decl, type, p2: $o).
-tff(pel9, conjecture, {$box}(((({$box}(p1) | {$box}(p2)) & (({$box}(~ ({$box}(p1))) | {$box}(p2)) & ({$box}(p1) | {$box}(~ ({$box}(p2)))))) => {$box}(~ (({$box}(~ ({$box}(p1))) | {$box}(~ ({$box}(p2))))))))).
+tff(pel9, conjecture, {$box} @ (((({$box} @ (p1) | {$box} @ (p2)) & (({$box} @ (~ ({$box} @ (p1))) | {$box} @ (p2)) & ({$box} @ (p1) | {$box} @ (~ ({$box} @ (p2)))))) => {$box} @ (~ (({$box} @ (~ ({$box} @ (p1))) | {$box} @ (~ ({$box} @ (p2))))))))).

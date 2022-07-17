@@ -2,7 +2,7 @@
 %%% Generated on Wed Apr 27 15:49:40 CEST 2022 using command 'downgrade(tff)'.
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $cumulative,$modalities == $modal_system_S4])).
 tff(p_decl, type, p: $o).
-tff(ab_axiom_1, axiom-local, {$box(#a)}((p => {$box(#b)}(p)))).
-tff(ab_axiom_2, axiom-local, (~ ({$box(#b)}(p)) => {$box(#a)}(~ ({$box(#b)}(p))))).
+tff(ab_axiom_1, axiom-local, {$box(#a)} @ ((p => {$box(#b)} @ (p)))).
+tff(ab_axiom_2, axiom-local, (~ ({$box(#b)} @ (p)) => {$box(#a)} @ (~ ({$box(#b)} @ (p))))).
 tff(not_a_axiom_1, axiom-local, ~ (p)).
-tff(conj, conjecture, {$box(#a)}(~ (p))).
+tff(conj, conjecture, {$box(#a)} @ (~ (p))).

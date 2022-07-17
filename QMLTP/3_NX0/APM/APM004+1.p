@@ -4,7 +4,7 @@ tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $const
 tff(h_decl, type, h: ($i > $o)).
 tff(bomb_decl, type, bomb: ($i > $o)).
 tff(defused_decl, type, defused: ($i > $o)).
-tff(ax1, axiom-local, {$box}((? [B:$i]: (bomb(B))))).
-tff(ax2, axiom-local, (? [A:$i]: ({$box}((! [X:$i]: (((bomb(X) & h(A)) => {$box}(bomb(X))))))))).
-tff(ax3, axiom-local, {$box}((! [X:$i]: ((? [D:$i]: ({$box}(((bomb(X) & h(D)) => defused(X))))))))).
-tff(con, conjecture, {$box}((! [X:$i]: ((? [D:$i]: (((bomb(X) & h(D)) => defused(X)))))))).
+tff(ax1, axiom-local, {$box} @ ((? [B:$i]: (bomb(B))))).
+tff(ax2, axiom-local, (? [A:$i]: ({$box} @ ((! [X:$i]: (((bomb(X) & h(A)) => {$box} @ (bomb(X))))))))).
+tff(ax3, axiom-local, {$box} @ ((! [X:$i]: ((? [D:$i]: ({$box} @ (((bomb(X) & h(D)) => defused(X))))))))).
+tff(con, conjecture, {$box} @ ((! [X:$i]: ((? [D:$i]: (((bomb(X) & h(D)) => defused(X)))))))).

@@ -3,4 +3,4 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(q_decl, type, q: $o).
 tff(r_decl, type, r: $o).
-tff(con, conjecture, (~ ({$dia}((q & r))) <=> {$box}((q => ~ (r))))).
+tff(con, conjecture, (~ ({$dia} @ ((q & r))) <=> {$box} @ ((q => ~ (r))))).

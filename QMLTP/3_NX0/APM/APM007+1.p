@@ -20,7 +20,7 @@ tff(male_substitution_1, axiom-local, (! [A:$i,B:$i]: (((qmltpeq(A,B) & male(A))
 tff(q3_substitution_1, axiom-local, (! [A:$i,B:$i]: (((qmltpeq(A,B) & q3(A)) => q3(B))))).
 tff(parent_substitution_1, axiom-local, (! [A:$i,B:$i,C:$i]: (((qmltpeq(A,B) & parent(A,C)) => parent(B,C))))).
 tff(parent_substitution_2, axiom-local, (! [A:$i,B:$i,C:$i]: (((qmltpeq(A,B) & parent(C,A)) => parent(C,B))))).
-tff(abox, axiom-local, {$box}((female(mary) & (female(ann) & (female(jane) & (male(bob) & (male(john) & (male(paul) & (parent(bob,mary) & (parent(bob,ann) & (parent(john,paul) & parent(mary,jane)))))))))))).
-tff(tbox, axiom-local, (! [X:$i]: (({$box}(male(X)) => {$box}(~ (female(X))))))).
-tff(query, axiom-local, (! [X:$i]: ((q3(X) <=> (? [Y:$i]: (({$box}(parent(Y,X)) & (! [Z:$i]: (({$box}(parent(Y,Z)) => qmltpeq(Z,X))))))))))).
+tff(abox, axiom-local, {$box} @ ((female(mary) & (female(ann) & (female(jane) & (male(bob) & (male(john) & (male(paul) & (parent(bob,mary) & (parent(bob,ann) & (parent(john,paul) & parent(mary,jane)))))))))))).
+tff(tbox, axiom-local, (! [X:$i]: (({$box} @ (male(X)) => {$box} @ (~ (female(X))))))).
+tff(query, axiom-local, (! [X:$i]: ((q3(X) <=> (? [Y:$i]: (({$box} @ (parent(Y,X)) & (! [Z:$i]: (({$box} @ (parent(Y,Z)) => qmltpeq(Z,X))))))))))).
 tff(con, conjecture, (q3(jane) & q3(paul))).

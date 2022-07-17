@@ -4,4 +4,4 @@ tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $const
 tff(a_decl, type, a: $i).
 tff(f_decl, type, f: ($i > $o)).
 tff(g_decl, type, g: ($i > $o)).
-tff(con, conjecture, (({$dia}(f(a)) & {$dia}(g(a))) => {$dia}((f(a) & g(a))))).
+tff(con, conjecture, (({$dia} @ (f(a)) & {$dia} @ (g(a))) => {$dia} @ ((f(a) & g(a))))).

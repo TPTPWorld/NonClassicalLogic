@@ -6,7 +6,7 @@ tff(b_decl, type, b: $i).
 tff(c_decl, type, c: $i).
 tff(p_decl, type, p: ($i > $o)).
 tff(r_decl, type, r: ($i > $o)).
-tff(schema1, axiom-local, ((~ (r(a)) | r(b)) & ((r(c) <=> r(a)) & ((r(a) => {$dia}(r(b))) & (~ (r(a)) => {$dia}((~ (r(b)) & ~ (r(c))))))))).
-tff(schema2, axiom-local, ((p(a) => p(b)) & ((p(c) | ~ (p(b))) & ((p(a) & p(b)) => {$dia}(~ (p(b))))))).
+tff(schema1, axiom-local, ((~ (r(a)) | r(b)) & ((r(c) <=> r(a)) & ((r(a) => {$dia} @ (r(b))) & (~ (r(a)) => {$dia} @ ((~ (r(b)) & ~ (r(c))))))))).
+tff(schema2, axiom-local, ((p(a) => p(b)) & ((p(c) | ~ (p(b))) & ((p(a) & p(b)) => {$dia} @ (~ (p(b))))))).
 tff(integration_assertion, axiom-local, (! [X:$i]: ((p(X) <=> r(X))))).
 tff(con, conjecture, $false).

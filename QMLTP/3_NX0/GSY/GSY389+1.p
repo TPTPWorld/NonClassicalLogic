@@ -3,4 +3,4 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
-tff(pel8, conjecture, {$box}(({$box}(({$box}(({$box}(p) => {$box}(q))) => {$box}(p))) => {$box}(p)))).
+tff(pel8, conjecture, {$box} @ (({$box} @ (({$box} @ (({$box} @ (p) => {$box} @ (q))) => {$box} @ (p))) => {$box} @ (p)))).

@@ -1,0 +1,62 @@
+%------------------------------------------------------------------------------
+% File     : LCL013^6 : TPTP v5.0.0. Released v4.0.0.
+% Domain   : Logic Calculi (Modal logic)
+% Axioms   : Modal logic S5
+% Version  : [Ben09] axioms.
+% English  : Embedding of monomodal logic S5 in simple type theory.
+
+% Refs     : [Ben09] Benzmueller (2009), Email to Geoff Sutcliffe
+% Source   : [Ben09]
+% Names    :
+
+% Status   : Satisfiable
+% Syntax   : Number of formulae    :    8 (   0 unit;   3 type;   2 defn)
+%            Number of atoms       :   36 (   2 equality;   5 variable)
+%            Maximal formula depth :    9 (   4 average)
+%            Number of connectives :   11 (   1   ~;   1   |;   0   &;   9   @)
+%                                         (   0 <=>;   0  =>;   0  <=;   0 <~>)
+%                                         (   0  ~|;   0  ~&;   0  !!;   0  ??)
+%            Number of type conns  :   10 (  10   >;   0   *;   0   +)
+%            Number of symbols     :    9 (   3   :;   0  :=)
+%            Number of variables   :    4 (   0 sgn;   1   !;   0   ?;   3   ^)
+%                                         (   4   :;   0  :=;   0  !>;   0  ?*)
+% SPC      : 
+
+% Comments : Requires LCL013^0
+%------------------------------------------------------------------------------
+%----We reserve an accessibility relation constant rel_s5
+thf(rel_s5_type,type,(
+    rel_s5: $i > $i > $o )).
+
+%----We define mbox_s5 and mdia_s5 based on rel_s5
+thf(mbox_s5_type,type,(
+    mbox_s5: ( $i > $o ) > $i > $o )).
+
+thf(mbox_s5,definition,
+    ( mbox_s5
+    = ( ^ [Phi: $i > $o,W: $i] :
+        ! [V: $i] :
+          ( ~ ( rel_s5 @ W @ V )
+          | ( Phi @ V ) ) ) )).
+
+thf(mdia_s5_type,type,(
+    mdia_s5: ( $i > $o ) > $i > $o )).
+
+thf(mdia_s5,definition,
+    ( mdia_s5
+    = ( ^ [Phi: $i > $o] :
+          ( mnot @ ( mbox_s5 @ ( mnot @ Phi ) ) ) ) )).
+
+%----We have now two options for stating the B conditions: 
+%----We can (i) directly formulate conditions for the accessibility relation
+%----constant or we can (ii) state corresponding axioms. We here prefer (i)
+thf(a1,axiom,
+    ( mreflexive @ rel_s5 )).
+
+thf(a2,axiom,
+    ( mtransitive @ rel_s5 )).
+
+thf(a3,axiom,
+    ( msymmetric @ rel_s5 )).
+
+%------------------------------------------------------------------------------

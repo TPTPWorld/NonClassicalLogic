@@ -3,4 +3,4 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(p_decl, type, p: $o).
 tff(f_decl, type, f: ($i > $o)).
-tff(kalish223, conjecture, {$box}(({$box}((! [X:$i]: (({$box}(({$box}(f(X)) => {$box}(p))) & {$box}(({$box}(p) => {$box}(f(X)))))))) => ({$box}(({$box}((! [Y:$i]: ({$box}(f(Y))))) => {$box}(p))) & {$box}(({$box}(p) => {$box}((! [Y:$i]: ({$box}(f(Y))))))))))).
+tff(kalish223, conjecture, {$box} @ (({$box} @ ((! [X:$i]: (({$box} @ (({$box} @ (f(X)) => {$box} @ (p))) & {$box} @ (({$box} @ (p) => {$box} @ (f(X)))))))) => ({$box} @ (({$box} @ ((! [Y:$i]: ({$box} @ (f(Y))))) => {$box} @ (p))) & {$box} @ (({$box} @ (p) => {$box} @ ((! [Y:$i]: ({$box} @ (f(Y))))))))))).

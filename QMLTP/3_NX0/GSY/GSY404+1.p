@@ -2,4 +2,4 @@
 %%% Generated on Wed Apr 27 15:35:14 CEST 2022 using command 'downgrade(tff)'.
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(f_decl, type, f: ($i > $o)).
-tff(kalish238, conjecture, {$box}(({$box}((! [X:$i]: ({$box}(f(X))))) => (? [Y:$i]: ({$box}(f(Y))))))).
+tff(kalish238, conjecture, {$box} @ (({$box} @ ((! [X:$i]: ({$box} @ (f(X))))) => (? [Y:$i]: ({$box} @ (f(Y))))))).

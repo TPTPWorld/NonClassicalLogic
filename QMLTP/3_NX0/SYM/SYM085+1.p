@@ -9,4 +9,4 @@ tff(symmetry, axiom-local, (! [X:$i,Y:$i]: ((qmltpeq(X,Y) => qmltpeq(Y,X))))).
 tff(transitivity, axiom-local, (! [X:$i,Y:$i,Z:$i]: (((qmltpeq(X,Y) & qmltpeq(Y,Z)) => qmltpeq(X,Z))))).
 tff(n_substitution_1, axiom-local, (! [A:$i,B:$i]: (((qmltpeq(A,B) & n(A)) => n(B))))).
 tff(o_substitution_1, axiom-local, (! [A:$i,B:$i]: (((qmltpeq(A,B) & o(A)) => o(B))))).
-tff(con, conjecture, ((? [X:$i]: ((n(X) & ((! [Y:$i]: ((n(Y) => qmltpeq(Y,X)))) & {$box}(o(X)))))) => {$box}((? [X:$i]: ((n(X) & ((! [Y:$i]: ((n(Y) => qmltpeq(Y,X)))) & o(X)))))))).
+tff(con, conjecture, ((? [X:$i]: ((n(X) & ((! [Y:$i]: ((n(Y) => qmltpeq(Y,X)))) & {$box} @ (o(X)))))) => {$box} @ ((? [X:$i]: ((n(X) & ((! [Y:$i]: ((n(Y) => qmltpeq(Y,X)))) & o(X)))))))).

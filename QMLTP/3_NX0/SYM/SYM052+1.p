@@ -8,4 +8,4 @@ tff(reflexivity, axiom-local, (! [X:$i]: (qmltpeq(X,X)))).
 tff(symmetry, axiom-local, (! [X:$i,Y:$i]: ((qmltpeq(X,Y) => qmltpeq(Y,X))))).
 tff(transitivity, axiom-local, (! [X:$i,Y:$i,Z:$i]: (((qmltpeq(X,Y) & qmltpeq(Y,Z)) => qmltpeq(X,Z))))).
 tff(e_substitution_1, axiom-local, (! [A:$i,B:$i]: (((qmltpeq(A,B) & e(A)) => e(B))))).
-tff(con, conjecture, (({$dia}((? [X:$i]: ({$dia}((? [Y:$i]: (~ (qmltpeq(X,Y)))))))) & (a & {$box}((! [X:$i]: ({$box}((a => e(X)))))))) => (? [X:$i]: ((? [Y:$i]: (~ (qmltpeq(X,Y)))))))).
+tff(con, conjecture, (({$dia} @ ((? [X:$i]: ({$dia} @ ((? [Y:$i]: (~ (qmltpeq(X,Y)))))))) & (a & {$box} @ ((! [X:$i]: ({$box} @ ((a => e(X)))))))) => (? [X:$i]: ((? [Y:$i]: (~ (qmltpeq(X,Y)))))))).

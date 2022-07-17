@@ -6,4 +6,4 @@ tff(qmltpeq_decl, type, qmltpeq: (($i * $i) > $o)).
 tff(reflexivity, axiom-local, (! [X:$i]: (qmltpeq(X,X)))).
 tff(symmetry, axiom-local, (! [X:$i,Y:$i]: ((qmltpeq(X,Y) => qmltpeq(Y,X))))).
 tff(transitivity, axiom-local, (! [X:$i,Y:$i,Z:$i]: (((qmltpeq(X,Y) & qmltpeq(Y,Z)) => qmltpeq(X,Z))))).
-tff(con, conjecture, (? [X:$i]: ({$box}(qmltpeq(X,a))))).
+tff(con, conjecture, (? [X:$i]: ({$box} @ (qmltpeq(X,a))))).

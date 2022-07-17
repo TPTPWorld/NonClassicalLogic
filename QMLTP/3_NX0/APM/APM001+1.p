@@ -9,10 +9,10 @@ tff(first_decl, type, first: $i).
 tff(price_decl, type, price: ($i > $o)).
 tff(dest_decl, type, dest: ($i > $o)).
 tff(class_decl, type, class: ($i > $o)).
-tff(law1, axiom-local, {$box}(((dest(paris) & class(first)) => price(ninetyfive)))).
-tff(law2, axiom-local, {$box}(((dest(paris) & class(second)) => price(seventy)))).
-tff(law3, axiom-local, {$box}(~ ((class(first) & class(second))))).
-tff(law4, axiom-local, {$box}(~ ((price(ninetyfive) & price(seventy))))).
-tff(belief1, axiom-local, {$box}(dest(paris))).
-tff(belief2, axiom-local, {$box}(class(second))).
-tff(con, conjecture, {$box}(price(seventy))).
+tff(law1, axiom-local, {$box} @ (((dest(paris) & class(first)) => price(ninetyfive)))).
+tff(law2, axiom-local, {$box} @ (((dest(paris) & class(second)) => price(seventy)))).
+tff(law3, axiom-local, {$box} @ (~ ((class(first) & class(second))))).
+tff(law4, axiom-local, {$box} @ (~ ((price(ninetyfive) & price(seventy))))).
+tff(belief1, axiom-local, {$box} @ (dest(paris))).
+tff(belief2, axiom-local, {$box} @ (class(second))).
+tff(con, conjecture, {$box} @ (price(seventy))).

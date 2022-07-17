@@ -1,0 +1,123 @@
+%======================================================================
+%----This outputs QMLTP problem formulae in a format
+%----acceptable to GQML-Prover (Thion, Cerrito, Cialdea Mayer, 2002)
+%----Problems without conjecture are negated.
+%----
+%----Written by Jens Otten, November 2000
+%----Extended to handle first-order: Jens Otten, June 2004
+%----Modified to work with TPTP 3.x: Thomas Raths, November 2005
+%======================================================================
+
+%%% Modified Thomas Raths for modal logic, July 2009
+%%% do not use "shorten" in -t option!
+%%% ./tptp2X -f gqmlprover -t add_equality ../Problems/*/*
+
+:-set_flag(print_depth,1000). %%% for eclipse Prolog
+
+%----------------------------------------------------------------------
+%----Print out the connectives, quantifiers, and literals of a formula
+%----in gqmlprover format.
+
+output_gqmlprover_qmf((~ A)) :-
+    !, write('(Neg '), output_gqmlprover_qmf(A), write(')').
+output_gqmlprover_qmf('|'(A,B)) :-
+    !, write('( '), output_gqmlprover_qmf(A), write(' | '),
+    output_gqmlprover_qmf(B), write(')').
+output_gqmlprover_qmf((A;B)) :-
+    !, write('( '), output_gqmlprover_qmf(A), write(' | '),
+    output_gqmlprover_qmf(B), write(')').
+output_gqmlprover_qmf((A & B)) :-
+    !, write('( '), output_gqmlprover_qmf(A), write(' & '),
+    output_gqmlprover_qmf(B), write(')').
+output_gqmlprover_qmf((A => B)) :-
+    !, write('( '), output_gqmlprover_qmf(A), write(' -> '),
+    output_gqmlprover_qmf(B), write(')').
+output_gqmlprover_qmf((A <=> B)) :-
+    !, write('(( '), output_gqmlprover_qmf(A), write(' -> '),
+    output_gqmlprover_qmf(B), write(') & ( '), output_gqmlprover_qmf(B), write(' -> '),
+    output_gqmlprover_qmf(A), write('))').
+output_gqmlprover_qmf((! [] : A)) :- !, output_gqmlprover_qmf(A).
+output_gqmlprover_qmf((! [V|L] : A)) :-
+    !, write('(All '), print(V), write(' '),
+    output_gqmlprover_qmf(! L : A), write(')').
+output_gqmlprover_qmf((? [] : A)):- !, output_gqmlprover_qmf(A).
+output_gqmlprover_qmf((? [V|L] : A)) :-
+    !, write('(Some '), print(V), write(' '),
+    output_gqmlprover_qmf(? L : A), write(')').
+%%%
+output_gqmlprover_qmf((#box : A)) :-
+    !, write('(Box '), output_gqmlprover_qmf(A), write(')').
+output_gqmlprover_qmf((#dia : A)) :-
+    !, write('(Dia '), output_gqmlprover_qmf(A), write(')').
+output_gqmlprover_qmf('$true')  :- !, write('(true___->true___)').
+output_gqmlprover_qmf($true)    :- !, write('(true___->true___)').
+output_gqmlprover_qmf('$false') :- !, write('(false___ & (Neg false___))').
+output_gqmlprover_qmf($false) :- !, write('(false___ & (Neg false___))').
+output_gqmlprover_qmf('$tptp_equal'(X,Y)) :-
+    !, write('(equal('), write(X), write(' , '), write(Y), write('))').
+output_gqmlprover_qmf('$tptp_not_equal'(X,Y)) :-
+    !,  write('(~ ( equal('), write(X), write(' , '), write(Y), write(')))').
+output_gqmlprover_qmf(Atom) :- print(Atom).
+
+%----------------------------------------------------------------------
+%----Print out the formulae in gqmlprover format.
+output_gqmlprover_fo_formulae([]).
+
+output_gqmlprover_fo_formulae([qmf(Name,Status,Formula)|RestOfFormulae]) :-
+    (Status==conjecture, RestOfFormulae \= []) -> 
+      (append(RestOfFormulae,[qmf(Name,Status,Formula)],Formulae),
+       output_gqmlprover_fo_formulae(Formulae)) ;
+      % (write('% '), write(Name), write(', '), write(Status), write('.'), nl,
+       (write('('), output_gqmlprover_qmf(Formula), write(')'),
+       (RestOfFormulae == [] -> true;
+        (((RestOfFormulae=[qmf(_,conjecture,_)] ->
+           (write(' -> ')));
+           (write(' & '))),
+         output_gqmlprover_fo_formulae(RestOfFormulae)))).
+
+%%% for TPTP-v2.7.0 or earlier:
+output_gqmlprover_fo_formulae([input_formula(Name,Status,Fml)|RestOfFml]) :-
+    output_gqmlprover_fo_formulae([qmf(Name,Status,Fml)|RestOfFml]).
+
+%----------------------------------------------------------------------
+%----Print out the list of input formulae as a first-order formula in
+%----gqmlprover format.
+
+output_gqmlprover_fo_formula([]) :-
+    !.
+
+output_gqmlprover_fo_formula(Formulae) :-
+    %%% negate problems without conjecture
+    % (Formulae = [qmf(_,conjecture,_)] -> true; write('Box (')), % for goedelised formulas
+        (Formulae = [qmf(_,conjecture,_)] -> true; write('(')),
+    (\+ (member(qmf(_,conjecture,_),Formulae);
+         member(input_formula(_,conjecture,_),Formulae)) ->
+           (write('Neg (')) ; true),
+    output_gqmlprover_fo_formulae(Formulae), 
+    (\+ (member(qmf(_,conjecture,_),Formulae);
+         member(input_formula(_,conjecture,_),Formulae)) ->
+           (write(')')); true),
+    (Formulae = [qmf(_,conjecture,_)] -> true; write(')')), 
+    nl.
+
+%----------------------------------------------------------------------
+%----Print out all the clauses in gqmlprover format.
+
+gqmlprover(gqmlprover,Clauses,_) :-
+    tptp_clauses(Clauses),
+    output_gqmlprover_formula(Clauses).
+
+%----------------------------------------------------------------------
+%----Print out first-order formula in gqmlprover format.
+
+gqmlprover(gqmlprover,Formulae,_) :-
+    tptp_formulae(Formulae),
+    output_gqmlprover_fo_formula(Formulae).
+
+%----------------------------------------------------------------------
+%----Provide information about the gqmlprover format.
+gqmlprover_format_information('%','.gqmlprover').
+%----------------------------------------------------------------------
+%----Provide information about the TPTP file.
+gqmlprover_file_information(format,gqmlprover).
+%----------------------------------------------------------------------

@@ -9,11 +9,11 @@ tff(first_decl, type, first: $i).
 tff(price_decl, type, price: ($i > $o)).
 tff(dest_decl, type, dest: ($i > $o)).
 tff(class_decl, type, class: ($i > $o)).
-tff(axiom_1, axiom-local, {$box(#b_s)}(((dest(paris) & class(first)) => price(ninetyfive)))).
-tff(axiom_2, axiom-local, {$box(#b_s)}(((dest(paris) & class(second)) => price(seventy)))).
-tff(axiom_3_s, axiom-local, {$box(#b_s)}(~ ((class(first) & class(second))))).
-tff(axiom_3_u, axiom-local, {$box(#b_u)}(~ ((class(first) & class(second))))).
-tff(axiom_4_s, axiom-local, {$box(#b_s)}(~ ((price(seventy) & price(ninetyfive))))).
-tff(axiom_4_u, axiom-local, {$box(#b_u)}(~ ((price(seventy) & price(ninetyfive))))).
-tff(axiom_5, axiom-local, {$box(#b_s)}((dest(paris) & class(second)))).
-tff(con, conjecture, {$box(#b_s)}(price(seventy))).
+tff(axiom_1, axiom-local, {$box(#b_s)} @ (((dest(paris) & class(first)) => price(ninetyfive)))).
+tff(axiom_2, axiom-local, {$box(#b_s)} @ (((dest(paris) & class(second)) => price(seventy)))).
+tff(axiom_3_s, axiom-local, {$box(#b_s)} @ (~ ((class(first) & class(second))))).
+tff(axiom_3_u, axiom-local, {$box(#b_u)} @ (~ ((class(first) & class(second))))).
+tff(axiom_4_s, axiom-local, {$box(#b_s)} @ (~ ((price(seventy) & price(ninetyfive))))).
+tff(axiom_4_u, axiom-local, {$box(#b_u)} @ (~ ((price(seventy) & price(ninetyfive))))).
+tff(axiom_5, axiom-local, {$box(#b_s)} @ ((dest(paris) & class(second)))).
+tff(con, conjecture, {$box(#b_s)} @ (price(seventy))).

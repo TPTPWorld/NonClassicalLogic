@@ -3,6 +3,6 @@
 tff(semantics, logic, $modal == ([$constants == $rigid,$quantification == $constant,$modalities == $modal_system_S5])).
 tff(p_decl, type, p: $o).
 tff(big_f_decl, type, big_f: ($i > $o)).
-tff(pel21_1, axiom-local, (? [X:$i]: ({$box}(({$box}(p) => {$box}(big_f(X))))))).
-tff(pel21_2, axiom-local, (? [X:$i]: ({$box}(({$box}(big_f(X)) => {$box}(p)))))).
-tff(pel21, conjecture, (? [X:$i]: (({$box}(({$box}(p) => {$box}(big_f(X)))) & {$box}(({$box}(big_f(X)) => {$box}(p))))))).
+tff(pel21_1, axiom-local, (? [X:$i]: ({$box} @ (({$box} @ (p) => {$box} @ (big_f(X))))))).
+tff(pel21_2, axiom-local, (? [X:$i]: ({$box} @ (({$box} @ (big_f(X)) => {$box} @ (p)))))).
+tff(pel21, conjecture, (? [X:$i]: (({$box} @ (({$box} @ (p) => {$box} @ (big_f(X)))) & {$box} @ (({$box} @ (big_f(X)) => {$box} @ (p))))))).

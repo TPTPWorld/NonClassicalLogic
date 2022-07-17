@@ -1,0 +1,29 @@
+Connectives
++ $future
++ $past
++ $henceforth
++ $hitherto
+
+Logic specifications:
++ Name is $temporal_instant
++ All parameters from $modal
+  - $constants ($rigid,$flexible)
+  - $quantification ($constant,$varying,$cumulative,$decreasing)
+  - $modalities ($modal_system_X,[$modal_axiom_X1, $modal_axiom_X2, ...])
+    X ∈ {K,KB,K4,K5,K45,KB5,D,DB,D4,D5,D45,T,B,S4,S5,S5U} 
+    Xi ∈{K,T,B,D,4,5,CD,BoxM,C4,C}
+    $reflexivity: ∀x (x≺x)
+    $irreflexivity: ∀x ¬(x≺x)
+    $transitivity: ∀x ∀y ∀z (x≺y ∧ y≺z → x≺z)
+    $asymmetry: ∀x ∀y ¬(x≺y ∧ y≺x)
+    $anti_symmetry: ∀x ∀y (x≺y ∧ y≺x → x=y)
+    $linearity: ∀x ∀y (x=y ∨ x≺y ∨ y≺x)
+    $forward_linearity: ∀x ∀y ∀z (z≺x ∧ z≺y → (x=y ∨ x≺y ∨ y≺x))
+    $backward_linearity: ∀x ∀y ∀z (x≺z ∧ y≺z → (x=y ∨ x≺y ∨ y≺x))
+    $beginning: ∃x ¬∃y (y≺x)
+    $end: ∃x ¬∃y (x≺y)
+    $no_beginning: ∀x ∃y (y≺x)
+    $no_end: ∀x ∃y (x≺y)
+    $density: ∀x ∀y (x≺y → ∃z (x≺z ∧ z≺y))
+    $forward_discreteness: ∀x ∀y (x≺y → ∃z (x≺z ∧ z ⪯ y ∧ ¬∃u (x≺u ∧ u≺z)))
+    $backward_discreteness ∀x ∀y (y≺x → ∃z (z≺x ∧ y ⪯ z ∧ ¬∃u (z≺u ∧ u≺x)))

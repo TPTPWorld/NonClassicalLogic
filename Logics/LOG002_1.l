@@ -32,7 +32,7 @@
 %------------------------------------------------------------------------------
 tff(parameters,definition,
     ( $parameters
-   == [$constants, $consequence, $quantification, $modalities] ) ).
+   == [$constants, $quantification, $modalities] ) ).
 
 %----Constants
 tff(constants_values,definition,

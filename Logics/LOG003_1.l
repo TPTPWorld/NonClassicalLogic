@@ -18,9 +18,9 @@ include('Logics/LOG001_1.l').
 %------------------------------------------------------------------------------
 tff(name,logic,$modal).
 
-tff(box_type,type,'{$box}' : $o > $o ).
+tff(box_decl,type,'{$box}' : $o > $o ).
 
-tff(dia_type,type,'{$dia}' : $o > $o ).
+tff(dia_decl,type,'{$dia}' : $o > $o ).
 
 tff(box_shortform,definition,
     '{$box}' == '[.]' ).
@@ -29,7 +29,7 @@ tff(dia_shortform,definition,
     '{$dia}' == '<.>' ).
 
 tff(dia_defn,definition,
-    ( {$dia}(P)
-   == ~ {$box}(~ P) ) ).
+    ( {$dia} @ (P)
+   == ~ {$box} @ (~ P) ) ).
 
 %------------------------------------------------------------------------------

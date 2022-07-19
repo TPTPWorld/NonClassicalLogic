@@ -18,9 +18,9 @@ include('Logics/LOG001_1.l').
 %------------------------------------------------------------------------------
 tff(name,logic,$alethic_modal).
 
-tff(necessary_type,type,'{$necessary}' : $o > $o ).
+tff(necessary_decl,type,'{$necessary}' : $o > $o ).
 
-tff(possible_type,type,'{$possible}' : $o > $o ).
+tff(possible_decl,type,'{$possible}' : $o > $o ).
 
 tff(necessary_shortform,definition,
     '{$necessary}' == '[.]' ).
@@ -29,7 +29,7 @@ tff(possible_shortform,definition,
     '{$possible}' == '<.>' ).
 
 tff(possible_defn,definition,
-    ( {$possible}(P)
-   == ~ {$necessary}(~ P) ) ).
+    ( {$possible} @ (P)
+   == ~ {$necessary} @ (~ P) ) ).
 
 %------------------------------------------------------------------------------

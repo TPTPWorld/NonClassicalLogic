@@ -27,6 +27,6 @@ tff(modus_ponens,definition,
 tff(modal_necessitation,definition,
     ( $modal_necessitation
    == ( [P]
-    --> [[.](P)] ) ) ).
+    --> [[.] @ (P)] ) ) ).
 
 %------------------------------------------------------------------------------

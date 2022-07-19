@@ -15,22 +15,22 @@
 %------------------------------------------------------------------------------
 #include('Logics/LOG001_1.l').
 %------------------------------------------------------------------------------
-%----If (A => B) is a theorem then ([.](A) => [.](B)) is a theorem too.
+%----If (A => B) is a theorem then ([.] @ (A) => [.] @ (B)) is a theorem too.
 %----Here --> is global consequence.
 tff(modal_axiom_RM,definition,
     ( $modal_axiom_RM
    == ( [ ( A
          => B ) ]
-    --> [ ( [.](A)
-         => [.](B) ) ] ) ) ).
+    --> [ ( [.] @ (A)
+         => [.] @ (B) ) ] ) ) ).
 
-%----If (A <=> B) is a theorem then ([.](A) <=> [.](B)) is a theorem too.
+%----If (A <=> B) is a theorem then ([.] @ (A) <=> [.] @ (B)) is a theorem too.
 %----Here --> is global consequence.
 tff(modal_axiom_RE,definition,
     ( $modal_axiom_RE
    == ( [ ( A
         <=> B ) ]
-    --> [ ( [.](A)
-        <=> [.](B) ) ] ) ) ).
+    --> [ ( [.] @ (A)
+        <=> [.] @ (B) ) ] ) ) ).
 
 %------------------------------------------------------------------------------

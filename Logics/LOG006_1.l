@@ -18,13 +18,13 @@ include('Logics/LOG001_1.l').
 %------------------------------------------------------------------------------
 tff(name,logic,$epistemic_modal).
 
-tff(knows_type,type,'{$knows}' : $o > $o ).
+tff(knows_decl,type,'{$knows}' : $o > $o ).
 
-tff(possible_type,type,'{$possible}' : $o > $o ).
+tff(possible_decl,type,'{$possible}' : $o > $o ).
 
-tff(group_type,type,'{$group($agents := $tuple)}' : $o > $o ).
+tff(group_decl,type,'{$group($agents := $tuple)}' : $o > $o ).
 
-tff(common_type,type,'{$common($agents := $tuple)}' : $o > $o ).
+tff(common_decl,type,'{$common($agents := $tuple)}' : $o > $o ).
 
 tff(knows_shortform,definition,
     '{$knows}' == '[.]' ).

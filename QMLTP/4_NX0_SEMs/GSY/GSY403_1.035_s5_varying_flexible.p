@@ -8,4 +8,4 @@ tff(s5_varying_flexible,logic, ( $modal ==
 tff(f_decl, type, f: ($i > $o)).
 tff(g_decl, type, g: ($i > $o)).
 tff(h_decl, type, h: ($i > $o)).
-tff(kalish234, conjecture, {$box}((! [X:$i]: ({$box}((({$box}(({$box}(f(X)) => {$box}(g(X)))) & {$box}(({$box}(g(X)) => {$box}(h(X))))) => {$box}(({$box}(f(X)) => {$box}(h(X)))))))))).
+tff(kalish234, conjecture, {$box} @ ((! [X:$i]: ({$box} @ ((({$box} @ (({$box} @ (f(X)) => {$box} @ (g(X)))) & {$box} @ (({$box} @ (g(X)) => {$box} @ (h(X))))) => {$box} @ (({$box} @ (f(X)) => {$box} @ (h(X)))))))))).

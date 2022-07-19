@@ -7,4 +7,4 @@ tff(s4_cumulative_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:39:19 CEST 2022 using command 'downgrade(tff)'.
 tff(a_decl, type, a: $i).
 tff(r_decl, type, r: (($i * $i) > $o)).
-tff(con, conjecture, ((? [X:$i]: ({$dia}(r(a,X)))) => {$dia}({$box}((? [X:$i]: ((? [Y:$i]: (r(X,Y))))))))).
+tff(con, conjecture, ((? [X:$i]: ({$dia} @ (r(a,X)))) => {$dia} @ ({$box} @ ((? [X:$i]: ((? [Y:$i]: (r(X,Y))))))))).

@@ -8,7 +8,7 @@ tff(d_cumulative_flexible,logic, ( $modal ==
 tff(member_decl, type, member: (($i * $i) > $o)).
 tff(subset_decl, type, subset: (($i * $i) > $o)).
 tff(difference_decl, type, difference: (($i * $i) > $i)).
-tff(difference_defn, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: ({$box}((! [D:$i]: (({$box}(({$box}(member(D,difference(B,C))) => ({$box}(member(D,B)) & {$box}(~ ({$box}(member(D,C))))))) & {$box}((({$box}(member(D,B)) & {$box}(~ ({$box}(member(D,C))))) => {$box}(member(D,difference(B,C)))))))))))))))).
-tff(subset_defn, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: (({$box}(({$box}(subset(B,C)) => {$box}((! [D:$i]: ({$box}(({$box}(member(D,B)) => {$box}(member(D,C))))))))) & {$box}(({$box}((! [D:$i]: ({$box}(({$box}(member(D,B)) => {$box}(member(D,C))))))) => {$box}(subset(B,C)))))))))))).
-tff(reflexivity_of_subset, axiom-local, {$box}((! [B:$i]: ({$box}(subset(B,B)))))).
-tff(prove_subset_difference, conjecture, {$box}((! [B:$i]: ({$box}((! [C:$i]: ({$box}((! [D:$i]: ({$box}(({$box}(subset(B,C)) => {$box}(subset(difference(D,C),difference(D,B))))))))))))))).
+tff(difference_defn, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: ({$box} @ ((! [D:$i]: (({$box} @ (({$box} @ (member(D,difference(B,C))) => ({$box} @ (member(D,B)) & {$box} @ (~ ({$box} @ (member(D,C))))))) & {$box} @ ((({$box} @ (member(D,B)) & {$box} @ (~ ({$box} @ (member(D,C))))) => {$box} @ (member(D,difference(B,C)))))))))))))))).
+tff(subset_defn, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: (({$box} @ (({$box} @ (subset(B,C)) => {$box} @ ((! [D:$i]: ({$box} @ (({$box} @ (member(D,B)) => {$box} @ (member(D,C))))))))) & {$box} @ (({$box} @ ((! [D:$i]: ({$box} @ (({$box} @ (member(D,B)) => {$box} @ (member(D,C))))))) => {$box} @ (subset(B,C)))))))))))).
+tff(reflexivity_of_subset, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ (subset(B,B)))))).
+tff(prove_subset_difference, conjecture, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: ({$box} @ ((! [D:$i]: ({$box} @ (({$box} @ (subset(B,C)) => {$box} @ (subset(difference(D,C),difference(D,B))))))))))))))).

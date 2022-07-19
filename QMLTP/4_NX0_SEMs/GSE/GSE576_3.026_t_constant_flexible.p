@@ -8,7 +8,7 @@ tff(t_constant_flexible,logic, ( $modal ==
 tff(intersect_decl, type, intersect: (($i * $i) > $o)).
 tff(disjoint_decl, type, disjoint: (($i * $i) > $o)).
 tff(member_decl, type, member: (($i * $i) > $o)).
-tff(intersect_defn, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: (({$box}(({$box}(intersect(B,C)) => (? [D:$i]: (({$box}(member(D,B)) & {$box}(member(D,C))))))) & {$box}(((? [D:$i]: (({$box}(member(D,B)) & {$box}(member(D,C))))) => {$box}(intersect(B,C)))))))))))).
-tff(disjoint_defn, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: (({$box}(({$box}(disjoint(B,C)) => {$box}(~ ({$box}(intersect(B,C)))))) & {$box}(({$box}(~ ({$box}(intersect(B,C)))) => {$box}(disjoint(B,C)))))))))))).
-tff(symmetry_of_intersect, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: ({$box}(({$box}(intersect(B,C)) => {$box}(intersect(C,B))))))))))).
-tff(prove_th17, conjecture, {$box}((! [B:$i]: ({$box}((! [C:$i]: ({$box}(({$box}((! [D:$i]: ({$box}(({$box}(member(D,B)) => {$box}(~ ({$box}(member(D,C))))))))) => {$box}(disjoint(B,C))))))))))).
+tff(intersect_defn, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: (({$box} @ (({$box} @ (intersect(B,C)) => (? [D:$i]: (({$box} @ (member(D,B)) & {$box} @ (member(D,C))))))) & {$box} @ (((? [D:$i]: (({$box} @ (member(D,B)) & {$box} @ (member(D,C))))) => {$box} @ (intersect(B,C)))))))))))).
+tff(disjoint_defn, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: (({$box} @ (({$box} @ (disjoint(B,C)) => {$box} @ (~ ({$box} @ (intersect(B,C)))))) & {$box} @ (({$box} @ (~ ({$box} @ (intersect(B,C)))) => {$box} @ (disjoint(B,C)))))))))))).
+tff(symmetry_of_intersect, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: ({$box} @ (({$box} @ (intersect(B,C)) => {$box} @ (intersect(C,B))))))))))).
+tff(prove_th17, conjecture, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: ({$box} @ (({$box} @ ((! [D:$i]: ({$box} @ (({$box} @ (member(D,B)) => {$box} @ (~ ({$box} @ (member(D,C))))))))) => {$box} @ (disjoint(B,C))))))))))).

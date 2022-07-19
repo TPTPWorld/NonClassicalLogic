@@ -7,6 +7,6 @@ tff(k_decreasing_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:32:03 CEST 2022 using command 'downgrade(tff)'.
 tff(member_decl, type, member: (($i * $i) > $o)).
 tff(subset_decl, type, subset: (($i * $i) > $o)).
-tff(subset_defn, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: (({$box}(({$box}(subset(B,C)) => {$box}((! [D:$i]: ({$box}(({$box}(member(D,B)) => {$box}(member(D,C))))))))) & {$box}(({$box}((! [D:$i]: ({$box}(({$box}(member(D,B)) => {$box}(member(D,C))))))) => {$box}(subset(B,C)))))))))))).
-tff(reflexivity_of_subset, axiom-local, {$box}((! [B:$i]: ({$box}(subset(B,B)))))).
-tff(prove_transitivity_of_subset, conjecture, {$box}((! [B:$i]: ({$box}((! [C:$i]: ({$box}((! [D:$i]: ({$box}((({$box}(subset(B,C)) & {$box}(subset(C,D))) => {$box}(subset(B,D)))))))))))))).
+tff(subset_defn, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: (({$box} @ (({$box} @ (subset(B,C)) => {$box} @ ((! [D:$i]: ({$box} @ (({$box} @ (member(D,B)) => {$box} @ (member(D,C))))))))) & {$box} @ (({$box} @ ((! [D:$i]: ({$box} @ (({$box} @ (member(D,B)) => {$box} @ (member(D,C))))))) => {$box} @ (subset(B,C)))))))))))).
+tff(reflexivity_of_subset, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ (subset(B,B)))))).
+tff(prove_transitivity_of_subset, conjecture, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: ({$box} @ ((! [D:$i]: ({$box} @ ((({$box} @ (subset(B,C)) & {$box} @ (subset(C,D))) => {$box} @ (subset(B,D)))))))))))))).

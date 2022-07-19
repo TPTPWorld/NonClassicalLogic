@@ -7,4 +7,4 @@ tff(s5_constant_flexible,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:38:51 CEST 2022 using command 'downgrade(tff)'.
 tff(a_decl, type, a: ($i > $o)).
 tff(b_decl, type, b: ($i > $o)).
-tff(con, conjecture, (({$dia}((? [X:$i]: ({$box}(a(X))))) & {$box}((! [X:$i]: ({$dia}(b(X)))))) => {$dia}((? [X:$i]: ({$dia}((a(X) & b(X)))))))).
+tff(con, conjecture, (({$dia} @ ((? [X:$i]: ({$box} @ (a(X))))) & {$box} @ ((! [X:$i]: ({$dia} @ (b(X)))))) => {$dia} @ ((? [X:$i]: ({$dia} @ ((a(X) & b(X)))))))).

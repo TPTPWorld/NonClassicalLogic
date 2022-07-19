@@ -7,4 +7,4 @@ tff(k_constant_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:38:44 CEST 2022 using command 'downgrade(tff)'.
 tff(f_decl, type, f: ($i > $o)).
 tff(g_decl, type, g: ($i > $o)).
-tff(con, conjecture, ((! [X:$i]: ((f(X) => {$box}(g(X))))) => ((! [X:$i]: (f(X))) => {$box}((! [X:$i]: (g(X))))))).
+tff(con, conjecture, ((! [X:$i]: ((f(X) => {$box} @ (g(X))))) => ((! [X:$i]: (f(X))) => {$box} @ ((! [X:$i]: (g(X))))))).

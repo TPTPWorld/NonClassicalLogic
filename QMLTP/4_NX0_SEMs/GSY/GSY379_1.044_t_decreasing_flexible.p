@@ -7,4 +7,4 @@ tff(t_decreasing_flexible,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:35:01 CEST 2022 using command 'downgrade(tff)'.
 tff(big_q_decl, type, big_q: (($i * $i * $i) > $o)).
 tff(big_p_decl, type, big_p: ($i > $o)).
-tff(x2131, conjecture, {$box}(({$box}((! [X:$i]: ({$box}(big_p(X))))) => (? [Y:$i]: ({$box}(({$box}((! [X:$i]: ({$box}((! [Z:$i]: ({$box}(big_q(X,Y,Z)))))))) => {$box}(~ ({$box}((! [Z:$i]: (({$box}(big_p(Z)) & {$box}(~ ({$box}(big_q(Y,Y,Z))))))))))))))))).
+tff(x2131, conjecture, {$box} @ (({$box} @ ((! [X:$i]: ({$box} @ (big_p(X))))) => (? [Y:$i]: ({$box} @ (({$box} @ ((! [X:$i]: ({$box} @ ((! [Z:$i]: ({$box} @ (big_q(X,Y,Z)))))))) => {$box} @ (~ ({$box} @ ((! [Z:$i]: (({$box} @ (big_p(Z)) & {$box} @ (~ ({$box} @ (big_q(Y,Y,Z))))))))))))))))).

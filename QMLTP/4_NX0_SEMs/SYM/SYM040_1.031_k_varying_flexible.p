@@ -7,4 +7,4 @@ tff(k_varying_flexible,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:38:57 CEST 2022 using command 'downgrade(tff)'.
 tff(e_decl, type, e: ($i > $o)).
 tff(m_decl, type, m: ($i > $o)).
-tff(con, conjecture, ~ (((! [X:$i]: ({$box}((e(X) => m(X))))) => (! [X:$i]: ({$box}(m(X))))))).
+tff(con, conjecture, ~ (((! [X:$i]: ({$box} @ ((e(X) => m(X))))) => (! [X:$i]: ({$box} @ (m(X))))))).

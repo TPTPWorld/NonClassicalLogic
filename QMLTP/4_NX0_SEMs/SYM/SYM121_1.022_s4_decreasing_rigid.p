@@ -7,4 +7,4 @@ tff(s4_decreasing_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:39:33 CEST 2022 using command 'downgrade(tff)'.
 tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
-tff(con, conjecture, ({$dia}((p => q)) <=> ({$box}(p) => {$dia}(q)))).
+tff(con, conjecture, ({$dia} @ ((p => q)) <=> ({$box} @ (p) => {$dia} @ (q)))).

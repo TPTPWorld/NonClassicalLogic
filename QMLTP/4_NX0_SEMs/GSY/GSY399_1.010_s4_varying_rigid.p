@@ -7,4 +7,4 @@ tff(s4_varying_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:35:11 CEST 2022 using command 'downgrade(tff)'.
 tff(p_decl, type, p: $o).
 tff(f_decl, type, f: ($i > $o)).
-tff(kalish223, conjecture, {$box}(({$box}((! [X:$i]: (({$box}(({$box}(f(X)) => {$box}(p))) & {$box}(({$box}(p) => {$box}(f(X)))))))) => ({$box}(({$box}((! [Y:$i]: ({$box}(f(Y))))) => {$box}(p))) & {$box}(({$box}(p) => {$box}((! [Y:$i]: ({$box}(f(Y))))))))))).
+tff(kalish223, conjecture, {$box} @ (({$box} @ ((! [X:$i]: (({$box} @ (({$box} @ (f(X)) => {$box} @ (p))) & {$box} @ (({$box} @ (p) => {$box} @ (f(X)))))))) => ({$box} @ (({$box} @ ((! [Y:$i]: ({$box} @ (f(Y))))) => {$box} @ (p))) & {$box} @ (({$box} @ (p) => {$box} @ ((! [Y:$i]: ({$box} @ (f(Y))))))))))).

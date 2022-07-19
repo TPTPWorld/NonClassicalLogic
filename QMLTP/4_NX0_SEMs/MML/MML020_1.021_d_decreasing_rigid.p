@@ -14,11 +14,11 @@ tff(getticket_decl, type, getticket: ($i > $o)).
 tff(visitstarbucks_decl, type, visitstarbucks: ($i > $o)).
 tff(getcoffee_decl, type, getcoffee: ($i > $o)).
 tff(visitstarbuck_decl, type, visitstarbuck: ($i > $o)).
-tff(axiom_1, axiom-local, (! [X:$i]: ({$box(#ticket)}((usemachine(X) | usewindow(X)))))).
-tff(axiom_2, axiom-local, (! [X:$i]: ({$box(#ticket)}((usemachine(X) => getticket(X)))))).
-tff(axiom_3, axiom-local, (! [X:$i]: ({$box(#ticket)}((usewindow(X) => getticket(X)))))).
-tff(axiom_4, axiom-local, (! [X:$i]: ({$box(#coffee)}((visitdonuts(X) | visitstarbucks(X)))))).
-tff(axiom_5, axiom-local, (! [X:$i]: ({$box(#coffee)}((visitdonuts(X) => getcoffee(X)))))).
-tff(axiom_6, axiom-local, (! [X:$i]: ({$box(#coffee)}((visitstarbuck(X) => getcoffee(X)))))).
-tff(axiom_7, axiom-local, (! [X:$i]: ((({$box(#ticket)}(getticket(X)) & {$box(#coffee)}(getcoffee(X))) => takejourney(X))))).
+tff(axiom_1, axiom-local, (! [X:$i]: ({$box(#ticket)} @ ((usemachine(X) | usewindow(X)))))).
+tff(axiom_2, axiom-local, (! [X:$i]: ({$box(#ticket)} @ ((usemachine(X) => getticket(X)))))).
+tff(axiom_3, axiom-local, (! [X:$i]: ({$box(#ticket)} @ ((usewindow(X) => getticket(X)))))).
+tff(axiom_4, axiom-local, (! [X:$i]: ({$box(#coffee)} @ ((visitdonuts(X) | visitstarbucks(X)))))).
+tff(axiom_5, axiom-local, (! [X:$i]: ({$box(#coffee)} @ ((visitdonuts(X) => getcoffee(X)))))).
+tff(axiom_6, axiom-local, (! [X:$i]: ({$box(#coffee)} @ ((visitstarbuck(X) => getcoffee(X)))))).
+tff(axiom_7, axiom-local, (! [X:$i]: ((({$box(#ticket)} @ (getticket(X)) & {$box(#coffee)} @ (getcoffee(X))) => takejourney(X))))).
 tff(con, conjecture, takejourney(passenger)).

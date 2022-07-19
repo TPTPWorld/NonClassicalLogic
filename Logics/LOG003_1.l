@@ -15,6 +15,8 @@
 %------------------------------------------------------------------------------
 %----Include common definitions
 include('Logics/LOG001_1.l').
+%----Include semantics specification
+include('Logics/LOG002_1.l').
 %------------------------------------------------------------------------------
 tff(name,logic,$modal).
 

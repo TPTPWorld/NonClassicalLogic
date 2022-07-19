@@ -8,4 +8,4 @@ tff(s4_constant_flexible,logic, ( $modal ==
 tff(f_decl, type, f: ($i > $o)).
 tff(g_decl, type, g: ($i > $o)).
 tff(h_decl, type, h: ($i > $o)).
-tff(con, conjecture, (((! [X:$i]: ({$box}((? [Y:$i]: ((f(X) => g(Y))))))) & ((! [X:$i]: ({$box}((? [Y:$i]: ((~ (f(X)) => g(Y))))))) & (? [X:$i]: (h(X))))) => {$box}((? [X:$i]: (g(X)))))).
+tff(con, conjecture, (((! [X:$i]: ({$box} @ ((? [Y:$i]: ((f(X) => g(Y))))))) & ((! [X:$i]: ({$box} @ ((? [Y:$i]: ((~ (f(X)) => g(Y))))))) & (? [X:$i]: (h(X))))) => {$box} @ ((? [X:$i]: (g(X)))))).

@@ -7,4 +7,4 @@ tff(k_cumulative_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:35:09 CEST 2022 using command 'downgrade(tff)'.
 tff(f_decl, type, f: ($i > $o)).
 tff(g_decl, type, g: ($i > $o)).
-tff(kalish202, conjecture, {$box}(({$box}((! [X:$i]: ({$box}(({$box}(f(X)) => {$box}(g(X))))))) => {$box}(((? [Y:$i]: ({$box}(f(Y)))) => (? [Z:$i]: ({$box}(g(Z))))))))).
+tff(kalish202, conjecture, {$box} @ (({$box} @ ((! [X:$i]: ({$box} @ (({$box} @ (f(X)) => {$box} @ (g(X))))))) => {$box} @ (((? [Y:$i]: ({$box} @ (f(Y)))) => (? [Z:$i]: ({$box} @ (g(Z))))))))).

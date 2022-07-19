@@ -8,4 +8,4 @@ tff(s5_cumulative_rigid,logic, ( $modal ==
 tff(a_decl, type, a: $o).
 tff(b_decl, type, b: $o).
 tff(f_decl, type, f: ($i > $o)).
-tff(con, conjecture, ((a & {$box}((! [X:$i]: ({$box}((a => f(X))))))) => {$box}((! [X:$i]: ({$dia}((b & f(X)))))))).
+tff(con, conjecture, ((a & {$box} @ ((! [X:$i]: ({$box} @ ((a => f(X))))))) => {$box} @ ((! [X:$i]: ({$dia} @ ((b & f(X)))))))).

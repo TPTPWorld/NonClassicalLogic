@@ -21,7 +21,7 @@
 %            - I(w,t), w in W, t a term or formula, is the interpretation of
 %              t in w.
 %
-%            Semantics parameters: Four dimensions as follows ...
+%            Semantics parameters: Three dimensions as follows ...
 %            - $constants      - Whether constants are (a) rigid or
 %                                (b) flexible (world dependent).
 %            - $quantification - Whether quantification domains are

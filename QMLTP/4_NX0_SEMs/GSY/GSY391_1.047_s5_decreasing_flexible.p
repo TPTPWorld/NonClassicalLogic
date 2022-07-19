@@ -7,4 +7,4 @@ tff(s5_decreasing_flexible,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:35:07 CEST 2022 using command 'downgrade(tff)'.
 tff(p1_decl, type, p1: $o).
 tff(p2_decl, type, p2: $o).
-tff(pel9, conjecture, {$box}(((({$box}(p1) | {$box}(p2)) & (({$box}(~ ({$box}(p1))) | {$box}(p2)) & ({$box}(p1) | {$box}(~ ({$box}(p2)))))) => {$box}(~ (({$box}(~ ({$box}(p1))) | {$box}(~ ({$box}(p2))))))))).
+tff(pel9, conjecture, {$box} @ (((({$box} @ (p1) | {$box} @ (p2)) & (({$box} @ (~ ({$box} @ (p1))) | {$box} @ (p2)) & ({$box} @ (p1) | {$box} @ (~ ({$box} @ (p2)))))) => {$box} @ (~ (({$box} @ (~ ({$box} @ (p1))) | {$box} @ (~ ({$box} @ (p2))))))))).

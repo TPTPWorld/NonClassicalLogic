@@ -8,4 +8,4 @@ tff(s5_varying_rigid,logic, ( $modal ==
 tff(p_decl, type, p: $o).
 tff(a_decl, type, a: $i).
 tff(f_decl, type, f: ($i > $o)).
-tff(con, conjecture, ((! [X:$i]: (({$dia}(f(X)) | {$dia}(~ (f(X)))))) => {$box}(({$box}(f(a)) <=> (p | ~ (p)))))).
+tff(con, conjecture, ((! [X:$i]: (({$dia} @ (f(X)) | {$dia} @ (~ (f(X)))))) => {$box} @ (({$box} @ (f(a)) <=> (p | ~ (p)))))).

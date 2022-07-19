@@ -8,7 +8,7 @@ tff(d_constant_flexible,logic, ( $modal ==
 tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
 tff(r_decl, type, r: $o).
-tff(pel10_1, axiom-local, {$box}(({$box}(q) => {$box}(r)))).
-tff(pel10_2, axiom-local, {$box}(({$box}(r) => ({$box}(p) & {$box}(q))))).
-tff(pel10_3, axiom-local, {$box}(({$box}(p) => ({$box}(q) | {$box}(r))))).
-tff(pel10, conjecture, ({$box}(({$box}(p) => {$box}(q))) & {$box}(({$box}(q) => {$box}(p))))).
+tff(pel10_1, axiom-local, {$box} @ (({$box} @ (q) => {$box} @ (r)))).
+tff(pel10_2, axiom-local, {$box} @ (({$box} @ (r) => ({$box} @ (p) & {$box} @ (q))))).
+tff(pel10_3, axiom-local, {$box} @ (({$box} @ (p) => ({$box} @ (q) | {$box} @ (r))))).
+tff(pel10, conjecture, ({$box} @ (({$box} @ (p) => {$box} @ (q))) & {$box} @ (({$box} @ (q) => {$box} @ (p))))).

@@ -9,4 +9,4 @@ tff(a_decl, type, a: $i).
 tff(big_p_decl, type, big_p: (($i * $i * $i) > $o)).
 tff(f_decl, type, f: ($i > $i)).
 tff(h_decl, type, h: ($i > $i)).
-tff(x2121, conjecture, (? [V:$i]: ({$box}((! [Y:$i]: ((? [Z:$i]: ({$box}((({$box}(big_p(a,Y,h(Y))) | {$box}(big_p(V,Y,f(Y)))) => {$box}(big_p(V,Y,Z)))))))))))).
+tff(x2121, conjecture, (? [V:$i]: ({$box} @ ((! [Y:$i]: ((? [Z:$i]: ({$box} @ ((({$box} @ (big_p(a,Y,h(Y))) | {$box} @ (big_p(V,Y,f(Y)))) => {$box} @ (big_p(V,Y,Z)))))))))))).

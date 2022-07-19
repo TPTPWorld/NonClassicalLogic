@@ -12,9 +12,9 @@ tff(h_decl, type, h: ($i > $o)).
 tff(closed_decl, type, closed: ($i > $o)).
 tff(combo_decl, type, combo: (($i * $i) > $o)).
 tff(open_decl, type, open: ($i > $o)).
-tff(ax1, axiom-local, {$box}((! [S:$i,V:$i]: ((? [O:$i]: (({$box}(((closed(S) & (combo(S,V) & h(O))) => {$box}(open(S)))) & {$box}(((closed(S) & (~ (combo(S,V)) & h(o))) => {$box}(closed(S))))))))))).
-tff(ax2, axiom-local, {$box}(closed(d))).
-tff(ax3, axiom-local, {$box}((combo(d,n) | ~ (combo(d,n))))).
-tff(ax4, axiom-local, {$box}((! [S:$i]: (~ ((open(S) & closed(S))))))).
-tff(ax5, axiom-local, (? [V:$i]: ({$box}(combo(d,V))))).
-tff(con, conjecture, {$box}((? [V:$i,O:$i]: (({$box}((combo(d,V) & h(O))) => {$box}(open(d))))))).
+tff(ax1, axiom-local, {$box} @ ((! [S:$i,V:$i]: ((? [O:$i]: (({$box} @ (((closed(S) & (combo(S,V) & h(O))) => {$box} @ (open(S)))) & {$box} @ (((closed(S) & (~ (combo(S,V)) & h(o))) => {$box} @ (closed(S))))))))))).
+tff(ax2, axiom-local, {$box} @ (closed(d))).
+tff(ax3, axiom-local, {$box} @ ((combo(d,n) | ~ (combo(d,n))))).
+tff(ax4, axiom-local, {$box} @ ((! [S:$i]: (~ ((open(S) & closed(S))))))).
+tff(ax5, axiom-local, (? [V:$i]: ({$box} @ (combo(d,V))))).
+tff(con, conjecture, {$box} @ ((? [V:$i,O:$i]: (({$box} @ ((combo(d,V) & h(O))) => {$box} @ (open(d))))))).

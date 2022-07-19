@@ -7,4 +7,4 @@ tff(d_cumulative_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:35:06 CEST 2022 using command 'downgrade(tff)'.
 tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
-tff(pel8, conjecture, {$box}(({$box}(({$box}(({$box}(p) => {$box}(q))) => {$box}(p))) => {$box}(p)))).
+tff(pel8, conjecture, {$box} @ (({$box} @ (({$box} @ (({$box} @ (p) => {$box} @ (q))) => {$box} @ (p))) => {$box} @ (p)))).

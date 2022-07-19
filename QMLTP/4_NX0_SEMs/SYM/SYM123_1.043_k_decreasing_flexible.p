@@ -8,4 +8,4 @@ tff(k_decreasing_flexible,logic, ( $modal ==
 tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
 tff(r_decl, type, r: $o).
-tff(con, conjecture, ({$dia}((p => (q & r))) => (({$box}(p) => {$dia}(q)) & ({$box}(p) => {$dia}(r))))).
+tff(con, conjecture, ({$dia} @ ((p => (q & r))) => (({$box} @ (p) => {$dia} @ (q)) & ({$box} @ (p) => {$dia} @ (r))))).

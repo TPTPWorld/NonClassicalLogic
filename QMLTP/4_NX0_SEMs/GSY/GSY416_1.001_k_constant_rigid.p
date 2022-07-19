@@ -7,4 +7,4 @@ tff(k_constant_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:35:20 CEST 2022 using command 'downgrade(tff)'.
 tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
-tff(pel16, conjecture, ({$box}(({$box}(p) => {$box}(q))) | {$box}(({$box}(q) => {$box}(p))))).
+tff(pel16, conjecture, ({$box} @ (({$box} @ (p) => {$box} @ (q))) | {$box} @ (({$box} @ (q) => {$box} @ (p))))).

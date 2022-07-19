@@ -15,7 +15,7 @@ tff(parent_decl, type, parent: (($i * $i) > $o)).
 tff(q2_decl, type, q2: ($i > $o)).
 tff(female_decl, type, female: ($i > $o)).
 tff(male_decl, type, male: ($i > $o)).
-tff(abox, axiom-local, {$box}((female(mary) & (female(ann) & (female(jane) & (male(bob) & (male(john) & (male(paul) & (parent(bob,mary) & (parent(bob,ann) & (parent(john,paul) & parent(mary,jane)))))))))))).
-tff(tbox, axiom-local, (! [X:$i]: (({$box}(male(X)) => {$box}(~ (female(X))))))).
-tff(query, axiom-local, (! [X:$i]: ((q2(X) <=> ({$box}(male(X)) & ~ ({$box}((? [Y:$i]: ((parent(X,Y) & female(Y))))))))))).
+tff(abox, axiom-local, {$box} @ ((female(mary) & (female(ann) & (female(jane) & (male(bob) & (male(john) & (male(paul) & (parent(bob,mary) & (parent(bob,ann) & (parent(john,paul) & parent(mary,jane)))))))))))).
+tff(tbox, axiom-local, (! [X:$i]: (({$box} @ (male(X)) => {$box} @ (~ (female(X))))))).
+tff(query, axiom-local, (! [X:$i]: ((q2(X) <=> ({$box} @ (male(X)) & ~ ({$box} @ ((? [Y:$i]: ((parent(X,Y) & female(Y))))))))))).
 tff(con, conjecture, (q2(john) & q2(paul))).

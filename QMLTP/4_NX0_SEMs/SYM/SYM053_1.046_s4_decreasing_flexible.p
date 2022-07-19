@@ -8,4 +8,4 @@ tff(s4_decreasing_flexible,logic, ( $modal ==
 tff(a_decl, type, a: $o).
 tff(e_decl, type, e: ($i > $o)).
 tff(f_decl, type, f: ($i > $o)).
-tff(con, conjecture, (({$box}((! [X:$i]: ({$box}(e(X))))) & (a & {$dia}((! [X:$i]: ((f(X) => {$box}((a => ~ (f(X)))))))))) => {$box}((? [X:$i]: ({$dia}(~ (f(X)))))))).
+tff(con, conjecture, (({$box} @ ((! [X:$i]: ({$box} @ (e(X))))) & (a & {$dia} @ ((! [X:$i]: ((f(X) => {$box} @ ((a => ~ (f(X)))))))))) => {$box} @ ((? [X:$i]: ({$dia} @ (~ (f(X)))))))).

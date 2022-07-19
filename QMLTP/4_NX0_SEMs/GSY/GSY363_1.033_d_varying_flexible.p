@@ -8,4 +8,4 @@ tff(d_varying_flexible,logic, ( $modal ==
 tff(a_decl, type, a: $i).
 tff(b_decl, type, b: $i).
 tff(big_r_decl, type, big_r: (($i * $i) > $o)).
-tff(x2114, conjecture, {$box}((({$box}((! [X:$i]: ({$box}(big_r(X,b))))) & {$box}((! [Y:$i]: ({$box}(((? [Z:$i]: ({$box}(big_r(Y,Z)))) => {$box}(big_r(a,Y)))))))) => (? [U:$i]: ({$box}((! [V:$i]: ({$box}(big_r(U,V)))))))))).
+tff(x2114, conjecture, {$box} @ ((({$box} @ ((! [X:$i]: ({$box} @ (big_r(X,b))))) & {$box} @ ((! [Y:$i]: ({$box} @ (((? [Z:$i]: ({$box} @ (big_r(Y,Z)))) => {$box} @ (big_r(a,Y)))))))) => (? [U:$i]: ({$box} @ ((! [V:$i]: ({$box} @ (big_r(U,V)))))))))).

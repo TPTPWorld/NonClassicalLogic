@@ -8,4 +8,4 @@ tff(d_varying_flexible,logic, ( $modal ==
 tff(p_decl, type, p: $o).
 tff(q_decl, type, q: $o).
 tff(r_decl, type, r: $o).
-tff(con, conjecture, (({$dia}((p & q)) | {$dia}((p & r))) => {$dia}(p))).
+tff(con, conjecture, (({$dia} @ ((p & q)) | {$dia} @ ((p & r))) => {$dia} @ (p))).

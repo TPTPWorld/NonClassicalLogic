@@ -7,6 +7,6 @@ tff(k_constant_rigid,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:32:18 CEST 2022 using command 'downgrade(tff)'.
 tff(intersect_decl, type, intersect: (($i * $i) > $o)).
 tff(member_decl, type, member: (($i * $i) > $o)).
-tff(intersect_defn, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: (({$box}(({$box}(intersect(B,C)) => (? [D:$i]: (({$box}(member(D,B)) & {$box}(member(D,C))))))) & {$box}(((? [D:$i]: (({$box}(member(D,B)) & {$box}(member(D,C))))) => {$box}(intersect(B,C)))))))))))).
-tff(symmetry_of_intersect, axiom-local, {$box}((! [B:$i]: ({$box}((! [C:$i]: ({$box}(({$box}(intersect(B,C)) => {$box}(intersect(C,B))))))))))).
-tff(prove_th15, conjecture, {$box}((! [B:$i]: ({$box}((! [C:$i]: ({$box}(({$box}(intersect(B,C)) => (? [D:$i]: (({$box}(member(D,B)) & {$box}(member(D,C)))))))))))))).
+tff(intersect_defn, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: (({$box} @ (({$box} @ (intersect(B,C)) => (? [D:$i]: (({$box} @ (member(D,B)) & {$box} @ (member(D,C))))))) & {$box} @ (((? [D:$i]: (({$box} @ (member(D,B)) & {$box} @ (member(D,C))))) => {$box} @ (intersect(B,C)))))))))))).
+tff(symmetry_of_intersect, axiom-local, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: ({$box} @ (({$box} @ (intersect(B,C)) => {$box} @ (intersect(C,B))))))))))).
+tff(prove_th15, conjecture, {$box} @ ((! [B:$i]: ({$box} @ ((! [C:$i]: ({$box} @ (({$box} @ (intersect(B,C)) => (? [D:$i]: (({$box} @ (member(D,B)) & {$box} @ (member(D,C)))))))))))))).

@@ -8,4 +8,4 @@ tff(k_constant_flexible,logic, ( $modal ==
 tff(big_q_decl, type, big_q: ($i > $o)).
 tff(big_r_decl, type, big_r: ($i > $o)).
 tff(big_p_decl, type, big_p: ($i > $o)).
-tff(x2106, conjecture, {$box}((({$box}((! [X:$i]: ({$box}(({$box}(big_r(X)) => {$box}(big_p(X))))))) & {$box}((! [X:$i]: ({$box}(({$box}(~ ({$box}(big_q(X)))) => {$box}(big_r(X)))))))) => {$box}((! [X:$i]: (({$box}(big_p(X)) | {$box}(big_q(X))))))))).
+tff(x2106, conjecture, {$box} @ ((({$box} @ ((! [X:$i]: ({$box} @ (({$box} @ (big_r(X)) => {$box} @ (big_p(X))))))) & {$box} @ ((! [X:$i]: ({$box} @ (({$box} @ (~ ({$box} @ (big_q(X)))) => {$box} @ (big_r(X)))))))) => {$box} @ ((! [X:$i]: (({$box} @ (big_p(X)) | {$box} @ (big_q(X))))))))).

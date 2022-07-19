@@ -7,4 +7,4 @@ tff(t_constant_flexible,logic, ( $modal ==
 %%% Generated on Wed Apr 27 15:38:45 CEST 2022 using command 'downgrade(tff)'.
 tff(a_decl, type, a: $i).
 tff(f_decl, type, f: ($i > $o)).
-tff(con, conjecture, ((! [X:$i]: (({$box}(f(X)) | {$box}(~ (f(X)))))) => {$box}(({$box}(f(a)) <=> f(a))))).
+tff(con, conjecture, ((! [X:$i]: (({$box} @ (f(X)) | {$box} @ (~ (f(X)))))) => {$box} @ (({$box} @ (f(a)) <=> f(a))))).

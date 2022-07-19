@@ -8,4 +8,4 @@ tff(k_cumulative_flexible,logic, ( $modal ==
 tff(f_decl, type, f: ($i > $o)).
 tff(g_decl, type, g: ($i > $o)).
 tff(h_decl, type, h: ($i > $o)).
-tff(kalish241, conjecture, {$box}(({$box}((! [X:$i]: ({$box}(({$box}(f(X)) => ({$box}(g(X)) | {$box}(h(X)))))))) => ({$box}((! [Y:$i]: ({$box}(({$box}(f(Y)) => {$box}(g(Y))))))) | (? [Z:$i]: (({$box}(f(Z)) & {$box}(h(Z))))))))).
+tff(kalish241, conjecture, {$box} @ (({$box} @ ((! [X:$i]: ({$box} @ (({$box} @ (f(X)) => ({$box} @ (g(X)) | {$box} @ (h(X)))))))) => ({$box} @ ((! [Y:$i]: ({$box} @ (({$box} @ (f(Y)) => {$box} @ (g(Y))))))) | (? [Z:$i]: (({$box} @ (f(Z)) & {$box} @ (h(Z))))))))).

@@ -13,7 +13,7 @@ tff(in_decl, type, in: (($i * $i * $i) > $o)).
 tff(do_decl, type, do: (($i * $i * $i) > $o)).
 tff(entry_box_decl, type, entry_box: ($i > $o)).
 tff(userid_decl, type, userid: (($i * $i) > $o)).
-tff(ax1, axiom-local, {$box}((? [I:$i]: ({$box}((userid(u,I) & string(I))))))).
-tff(ax2, axiom-local, (? [B:$i]: ({$box}((entry_box(B) & number(B,one)))))).
-tff(ax3, axiom-local, {$box}((! [S:$i,I:$i,B:$i]: (((string(I) & entry_box(B)) => (? [A:$i]: ({$box}((! [S2:$i]: ((do(S,A,S2) => in(I,B,S2)))))))))))).
-tff(con, conjecture, {$box}((? [I:$i,B:$i,A:$i,S:$i]: (({$box}((userid(u,I) & (entry_box(B) & number(B,one)))) & {$box}((! [S2:$i]: ((do(S,A,S2) => in(I,B,S2)))))))))).
+tff(ax1, axiom-local, {$box} @ ((? [I:$i]: ({$box} @ ((userid(u,I) & string(I))))))).
+tff(ax2, axiom-local, (? [B:$i]: ({$box} @ ((entry_box(B) & number(B,one)))))).
+tff(ax3, axiom-local, {$box} @ ((! [S:$i,I:$i,B:$i]: (((string(I) & entry_box(B)) => (? [A:$i]: ({$box} @ ((! [S2:$i]: ((do(S,A,S2) => in(I,B,S2)))))))))))).
+tff(con, conjecture, {$box} @ ((? [I:$i,B:$i,A:$i,S:$i]: (({$box} @ ((userid(u,I) & (entry_box(B) & number(B,one)))) & {$box} @ ((! [S2:$i]: ((do(S,A,S2) => in(I,B,S2)))))))))).

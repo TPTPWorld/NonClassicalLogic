@@ -8,9 +8,9 @@ tff(k_decreasing_rigid,logic, ( $modal ==
 tff(portland_decl, type, portland: $i).
 tff(bigcity_decl, type, bigcity: ($i > $o)).
 tff(beautycity_decl, type, beautycity: ($i > $o)).
-tff(axiom_1_a, axiom-local, ({$box(#b_alice)}(bigcity(portland)) => ~ ({$box(#i_alice)}(bigcity(portland))))).
-tff(axiom_1_b, axiom-local, ({$box(#b_bob)}(bigcity(portland)) => ~ ({$box(#i_bob)}(bigcity(portland))))).
-tff(axiom_1_c, axiom-local, ({$box(#b_alice)}(beautycity(portland)) => ~ ({$box(#i_alice)}(beautycity(portland))))).
-tff(axiom_1_d, axiom-local, ({$box(#b_bob)}(beautycity(portland)) => ~ ({$box(#i_bob)}(beautycity(portland))))).
-tff(axiom_2, axiom-local, {$box(#b_alice)}(({$box(#b_bob)}({$box(#b_alice)}(bigcity(portland))) | {$box(#b_bob)}({$box(#b_alice)}(beautycity(portland)))))).
-tff(con, conjecture, {$box(#b_alice)}(({$box(#b_bob)}(({$box(#alice)}(bigcity(portland)) => ~ ({$box(#i_alice)}(bigcity(portland))))) & ({$box(#alice)}(beautycity(portland)) => ~ ({$box(#i_alice)}(beautycity(portland))))))).
+tff(axiom_1_a, axiom-local, ({$box(#b_alice)} @ (bigcity(portland)) => ~ ({$box(#i_alice)} @ (bigcity(portland))))).
+tff(axiom_1_b, axiom-local, ({$box(#b_bob)} @ (bigcity(portland)) => ~ ({$box(#i_bob)} @ (bigcity(portland))))).
+tff(axiom_1_c, axiom-local, ({$box(#b_alice)} @ (beautycity(portland)) => ~ ({$box(#i_alice)} @ (beautycity(portland))))).
+tff(axiom_1_d, axiom-local, ({$box(#b_bob)} @ (beautycity(portland)) => ~ ({$box(#i_bob)} @ (beautycity(portland))))).
+tff(axiom_2, axiom-local, {$box(#b_alice)} @ (({$box(#b_bob)} @ ({$box(#b_alice)} @ (bigcity(portland))) | {$box(#b_bob)} @ ({$box(#b_alice)} @ (beautycity(portland)))))).
+tff(con, conjecture, {$box(#b_alice)} @ (({$box(#b_bob)} @ (({$box(#alice)} @ (bigcity(portland)) => ~ ({$box(#i_alice)} @ (bigcity(portland))))) & ({$box(#alice)} @ (beautycity(portland)) => ~ ({$box(#i_alice)} @ (beautycity(portland))))))).

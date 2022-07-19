@@ -8,4 +8,4 @@ tff(d_decreasing_rigid,logic, ( $modal ==
 tff(a_decl, type, a: $o).
 tff(b_decl, type, b: $o).
 tff(f_decl, type, f: ($i > $o)).
-tff(con, conjecture, (({$dia}((! [X:$i]: ((f(X) => {$box}((a => ~ (f(X)))))))) & {$box}((? [X:$i]: ((f(X) & {$box}((b => f(X)))))))) => ~ ({$dia}((a & b))))).
+tff(con, conjecture, (({$dia} @ ((! [X:$i]: ((f(X) => {$box} @ ((a => ~ (f(X)))))))) & {$box} @ ((? [X:$i]: ((f(X) & {$box} @ ((b => f(X)))))))) => ~ ({$dia} @ ((a & b))))).

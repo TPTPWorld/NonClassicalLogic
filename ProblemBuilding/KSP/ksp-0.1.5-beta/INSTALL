@@ -1,0 +1,71 @@
+KSP - Copyright (c) (2015-2021) Cláudia Nalon
+
+These are generic instructions on how to install KSP on linux-like systems. If you have any problem for installing and/or running KSP, please contact me (nalon@unb.br).
+
+1. DEPENDENCIES
+
+1.1 - UTHASH
+
+KSP relies on the library uthash, developed by Troy D. Hanson. A copy of this library is distributed together with KSP. For the latest version, please visit http://troydhanson.github.com/uthash.
+
+1.2 - TCMALLOC
+
+KSP is statically linked to libtcmalloc, which is an alternative, fast implementation for the standard malloc library that comes with glibc. Tcmalloc is distributed together with gperftools, the profiling package by Google. You can either install gperftools via your favourite package manager or get the latest version at http://github.com/gperftools/gperftools. If you do not wish to install tcmalloc, just comment the line
+
+EXTRALIBS=-ltcmalloc
+
+in ksp-version/src/Makefile. This is not optional, however, if you are trying to reproduce our results.
+
+1.3 - GCC and MAKE
+
+For installation, a makefile is provided. This file conforms with the GNU Make 4.0 conventions. If you are using another make tool, you might need to change this file. GCC is the default compiler. If you are using another C compiler, you need to change the following line 
+
+CC=gcc
+
+in ksp-version/src/Makefile.
+
+1.4 - FLEX and BISON
+
+KSP's tokeniser and parser are built with FLEX and BISON, which are both free source and easily available. They can either be installed via your package manager or from the latest versions at their webpages:
+
+http://flex.sourceforge.net/
+
+and
+
+http://www.gnu.org/software/bison/
+
+Note that the generated files are distributed together with KSP. Unless you are changing those parts of the code, you do not need to install these tools. After install (see below), if you change the lexer or the parser, please, run
+
+$make clean_parser
+
+for generating the C files from their sources before building the prover.
+
+2. INSTALLATION
+
+KSP can be installed by running the following sequence of commands:
+
+$ tar -xzvf ksp.tar.gz
+
+This is going to generate a directory with the following structure:
+
+./ksp-version
+./ksp-version/src
+./ksp-version/examples
+./ksp-version/conf.files
+
+Move to the main directory:
+
+$ cd ksp-version
+
+and generate the binary:
+
+$ make
+
+A copy of the executable, ksp, is placed in the main directory, from where it can be run. Please see the USAGE file for instructions on how to run the prover.
+
+3- REPRODUCIBILITY
+
+For reproducibility, the configuration files used in our experimental evaluations are kept in specific directories (very originally named "jar-2020" and "cade-28").
+
+This version (0.1.3) was tested under the linux kernel 5.11.19-100.fc32.x86_64 for Fedora 32; and built with gcc 10.3.1 20210422 (Red Hat 10.3.1-1), using libtcmalloc.so.4.5.3, uthash 2020 (commit bf15263), bison (GNU Bison) 3.5, and flex 2.6.4.
+

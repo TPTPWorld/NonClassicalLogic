@@ -1,0 +1,3 @@
+sos(formulas).
+(box dia box ((box dia box dia (p & q)) & (p & box dia box q)) -> box dia box (box dia box dia (p & q))).
+end_of_list.

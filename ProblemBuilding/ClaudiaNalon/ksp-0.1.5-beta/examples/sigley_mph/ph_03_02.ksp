@@ -1,0 +1,3 @@
+sos(formulas).
+( dia p1  | dia p2 ) & box ( dia p1  | dia p2 ) & box box ( dia p1  | dia p2 ) & ((box ~p1 | box box ~p1) & (box ~p2 | box box ~p2)) & ((box ~p1 | box box box ~p1) & (box ~p2 | box box box ~p2)) & ((box box ~p1 | box box box ~p1) & (box box ~p2 | box box box ~p2)).
+end_of_list.

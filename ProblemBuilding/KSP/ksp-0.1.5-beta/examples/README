@@ -1,0 +1,32 @@
+The folder ksp/examples contains a set of formulae for some of the modal logics that the prover can deal with.
+
+The names of the subfolders give some clear indication of the logics to which the formulae belong. Moreover, I have annotated the names of the files with p (for unsatisfiable formulae) or n (for satisfiable formula) to indicate what is the expected status of each formula within each logic.
+
+Whenever the examples are provided by other people I have annotated the files with references. Those that do not have annotations were devised by Ullrich Hustadt, Fabio Papacchini, and/or myself. The folder sigley_mph contains a set of parameterised formula due to Sarah Sigley (see her PhD Thesis, Proof Complexity of Modal Resolution Systems, 2019, University of Leeds, Chapter 9; I have also added the reference for the paper in the Journal of Automated Reasoning below).
+
+Most of the formulae in this small collection are not exactly challenging. The intention is really to provide some small examples for testing. Sarah's formulae are good! I have managed to solve six of the nine problems, using all that I know about KSP's settings within 1800 seconds.
+
+All problems are codified in the KSP input format.
+
+If you find any problem, please let me know by emailing to nalon@unb.br
+
+Cláudia
+-------
+
+@article{DBLP:journals/jar/SigleyB22,
+  author    = {Sarah Sigley and
+               Olaf Beyersdorff},
+  title     = {Proof Complexity of Modal Resolution},
+  journal   = {J. Autom. Reason.},
+  volume    = {66},
+  number    = {1},
+  pages     = {1--41},
+  year      = {2022},
+  url       = {https://doi.org/10.1007/s10817-021-09609-9},
+  doi       = {10.1007/s10817-021-09609-9},
+  timestamp = {Fri, 21 Jan 2022 22:01:13 +0100},
+  biburl    = {https://dblp.org/rec/journals/jar/SigleyB22.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+

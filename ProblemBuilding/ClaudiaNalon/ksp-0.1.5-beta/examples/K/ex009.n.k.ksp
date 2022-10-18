@@ -1,0 +1,3 @@
+sos(formulas).
+((box (p & q) -> (box q & box (~p | ~q)))).
+end_of_list.

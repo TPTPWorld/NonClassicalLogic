@@ -1,0 +1,5 @@
+// Sebastiani, R., Vescovi, M.: Automated reasoning in modal and description logics via SAT encoding: The case study of K m /ALC-satisfiability. J. Artif. Intell. Res.35, 343--389 (2009)
+
+sos(formulas).
+(~a1 | ~box a2) & (a1 | ~box false) & (~a1 | a3) & (~a1 | ~a3) & (a1 | box ~a4) & box a4.
+end_of_list.

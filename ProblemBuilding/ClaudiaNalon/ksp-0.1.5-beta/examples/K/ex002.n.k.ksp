@@ -1,0 +1,3 @@
+sos(formulas).
+(dia (p or q) imp (dia p or dia q)).
+end_of_list.

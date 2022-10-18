@@ -1,0 +1,3 @@
+sos(formulas).
+<>true & []<>true & [](p0) & [](p0 -> false).
+end_of_list.

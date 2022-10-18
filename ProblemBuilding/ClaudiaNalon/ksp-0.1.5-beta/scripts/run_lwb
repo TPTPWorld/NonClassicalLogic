@@ -1,0 +1,40 @@
+#!/bin/bash
+
+rm ../benchmarks/lwb/*.log
+
+for file in ../benchmarks/lwb/*.ksp;
+do
+    echo "Processing file $file" 
+    exec 5>&1
+    echo "Processing file $file" &>> $file.neg+.log
+    /usr/bin/time -f "%U %S %e seconds"  /usr/bin/timeout 30s ./ksp -b -c snf+#negative4.conf -i $file  &>> $file.neg+.log
+    if [ $? -eq 124 ]; then echo "Unable" &>>$file.neg+.log; fi
+    if [ $? -eq 139 ]; then echo "FAIL" &>>$file.neg+.log; fi
+
+    echo "Processing file $file" &>> $file.neg++.log
+    /usr/bin/time -f "%U %S %e seconds"  /usr/bin/timeout 30s ./ksp -b -c snf++#negative4.conf -i $file  &>> $file.neg++.log
+    if [ $? -eq 124 ]; then echo "Unable" &>>$file.neg++.log; fi
+    if [ $? -eq 139 ]; then echo "FAIL" &>>$file.neg++.log; fi
+
+    echo "Processing file $file" &>> $file.plain.log
+    /usr/bin/time -f "%U %S %e seconds"  /usr/bin/timeout 30s ./ksp -b -c snf#plain4.conf -i $file  &>> $file.plain.log
+    if [ $? -eq 124 ]; then echo "Unable" &>>$file.plain.log; fi
+    if [ $? -eq 139 ]; then echo "FAIL" &>>$file.plain.log; fi
+
+    echo "Processing file $file" &>> $file.plain+.log
+    /usr/bin/time -f "%U %S %e seconds"  /usr/bin/timeout 30s ./ksp -b -c snf+#plain4.conf -i $file  &>> $file.plain+.log
+    if [ $? -eq 124 ]; then echo "Unable" &>>$file.plain+.log; fi
+    if [ $? -eq 139 ]; then echo "FAIL" &>>$file.plain+.log; fi
+
+    echo "Processing file $file" &>> $file.plain++.log
+    /usr/bin/time -f "%U %S %e seconds"  /usr/bin/timeout 30s ./ksp -b -c snf+#plain4.conf -i $file  &>> $file.plain++.log
+    if [ $? -eq 124 ]; then echo "Unable" &>>$file.plain++.log; fi
+    if [ $? -eq 139 ]; then echo "FAIL" &>>$file.plain++.log; fi
+
+
+    exec 1>&5 5>&- 
+done
+
+#Recovers stdout from file descriptor 5
+# exec 1>&5 5>&-  
+

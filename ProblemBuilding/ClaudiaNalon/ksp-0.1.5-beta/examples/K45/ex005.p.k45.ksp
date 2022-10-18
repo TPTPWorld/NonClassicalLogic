@@ -1,0 +1,3 @@
+sos(formulas).
+[][] p & <> ((~p v <><>q) & [] ~q).
+end_of_list.

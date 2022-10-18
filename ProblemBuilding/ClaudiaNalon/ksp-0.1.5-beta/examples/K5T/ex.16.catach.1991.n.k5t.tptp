@@ -1,0 +1,14 @@
+% TABLEAUX: A general the|em prover f| modal logics
+% Laurent Catach 
+% Journal of Automated Reasoning volume 7, pages 489–510 (1991)
+
+% Note: This is the McKinsey axiom
+
+tff(simple_spec,logic,
+    $modal == [
+      $constants == $rigid,
+      $quantification == $constant,
+      $modalities == $modal_system_S5 ] ).
+tff(prove,conjecture,
+(({$box} @ ({$dia} @ (p))) => ({$dia} @ ({$box} @ (p))))
+).

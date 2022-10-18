@@ -1,0 +1,3 @@
+sos(formulas).
+(box dia box (p and q) imp (box dia box p and box dia box q)).
+end_of_list.

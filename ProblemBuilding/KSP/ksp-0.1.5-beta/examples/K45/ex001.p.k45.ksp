@@ -1,0 +1,5 @@
+% satisfiable in K5
+
+sos(formulas).
+[] p & <><> ~p.
+end_of_list.

@@ -1,3 +1,0 @@
-sos(formulas).
-~(box (p or ~p)) .
-end_of_list.

@@ -9,7 +9,6 @@
 %            the actions load and shoot the turkey is not alive.
 
 % Refs     : [Bal98] Baldoni (1998), Normal Multimodal Logics: Automatic De
-
 % Source   : 
 % Names    : 
 

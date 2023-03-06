@@ -84,7 +84,6 @@ qmf(axiom_13,axiom,
 %qmf(axiom_4_for_fool_2,axiom,
 %(! [X] : ((#box(fool) : (~ (ws(X))) => (#box(fool) : (#box(fool) : (~ (ws(X))))))))).
 
-%  what is commonly known is known to a, b and c
 qmf(axiom_i_for_fool_a_1,axiom,
 (! [X] : ((#box(fool) : (ws(X))) => (#box(a) : (ws(X)))))).
 
@@ -103,8 +102,6 @@ qmf(axiom_i_for_fool_c_1,axiom,
 qmf(axiom_i_for_fool_c_2,axiom,
 (! [X] : ((#box(fool) : (~ (ws(X)))) => (#box(c) : (~ ws(X)))))).
 
-%  if a man knows/doesn't know something then the other two know that
-%  (a man tells everything he knows/doesnt know to the others)
 qmf(axiom_a7_for_fool_ab_1,axiom,
 (! [X] : ((#box(a) : (ws(X))) => (#box(b) : (#box(a) : (ws(X))))))).
 

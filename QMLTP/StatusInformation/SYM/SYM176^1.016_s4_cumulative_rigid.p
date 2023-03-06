@@ -1,1 +1,0 @@
-Countersatisfiable

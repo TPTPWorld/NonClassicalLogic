@@ -1,3 +1,0 @@
-sos(formulas).
-~((([] (<> (([] p6) | false))) | ([] ((<> p1) -> (~p6))))).
-end_of_list.

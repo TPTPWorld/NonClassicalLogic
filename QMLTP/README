@@ -19,3 +19,10 @@ constants that we can't process yet. Now also merged in the non-flexible
 S5 problems from 4_NX0_SEMs but with S5U.
 
 The 5_THF directory is 4_NX0_SEMs converted to TH0 by the embedding tool.
+
+The 6_TPTP directory is a selectionfrom 5_THF that were added to TPTP v8.1.0,
+using their new TPTP names. The rename mappings are in the Rename* files in
+5_THF.
+
+The 7_QMLTP directory is the final form of the TPTP-format version of the
+QMLTP library (akin to the MPTPTP dataset)

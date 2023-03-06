@@ -1,3 +1,0 @@
-sos(formulas).
-~(box dia box p imp ~dia~p).
-end_of_list.

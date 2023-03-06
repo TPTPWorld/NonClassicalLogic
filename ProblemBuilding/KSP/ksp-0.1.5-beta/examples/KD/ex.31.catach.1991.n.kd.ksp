@@ -1,7 +1,0 @@
-//  TABLEAUX: A general theorem prover for modal logics
-//  Laurent Catach 
-//  Journal of Automated Reasoning volume 7, pages 489–510 (1991)
-
-sos(formulas).
-~([][]p <-> <>[]p).
-end_of_list.

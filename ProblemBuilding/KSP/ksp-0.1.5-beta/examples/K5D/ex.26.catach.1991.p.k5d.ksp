@@ -1,9 +1,0 @@
-//  TABLEAUX: A general theorem prover for modal logics
-//  Laurent Catach 
-//  Journal of Automated Reasoning volume 7, pages 489–510 (1991)
-
-// Note that Catach's paper reports formula 26 as non-provable in KD5. But this equivalence already holds in K5. See Chellas, Page 150, Theorem 4.23).
-
-sos(formulas).
-~([]<>[]<>p <-> []<>p).
-end_of_list.

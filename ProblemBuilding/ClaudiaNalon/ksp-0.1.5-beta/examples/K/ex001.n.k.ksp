@@ -1,3 +1,0 @@
-sos(formulas).
-(box (p and q) imp (box p and box q)).
-end_of_list.

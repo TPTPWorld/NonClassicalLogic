@@ -1,3 +1,0 @@
-sos(formulas).
-<>true & []<>true & [](p0 | p1) & [](p0 -> false) & [](p1 -> []p0).
-end_of_list.

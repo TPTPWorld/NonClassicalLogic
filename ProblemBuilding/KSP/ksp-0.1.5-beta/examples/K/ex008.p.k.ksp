@@ -1,3 +1,0 @@
-sos(formulas).
-~(box p -> (dia (p & q) -> box p)).
-end_of_list.

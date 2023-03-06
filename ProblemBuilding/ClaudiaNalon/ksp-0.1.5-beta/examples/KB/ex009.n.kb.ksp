@@ -1,3 +1,0 @@
-sos(formulas).
-((box dia box (p & q) -> (box dia box q & box dia box (~p | ~q)))).
-end_of_list.

@@ -180,6 +180,3 @@ qmf(axiom_14,axiom,
 
 qmf(con,conjecture,
 (#box(c) : (ws(c)))).
-
-
-

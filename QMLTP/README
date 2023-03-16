@@ -25,4 +25,6 @@ using their new TPTP names. The rename mappings are in the Rename* files in
 5_THF.
 
 The 7_QMLTP directory is the final form of the TPTP-format version of the
-QMLTP library (akin to the MPTPTP dataset)
+QMLTP library (akin to the MPTPTP dataset), for the logic specification
+$rigid-$cumulative-$modal_system_K in all but the MML domain, where each
+problem has the logic specification from the QMLTP.

@@ -9,7 +9,6 @@
 %          : [RO12]  Raths & Otten (2012), The QMLTP Problem Library for Fi
 % Source   : [QMLTP]
 % Names    : GLC455+1 [QMLTP]
-%          : GLC455_1.001_k_constant_rigid.p [QMLTP/4_NX0_SEMs]
 
 % Status   : Unknown
 % Rating   : ? v9.0.0
@@ -31,7 +30,7 @@
 
 % Comments :
 %------------------------------------------------------------------------------
-tff(k_constant_rigid,logic,
+tff(modal_system,logic,
     $modal == 
       [ $constants == $rigid,
         $quantification == $constant,

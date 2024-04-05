@@ -1,7 +1,12 @@
-tff(semantics,logic,
+thf(semantics,logic,
     $alethic_modal == 
-      [ $constants == $varying,
+      [ $constants == $flexible,
         $quantification == $constant
         ] ).
 
-tff(an,axiom,p).
+tff(1,axiom,p).
+tff(2,axiom-local,p).
+tff(3,axiom-global,p).
+tff(4,conjecture,p).
+tff(5,conjecture-local,p).
+tff(6,conjecture-global,p).

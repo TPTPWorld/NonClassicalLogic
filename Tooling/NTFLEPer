@@ -1,25 +1,29 @@
 #!/bin/tcsh
 
 set TPTP4X = "$TPTP_HOME/ServiceTools/tptp4X"
-set EmbedNTFinCTF = `/bin/ls $TPTP_HOME/Systems/EmbedNTFinCTF---*/run_embed`
+set EmbedNTFinCTF = "java -jar $TPTP_HOME/Systems/EmbedNTFinCTF---*/logic-embedding-app.jar -p LOCALEXTENSION --tstp"
+# /bin/ls $TPTP_HOME/Systems/EmbedNTFinCTF---*/run_embed`
 set SystemOnTPTP = "$TPTP_HOME/SystemExecution/SystemOnTPTP"
-set TempDir = "/tmp/SetNTFLogic_$$"
+set TempDir = "/tmp/NTFLEPer_$$"
 
 set Logic = ""
 set Constants = ""
 set Quantification = ""
 set Modalities = ""
+set Consequence = ""
 set EmbedLogic = ""
 set ATPSystem = ""
 set CPUTimeLimit = 60
 
-if (($#argv == 0) || ("$1" == "-h")) then
+if (($#argv == 0) || ("$1" == "-h") || ("$1" == "--help")) then
     echo "Usage: $0 \
+    [-h|--help] \
     [-l|--logic LogicSpec (e.g., modal)] \
-    [-c|--constants ConstantsSpec (e.g., rigid)] \
-    [-q|--quantification QuantificationSpec (e.g., constant)] \
-    [-m|--modalities ModalitiesSpec (e.g., modal_system_S5)] \
-    [-e|--embed EmbedLogic (THF or TFF)] \
+    [-c|--constants Value (rigid or flexible)] \
+    [-q|--quantification Value (decreasing, constant, varying, or cumulative)] \
+    [-m|--modalities Value (e.g., modal_system_S5, S5)] \
+    [-o|--consequence Value (local, global, universal, or hopeful)] \
+    [-e|--embed EmbedLogic (thf or tff)] \
     [-a|--atp ATPSystem (Name---[Version])] \
     [-t|--time CPUTimeLimit (in seconds for the ATPSystem, default is ${CPUTimeLimit}s)] \
     NTFFile"
@@ -39,31 +43,51 @@ while ($#argv >= 3)
         set Constants = $2
         shift 
         shift
-        if (`expr match "$Constants" '^[a-zA-Z0-9_]*$'`) then
+        if (("$Constants" == "rigid") || ("$Constants" == "flexible")) then
             set Constants = '$'"$Constants"
+        else
+            echo "Invalid constants $Constants"
+            exit
         endif
     endif
     if (("$1" == "-q") || ("$1" == "--quantification")) then
         set Quantification = $2
         shift 
         shift
-        if (`expr match "$Quantification" '^[a-zA-Z0-9_]*$'`) then
+        if (("$Quantification" == "decreasing") || ("$Quantification" == "constant") || \
+("$Quantification" == "varying") || ("$Quantification" == "cumulative")) then
             set Quantification = '$'"$Quantification"
+        else
+            echo "Invalid quantification $Quantification"
+            exit
         endif
     endif
     if (("$1" == "-m") || ("$1" == "--modalities")) then
         set Modalities = $2
         shift 
         shift
+        if (`expr match "$Modalities" '^[KDMBS][MB45]*$'`) then
+            set Modalities = "modal_system_$Modalities"
+        endif
         if (`expr match "$Modalities" '^[a-zA-Z0-9_]*$'`) then
             set Modalities = '$'"$Modalities"
         endif
     endif
-    if (("$1" == "-e") || ("$1" == "--embed")) then
-        set EmbedLogic = $2
+    if (("$1" == "-o") || ("$1" == "--consequence")) then
+        set Consequence = $2
         shift 
         shift
-        if (("$EmbedLogic" != "THF") && ("$EmbedLogic" != "TFF")) then
+        if (("$Consequence" != "global") && ("$Consequence" != "local") && \
+("$Consequence" != "universal") && ("$Consequence" != "hopeful")) then
+            echo "Invalid consequence $Consequence"
+            exit
+        endif
+    endif
+    if (("$1" == "-e") || ("$1" == "--embed")) then
+        set EmbedLogic = `echo $2 | tr '[:upper:]' '[:lower:]'`
+        shift 
+        shift
+        if (("$EmbedLogic" != "thf") && ("$EmbedLogic" != "tff")) then
             echo "Invalid logic for embedding $EmbedLogic"
             exit
         endif
@@ -80,9 +104,13 @@ while ($#argv >= 3)
     endif
 end
 
+if ($#argv < 1) then
+    echo "Missing input file name"
+    exit
+endif
 set InputFile = $1
 if (! -f $InputFile) then
-    echo "Missing input file"
+    echo "Missing input file $InputFile"
     exit
 endif
 if (`grep -c 'thf(' $InputFile`) then
@@ -97,29 +125,30 @@ else
 endif
 
 onintr cleanup
+rm -rf $TempDir
 mkdir -p $TempDir
-set SetNTFLogicFile = "$TempDir/SetNTFLogicFile_$$"
-#DEBUG set SetNTFLogicFile = "TESTOUTPUT"
+set NTFLEPerFile = "$TempDir/NTFLEPerFile_$$"
+#DEBUG set NTFLEPerFile = "TESTOUTPUT"
 
 #----Check if there is already a logic specification
 if (`grep -c ', *logic *,' $InputFile`) then
 #DEBUG echo "There is already a logic specification"
 #----Split up the lines
-    $TPTP4X -u machine $InputFile | sed -e 's/ *//g' -e 's/\([,[]\)$constants==/\n\1\n$constants==/' -e 's/\([,[]\)$quantification==/\n\1\n$quantification==/' -e 's/\([,[]\)$modalities==/\n\1\n$modalities==/' -e 's/\])\./\n])./' >! $SetNTFLogicFile
+    $TPTP4X -u machine $InputFile | sed -e 's/ *//g' -e 's/\([,[]\)$constants==/\n\1\n$constants==/' -e 's/\([,[]\)$quantification==/\n\1\n$quantification==/' -e 's/\([,[]\)$modalities==/\n\1\n$modalities==/' -e 's/\])\./\n])./' >! $NTFLEPerFile
     if ("$Logic" == "") then
-        set KeyValueLine = `grep -m1 ',logic,.*==' $SetNTFLogicFile`
+        set KeyValueLine = `grep -m1 ',logic,.*==' $NTFLEPerFile`
         set Logic = `expr match "$KeyValueLine" '.*,logic,\([^=]*\)==.*'`
     endif
-    if (("$Constants" == "") && (`grep -c '$constants==' $SetNTFLogicFile`)) then
-        set KeyValueLine = `grep -m1 '$constants==' $SetNTFLogicFile`
+    if (("$Constants" == "") && (`grep -c '$constants==' $NTFLEPerFile`)) then
+        set KeyValueLine = `grep -m1 '$constants==' $NTFLEPerFile`
         set Constants = `expr match "$KeyValueLine" '$constants==\([^,]*\)'`
     endif
-    if (("$Quantification" == "") && (`grep -c '$quantification==' $SetNTFLogicFile`)) then
-        set KeyValueLine = `grep -m1 '$quantification==' $SetNTFLogicFile`
+    if (("$Quantification" == "") && (`grep -c '$quantification==' $NTFLEPerFile`)) then
+        set KeyValueLine = `grep -m1 '$quantification==' $NTFLEPerFile`
         set Quantification = `expr match "$KeyValueLine" '$quantification==\([^,]*\)'`
     endif
-    if (("$Modalities" == "") && (`grep -c '$modalities==' $SetNTFLogicFile`)) then
-        set KeyValueLine = `grep -m1 '$modalities==' $SetNTFLogicFile`
+    if (("$Modalities" == "") && (`grep -c '$modalities==' $NTFLEPerFile`)) then
+        set KeyValueLine = `grep -m1 '$modalities==' $NTFLEPerFile`
         set Modalities = `expr match "$KeyValueLine" '$modalities==\([^,]*\)'`
     endif
 endif
@@ -128,11 +157,6 @@ if ("$Logic" == "") then
     echo "No logic specified"
     goto cleanup
 endif
-if ("$Modalities" == "") then
-    echo "No modality specified"
-    goto cleanup
-endif
-
 #----Build new logic specification
 set LogicSpecification = "$Language(logic_specification,logic,$Logic == ["
 if ("$Constants" != "") then
@@ -153,23 +177,50 @@ endif
 set LogicSpecification = "$LogicSpecification ])."
 #DEBUG echo "Logic spec is $LogicSpecification"
 
-echo $LogicSpecification >! $SetNTFLogicFile
-$TPTP4X -c -u machine $InputFile | grep -v 't.f(.*, *logic *,' >> $SetNTFLogicFile
+echo $LogicSpecification >! $NTFLEPerFile
+$TPTP4X -c -u machine $InputFile | grep -v 't.f(.*, *logic *,' >> $NTFLEPerFile
+if ("$Consequence" != "") then
+    if ("$Consequence" == "universal") then
+        sed -i -e "s/, *axiom[^ ,]*,/,axiom,/" $NTFLEPerFile
+        sed -i -e "s/, *conjecture[^ ,]*,/,conjecture-global,/" $NTFLEPerFile
+    endif
+    if ("$Consequence" == "global") then
+        sed -i -e "s/, *axiom[^ ,]*,/,axiom,/" $NTFLEPerFile
+        sed -i -e "s/, *conjecture[^ ,]*,/,conjecture,/" $NTFLEPerFile
+    endif
+    if ("$Consequence" == "local") then
+        sed -i -e "s/, *axiom[^ ,]*,/,axiom-local,/" $NTFLEPerFile
+        sed -i -e "s/, *conjecture[^ ,]*,/,conjecture,/" $NTFLEPerFile
+    endif
+    if ("$Consequence" == "hopeful") then
+        sed -i -e "s/, *axiom[^ ,]*,/,axiom-local,/" $NTFLEPerFile
+        sed -i -e "s/, *conjecture[^ ,]*,/,conjecture-global,/" $NTFLEPerFile
+    endif
+endif
+
+#DEBUG cat $NTFLEPerFile
 
 if ("$EmbedLogic" != "") then
-    $EmbedNTFinCTF $SetNTFLogicFile >! $SetNTFLogicFile.$EmbedLogic
-    if (`grep "SZS status Success" $SetNTFLogicFile.$EmbedLogic` == 0) then
+    sed -i -e "/, *logic *,/s/^t../$EmbedLogic/" $NTFLEPerFile
+    $EmbedNTFinCTF $NTFLEPerFile >! $NTFLEPerFile.$EmbedLogic
+    if (`grep -c "SZS status Success" $NTFLEPerFile.$EmbedLogic` == 0) then
         echo "Embedding to $EmbedLogic failed. Here's what it said ... "
-        cat $SetNTFLogicFile.$EmbedLogic
+        cat $NTFLEPerFile.$EmbedLogic
         goto cleanup
     endif
     if ("$ATPSystem" != "") then
-        $SystemOnTPTP -q01 $ATPSystem $CPUTimeLimit $SetNTFLogicFile.$EmbedLogic | $TPTP4X --
+        $SystemOnTPTP -q01 $ATPSystem $CPUTimeLimit $NTFLEPerFile.$EmbedLogic >! $NTFLEPerFile.$ATPSystem
+#----See if ATP outputs something that seems TPTP-compliant
+        if (`$TPTP4X $NTFLEPerFile.$ATPSystem | grep 'ERROR:' | wc -l` == 0) then
+            $TPTP4X $NTFLEPerFile.$ATPSystem
+        else
+            cat $NTFLEPerFile.$ATPSystem
+        endif
     else
-        $TPTP4X $SetNTFLogicFile.$EmbedLogic
+        $TPTP4X $NTFLEPerFile.$EmbedLogic
     endif
 else
-    $TPTP4X $SetNTFLogicFile
+    $TPTP4X $NTFLEPerFile
 endif
 
 cleanup:

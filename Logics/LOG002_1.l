@@ -22,33 +22,33 @@
 %              t in w.
 %
 %            Semantics parameters: Three dimensions as follows ...
-%            - $constants      - Whether constants are (a) rigid or
-%                                (b) flexible (world dependent).
-%            - $quantification - Whether quantification domains are
-%                                (a) varying, (b) cumulative, (c) decreasing,
-%                                or (d) constant.
-%            - $modalities     - The properties of the box operators, expressed
-%                                via modal axiom schemes.
+%            - $designation - Whether designation are rigid or flexible (world
+%                             dependent).
+%            - $domains     - Whether domains are varying, cumulative,
+%                             decreasing, or constant.
+%            - terms        - Whether terms are local or global
+%            - $modalities  - The properties of the box operators, expressed
+%                             via modal axiom schemes.
 %------------------------------------------------------------------------------
 tff(parameters,definition,
     ( $parameters
-   == [$constants, $quantification, $modalities] ) ).
+   == [$designation, $domains, $modalities] ) ).
 
-%----Constants
-tff(constants_values,definition,
-    ( $constants
+%----Designation
+tff(designation_values,definition,
+    ( $designation
    == [$flexible, $rigid] ) ).
 
-tff(rigid_constants,definition,
+tff(rigid_designation,definition,
     ( $rigid
    == (I(W,c) = I(V,c)) ).
 
-%----No restriction for flexible constants.
-tff(flexible_constants,definition,$true).
+%----No restriction for flexible designation.
+tff(flexible_designation,definition,$true).
 
-%- Quantification
-tff(quantification_values,definition,
-    ( $quantification
+%----Domains
+tff(domains_values,definition,
+    ( $domains
    == [$varying, $cumulative, $decreasing, $constant] ) ).
 % ... TBA
 

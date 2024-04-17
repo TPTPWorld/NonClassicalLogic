@@ -1,0 +1,134 @@
+<HTML>
+<HEAD>
+<TITLE>Non-classical Logics</TITLE>
+<style type="text/css">
+BODY {font-family:sans-serif;}
+A:link {color: blue; text-decoration: none}
+A:visited {color: red; text-decoration: none}
+</style>
+</HEAD>
+<BODY ALIGN="JUSTIFY">
+<HR><!------------------------------------------------------------------------>
+<H1 ALIGN="LEFT">Non-classical Logics</H1>
+
+The documentation has moved to <A HREF="https://tptp.org/TPTP/TR/TPTPTR.shtml#NonClassicalLogics">
+the TPTP technical manual</A>.
+The syntax offers much more - see the section on the <A HREF="#ExoticFuture">exotic future</A>.
+<P>
+<HR><!------------------------------------------------------------------------>
+Examples:
+<PRE>
+    tff(pigs_might_fly_type,type,pigs_might_fly: $o ).
+
+    tff(no_flying_pigs,axiom,
+        ~ ({$possible} @ (pigs_might_fly) ) ).
+
+    tff(something_is_possible,axiom,
+        ? [P: $o] : {$possible} @ (P) ).
+
+    thf(forbidden_flying_pigs,axiom,
+        {$forbidden} @ pigs_might_fly ).
+
+    thf(everything_is_permissible,axiom,
+        ! [P: $o] : ( {$permissible} @ P ) ).
+
+    tff(an_individual_type,type,me: $i ).
+
+    tff(for_me_it_is_possible,axiom,
+        {$possible(#me)} @ (pigs_might_fly) ).
+
+    tff(for_me_something_is_possible,axiom,
+        ? [P: $o] : {$possible(#me)} @ (P) ).
+
+    thf(archer_knows_flying_pigs,axiom,
+        {$knows(#archer)} @ pigs_might_fly ).
+
+    thf(for_archer_everything_is_permissible,axiom,
+        ! [P: $o] : ( {$permissible(#archer)} @ P ) ).
+
+    tff(we_know,axiom,
+        {$knows(#1)}({$common($group:=[2,3,4])}(something_commonly_known_by_agents_2_3_and_4)) ).
+     
+    tff(no_flying_pigs,axiom,
+        ~ <.> pigs_might_fly ).
+    
+    thf(flying_pigs,axiom,
+        [.] pigs_might_fly ).
+</PRE>
+
+<P>
+<H2> Examples </H2>
+
+These examples can be run in Leo-III within 
+<A HREF="http://www.tptp.org/cgi-bin/SystemOnTPTP">SystemOnTPTP</A>.
+Leo-III embeds non-classical logic problems into plain THF, and solves the
+THF problem. 
+The embedding tool is available as Logic2THF in 
+<A HREF="http://www.tptp.org/cgi-bin/SystemB4TPTP">SystemB4TPTP</A>, the
+output from which can be given to any THF system.
+
+<UL>
+<LI> <A HREF="SampleProblems/PUZ087_1.p">Wise men puzzle, TFF, epistemic modal
+     logic, long connectives, indices and constants overlap</A>
+<LI> <A HREF="SampleProblems/PUZ087_2.p">Wise men puzzle, TFF, epistemic modal
+     logic, long connectives, indices and constants distinct</A>
+<LI> <A HREF="SampleProblems/PUZ087_3.p">Wise men puzzle, TFF, generic modal
+     logic, short connectives, indices and constants distinct</A>
+<LI> <A HREF="SampleProblems/PUZ087^1.p">Wise men puzzle, THF, epistemic modal
+     logic, long connectives, indices and constants overlap</A>
+<LI> <A HREF="SampleProblems/PUZ087^2.p">Wise men puzzle, THF, epistemic modal
+     logic, long connectives, indices and constants distinct</A>
+<LI> <A HREF="SampleProblems/PUZ087^3.p">Wise men puzzle, THF, generic modal
+     logic, short connectives, indices and constants distinct</A>
+<LI> <A HREF="SampleProblems/PUZ149_1.p">Bungling chemists, TFF, alethic modal
+     logic, short connectives</A>
+<LI> <A HREF="SampleProblems/PUZ149^1.p">Bungling chemists, THF, alethic modal
+     logic, long connectives</A>
+<LI> <A HREF="SampleProblems/LCL870^1.p">Barcan formula, THF, generic modal
+     logic, short connectives</A>
+<LI> <A HREF="SampleProblems/LCL871^1.p">Converse Barcan formula, THF, generic 
+     modal logic, short connectives</A>
+</UL>
+<HR><!------------------------------------------------------------------------>
+<H2> Logic Documentation </H2>
+
+The various logics, the syntax used, the axiom schemes, and the semantics 
+specification, are being semi-formally documented in a machine readable form.
+This work is available in the
+<A HREF="https://github.com/TPTPWorld/NonClassicalLogic/tree/master/Logics">
+Logics directory</A> of the 
+<A HREF="https://github.com/TPTPWorld/NonClassicalLogic">Github repository</A>.
+<P>
+<A NAME="ExoticFuture">
+<HR><!------------------------------------------------------------------------>
+<H2> Exotic Future </H2>
+
+The use of the TPTP framework for non-classical logics, as presented so far, is conservative, 
+adopting only widely accepted structures in alethic modal logics.
+The TPTP framework is capable of much more.
+Some of our ideas are listed here, some relevant and unpolished files are in the 
+<A HREF="https://github.com/TPTPWorld/NonClassicalLogicWebPages/tree/master/ExoticFuture">
+ExoticFuture</A> directory, and feedback is welcome.
+<UL>
+<LI> Using object logic terms, including variables, as indices.
+<LI> Non-alethic modal logics are already supported in the syntax, and tool support will be added.
+<LI> Encoding of description logic (ALC, ALCQI) problems in TPTP description logic format (an 
+     old TPTP effort) into modal logic.
+<LI> Two more short forms <TT>{...}</TT>, and <TT>(...)</TT>. 
+<LI> More <TT>$modalities</TT> - These are specified in this
+     <A HREF="https://en.wikipedia.org/wiki/Kripke_semantics#Common_modal_axiom_schemata">
+     Wikipedia page</A>.
+<LI> In logic specifications that <TT>$modalities</TT> may be written as THF formulae, or as 
+     frame conditions using <TT>$r</TT> as the accessibility relation.
+<LI> Problems with multiple logics together.
+     (Short forms may not be used when multiple logics are used together - the 
+     long forms have to be used, to avoid conflicting uses of the short forms.)
+<LI> Problems with semantics templates that represent multiple semantics specifications, and a 
+     tool to burst these out into individual problem files.
+<LI> More (non-modal) logics.
+<LI> More and more
+</UL>
+<P>
+<HR><!------------------------------------------------------------------------>
+</BODY>
+</HTML>

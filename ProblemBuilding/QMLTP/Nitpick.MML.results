@@ -1,0 +1,779 @@
+Nitpick---2016   system information being retrieved
+Nitpick---2016's non-default parameters being retrieved
+Nitpick---2016's MML020_1.p.embed being prepared by /exp/home/tptp/ServiceTools/tptp4X
+    -d /tmp/SystemOnTPTP11927 
+    -t none 
+    -f tptp
+    -x 
+    -u machine
+    MML/MML001_1.p.embed MML/MML002_1.p.embed MML/MML003_1.p.embed MML/MML004_1.p.embed MML/MML005_1.p.embed MML/MML006_1.p.embed MML/MML007_1.p.embed MML/MML008_1.p.embed MML/MML009_1.p.embed MML/MML010_1.p.embed MML/MML011_1.p.embed MML/MML012_1.p.embed MML/MML013_1.p.embed MML/MML014_1.p.embed MML/MML015_1.p.embed MML/MML016_1.p.embed MML/MML017_1.p.embed MML/MML018_1.p.embed MML/MML019_1.p.embed MML/MML020_1.p.embed
+Nitpick---2016   being executed on MML001_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML001_1.tptp'
+% START OF SYSTEM OUTPUT
+
+% END OF SYSTEM OUTPUT
+RESULT: MML001_1.p - Nitpick---2016 says Timeout - CPU = 60.35 WC = 23.67 
+OUTPUT: MML001_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML002_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML002_1.tptp'
+% START OF SYSTEM OUTPUT
+/exp/home/tptp/Systems/Isabelle---2016/Source/src/HOL/TPTP/lib/Tools/tptp_nitpick: line 32: 12589 CPU time limit exceeded isabelle process -e "use_thy \"/tmp/$SCRATCH\"; exit 1;" -l HOL-TPTP
+     12590                       | grep --line-buffered -v "^###\|^PROOF FAILED for depth\|^Failure node\|inferences so far.  Searching to depth\|^val \|^Loading theory\|^poly.*warning: The type of\|^   monotype.$"
+
+% END OF SYSTEM OUTPUT
+RESULT: MML002_1.p - Nitpick---2016 says Timeout - CPU = 60.32 WC = 23.29 
+OUTPUT: MML002_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML003_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML003_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:44:50
+The type bnd_mindex passed the monotonicity test; Nitpick might be able to
+skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card bnd_mindex = 1 and card bnd_mworld = 1
+  card bnd_mindex = 2 and card bnd_mworld = 2
+  card bnd_mindex = 3 and card bnd_mworld = 3
+  card bnd_mindex = 4 and card bnd_mworld = 4
+  card bnd_mindex = 5 and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card bnd_mindex = 1 and
+card bnd_mworld = 1:
+
+  Skolem constants:
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+  Constants:
+    bnd__nom_35_a = b1
+    bnd__nom_35_b = b1
+    bnd__nom_35_c = b1
+    bnd_mactual = b1
+    bnd_mfa = (\<lambda>x. _)(b1 := False)
+    bnd_mfb = (\<lambda>x. _)(b1 := False)
+    bnd_mfc = (\<lambda>x. _)(b1 := False)
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(b1 := (\<lambda>x. _)(b1 := True)))
+    bnd_s = (\<lambda>x. _)(b1 := True)
+% SZS output end FiniteModel
+Total time: 1.0 s
+
+% END OF SYSTEM OUTPUT
+RESULT: MML003_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 26.02 WC = 8.89 
+OUTPUT: MML003_1.p - Nitpick---2016 says FiniteModel - CPU = 26.02 WC = 8.89 
+Nitpick---2016   being executed on MML004_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML004_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:45:00
+The type bnd_mindex passed the monotonicity test; Nitpick might be able to
+skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card bnd_mindex = 1 and card bnd_mworld = 1
+  card bnd_mindex = 2 and card bnd_mworld = 2
+  card bnd_mindex = 3 and card bnd_mworld = 3
+  card bnd_mindex = 4 and card bnd_mworld = 4
+  card bnd_mindex = 5 and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card bnd_mindex = 3 and
+card bnd_mworld = 3:
+
+  Skolem constants:
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b2
+  Constants:
+    bnd__nom_35_always = b1
+    bnd__nom_35_load = b2
+    bnd__nom_35_shoot = b3
+    bnd_alive = (\<lambda>x. _)(b1 := False, b2 := True, b3 := False)
+    bnd_loaded = (\<lambda>x. _)(b1 := True, b2 := True, b3 := True)
+    bnd_mactual = b3
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := True),
+          b3 := (\<lambda>x. _)(b1 := False, b2 := False, b3 := True)),
+       b2 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := False),
+          b3 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := True)),
+       b3 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := True, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := True, b2 := True, b3 := False),
+          b3 := (\<lambda>x. _)(b1 := False, b2 := False, b3 := True)))
+% SZS output end FiniteModel
+Total time: 856 ms
+
+% END OF SYSTEM OUTPUT
+RESULT: MML004_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 25.44 WC = 8.94 
+OUTPUT: MML004_1.p - Nitpick---2016 says FiniteModel - CPU = 25.44 WC = 8.94 
+Nitpick---2016   being executed on MML005_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML005_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:45:09
+The types TPTP_Interpret.ind and bnd_mindex passed the monotonicity test;
+Nitpick might be able to skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 2, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 3, card bnd_mindex = 3, and card bnd_mworld = 3
+  card TPTP_Interpret.ind = 4, card bnd_mindex = 4, and card bnd_mworld = 4
+  card TPTP_Interpret.ind = 5, card bnd_mindex = 5, and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card TPTP_Interpret.ind = 3,
+card bnd_mindex = 3, and card bnd_mworld = 3:
+
+  Skolem constants:
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b2
+    ??.bnd_mbox.V = b2
+  Constants:
+    bnd__nom_35_always = b1
+    bnd__nom_35_fox = b2
+    bnd__nom_35_praise = b3
+    bnd__nom_35_sing = b1
+    bnd_charmed =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True, i2 := True, i3 := True),
+       b2 := (\<lambda>x. _)(i1 := False, i2 := True, i3 := False),
+       b3 := (\<lambda>x. _)(i1 := False, i2 := True, i3 := False))
+    bnd_cheese = i2
+    bnd_dropped =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := False, i2 := True, i3 := True),
+       b2 := (\<lambda>x. _)(i1 := False, i2 := False, i3 := False),
+       b3 := (\<lambda>x. _)(i1 := False, i2 := True, i3 := False))
+    bnd_mactual = b3
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := False),
+          b3 := (\<lambda>x. _)(b1 := False, b2 := False, b3 := True)),
+       b2 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := False),
+          b3 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := True)),
+       b3 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := True, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := True, b2 := True, b3 := False),
+          b3 := (\<lambda>x. _)(b1 := False, b2 := False, b3 := True)))
+    bnd_raven = i2
+% SZS output end FiniteModel
+Total time: 922 ms
+
+% END OF SYSTEM OUTPUT
+RESULT: MML005_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 27.22 WC = 9.26 
+OUTPUT: MML005_1.p - Nitpick---2016 says FiniteModel - CPU = 27.22 WC = 9.26 
+Nitpick---2016   being executed on MML006_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML006_1.tptp'
+% START OF SYSTEM OUTPUT
+/exp/home/tptp/Systems/Isabelle---2016/Source/src/HOL/TPTP/lib/Tools/tptp_nitpick: line 32: 13681 CPU time limit exceeded isabelle process -e "use_thy \"/tmp/$SCRATCH\"; exit 1;" -l HOL-TPTP
+     13682                       | grep --line-buffered -v "^###\|^PROOF FAILED for depth\|^Failure node\|inferences so far.  Searching to depth\|^val \|^Loading theory\|^poly.*warning: The type of\|^   monotype.$"
+
+% END OF SYSTEM OUTPUT
+RESULT: MML006_1.p - Nitpick---2016 says Timeout - CPU = 60.01 WC = 32.26 
+OUTPUT: MML006_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML007_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML007_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:45:51
+The type bnd_mindex passed the monotonicity test; Nitpick might be able to
+skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card bnd_mindex = 1 and card bnd_mworld = 1
+  card bnd_mindex = 2 and card bnd_mworld = 2
+  card bnd_mindex = 3 and card bnd_mworld = 3
+  card bnd_mindex = 4 and card bnd_mworld = 4
+  card bnd_mindex = 5 and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card bnd_mindex = 2 and
+card bnd_mworld = 2:
+
+  Skolem constants:
+    ??.bnd_mbox.V = b1
+    ??.bnd_mdia.V = b2
+    ??.bnd_mdia.V = b2
+  Constants:
+    bnd__nom_35_a = b1
+    bnd__nom_35_b = b2
+    bnd__nom_35_c = b2
+    bnd_a0 = (\<lambda>x. _)(b1 := True, b2 := False)
+    bnd_a1 = (\<lambda>x. _)(b1 := True, b2 := True)
+    bnd_a2 = (\<lambda>x. _)(b1 := False, b2 := False)
+    bnd_b0 = (\<lambda>x. _)(b1 := False, b2 := False)
+    bnd_b1 = (\<lambda>x. _)(b1 := True, b2 := True)
+    bnd_b2 = (\<lambda>x. _)(b1 := False, b2 := False)
+    bnd_c0 = (\<lambda>x. _)(b1 := True, b2 := True)
+    bnd_c1 = (\<lambda>x. _)(b1 := False, b2 := False)
+    bnd_c2 = (\<lambda>x. _)(b1 := False, b2 := False)
+    bnd_cb = (\<lambda>x. _)(b1 := False, b2 := False)
+    bnd_mactual = b1
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := True),
+          b2 := (\<lambda>x. _)(b1 := True, b2 := True)),
+       b2 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True)))
+% SZS output end FiniteModel
+Total time: 931 ms
+
+% END OF SYSTEM OUTPUT
+RESULT: MML007_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 28.39 WC = 9.24 
+OUTPUT: MML007_1.p - Nitpick---2016 says FiniteModel - CPU = 28.39 WC = 9.24 
+Nitpick---2016   being executed on MML008_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML008_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:46:00
+The types TPTP_Interpret.ind and bnd_mindex passed the monotonicity test;
+Nitpick might be able to skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 2, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 3, card bnd_mindex = 3, and card bnd_mworld = 3
+  card TPTP_Interpret.ind = 4, card bnd_mindex = 4, and card bnd_mworld = 4
+  card TPTP_Interpret.ind = 5, card bnd_mindex = 5, and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card TPTP_Interpret.ind = 2,
+card bnd_mindex = 2, and card bnd_mworld = 2:
+
+  Skolem constants:
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b2
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b2
+  Constants:
+    bnd__nom_35_anne = b1
+    bnd__nom_35_bill = b2
+    bnd__nom_35_fool = b1
+    bnd_a =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True, i2 := False),
+       b2 := (\<lambda>x. _)(i1 := True, i2 := False))
+    bnd_b =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True, i2 := False),
+       b2 := (\<lambda>x. _)(i1 := False, i2 := True))
+    bnd_eiw_di =
+      (\<lambda>x. _)
+      (i1 := (\<lambda>x. _)(b1 := True, b2 := True),
+       i2 := (\<lambda>x. _)(b1 := True, b2 := True))
+    bnd_mactual = b1
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := True),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True)),
+       b2 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True)))
+    bnd_n0 = i1
+    bnd_n1 = i2
+    bnd_n2 = i1
+    bnd_n3 = i1
+    bnd_n4 = i1
+    bnd_n5 = i2
+    bnd_n6 = i1
+    bnd_succ =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := True, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := True)),
+       b2 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := True, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := True)))
+% SZS output end FiniteModel
+Total time: 1.7 s
+
+% END OF SYSTEM OUTPUT
+RESULT: MML008_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 26.38 WC = 9.57 
+OUTPUT: MML008_1.p - Nitpick---2016 says FiniteModel - CPU = 26.38 WC = 9.57 
+Nitpick---2016   being executed on MML009_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML009_1.tptp'
+% START OF SYSTEM OUTPUT
+/exp/home/tptp/Systems/Isabelle---2016/Source/src/HOL/TPTP/lib/Tools/tptp_nitpick: line 32: 14362 CPU time limit exceeded isabelle process -e "use_thy \"/tmp/$SCRATCH\"; exit 1;" -l HOL-TPTP
+     14363                       | grep --line-buffered -v "^###\|^PROOF FAILED for depth\|^Failure node\|inferences so far.  Searching to depth\|^val \|^Loading theory\|^poly.*warning: The type of\|^   monotype.$"
+
+% END OF SYSTEM OUTPUT
+RESULT: MML009_1.p - Nitpick---2016 says Timeout - CPU = 60.25 WC = 21.25 
+OUTPUT: MML009_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML010_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML010_1.tptp'
+% START OF SYSTEM OUTPUT
+
+% END OF SYSTEM OUTPUT
+RESULT: MML010_1.p - Nitpick---2016 says Timeout - CPU = 60.20 WC = 20.03 
+OUTPUT: MML010_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML011_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML011_1.tptp'
+% START OF SYSTEM OUTPUT
+
+% END OF SYSTEM OUTPUT
+RESULT: MML011_1.p - Nitpick---2016 says Timeout - CPU = 60.10 WC = 21.57 
+OUTPUT: MML011_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML012_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML012_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:47:16
+The type bnd_mindex passed the monotonicity test; Nitpick might be able to
+skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card bnd_mindex = 1 and card bnd_mworld = 1
+  card bnd_mindex = 2 and card bnd_mworld = 2
+  card bnd_mindex = 3 and card bnd_mworld = 3
+  card bnd_mindex = 4 and card bnd_mworld = 4
+  card bnd_mindex = 5 and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card bnd_mindex = 2 and
+card bnd_mworld = 2:
+
+  Skolem constant:
+    ??.bnd_mbox.V = b1
+  Constants:
+    bnd__nom_35_c = b1
+    bnd__nom_35_u = b1
+    bnd_called = (\<lambda>x. _)(b1 := True, b2 := True)
+    bnd_charge = (\<lambda>x. _)(b1 := True, b2 := False)
+    bnd_mactual = b2
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False),
+          b2 := (\<lambda>x. _)(b1 := True, b2 := True)),
+       b2 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := False, b2 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := False)))
+    bnd_paid = (\<lambda>x. _)(b1 := False, b2 := False)
+% SZS output end FiniteModel
+Total time: 752 ms
+
+% END OF SYSTEM OUTPUT
+RESULT: MML012_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 30.80 WC = 9.76 
+OUTPUT: MML012_1.p - Nitpick---2016 says FiniteModel - CPU = 30.80 WC = 9.76 
+Nitpick---2016   being executed on MML013_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML013_1.tptp'
+% START OF SYSTEM OUTPUT
+
+% END OF SYSTEM OUTPUT
+RESULT: MML013_1.p - Nitpick---2016 says Timeout - CPU = 60.07 WC = 21.92 
+OUTPUT: MML013_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML014_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML014_1.tptp'
+% START OF SYSTEM OUTPUT
+
+% END OF SYSTEM OUTPUT
+RESULT: MML014_1.p - Nitpick---2016 says Timeout - CPU = 60.07 WC = 19.83 
+OUTPUT: MML014_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML015_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML015_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:48:09
+The types TPTP_Interpret.ind and bnd_mindex passed the monotonicity test;
+Nitpick might be able to skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 2, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 3, card bnd_mindex = 3, and card bnd_mworld = 3
+  card TPTP_Interpret.ind = 4, card bnd_mindex = 4, and card bnd_mworld = 4
+  card TPTP_Interpret.ind = 5, card bnd_mindex = 5, and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card TPTP_Interpret.ind = 3,
+card bnd_mindex = 3, and card bnd_mworld = 3:
+
+  Skolem constants:
+    ??.bnd_mbox.V = b1
+    ??.bnd_mbox.V = b2
+  Constants:
+    bnd__nom_35_alice = b1
+    bnd__nom_35_b_alice = b2
+    bnd__nom_35_b_bob = b1
+    bnd__nom_35_i_alice = b3
+    bnd__nom_35_i_bob = b3
+    bnd_beautycity =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := False, i2 := True, i3 := False),
+       b2 := (\<lambda>x. _)(i1 := False, i2 := False, i3 := False),
+       b3 := (\<lambda>x. _)(i1 := True, i2 := True, i3 := True))
+    bnd_bigcity =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := False, i2 := True, i3 := False),
+       b2 := (\<lambda>x. _)(i1 := False, i2 := False, i3 := False),
+       b3 := (\<lambda>x. _)(i1 := True, i2 := True, i3 := True))
+    bnd_mactual = b3
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := False),
+          b3 := (\<lambda>x. _)(b1 := False, b2 := False, b3 := True)),
+       b2 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := True),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := False),
+          b3 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := True)),
+       b3 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False, b3 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := True),
+          b3 := (\<lambda>x. _)(b1 := False, b2 := True, b3 := True)))
+    bnd_portland = i2
+% SZS output end FiniteModel
+Total time: 923 ms
+
+% END OF SYSTEM OUTPUT
+RESULT: MML015_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 28.41 WC = 9.21 
+OUTPUT: MML015_1.p - Nitpick---2016 says FiniteModel - CPU = 28.41 WC = 9.21 
+Nitpick---2016   being executed on MML016_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML016_1.tptp'
+% START OF SYSTEM OUTPUT
+
+% END OF SYSTEM OUTPUT
+RESULT: MML016_1.p - Nitpick---2016 says Timeout - CPU = 60.20 WC = 21.67 
+OUTPUT: MML016_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML017_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML017_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:48:41
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 995000 scopes. (Consider using "mono" or "merge_type_vars" to
+prevent this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 2, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 2, and card bnd_mworld = 2
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card TPTP_Interpret.ind = 1,
+card bnd_mindex = 1, and card bnd_mworld = 2:
+
+  Skolem constants:
+    \<lambda>U0. ??.bnd_mbox.V = (\<lambda>x. _)(i1 := b1)
+    \<lambda>U0. ??.bnd_mbox.V = (\<lambda>x. _)(i1 := b1)
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0. ??.bnd_mbox.V = (\<lambda>x. _)(i1 := b1)
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0. ??.bnd_mbox.V = (\<lambda>x. _)(i1 := b1)
+    \<lambda>U0. ??.bnd_mbox.V = (\<lambda>x. _)(i1 := b1)
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0. ??.bnd_mbox.V = (\<lambda>x. _)(i1 := b1)
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b1))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+    \<lambda>U0 U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := b2))
+  Constants:
+    bnd__nom_35_a = b1
+    bnd__nom_35_bank = b1
+    bnd__nom_35_s = b1
+    bnd_account =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True), b2 := (\<lambda>x. _)(i1 := True))
+    bnd_answerable = (\<lambda>x. _)(b1 := False, b2 := False)
+    bnd_balance =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)),
+       b2 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)))
+    bnd_belong =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)),
+       b2 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)))
+    bnd_belongs =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)),
+       b2 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)))
+    bnd_code =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True), b2 := (\<lambda>x. _)(i1 := True))
+    bnd_done =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True),
+       b2 := (\<lambda>x. _)(i1 := False))
+    bnd_eiw_di =
+      (\<lambda>x. _)(i1 := (\<lambda>x. _)(b1 := True, b2 := True))
+    bnd_fortytwo = i1
+    bnd_identifiable =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True), b2 := (\<lambda>x. _)(i1 := True))
+    bnd_mactual = b1
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := True),
+          b2 := (\<lambda>x. _)(b1 := True, b2 := True)))
+    bnd_number =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)),
+       b2 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)))
+    bnd_s = i1
+    bnd_u0 = (\<lambda>x. _)(i1 := i1)
+    bnd_u1 = (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := i1))
+    bnd_value =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)),
+       b2 := (\<lambda>x. _)(i1 := (\<lambda>x. _)(i1 := True)))
+% SZS output end FiniteModel
+Total time: 7.6 s
+
+% END OF SYSTEM OUTPUT
+RESULT: MML017_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 35.13 WC = 15.77 
+OUTPUT: MML017_1.p - Nitpick---2016 says FiniteModel - CPU = 35.13 WC = 15.77 
+Nitpick---2016   being executed on MML018_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML018_1.tptp'
+% START OF SYSTEM OUTPUT
+
+% END OF SYSTEM OUTPUT
+RESULT: MML018_1.p - Nitpick---2016 says Timeout - CPU = 60.08 WC = 20.45 
+OUTPUT: MML018_1.p - Nitpick---2016 says None - CPU = 0 WC = 0 
+Nitpick---2016   being executed on MML019_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML019_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:49:19
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 995000 scopes. (Consider using "mono" or "merge_type_vars" to
+prevent this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 2, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 2, and card bnd_mworld = 2
+Batch 2 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 1, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 2, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 3
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 3, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 3, card bnd_mindex = 1, and card bnd_mworld = 1
+Batch 3 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 2, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 2, and card bnd_mworld = 3
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 3, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 1, and card bnd_mworld = 3
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 3, and card bnd_mworld = 1
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card TPTP_Interpret.ind = 2,
+card bnd_mindex = 2, and card bnd_mworld = 2:
+
+  Skolem constants:
+    \<lambda>U. ??.bnd_mbox.V = (\<lambda>x. _)(i1 := b1, i2 := b2)
+    \<lambda>U U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)
+      (i1 := (\<lambda>x. _)(i1 := b2, i2 := b1),
+       i2 := (\<lambda>x. _)(i1 := b2, i2 := b1))
+    \<lambda>U U1. ??.bnd_mbox.V =
+      (\<lambda>x. _)
+      (i1 := (\<lambda>x. _)(i1 := b2, i2 := b1),
+       i2 := (\<lambda>x. _)(i1 := b2, i2 := b1))
+    \<lambda>U U1 U2. ??.bnd_mbox.V =
+      (\<lambda>x. _)
+      (i1 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := b2, i2 := b2),
+          i2 := (\<lambda>x. _)(i1 := b2, i2 := b2)),
+       i2 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := b2, i2 := b2),
+          i2 := (\<lambda>x. _)(i1 := b2, i2 := b2)))
+  Constants:
+    bnd__nom_35_bank = b1
+    bnd__nom_35_cr = b1
+    bnd__nom_35_ip = b2
+    bnd__nom_35_it = b2
+    bnd__nom_35_p = b1
+    bnd__nom_35_t = b2
+    bnd_account =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True, i2 := True),
+       b2 := (\<lambda>x. _)(i1 := True, i2 := True))
+    bnd_balance =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := False, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := False, i2 := True)),
+       b2 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := True, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := True)))
+    bnd_belongs =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := False, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := False, i2 := True)),
+       b2 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := False, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := False, i2 := True)))
+    bnd_code =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := False, i2 := True),
+       b2 := (\<lambda>x. _)(i1 := False, i2 := True))
+    bnd_eiw_di =
+      (\<lambda>x. _)
+      (i1 := (\<lambda>x. _)(b1 := True, b2 := True),
+       i2 := (\<lambda>x. _)(b1 := True, b2 := True))
+    bnd_fortytwo = i2
+    bnd_hasanswer =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := False, i2 := True),
+       b2 := (\<lambda>x. _)(i1 := False, i2 := False))
+    bnd_identifiable =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(i1 := True, i2 := True),
+       b2 := (\<lambda>x. _)(i1 := True, i2 := True))
+    bnd_mactual = b2
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := True),
+          b2 := (\<lambda>x. _)(b1 := True, b2 := True)),
+       b2 := (\<lambda>x. _)
+         (b1 := (\<lambda>x. _)(b1 := True, b2 := False),
+          b2 := (\<lambda>x. _)(b1 := False, b2 := True)))
+    bnd_number =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := True, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := True)),
+       b2 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := True, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := True)))
+    bnd_p = i2
+    bnd_t = i2
+    bnd_uttered =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := False, i2 := False),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := True)),
+       b2 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := False, i2 := False),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := True)))
+    bnd_value =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := False, i2 := False),
+          i2 := (\<lambda>x. _)(i1 := False, i2 := True)),
+       b2 := (\<lambda>x. _)
+         (i1 := (\<lambda>x. _)(i1 := True, i2 := True),
+          i2 := (\<lambda>x. _)(i1 := True, i2 := False)))
+% SZS output end FiniteModel
+Total time: 8.9 s
+
+% END OF SYSTEM OUTPUT
+RESULT: MML019_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 39.75 WC = 17.04 
+OUTPUT: MML019_1.p - Nitpick---2016 says FiniteModel - CPU = 39.75 WC = 17.04 
+Nitpick---2016   being executed on MML020_1.p using /exp/home/tptp/Systems/Nitpick---2016/Source/bin/isabelle tptp_nitpick 60 '/tmp/SystemOnTPTP11927/MML020_1.tptp'
+% START OF SYSTEM OUTPUT
+Nitpicking formula...
+Timestamp: 15:49:36
+The types TPTP_Interpret.ind and bnd_mindex passed the monotonicity test;
+Nitpick might be able to skip some scopes
+Using SAT solver "Lingeling_JNI" The following solvers are configured:
+"Lingeling_JNI", "CryptoMiniSat_JNI", "MiniSat_JNI", "SAT4J", "SAT4J_Light"
+Skipping 5000 scopes. (Consider using "mono" or "merge_type_vars" to prevent
+this.)
+Batch 1 of 1000: Trying 5 scopes:
+  card TPTP_Interpret.ind = 1, card bnd_mindex = 1, and card bnd_mworld = 1
+  card TPTP_Interpret.ind = 2, card bnd_mindex = 2, and card bnd_mworld = 2
+  card TPTP_Interpret.ind = 3, card bnd_mindex = 3, and card bnd_mworld = 3
+  card TPTP_Interpret.ind = 4, card bnd_mindex = 4, and card bnd_mworld = 4
+  card TPTP_Interpret.ind = 5, card bnd_mindex = 5, and card bnd_mworld = 5
+% SZS status CounterSatisfiable % SZS output start FiniteModel
+Nitpick found a counterexample for card TPTP_Interpret.ind = 1,
+card bnd_mindex = 1, and card bnd_mworld = 1:
+
+  Constants:
+    bnd__nom_35_coffee = b1
+    bnd__nom_35_ticket = b1
+    bnd_eiw_di = (\<lambda>x. _)(i1 := (\<lambda>x. _)(b1 := True))
+    bnd_getcoffee = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := False))
+    bnd_getticket = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := True))
+    bnd_mactual = b1
+    bnd_mrel =
+      (\<lambda>x. _)
+      (b1 := (\<lambda>x. _)(b1 := (\<lambda>x. _)(b1 := True)))
+    bnd_passenger = i1
+    bnd_takejourney = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := False))
+    bnd_usemachine = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := False))
+    bnd_usewindow = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := True))
+    bnd_visitdonuts = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := False))
+    bnd_visitstarbuck = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := False))
+    bnd_visitstarbucks = (\<lambda>x. _)(b1 := (\<lambda>x. _)(i1 := True))
+% SZS output end FiniteModel
+Total time: 1.1 s
+
+% END OF SYSTEM OUTPUT
+RESULT: MML020_1.p - Nitpick---2016 says CounterSatisfiable - CPU = 27.79 WC = 9.18 
+OUTPUT: MML020_1.p - Nitpick---2016 says FiniteModel - CPU = 27.79 WC = 9.18 

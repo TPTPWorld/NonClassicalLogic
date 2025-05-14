@@ -1,0 +1,19 @@
+#!/bin/tcsh
+
+foreach file (???/*.p)
+#DEBUG echo "Status information from $file"
+    set dir=`dirname $file`
+    set abstract=`expr match $file ".../\(......_[^\.]\).*"`
+#DEBUG echo "Looking at $abstract"
+    foreach status_line (`cat $file`)
+#DEBUG echo "Status line $status_line"
+        set logic=`expr match "$status_line" '\(.*\)___.*'`
+#DEBUG echo "The logic is $logic"
+        set szs=`expr match "$status_line" '.*___\(.*\)'`
+#DEBUG echo "The status is $szs"
+        foreach problem_file (`grep -l "$logic" ../4_NX0_SEMs/$dir/$abstract*`)
+echo "Set status of $problem_file to $szs"
+            sed -i -e "s/Status   : TBA/Status   : $szs/" $problem_file
+        end
+    end
+end

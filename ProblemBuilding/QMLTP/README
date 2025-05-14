@@ -1,0 +1,26 @@
+The 0_QMF-v1.1 directory not in the repository. Locally it is the original 
+QMLTP library (I believe!). It includes Axioms (none of which are used) and 
+Documents (with results from experiments, etc.). The 0_QMF-v1.1.md file
+provides direct links to the QMLTP online.
+
+The 1_QMF directory is not in the repository. Locally it is just the 
+Problems from 0_QMF-v1.1, so I had a clean starting point.
+
+The 2_NH0 directory is the Problems in THF with corrections, a default 
+semantics specification, and types. I converted the "#box :" style to 
+"{$box} @".
+
+The 3_NX0 directory is 2_NH0 converted to NX0, done by Alex using one of 
+his tools.
+
+The 4_NX0_SEMs directory is 3_NX0 with draft headers added. A single logic 
+specification is used $rigid-$cumulative-$modal_system_K. 7_QMLTP is (the
+start of) getting the headers finished.
+
+The 7_QMLTP directory is the final form of the TPTP-format version of the
+QMLTP library (akin to the MPTPTP dataset), for the logic specification
+$rigid-$cumulative-$modal_system_K in all but the MML domain, where each
+problem has the logic specification from the QMLTP.
+
+The 8_QMLTP directory is expanded versions of 7_QMLTP with all combinations
+of the specification parameters.

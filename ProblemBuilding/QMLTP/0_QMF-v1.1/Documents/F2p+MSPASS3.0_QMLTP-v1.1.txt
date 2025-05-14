@@ -1,0 +1,682 @@
+f2p+MSPASS 3.0
+
+ATP-system  : f2p+MSPASS
+authors     : J. Otten (f2p), U. Hustadt & R. A. Schmidt (2000) 
+version     : 3.0 (MSPASS), 1.1 (first2p)
+programming
+language    : Prolog (first2p), C (MSPASS)
+compiler    : ECLiPSe v 5.10 #145
+description : Instance-based method to generate ground formulas that
+              are proved by MSPASS in propositional modal logic.
+              f2p can only work correctly for problems containing only
+              universal or only existential quantifiers
+              MSPASS is an extension of and incorporated into the
+              resolution-based ATP system SPASS. It uses several
+              translation methods into classical logic. By default,
+              the standard relational translation from modal logic
+              into classical logic is applied. 
+Web:          http://www.cs.man.ac.uk/~schmidt/mspass/
+
+
+test conditions:
+problem set: QMLTP-Library v 1.1 
+             www.iltp.de/qmltp
+580 problems (uni-modal)
+Xeon 3.4 GHz, 4 GB RAM, Linux 2.6.24-24.x86_64 
+CPU time limit: 600 sec.
+date: 15 Jan 2012
+
+standard semantics of first-order modal logic
+term conditions: rigid, local
+
+
+                      K             D             T             S4           S5           
+                      cumul. const. cumul. const. cumul. const. cumul. const.cumul. const.
+
+solved                229    189    187    183    194    184    162    147    177    160    
+(%)                   39.5   32.6   32.2   31.6   33.4   31.7   27.9   25.3   30.5   27.6   
+proved                70     67     79     76     105    95     121    111    140    131    
+refuted               159    122    108    107    89     89     41     36     37     29     
+proved after 0 - 1 s  65     64     74     73     98     93     115    110    126    119    
+             1 - 10 s 3      3      3      3      3      1      3      0      8      9      
+             10- 100s 2      0      2      0      2      0      3      1      3      1      
+             100-600s 0      0      0      0      2      1      0      0      3      2      
+time out     >600s    52     81     94     96     87     95     119    132    104    120    
+average time          0.5    0.1    0.4    0.1    4.8    1.6    0.5    0.3    3.5    5.0    
+mixed quantifiers     299    299    299    299    299    299    299    299    299    299
+errors (stack overf.) 0      11     0      2      0      2      0      2      0      1      
+
+
+
+solved:
+
+            total  APM GAL GLC GNL GSE GSV GSY SYM NLP SET 
+----------------------------------------------------------
+K cumul     229    2   0   2   0   0   1   19  173 1   31  
+K const     189    2   0   2   0   0   1   19  136 1   28  
+D cumul     187    2   0   2   0   0   1   17  133 1   31  
+D const     183    2   0   2   0   0   1   16  133 1   28  
+T cumul     194    2   1   2   0   0   1   19  137 1   31  
+T const     184    2   1   2   0   0   1   18  137 1   22  
+S4 cumul    162    2   1   0   0   0   0   11  116 1   31  
+S4 const    147    1   1   0   0   0   0   11  112 0   22  
+S5 cumul    177    2   1   1   0   0   0   13  128 1   31  
+S5 const    160    1   1   1   0   0   0   13  121 0   23  
+
+proved:
+
+            total  APM GAL GLC GNL GSE GSV GSY SYM NLP SET 
+----------------------------------------------------------
+K cumul     70     1   0   0   0   0   1   4   32  1   31  
+K const     67     1   0   0   0   0   1   4   32  1   28  
+D cumul     79     1   0   0   0   0   1   4   41  1   31  
+D const     76     1   0   0   0   0   1   4   41  1   28  
+T cumul     105    1   1   0   0   0   1   8   62  1   31  
+T const     95     1   1   0   0   0   1   7   62  1   22  
+S4 cumul    121    1   1   0   0   0   0   9   78  1   31  
+S4 const    111    1   1   0   0   0   0   9   78  0   22  
+S5 cumul    140    1   1   1   0   0   0   13  92  1   31  
+S5 const    131    1   1   1   0   0   0   13  92  0   23  
+
+refuted:
+
+            total  APM GAL GLC GNL GSE GSV GSY SYM NLP SET 
+----------------------------------------------------------
+K cumul     159    1   0   2   0   0   0   15  141 0   0   
+K const     122    1   0   2   0   0   0   15  104 0   0   
+D cumul     108    1   0   2   0   0   0   13  92  0   0   
+D const     107    1   0   2   0   0   0   12  92  0   0   
+T cumul     89     1   0   2   0   0   0   11  75  0   0   
+T const     89     1   0   2   0   0   0   11  75  0   0   
+S4 cumul    41     1   0   0   0   0   0   2   38  0   0   
+S4 const    36     0   0   0   0   0   0   2   34  0   0   
+S5 cumul    37     1   0   0   0   0   0   0   36  0   0   
+S5 const    29     0   0   0   0   0   0   0   29  0   0   
+
+
+
+
+problem       time in sec.
+              K             D             T             S4           S5           
+              cumul. const. cumul. const. cumul. const. cumul. const.cumul. const.
+
+APM001+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+APM002+1      (<0.01)(0.01) (0.01) (0.01) (<0.01)(0.01) (0.01) >600   (0.02) >600   
+APM003+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+APM004+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+APM005+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+APM006+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+APM007+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+APM008+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+APM009+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+APM010+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GAL014+1      mixq   mixq   >600   >600   >600   >600   >600   >600   >600   >600   
+GAL015+1      mixq   mixq   >600   >600   >600   >600   >600   >600   >600   >600   
+GAL016+1      mixq   mixq   >600   >600   >600   >600   >600   >600   >600   >600   
+GAL017+1      mixq   mixq   >600   >600   128.91 150.82 24.53  25.23  125.98 147.77 
+GAL018+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GAL019+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GAL020+1      mixq   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+GAL021+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+GAL022+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+GAL023+1      mixq   mixq   >600   >600   >600   >600   >600   >600   >600   >600   
+GLC181+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+GLC230+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   0.37   0.04   
+GLC354+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC414+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC448+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC449+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC450+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC450+2      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC451+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC452+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC453+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC454+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC455+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC456+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC457+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC458+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC459+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC460+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC461+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC462+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC463+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC464+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC465+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC466+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GLC467+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL001+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL002+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL003+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL004+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL005+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL006+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL007+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL008+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL009+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GNL011+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE002+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE002+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE008+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE009+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE010+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE011+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE012+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE013+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE014+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE014+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE015+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE016+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE016+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE017+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE018+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE018+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE019+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE020+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE024+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE025+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE027+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE027+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE027+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE043+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE044+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE045+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE046+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE047+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE054+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE055+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE056+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE060+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE061+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE062+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE062+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE062+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE063+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE063+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE063+4      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE573+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE574+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE575+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE576+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE577+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE578+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE579+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE580+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE581+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE582+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE583+3      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE900+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE901+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE902+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE903+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE904+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE906+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE907+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE908+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE909+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE910+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE911+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE912+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE913+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE914+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE915+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE916+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE917+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE918+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE919+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE920+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE921+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE923+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE924+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE925+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSE926+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV010+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+GSV011+1      0.01   <0.01  0.01   0.01   <0.01  0.01   >600   >600   >600   >600   
+GSV060+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV061+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV062+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV063+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV064+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV065+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV066+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV067+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV068+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV069+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV070+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV071+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV072+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV073+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV074+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV075+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV076+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV077+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV078+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV079+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV080+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV081+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV082+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV083+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV084+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV085+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV086+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV087+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV088+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV089+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV090+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV091+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV092+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV093+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV094+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV095+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV096+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV097+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV098+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV099+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV100+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV101+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV102+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV103+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV104+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV105+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV106+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSV107+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY036+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY036+2      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY040+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+GSY041+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   0.01   0.01   
+GSY044+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.54   0.52   39.95  0.01   
+GSY045+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.05   0.01   
+GSY046+1      (<0.01)(<0.01)(<0.01)(<0.01)(0.01) (<0.01)>600   >600   1.09   0.01   
+GSY047+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+GSY048+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY049+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY050+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY051+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY052+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY355+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY356+1      (0.24) (209.68>600   >600   338.12 >600   >600   >600   >600   >600   
+GSY357+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY358+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY359+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY360+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY361+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY362+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY363+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY364+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY365+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY366+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY367+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY368+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY369+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY370+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY371+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY372+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY373+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY374+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY375+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY376+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY377+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY378+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY379+1      (<0.01)(0.42) (<0.01)>600   <0.01  <0.01  0.01   0.01   0.04   0.01   
+GSY380+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY381+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY382+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY383+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY384+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY385+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY386+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY387+1      (0.01) (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   
+GSY388+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(1.02) >600   >600   0.01   0.01   
+GSY389+1      (<0.01)(<0.01)(<0.01)(<0.01)(0.01) (<0.01)>600   >600   0.01   0.01   
+GSY390+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.45   0.01   0.01   
+GSY391+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.46   0.01   >600   >600   
+GSY392+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(5.46) >600   >600   >600   >600   
+GSY393+1.003  (<0.01)(<0.01)mixq   mixq   (<0.01)(554.90mixq   mixq   >600   >600   
+GSY394+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY395+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY396+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY397+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY398+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY399+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY400+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY401+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY402+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY403+1      <0.01  <0.01  0.01   0.01   0.01   <0.01  0.01   0.01   0.01   0.01   
+GSY404+1      (<0.01)(<0.01)(<0.01)(0.01) <0.01  <0.01  0.01   0.01   0.01   0.01   
+GSY405+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY406+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY407+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY408+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY409+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY410+1      (<0.01)(0.01) (<0.01)(<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+GSY411+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY412+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY413+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY414+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY415+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+GSY416+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(0.01) (<0.01)(<0.01)0.01   0.01   
+SYM001+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM002+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM003+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM004+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM005+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM006+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM007+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM008+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM009+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM010+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM011+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM012+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM013+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM014+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM015+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  <0.01  0.01   
+SYM016+1      (<0.01)(<0.01)(<0.01)(0.01) (<0.01)(<0.01)>600   >600   >600   >600   
+SYM017+1      (<0.01)(<0.01)(0.01) (<0.01)(<0.01)(0.01) (<0.01)>600   (0.01) >600   
+SYM018+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM019+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM020+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM021+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM022+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM023+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM024+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM025+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM026+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM027+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM028+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM029+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM030+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM031+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM032+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM033+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM034+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM035+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM036+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM037+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM038+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM039+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM040+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM041+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM042+1      (<0.01)(<0.01)(0.01) (<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM043+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM044+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM045+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM046+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM047+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM048+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM049+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM050+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM051+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM052+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM053+1      (<0.01)(0.01) (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   0.01   0.01   
+SYM054+1      (<0.01)(<0.01)mixq   mixq   (<0.01)(<0.01)mixq   mixq   (0.01) >600   
+SYM055+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM056+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM057+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM058+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM059+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM060+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM061+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM062+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM063+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM064+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM065+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM066+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM067+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM068+1      (<0.01)(<0.01)mixq   mixq   (<0.01)(<0.01)mixq   mixq   (0.01) >600   
+SYM069+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM070+1      (<0.01)(<0.01)mixq   mixq   (<0.01)(<0.01)mixq   mixq   (0.01) >600   
+SYM071+1      (<0.01)(<0.01)mixq   mixq   (<0.01)(0.01) mixq   mixq   (0.01) >600   
+SYM072+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM073+1      (<0.01)(<0.01)(<0.01)(<0.01)(0.01) (<0.01)(<0.01)>600   (<0.01)>600   
+SYM074+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM075+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM076+1      (<0.01)(<0.01)(<0.01)(0.01) (<0.01)(<0.01)(<0.01)>600   (<0.01)>600   
+SYM077+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM078+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM079+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM080+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM081+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM082+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM083+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM084+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM085+1      mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   mixq   
+SYM101+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM102+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM103+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM104+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM105+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM106+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM107+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM108+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM109+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM110+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM111+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM112+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM113+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM114+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM115+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM116+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM117+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM118+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM119+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM120+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM121+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM122+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM123+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM124+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM125+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM126+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM127+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM128+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM129+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM130+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM131+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM132+1      (<0.01)(<0.01)0.01   0.01   <0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM133+1      (<0.01)(<0.01)0.01   0.01   <0.01  0.01   0.01   0.01   0.01   0.01   
+SYM134+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM135+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM136+1      (<0.01)(<0.01)(0.01) (<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM137+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM138+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   
+SYM139+1      (<0.01)(<0.01)(0.01) (<0.01)(<0.01)(<0.01)>600   >600   155.68 407.73 
+SYM140+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   0.01   0.01   
+SYM141+1      (<0.01)(<0.01)(<0.01)(<0.01)(0.01) (<0.01)>600   >600   0.01   0.01   
+SYM142+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   0.01   0.01   
+SYM143+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   0.01   0.01   
+SYM144+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   0.01   0.01   
+SYM145+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM146+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM147+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM148+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM149+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM150+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+SYM151+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+SYM152+1      (<0.01)(<0.01)(<0.01)(<0.01)(0.01) (<0.01)>600   >600   <0.01  1.26   
+SYM153+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   <0.01  0.02   
+SYM154+1      (<0.01)(<0.01)(<0.01)(0.01) (<0.01)(<0.01)>600   >600   <0.01  4.55   
+SYM155+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   <0.01  0.02   
+SYM156+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   1.56   78.87  
+SYM157+1      (<0.01)(<0.01)(<0.01)(0.01) (<0.01)(<0.01)(<0.01)(<0.01)<0.01  0.01   
+SYM158+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+SYM159+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM160+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM161+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(0.01) >600   >600   >600   >600   
+SYM162+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+SYM163+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)<0.01  0.01   
+SYM164+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM165+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM166+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM167+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(0.01) 
+SYM168+1      (0.01) (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM169+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   0.01   0.01   
+SYM170+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+SYM171+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM172+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)<0.01  0.01   
+SYM173+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM174+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)>600   >600   >600   >600   
+SYM175+1      (<0.01)(0.01) (0.01) (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   
+SYM176+1      (<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(<0.01)(0.01) 
+SYM177+1      (<0.01)(<0.01)(0.01) (<0.01)(<0.01)(0.01) >600   >600   >600   >600   
+SYM178+1      (<0.01)(<0.01)(0.01) (<0.01)(<0.01)(<0.01)>600   >600   <0.01  0.01   
+SYM179+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM180+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM181+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM182+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM183+1      <0.01  <0.01  0.01   0.01   <0.01  0.01   0.01   0.01   <0.01  0.01   
+SYM184+1      <0.01  <0.01  0.01   0.01   <0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM185+1      (<0.01)>600   (<0.01)(<0.01)(<0.01)(<0.01)0.01   0.01   <0.01  0.01   
+SYM186+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM187+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM188+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   <0.01  0.01   
+SYM189+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM190+1      (<0.01)(<0.01)(<0.01)(<0.01)<0.01  <0.01  0.01   0.01   0.01   0.01   
+SYM301+1      (<0.01)(<0.01)(0.01) (0.01) (<0.01)(0.01) (<0.01)(<0.01)(1.12) (0.01) 
+SYM302+1      (0.01) (<0.01)(0.01) (0.01) (0.01) (0.01) (<0.01)(<0.01)(1.19) (0.01) 
+SYM303+1      (<0.01)(<0.01)(0.01) (0.01) (0.01) (<0.01)(<0.01)(0.01) (1.14) (1.42) 
+SYM304+1      (0.01) (0.01) (0.01) (<0.01)(0.01) (<0.01)(<0.01)(<0.01)(1.15) (1.38) 
+SYM305+1      (<0.01)(0.01) (0.01) (0.01) (0.01) (0.01) (<0.01)(<0.01)(0.11) (0.01) 
+SYM306+1      (<0.01)(0.01) (0.01) (0.01) (0.01) (0.01) (<0.01)(<0.01)(0.05) (0.01) 
+SYM307+1      (0.01) (0.01) (0.01) (0.02) (0.01) (0.01) (0.01) (0.01) (1.13) (1.54) 
+SYM308+1      (0.01) (<0.01)(0.01) (0.01) <0.01  <0.01  0.01   0.01   0.67   1.89   
+SYM309+1      (0.01) (0.01) (0.02) (0.01) (0.01) (0.02) (<0.01)(0.02) (1.18) (1.51) 
+SYM310+1      (0.01) (0.01) (0.01) (0.01) (0.02) (0.01) (0.01) (0.01) (0.04) (0.01) 
+SYM311+1      (<0.01)(0.01) (0.01) (0.01) (0.02) (0.01) (0.01) (0.01) (0.04) (1.40) 
+SYM312+1      (0.01) (0.01) (0.02) (0.01) (0.01) (0.01) (0.01) (0.01) (0.45) (1.50) 
+SYM313+1      (0.02) (0.02) (0.02) (0.03) (0.02) (0.02) (0.02) (0.02) (0.04) (0.68) 
+SYM314+1      (0.02) (0.01) (0.02) (0.02) <0.01  <0.01  0.01   0.21   0.46   1.46   
+SYM315+1      (0.02) (0.02) (0.01) (0.02) (0.02) (0.02) (0.02) (0.03) (1.18) (1.48) 
+SYM316+1      (0.01) (0.01) (0.02) (0.02) (0.02) (0.02) (0.01) (0.02) (1.16) (0.05) 
+SYM317+1      (0.02) (0.01) (0.02) (0.02) (0.01) (0.03) (0.01) (0.03) (7.68) (8.32) 
+SYM318+1      (0.02) (0.01) (0.02) (0.03) (0.02) (0.02) (0.02) (0.02) (0.49) (1.45) 
+SYM319+1      (0.02) (0.02) (0.02) (0.02) (0.02) (0.02) (0.02) (0.02) (0.25) (1.37) 
+SYM320+1      (0.01) (0.01) (0.02) (0.02) (0.02) (0.02) (0.01) (0.02) (1.18) (1.44) 
+SYM321+1      (0.01) (0.01) (0.02) (0.02) (0.02) (0.02) (0.02) (0.02) (0.98) (1.61) 
+SYM322+1      (0.02) (0.02) (0.03) (0.03) <0.01  <0.01  0.01   0.24   1.17   1.44   
+SYM323+1      (0.02) (0.03) (0.03) (0.03) (0.03) (0.03) (0.03) (0.03) (0.03) (1.45) 
+SYM324+1      (0.02) (0.02) (0.03) (0.03) (0.03) (0.03) (0.02) (0.02) (0.03) (0.03) 
+SYM325+1      (0.02) (0.02) (0.03) (0.03) <0.01  <0.01  0.01   0.21   <0.01  3.06   
+SYM326+1      (0.02) (0.02) (0.03) (0.03) 0.01   <0.01  0.01   0.01   120.49 3.26   
+SYM327+1      (0.02) (0.02) (0.03) (0.03) (0.03) (0.03) (0.03) (0.03) (1.83) (3.22) 
+SYM328+1      (0.02) (0.02) (0.03) (0.03) <0.01  1.05   0.01   0.18   2.44   1.45   
+SYM329+1      (0.03) (0.02) (0.02) (0.03) <0.01  0.01   0.01   0.19   2.17   3.25   
+SYM330+1      (0.02) (0.02) (0.02) (0.03) (0.03) (0.02) (0.02) (0.03) (1.18) (1.57) 
+SYM331+1      (0.02) (0.02) (0.02) (0.03) (0.03) (2.66) (0.03) (0.03) (6.35) (8.36) 
+SYM332+1      (0.01) (0.02) (0.03) (0.03) (0.04) (0.03) (0.03) (0.04) (2.54) (3.15) 
+SYM333+1      (0.03) (0.02) (0.03) (0.03) (0.03) (0.03) (0.03) (0.03) (2.53) (3.05) 
+SYM334+1      (0.02) (0.02) (0.03) (0.03) (0.03) (0.03) (0.03) (0.03) (0.06) (3.29) 
+SYM335+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM336+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM337+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM338+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM339+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM340+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM341+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM342+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM343+1      (0.01) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM344+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM345+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM346+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM347+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM348+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM349+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM350+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM351+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM352+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM353+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM354+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM355+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM356+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM357+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM358+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM359+1      (0.02) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM360+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM361+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM362+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM363+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM364+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM365+1      (0.04) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM366+1      (0.04) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM367+1      (0.03) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM368+1      (0.04) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM369+1      (0.05) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SYM370+1      (0.05) >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET002+3      13.52  >600   13.65  >600   13.69  >600   14.41  >600   14.14  >600   
+SET002+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET008+3      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET009+3      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET010+3      >600   stack  >600   stack  >600   stack  >600   stack  >600   stack  
+SET011+3      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET012+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET013+4      >600   >600   >600   >600   >600   stack  >600   stack  >600   >600   
+SET014+3      12.17  >600   11.94  >600   12.32  >600   11.62  >600   11.60  >600   
+SET014+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET015+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET016+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET016+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET017+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET018+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET018+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET019+4      0.15   0.21   0.15   0.16   0.15   0.16   0.14   0.16   0.15   0.16   
+SET020+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET024+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET025+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET027+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET027+3      0.01   0.04   0.01   0.04   0.02   0.03   0.02   0.03   0.02   0.03   
+SET027+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET043+1      <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  
+SET044+1      0.02   0.02   0.02   0.02   0.02   0.03   0.03   0.03   0.03   0.02   
+SET045+1      0.13   0.15   0.13   0.14   0.16   0.18   0.13   0.18   0.13   0.15   
+SET046+1      0.02   0.04   0.03   0.03   0.02   0.03   0.02   0.03   0.02   0.02   
+SET047+1      0.21   >600   0.21   >600   0.22   >600   0.22   >600   0.21   >600   
+SET054+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET055+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET056+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET060+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET061+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET062+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET062+3      0.03   0.08   0.03   0.06   0.03   0.06   0.03   0.06   0.03   0.06   
+SET062+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET063+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET063+3      0.13   0.29   0.12   0.30   0.13   >600   0.13   >600   0.13   0.26   
+SET063+4      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET573+3      0.05   0.08   0.04   0.06   0.04   0.07   0.04   0.07   0.06   0.06   
+SET574+3      0.05   0.10   0.05   0.07   0.05   0.07   0.06   0.07   0.05   0.08   
+SET575+3      0.08   0.13   0.09   0.16   0.08   0.12   0.09   0.12   0.10   0.12   
+SET576+3      0.06   0.11   0.06   0.10   0.06   0.10   0.06   0.10   0.06   0.10   
+SET577+3      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET578+3      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET579+3      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET580+3      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET581+3      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET582+3      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET583+3      <0.01  0.01   0.01   0.01   <0.01  <0.01  <0.01  <0.01  0.01   0.01   
+SET900+1      0.32   0.51   0.33   0.43   0.32   >600   0.33   >600   0.33   >600   
+SET901+1      0.02   0.03   0.02   0.02   0.01   0.02   0.02   0.02   0.01   0.02   
+SET902+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET903+1      1.06   1.47   1.10   1.18   1.06   >600   1.10   >600   1.10   >600   
+SET904+1      0.01   0.01   0.01   0.01   0.01   0.01   0.01   0.01   0.01   0.01   
+SET906+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET907+1      1.79   2.54   1.68   2.07   1.78   >600   1.78   >600   1.74   >600   
+SET908+1      >600   stack  >600   stack  >600   >600   >600   >600   >600   >600   
+SET909+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET910+1      0.01   0.01   0.01   0.01   0.01   0.01   0.01   0.01   0.01   0.01   
+SET911+1      <0.01  0.01   0.01   0.01   0.01   0.01   0.01   0.01   <0.01  <0.01  
+SET912+1      1.75   2.52   1.76   2.11   1.69   >600   1.65   >600   1.66   >600   
+SET913+1      <0.01  <0.01  <0.01  0.01   0.01   <0.01  <0.01  <0.01  <0.01  <0.01  
+SET914+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET915+1      <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  <0.01  
+SET916+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET917+1      0.63   0.86   0.58   0.71   0.59   >600   0.58   >600   0.62   >600   
+SET918+1      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET919+1      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET920+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+SET921+1      >600   stack  >600   >600   >600   >600   >600   >600   >600   >600   
+SET923+1      0.01   0.01   0.01   0.01   0.01   0.02   0.01   0.02   <0.01  0.02   
+SET924+1      <0.01  0.01   0.01   0.01   <0.01  0.01   0.01   0.01   0.01   0.01   
+SET925+1      0.01   <0.01  <0.01  0.01   0.01   0.01   <0.01  0.01   0.01   <0.01  
+SET926+1      0.01   0.01   0.01   0.01   <0.01  0.01   0.01   0.01   0.01   0.01   
+NLP001+1      0.01   0.01   0.01   0.01   0.01   0.01   0.02   >600   0.02   >600   
+NLP002+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+NLP003+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+NLP004+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   
+NLP005+1      >600   >600   >600   >600   >600   >600   >600   >600   >600   >600   

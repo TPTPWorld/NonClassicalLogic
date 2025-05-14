@@ -1,0 +1,45 @@
+%------------------------------------------------------------------------------
+% File     : 
+% Domain   : 
+% Problem  : coffee and ticket problem
+% Version  : 
+% English  : Before starting a journey, a ticket and a cup of coffee need to be purchased.
+
+% Refs     : [Sto99] Stone (1999), Indefinite Information in Modal Logic Programming, [RO12] QMLTP
+% Source   : [Sto99]
+% Names    : 
+
+% Status   : Theorem
+% Rating   : 
+% Syntax   : 
+% SPC      : 
+
+% Comments : 
+%------------------------------------------------------------------------------
+
+tff(simple_S4,logic,
+    $modal == 
+      [ $domains == $cumulative,
+        $designation == $rigid,
+	    $terms == $local,
+        $modalities == [$modal_system_S4, {$box(#ticket)} == $modal_system_S4, {$box(#coffee)} == $modal_system_S4] ] ).
+
+tff(me_type,type,me: $i).
+tff(getticket_type,type,getticket: $i>$o).
+tff(getcoffee_type,type,getcoffee: $i>$o).
+tff(takejourney_type,type,takejourney: $i>$o).
+tff(usemachine_type,type,usemachine: $i>$o).
+tff(usewindow_type,type,usewindow: $i>$o).
+tff(visitdonuts_type,type,visitdonuts: $i>$o).
+tff(visitstarbucks_type,type,visitstarbucks: $i>$o).
+
+tff(journeyrequirements,axiom,![X: $i]:((({$box(#ticket)}@(getticket(X)))&({$box(#coffee)}@(getcoffee(X))))=>(takejourney(X)))).
+tff(getticket1,axiom,![X: $i]:({$box(#ticket)}@(usemachine(X)=>getticket(X)))).
+tff(getticket2,axiom,![X: $i]:({$box(#ticket)}@(usewindow(X)=>getticket(X)))).
+tff(ticketoptions,axiom,![X: $i]:({$box(#ticket)}@(usemachine(X)|usewindow(X)))).
+tff(getcoffee1,axiom,![X: $i]:({$box(#coffee)}@(visitdonuts(X)=>getcoffee(X)))).
+tff(getcoffee2,axiom,![X: $i]:({$box(#coffee)}@(visitstarbucks(X)=>getcoffee(X)))).
+tff(coffeeoptions,axiom,![X: $i]:({$box(#coffee)}@(visitdonuts(X)|visitstarbucks(X)))).
+
+tff(canitakethejourney,conjecture,(takejourney(me))).
+%------------------------------------------------------------------------------

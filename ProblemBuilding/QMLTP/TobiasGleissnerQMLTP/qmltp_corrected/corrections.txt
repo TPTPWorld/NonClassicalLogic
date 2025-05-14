@@ -1,0 +1,48 @@
+FIXED PROBLEMS:
+APM007+1.p: symbol "qmltpeq" without axiomatization
+SYM052+1.p: symbol "!=" without axiomatization
+SYM054+1.p: symbol "qmltpeq" without axiomatization
+SYM055+1.p: symbol "=" without axiomatization
+SYM056+1.p: symbol "=" without axiomatization
+SYM057+1.p: symbol "=" without axiomatization
+SYM058+1.p: symbol "qmltpeq" without axiomatization
+SYM064+1.p: symbol "=" without axiomatization
+SYM068+1.p: symbol "=" and "qmltpeq" without axiomatization
+SYM069+1.p: symbol "qmltpeq" without axiomatization
+SYM070+1.p: symbol "qmltpeq" without axiomatization
+SYM071+1.p: symbol "qmltpeq" without axiomatization
+SYM072+1.p: symbol "qmltpeq" without axiomatization
+SYM085+1.p: symbol "=" without axiomatization
+MML006+1.p: semantics typo poor instead of pour
+            semantics for make(c) missing, added axiomatization k for make(c)
+            changed pour(a) to pour_a and pour(b) to pour_b and make(c) to make_c
+MML009+1.p: conjecture had . instead of : after #box(wu)
+MML010+1.p: conjecture had . instead of : after #box(wu)
+MML014+1.p: semantics fo i(bob) missing, added axiomatization s5 for i(bob)
+            changed i(alice) to i_alice and i(bob) to i_bob and b(alice) to b_alice and b(bob) to b_bob
+MML016+1.p: changed b(s) to b_s and b(u) to b_u
+MML020+1.p: missing comma in axiom 7
+
+
+PROBABLY STILL INCORRECT:
+APM004+1.p: parentheses (fixed, probably wrong)
+SYM035+1.p: parentheses (fixed, probably wrong)
+SYM082+1.p: parentheses (fixed, probably wrong)
+SYM113+1.p: parentheses (fixed, probably wrong)
+SYM114+1.p: parentheses (fixed, probably wrong)
+SYM122+1.p: parentheses (fixed, probably wrong)
+SYM163+1.p: parentheses (fixed, probably wrong)
+MML002+1.p: removed superfluous parentheses from axiom_4_for_fool_2
+            added needed parentheses for first operand of implication in axiom axiom_4_for_fool_2
+MML003+1.p: right operand of equivalence in axiom someone_knows_its_forhead misses parentheses
+MML004+1.p: missing parentheses around second operand of implication in axiom axiom_2
+MML005+1.p: a lot of missing parentheses around the first operand (which had a modality) of implications. This does not conform to TPTP FOF style
+            several duplicate axiom names
+MML008+1.p: additional ). ending removed
+MML013+1.p: missing parenthese at the end of axiom not_a_axiom_1
+MML015+1.p: changed i(alice) to i_alice and i(bob) to i_bob and b(alice) to b_alice and b(bob) to b_bob
+            missing parentheses in axioms axiom_1_a and axiom_1_b after #box(i(alice) and #box(i(bob)
+            one parenthese too much at the end of axioms axiom_1_a and axiom_1_b
+            conjecture missing parentheses before first #box(b_bob) and after second bigcity(portland)
+MML017+1.p: mistakes in axioms with phi (parentheses)
+MML019+1.p: many mistakes (parentheses)

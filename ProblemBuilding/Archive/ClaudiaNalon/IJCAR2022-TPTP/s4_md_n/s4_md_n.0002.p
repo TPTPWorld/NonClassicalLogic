@@ -1,0 +1,15 @@
+tff('s4_md_n.0002',logic,
+    $modal == 
+      [ $modalities == $modal_system_S4 ] ).
+
+tff(p1_decl,type,
+    p1: $o ).
+
+tff(p2_decl,type,
+    p2: $o ).
+
+tff(prove,conjecture,
+    ~ ~ ( p1
+        | ( ~ p1
+          & <.> [.] ( <.> p1
+                    | p2 ) ) ) ).

@@ -1,0 +1,23 @@
+jk-003:~/autom_provers/first2p_m_mspass> eclipse
+ECLiPSe Constraint Logic Programming System [kernel]
+Kernel and basic libraries copyright Cisco Systems, Inc.
+and subject to the Cisco-style Mozilla Public Licence 1.1
+(see legal/cmpl.txt or www.eclipse-clp.org/licence)
+Source available at www.sourceforge.org/projects/eclipse-clp
+GMP library copyright Free Software Foundation, see legal/lgpl.txt
+For other libraries see their individual copyright notices
+Version 5.10 #145 (x86_64_linux), Sat Aug 16 01:10 2008
+[eclipse 1]: [first2p_m].
+iso.eco    loaded traceable 0 bytes in 0.01 seconds
+first2p_m.pl compiled traceable 78688 bytes in 0.03 seconds
+
+Yes (0.04s cpu)
+[eclipse 2]: ['/home/traths/formulas/modal/mleancop/APM/APM001+1'].
+APM001+1   compiled traceable 2408 bytes in 0.00 seconds
+
+Yes (0.00s cpu)
+[eclipse 3]: f(F), prove(F).
+1
+0.0
+F = # (dest(paris), class(first) => price(ninetyfive)), # (dest(paris), class(second) => price(seventy)), # ~ (class(first), class(second)), # ~ (price(ninetyfive), price(seventy)), # dest(paris), # class(second) => # price(seventy)
+Yes (0.00s cpu, solution 1, maybe more) ? 

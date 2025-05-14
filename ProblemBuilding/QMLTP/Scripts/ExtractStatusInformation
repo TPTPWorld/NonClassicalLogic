@@ -1,0 +1,30 @@
+#!/bin/tcsh
+
+foreach file (*/*)
+#foreach file (APM/APM001+1.p)
+    set problem=`basename $file .p`
+    grep -m1 '     K ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f4 > ../StatusInformation/${problem}_k_constant_rigid.p
+    grep -m1 '     K ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f3 > ../StatusInformation/${problem}_k_cumulative_rigid.p
+    grep -m1 '     K ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f2 > ../StatusInformation/${problem}_k_varying_rigid.p
+    echo "Unknown" > ../StatusInformation/${problem}_k_decreasing_rigid.p
+    grep -m1 '     D ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f4 > ../StatusInformation/${problem}_d_constant_rigid.p
+    grep -m1 '     D ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f3 > ../StatusInformation/${problem}_d_cumulative_rigid.p
+    grep -m1 '     D ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f2 > ../StatusInformation/${problem}_d_varying_rigid.p
+    echo "Unknown" > ../StatusInformation/${problem}_d_decreasing_rigid.p
+    grep -m1 '     T ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f4 > ../StatusInformation/${problem}_t_constant_rigid.p
+    grep -m1 '     T ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f3 > ../StatusInformation/${problem}_t_cumulative_rigid.p
+    grep -m1 '     T ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f2 > ../StatusInformation/${problem}_t_varying_rigid.p
+    echo "Unknown" > ../StatusInformation/${problem}_t_decreasing_rigid.p
+    grep -m1 '    S4 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f4 > ../StatusInformation/${problem}_s4_constant_rigid.p
+    grep -m1 '    S4 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f3 > ../StatusInformation/${problem}_s4_cumulative_rigid.p
+    grep -m1 '    S4 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f2 > ../StatusInformation/${problem}_s4_varying_rigid.p
+    echo "Unknown" > ../StatusInformation/${problem}_s4_decreasing_rigid.p
+    grep -m1 '    S5 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f4 > ../StatusInformation/${problem}_s5_constant_rigid.p
+    grep -m1 '    S5 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f3 > ../StatusInformation/${problem}_s5_cumulative_rigid.p
+    grep -m1 '    S5 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f2 > ../StatusInformation/${problem}_s5_varying_rigid.p
+    echo "Unknown" > ../StatusInformation/${problem}_s5_decreasing_rigid.p
+    grep -m1 '    S5 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f4 > ../StatusInformation/${problem}_s5u_constant_rigid.p
+    grep -m1 '    S5 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f3 > ../StatusInformation/${problem}_s5u_cumulative_rigid.p
+    grep -m1 '    S5 ' $file | sed -e 's/% *//' -e 's/  */ /g' | cut -d' ' -f2 > ../StatusInformation/${problem}_s5u_varying_rigid.p
+    echo "Unknown" > ../StatusInformation/${problem}_s5u_decreasing_rigid.p
+end

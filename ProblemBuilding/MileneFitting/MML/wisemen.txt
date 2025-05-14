@@ -1,0 +1,60 @@
+%------------------------------------------------------------------------------
+% File     : 
+% Domain   : 
+% Problem  : wise men problem
+% Version  : 
+% English  : "once upon a time, a king..."
+
+% Refs     : [Bal98] Normal Multimodal Logics: Automatic Deduction and Logic Programming Extension, [RO12] QMLTP
+% Source   : [Bal98]
+% Names    : 
+
+% Status   : 
+% Rating   : 
+% Syntax   : 
+% SPC      : 
+
+% Comments : 
+%------------------------------------------------------------------------------
+
+tff(logicspec,logic,
+    $modal == 
+      [ $domains == $constant,
+        $designation == $rigid,
+        $terms == $global,
+        $modalities == [$modal_system_K, {$box(#fool)} == $modal_system_S4, {$box(#a)} == $modal_system_K, {$box(#b)} == $modal_system_K, {$box(#c)} == $modal_system_K] ] ).
+
+tff(a_type,type,a: $i).
+tff(b_type,type,b: $i).
+tff(c_type,type,c: $i).
+tff(ws_type,type,ws: $i>$o).
+
+%tff(f1,axiom,![X: $i]:(({$box(#fool)}@(ws(X)))=>(ws(X)))).
+%tff(f2,axiom,![X: $i]:(({$box(#fool)}@(ws(X)))=>({$box(#fool)}@({$box(#fool)}@(ws(X)))))).
+%tff(f3,axiom,![X: $i]:(({$box(#fool)}@(ws(X)))=>({$box(#a)}@(ws(X))))).
+%tff(f4,axiom,![X: $i]:(({$box(#fool)}@(ws(X)))=>({$box(#b)}@(ws(X))))).
+%tff(f5,axiom,![X: $i]:(({$box(#fool)}@(ws(X)))=>({$box(#c)}@(ws(X))))).
+tff(a1,axiom,{$box(#fool)}@((~ws(a)&(~ws(b)))=>ws(c))).
+tff(a2,axiom,{$box(#fool)}@((~ws(a)&(~ws(c)))=>ws(b))).
+tff(a3,axiom,{$box(#fool)}@((~ws(b)&(~ws(c)))=>ws(a))).
+tff(a4,axiom,{$box(#fool)}@((~ws(a))=>{$box(#b)}@(~ws(a)))).
+tff(a5,axiom,{$box(#fool)}@((~ws(a))=>{$box(#c)}@(~ws(a)))).
+tff(a6,axiom,{$box(#fool)}@((~ws(b))=>{$box(#a)}@(~ws(b)))).
+tff(a7,axiom,{$box(#fool)}@((~ws(b))=>{$box(#c)}@(~ws(b)))).
+tff(a8,axiom,{$box(#fool)}@((~ws(c))=>{$box(#a)}@(~ws(c)))).
+tff(a9,axiom,{$box(#fool)}@((~ws(c))=>{$box(#b)}@(~ws(c)))).
+tff(a10,axiom,{$box(#a)}@(~{$box(#b)}@(ws(b)))).
+tff(a11,axiom,{$box(#a)}@(~{$box(#c)}@(ws(c)))).
+tff(a12,axiom,{$box(#b)}@(~{$box(#a)}@(ws(a)))).
+tff(a13,axiom,{$box(#b)}@(~{$box(#c)}@(ws(c)))).
+tff(a14,axiom,{$box(#c)}@(~{$box(#a)}@(ws(a)))).
+tff(a15,axiom,{$box(#c)}@(~{$box(#b)}@(ws(b)))).
+tff(a16,axiom,{$box(#a)}@({$box(#b)}@(~{$box(#c)}@(ws(c))))).
+tff(a17,axiom,{$box(#a)}@({$box(#c)}@(~{$box(#b)}@(ws(b))))).
+tff(a18,axiom,{$box(#b)}@({$box(#c)}@(~{$box(#a)}@(ws(a))))).
+tff(a19,axiom,{$box(#b)}@({$box(#a)}@(~{$box(#c)}@(ws(c))))).
+tff(a20,axiom,{$box(#c)}@({$box(#b)}@(~{$box(#a)}@(ws(a))))).
+tff(a21,axiom,{$box(#c)}@({$box(#a)}@(~{$box(#b)}@(ws(b))))).
+
+tff(cknows,conjecture,({$box(#c)}@(ws(c)))).
+%------------------------------------------------------------------------------

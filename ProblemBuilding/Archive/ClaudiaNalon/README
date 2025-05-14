@@ -1,0 +1,30 @@
+Date: Sun, 14 Aug 2022 12:19:12 +0000
+From: Claudia Nalon <nalon@unb.br>
+To: "Eisenhofer, Clemens" <clemens.eisenhofer@tuwien.ac.at>, Geoff Sutcliffe
+        <geoff@cs.miami.edu>
+Subject: Re: Benchmarks Modal Logic
+
+Hi Clemens and Geoff,
+
+The benchmarks we have used for the IJCAR 2022 paper can be found in the
+following links:
+
+(in the language of KSP) https://nalon.org/software/ijcar2022-ksp.tgz
+(intohilo format) https://nalon.org/software/ijcar2022-intohylo.tgz
+
+Clemens, there is also a collection of formulae in the latest distribution of
+KSP (https://nalon.org/software/ksp-0.1.5-beta.tar.gz; that's the submission
+version for IJCAR; I'll update my page soon with the final version), in the
+folder "examples". Those are very simple formulae, but I find them particularly
+useful when debugging. There are links to the literature within each file
+(unless the example is ours); the files have suffix n (for
+non-provable/satisfiable) and p (for provable/unsatisfiable) that indicates the
+status of each formula for each different logic. Note that for both formats the
+files already contain the negation the formulae we want to prove.
+
+My colleagues and I are always looking for fully automated provers for modal
+logics. Can you please let us know when your implementation in Vampire is
+available?
+
+All the best,
+Cláudia

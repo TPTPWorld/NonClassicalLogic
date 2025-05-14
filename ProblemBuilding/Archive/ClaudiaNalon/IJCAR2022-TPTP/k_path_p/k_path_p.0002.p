@@ -1,0 +1,77 @@
+tff('k_path_p.0002',logic,
+    $modal == 
+      [ $modalities == $modal_system_K ] ).
+
+tff(false_decl,type,
+    false: $o ).
+
+tff(p1_decl,type,
+    p1: $o ).
+
+tff(p2_decl,type,
+    p2: $o ).
+
+tff(p3_decl,type,
+    p3: $o ).
+
+tff(p4_decl,type,
+    p4: $o ).
+
+tff(p5_decl,type,
+    p5: $o ).
+
+tff(p6_decl,type,
+    p6: $o ).
+
+tff(prove,conjecture,
+    ~ ~ ( [.] p1
+        | [.] p2
+        | [.] p3
+        | [.] p5
+        | <.> ( ~ p1
+              & [.] p1 )
+        | <.> ( ~ p1
+              & [.] p3 )
+        | false
+        | <.> ( ~ p2
+              & [.] p5 )
+        | false
+        | <.> ( ~ p3
+              & [.] p1 )
+        | <.> ( ~ p3
+              & [.] p3 )
+        | false
+        | false
+        | false
+        | <.> ( ~ p5
+              & [.] p1 )
+        | <.> ( ~ p5
+              & [.] p3 )
+        | false
+        | false
+        | false
+        | false
+        | false
+        | false
+        | <.> ( ~ p4
+              & [.] p2 )
+        | <.> ( ~ p6
+              & [.] p2 )
+        | false
+        | false
+        | false
+        | <.> ( ~ p4
+              & [.] p4 )
+        | <.> ( ~ p6
+              & [.] p4 )
+        | false
+        | false
+        | false
+        | <.> ( ~ p4
+              & [.] p6 )
+        | <.> ( ~ p6
+              & [.] p6 )
+        | <.> <.> ~ p2
+        | <.> <.> ~ p4
+        | <.> <.> ~ p5
+        | <.> <.> ~ p6 ) ).

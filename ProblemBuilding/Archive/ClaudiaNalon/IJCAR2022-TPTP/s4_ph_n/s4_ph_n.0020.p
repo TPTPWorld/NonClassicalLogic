@@ -1,0 +1,10085 @@
+tff('s4_ph_n.0020',logic,
+    $modal == 
+      [ $modalities == $modal_system_S4 ] ).
+
+tff(p1001_decl,type,
+    p1001: $o ).
+
+tff(p1002_decl,type,
+    p1002: $o ).
+
+tff(p1003_decl,type,
+    p1003: $o ).
+
+tff(p1004_decl,type,
+    p1004: $o ).
+
+tff(p1005_decl,type,
+    p1005: $o ).
+
+tff(p1006_decl,type,
+    p1006: $o ).
+
+tff(p1007_decl,type,
+    p1007: $o ).
+
+tff(p1008_decl,type,
+    p1008: $o ).
+
+tff(p1009_decl,type,
+    p1009: $o ).
+
+tff(p101_decl,type,
+    p101: $o ).
+
+tff(p1010_decl,type,
+    p1010: $o ).
+
+tff(p1011_decl,type,
+    p1011: $o ).
+
+tff(p1012_decl,type,
+    p1012: $o ).
+
+tff(p1013_decl,type,
+    p1013: $o ).
+
+tff(p1014_decl,type,
+    p1014: $o ).
+
+tff(p1015_decl,type,
+    p1015: $o ).
+
+tff(p1016_decl,type,
+    p1016: $o ).
+
+tff(p1017_decl,type,
+    p1017: $o ).
+
+tff(p1018_decl,type,
+    p1018: $o ).
+
+tff(p1019_decl,type,
+    p1019: $o ).
+
+tff(p102_decl,type,
+    p102: $o ).
+
+tff(p1020_decl,type,
+    p1020: $o ).
+
+tff(p103_decl,type,
+    p103: $o ).
+
+tff(p104_decl,type,
+    p104: $o ).
+
+tff(p105_decl,type,
+    p105: $o ).
+
+tff(p106_decl,type,
+    p106: $o ).
+
+tff(p107_decl,type,
+    p107: $o ).
+
+tff(p108_decl,type,
+    p108: $o ).
+
+tff(p109_decl,type,
+    p109: $o ).
+
+tff(p110_decl,type,
+    p110: $o ).
+
+tff(p1101_decl,type,
+    p1101: $o ).
+
+tff(p1102_decl,type,
+    p1102: $o ).
+
+tff(p1103_decl,type,
+    p1103: $o ).
+
+tff(p1104_decl,type,
+    p1104: $o ).
+
+tff(p1105_decl,type,
+    p1105: $o ).
+
+tff(p1106_decl,type,
+    p1106: $o ).
+
+tff(p1107_decl,type,
+    p1107: $o ).
+
+tff(p1108_decl,type,
+    p1108: $o ).
+
+tff(p1109_decl,type,
+    p1109: $o ).
+
+tff(p111_decl,type,
+    p111: $o ).
+
+tff(p1110_decl,type,
+    p1110: $o ).
+
+tff(p1111_decl,type,
+    p1111: $o ).
+
+tff(p1112_decl,type,
+    p1112: $o ).
+
+tff(p1113_decl,type,
+    p1113: $o ).
+
+tff(p1114_decl,type,
+    p1114: $o ).
+
+tff(p1115_decl,type,
+    p1115: $o ).
+
+tff(p1116_decl,type,
+    p1116: $o ).
+
+tff(p1117_decl,type,
+    p1117: $o ).
+
+tff(p1118_decl,type,
+    p1118: $o ).
+
+tff(p1119_decl,type,
+    p1119: $o ).
+
+tff(p112_decl,type,
+    p112: $o ).
+
+tff(p1120_decl,type,
+    p1120: $o ).
+
+tff(p113_decl,type,
+    p113: $o ).
+
+tff(p114_decl,type,
+    p114: $o ).
+
+tff(p115_decl,type,
+    p115: $o ).
+
+tff(p116_decl,type,
+    p116: $o ).
+
+tff(p117_decl,type,
+    p117: $o ).
+
+tff(p118_decl,type,
+    p118: $o ).
+
+tff(p119_decl,type,
+    p119: $o ).
+
+tff(p120_decl,type,
+    p120: $o ).
+
+tff(p1201_decl,type,
+    p1201: $o ).
+
+tff(p1202_decl,type,
+    p1202: $o ).
+
+tff(p1203_decl,type,
+    p1203: $o ).
+
+tff(p1204_decl,type,
+    p1204: $o ).
+
+tff(p1205_decl,type,
+    p1205: $o ).
+
+tff(p1206_decl,type,
+    p1206: $o ).
+
+tff(p1207_decl,type,
+    p1207: $o ).
+
+tff(p1208_decl,type,
+    p1208: $o ).
+
+tff(p1209_decl,type,
+    p1209: $o ).
+
+tff(p1210_decl,type,
+    p1210: $o ).
+
+tff(p1211_decl,type,
+    p1211: $o ).
+
+tff(p1212_decl,type,
+    p1212: $o ).
+
+tff(p1213_decl,type,
+    p1213: $o ).
+
+tff(p1214_decl,type,
+    p1214: $o ).
+
+tff(p1215_decl,type,
+    p1215: $o ).
+
+tff(p1216_decl,type,
+    p1216: $o ).
+
+tff(p1217_decl,type,
+    p1217: $o ).
+
+tff(p1218_decl,type,
+    p1218: $o ).
+
+tff(p1219_decl,type,
+    p1219: $o ).
+
+tff(p1220_decl,type,
+    p1220: $o ).
+
+tff(p1301_decl,type,
+    p1301: $o ).
+
+tff(p1302_decl,type,
+    p1302: $o ).
+
+tff(p1303_decl,type,
+    p1303: $o ).
+
+tff(p1304_decl,type,
+    p1304: $o ).
+
+tff(p1305_decl,type,
+    p1305: $o ).
+
+tff(p1306_decl,type,
+    p1306: $o ).
+
+tff(p1307_decl,type,
+    p1307: $o ).
+
+tff(p1308_decl,type,
+    p1308: $o ).
+
+tff(p1309_decl,type,
+    p1309: $o ).
+
+tff(p1310_decl,type,
+    p1310: $o ).
+
+tff(p1311_decl,type,
+    p1311: $o ).
+
+tff(p1312_decl,type,
+    p1312: $o ).
+
+tff(p1313_decl,type,
+    p1313: $o ).
+
+tff(p1314_decl,type,
+    p1314: $o ).
+
+tff(p1315_decl,type,
+    p1315: $o ).
+
+tff(p1316_decl,type,
+    p1316: $o ).
+
+tff(p1317_decl,type,
+    p1317: $o ).
+
+tff(p1318_decl,type,
+    p1318: $o ).
+
+tff(p1319_decl,type,
+    p1319: $o ).
+
+tff(p1320_decl,type,
+    p1320: $o ).
+
+tff(p1401_decl,type,
+    p1401: $o ).
+
+tff(p1402_decl,type,
+    p1402: $o ).
+
+tff(p1403_decl,type,
+    p1403: $o ).
+
+tff(p1404_decl,type,
+    p1404: $o ).
+
+tff(p1405_decl,type,
+    p1405: $o ).
+
+tff(p1406_decl,type,
+    p1406: $o ).
+
+tff(p1407_decl,type,
+    p1407: $o ).
+
+tff(p1408_decl,type,
+    p1408: $o ).
+
+tff(p1409_decl,type,
+    p1409: $o ).
+
+tff(p1410_decl,type,
+    p1410: $o ).
+
+tff(p1411_decl,type,
+    p1411: $o ).
+
+tff(p1412_decl,type,
+    p1412: $o ).
+
+tff(p1413_decl,type,
+    p1413: $o ).
+
+tff(p1414_decl,type,
+    p1414: $o ).
+
+tff(p1415_decl,type,
+    p1415: $o ).
+
+tff(p1416_decl,type,
+    p1416: $o ).
+
+tff(p1417_decl,type,
+    p1417: $o ).
+
+tff(p1418_decl,type,
+    p1418: $o ).
+
+tff(p1419_decl,type,
+    p1419: $o ).
+
+tff(p1420_decl,type,
+    p1420: $o ).
+
+tff(p1501_decl,type,
+    p1501: $o ).
+
+tff(p1502_decl,type,
+    p1502: $o ).
+
+tff(p1503_decl,type,
+    p1503: $o ).
+
+tff(p1504_decl,type,
+    p1504: $o ).
+
+tff(p1505_decl,type,
+    p1505: $o ).
+
+tff(p1506_decl,type,
+    p1506: $o ).
+
+tff(p1507_decl,type,
+    p1507: $o ).
+
+tff(p1508_decl,type,
+    p1508: $o ).
+
+tff(p1509_decl,type,
+    p1509: $o ).
+
+tff(p1510_decl,type,
+    p1510: $o ).
+
+tff(p1511_decl,type,
+    p1511: $o ).
+
+tff(p1512_decl,type,
+    p1512: $o ).
+
+tff(p1513_decl,type,
+    p1513: $o ).
+
+tff(p1514_decl,type,
+    p1514: $o ).
+
+tff(p1515_decl,type,
+    p1515: $o ).
+
+tff(p1516_decl,type,
+    p1516: $o ).
+
+tff(p1517_decl,type,
+    p1517: $o ).
+
+tff(p1518_decl,type,
+    p1518: $o ).
+
+tff(p1519_decl,type,
+    p1519: $o ).
+
+tff(p1520_decl,type,
+    p1520: $o ).
+
+tff(p1601_decl,type,
+    p1601: $o ).
+
+tff(p1602_decl,type,
+    p1602: $o ).
+
+tff(p1603_decl,type,
+    p1603: $o ).
+
+tff(p1604_decl,type,
+    p1604: $o ).
+
+tff(p1605_decl,type,
+    p1605: $o ).
+
+tff(p1606_decl,type,
+    p1606: $o ).
+
+tff(p1607_decl,type,
+    p1607: $o ).
+
+tff(p1608_decl,type,
+    p1608: $o ).
+
+tff(p1609_decl,type,
+    p1609: $o ).
+
+tff(p1610_decl,type,
+    p1610: $o ).
+
+tff(p1611_decl,type,
+    p1611: $o ).
+
+tff(p1612_decl,type,
+    p1612: $o ).
+
+tff(p1613_decl,type,
+    p1613: $o ).
+
+tff(p1614_decl,type,
+    p1614: $o ).
+
+tff(p1615_decl,type,
+    p1615: $o ).
+
+tff(p1616_decl,type,
+    p1616: $o ).
+
+tff(p1617_decl,type,
+    p1617: $o ).
+
+tff(p1618_decl,type,
+    p1618: $o ).
+
+tff(p1619_decl,type,
+    p1619: $o ).
+
+tff(p1620_decl,type,
+    p1620: $o ).
+
+tff(p1701_decl,type,
+    p1701: $o ).
+
+tff(p1702_decl,type,
+    p1702: $o ).
+
+tff(p1703_decl,type,
+    p1703: $o ).
+
+tff(p1704_decl,type,
+    p1704: $o ).
+
+tff(p1705_decl,type,
+    p1705: $o ).
+
+tff(p1706_decl,type,
+    p1706: $o ).
+
+tff(p1707_decl,type,
+    p1707: $o ).
+
+tff(p1708_decl,type,
+    p1708: $o ).
+
+tff(p1709_decl,type,
+    p1709: $o ).
+
+tff(p1710_decl,type,
+    p1710: $o ).
+
+tff(p1711_decl,type,
+    p1711: $o ).
+
+tff(p1712_decl,type,
+    p1712: $o ).
+
+tff(p1713_decl,type,
+    p1713: $o ).
+
+tff(p1714_decl,type,
+    p1714: $o ).
+
+tff(p1715_decl,type,
+    p1715: $o ).
+
+tff(p1716_decl,type,
+    p1716: $o ).
+
+tff(p1717_decl,type,
+    p1717: $o ).
+
+tff(p1718_decl,type,
+    p1718: $o ).
+
+tff(p1719_decl,type,
+    p1719: $o ).
+
+tff(p1720_decl,type,
+    p1720: $o ).
+
+tff(p1801_decl,type,
+    p1801: $o ).
+
+tff(p1802_decl,type,
+    p1802: $o ).
+
+tff(p1803_decl,type,
+    p1803: $o ).
+
+tff(p1804_decl,type,
+    p1804: $o ).
+
+tff(p1805_decl,type,
+    p1805: $o ).
+
+tff(p1806_decl,type,
+    p1806: $o ).
+
+tff(p1807_decl,type,
+    p1807: $o ).
+
+tff(p1808_decl,type,
+    p1808: $o ).
+
+tff(p1809_decl,type,
+    p1809: $o ).
+
+tff(p1810_decl,type,
+    p1810: $o ).
+
+tff(p1811_decl,type,
+    p1811: $o ).
+
+tff(p1812_decl,type,
+    p1812: $o ).
+
+tff(p1813_decl,type,
+    p1813: $o ).
+
+tff(p1814_decl,type,
+    p1814: $o ).
+
+tff(p1815_decl,type,
+    p1815: $o ).
+
+tff(p1816_decl,type,
+    p1816: $o ).
+
+tff(p1817_decl,type,
+    p1817: $o ).
+
+tff(p1818_decl,type,
+    p1818: $o ).
+
+tff(p1819_decl,type,
+    p1819: $o ).
+
+tff(p1820_decl,type,
+    p1820: $o ).
+
+tff(p1901_decl,type,
+    p1901: $o ).
+
+tff(p1902_decl,type,
+    p1902: $o ).
+
+tff(p1903_decl,type,
+    p1903: $o ).
+
+tff(p1904_decl,type,
+    p1904: $o ).
+
+tff(p1905_decl,type,
+    p1905: $o ).
+
+tff(p1906_decl,type,
+    p1906: $o ).
+
+tff(p1907_decl,type,
+    p1907: $o ).
+
+tff(p1908_decl,type,
+    p1908: $o ).
+
+tff(p1909_decl,type,
+    p1909: $o ).
+
+tff(p1910_decl,type,
+    p1910: $o ).
+
+tff(p1911_decl,type,
+    p1911: $o ).
+
+tff(p1912_decl,type,
+    p1912: $o ).
+
+tff(p1913_decl,type,
+    p1913: $o ).
+
+tff(p1914_decl,type,
+    p1914: $o ).
+
+tff(p1915_decl,type,
+    p1915: $o ).
+
+tff(p1916_decl,type,
+    p1916: $o ).
+
+tff(p1917_decl,type,
+    p1917: $o ).
+
+tff(p1918_decl,type,
+    p1918: $o ).
+
+tff(p1919_decl,type,
+    p1919: $o ).
+
+tff(p1920_decl,type,
+    p1920: $o ).
+
+tff(p2001_decl,type,
+    p2001: $o ).
+
+tff(p2002_decl,type,
+    p2002: $o ).
+
+tff(p2003_decl,type,
+    p2003: $o ).
+
+tff(p2004_decl,type,
+    p2004: $o ).
+
+tff(p2005_decl,type,
+    p2005: $o ).
+
+tff(p2006_decl,type,
+    p2006: $o ).
+
+tff(p2007_decl,type,
+    p2007: $o ).
+
+tff(p2008_decl,type,
+    p2008: $o ).
+
+tff(p2009_decl,type,
+    p2009: $o ).
+
+tff(p201_decl,type,
+    p201: $o ).
+
+tff(p2010_decl,type,
+    p2010: $o ).
+
+tff(p2011_decl,type,
+    p2011: $o ).
+
+tff(p2012_decl,type,
+    p2012: $o ).
+
+tff(p2013_decl,type,
+    p2013: $o ).
+
+tff(p2014_decl,type,
+    p2014: $o ).
+
+tff(p2015_decl,type,
+    p2015: $o ).
+
+tff(p2016_decl,type,
+    p2016: $o ).
+
+tff(p2017_decl,type,
+    p2017: $o ).
+
+tff(p2018_decl,type,
+    p2018: $o ).
+
+tff(p2019_decl,type,
+    p2019: $o ).
+
+tff(p202_decl,type,
+    p202: $o ).
+
+tff(p2020_decl,type,
+    p2020: $o ).
+
+tff(p203_decl,type,
+    p203: $o ).
+
+tff(p204_decl,type,
+    p204: $o ).
+
+tff(p205_decl,type,
+    p205: $o ).
+
+tff(p206_decl,type,
+    p206: $o ).
+
+tff(p207_decl,type,
+    p207: $o ).
+
+tff(p208_decl,type,
+    p208: $o ).
+
+tff(p209_decl,type,
+    p209: $o ).
+
+tff(p210_decl,type,
+    p210: $o ).
+
+tff(p2101_decl,type,
+    p2101: $o ).
+
+tff(p2102_decl,type,
+    p2102: $o ).
+
+tff(p2103_decl,type,
+    p2103: $o ).
+
+tff(p2104_decl,type,
+    p2104: $o ).
+
+tff(p2105_decl,type,
+    p2105: $o ).
+
+tff(p2106_decl,type,
+    p2106: $o ).
+
+tff(p2107_decl,type,
+    p2107: $o ).
+
+tff(p2108_decl,type,
+    p2108: $o ).
+
+tff(p2109_decl,type,
+    p2109: $o ).
+
+tff(p211_decl,type,
+    p211: $o ).
+
+tff(p2110_decl,type,
+    p2110: $o ).
+
+tff(p2111_decl,type,
+    p2111: $o ).
+
+tff(p2112_decl,type,
+    p2112: $o ).
+
+tff(p2113_decl,type,
+    p2113: $o ).
+
+tff(p2114_decl,type,
+    p2114: $o ).
+
+tff(p2115_decl,type,
+    p2115: $o ).
+
+tff(p2116_decl,type,
+    p2116: $o ).
+
+tff(p2117_decl,type,
+    p2117: $o ).
+
+tff(p2118_decl,type,
+    p2118: $o ).
+
+tff(p2119_decl,type,
+    p2119: $o ).
+
+tff(p212_decl,type,
+    p212: $o ).
+
+tff(p2120_decl,type,
+    p2120: $o ).
+
+tff(p213_decl,type,
+    p213: $o ).
+
+tff(p214_decl,type,
+    p214: $o ).
+
+tff(p215_decl,type,
+    p215: $o ).
+
+tff(p216_decl,type,
+    p216: $o ).
+
+tff(p217_decl,type,
+    p217: $o ).
+
+tff(p218_decl,type,
+    p218: $o ).
+
+tff(p219_decl,type,
+    p219: $o ).
+
+tff(p220_decl,type,
+    p220: $o ).
+
+tff(p301_decl,type,
+    p301: $o ).
+
+tff(p302_decl,type,
+    p302: $o ).
+
+tff(p303_decl,type,
+    p303: $o ).
+
+tff(p304_decl,type,
+    p304: $o ).
+
+tff(p305_decl,type,
+    p305: $o ).
+
+tff(p306_decl,type,
+    p306: $o ).
+
+tff(p307_decl,type,
+    p307: $o ).
+
+tff(p308_decl,type,
+    p308: $o ).
+
+tff(p309_decl,type,
+    p309: $o ).
+
+tff(p310_decl,type,
+    p310: $o ).
+
+tff(p311_decl,type,
+    p311: $o ).
+
+tff(p312_decl,type,
+    p312: $o ).
+
+tff(p313_decl,type,
+    p313: $o ).
+
+tff(p314_decl,type,
+    p314: $o ).
+
+tff(p315_decl,type,
+    p315: $o ).
+
+tff(p316_decl,type,
+    p316: $o ).
+
+tff(p317_decl,type,
+    p317: $o ).
+
+tff(p318_decl,type,
+    p318: $o ).
+
+tff(p319_decl,type,
+    p319: $o ).
+
+tff(p320_decl,type,
+    p320: $o ).
+
+tff(p401_decl,type,
+    p401: $o ).
+
+tff(p402_decl,type,
+    p402: $o ).
+
+tff(p403_decl,type,
+    p403: $o ).
+
+tff(p404_decl,type,
+    p404: $o ).
+
+tff(p405_decl,type,
+    p405: $o ).
+
+tff(p406_decl,type,
+    p406: $o ).
+
+tff(p407_decl,type,
+    p407: $o ).
+
+tff(p408_decl,type,
+    p408: $o ).
+
+tff(p409_decl,type,
+    p409: $o ).
+
+tff(p410_decl,type,
+    p410: $o ).
+
+tff(p411_decl,type,
+    p411: $o ).
+
+tff(p412_decl,type,
+    p412: $o ).
+
+tff(p413_decl,type,
+    p413: $o ).
+
+tff(p414_decl,type,
+    p414: $o ).
+
+tff(p415_decl,type,
+    p415: $o ).
+
+tff(p416_decl,type,
+    p416: $o ).
+
+tff(p417_decl,type,
+    p417: $o ).
+
+tff(p418_decl,type,
+    p418: $o ).
+
+tff(p419_decl,type,
+    p419: $o ).
+
+tff(p420_decl,type,
+    p420: $o ).
+
+tff(p501_decl,type,
+    p501: $o ).
+
+tff(p502_decl,type,
+    p502: $o ).
+
+tff(p503_decl,type,
+    p503: $o ).
+
+tff(p504_decl,type,
+    p504: $o ).
+
+tff(p505_decl,type,
+    p505: $o ).
+
+tff(p506_decl,type,
+    p506: $o ).
+
+tff(p507_decl,type,
+    p507: $o ).
+
+tff(p508_decl,type,
+    p508: $o ).
+
+tff(p509_decl,type,
+    p509: $o ).
+
+tff(p510_decl,type,
+    p510: $o ).
+
+tff(p511_decl,type,
+    p511: $o ).
+
+tff(p512_decl,type,
+    p512: $o ).
+
+tff(p513_decl,type,
+    p513: $o ).
+
+tff(p514_decl,type,
+    p514: $o ).
+
+tff(p515_decl,type,
+    p515: $o ).
+
+tff(p516_decl,type,
+    p516: $o ).
+
+tff(p517_decl,type,
+    p517: $o ).
+
+tff(p518_decl,type,
+    p518: $o ).
+
+tff(p519_decl,type,
+    p519: $o ).
+
+tff(p520_decl,type,
+    p520: $o ).
+
+tff(p601_decl,type,
+    p601: $o ).
+
+tff(p602_decl,type,
+    p602: $o ).
+
+tff(p603_decl,type,
+    p603: $o ).
+
+tff(p604_decl,type,
+    p604: $o ).
+
+tff(p605_decl,type,
+    p605: $o ).
+
+tff(p606_decl,type,
+    p606: $o ).
+
+tff(p607_decl,type,
+    p607: $o ).
+
+tff(p608_decl,type,
+    p608: $o ).
+
+tff(p609_decl,type,
+    p609: $o ).
+
+tff(p610_decl,type,
+    p610: $o ).
+
+tff(p611_decl,type,
+    p611: $o ).
+
+tff(p612_decl,type,
+    p612: $o ).
+
+tff(p613_decl,type,
+    p613: $o ).
+
+tff(p614_decl,type,
+    p614: $o ).
+
+tff(p615_decl,type,
+    p615: $o ).
+
+tff(p616_decl,type,
+    p616: $o ).
+
+tff(p617_decl,type,
+    p617: $o ).
+
+tff(p618_decl,type,
+    p618: $o ).
+
+tff(p619_decl,type,
+    p619: $o ).
+
+tff(p620_decl,type,
+    p620: $o ).
+
+tff(p701_decl,type,
+    p701: $o ).
+
+tff(p702_decl,type,
+    p702: $o ).
+
+tff(p703_decl,type,
+    p703: $o ).
+
+tff(p704_decl,type,
+    p704: $o ).
+
+tff(p705_decl,type,
+    p705: $o ).
+
+tff(p706_decl,type,
+    p706: $o ).
+
+tff(p707_decl,type,
+    p707: $o ).
+
+tff(p708_decl,type,
+    p708: $o ).
+
+tff(p709_decl,type,
+    p709: $o ).
+
+tff(p710_decl,type,
+    p710: $o ).
+
+tff(p711_decl,type,
+    p711: $o ).
+
+tff(p712_decl,type,
+    p712: $o ).
+
+tff(p713_decl,type,
+    p713: $o ).
+
+tff(p714_decl,type,
+    p714: $o ).
+
+tff(p715_decl,type,
+    p715: $o ).
+
+tff(p716_decl,type,
+    p716: $o ).
+
+tff(p717_decl,type,
+    p717: $o ).
+
+tff(p718_decl,type,
+    p718: $o ).
+
+tff(p719_decl,type,
+    p719: $o ).
+
+tff(p720_decl,type,
+    p720: $o ).
+
+tff(p801_decl,type,
+    p801: $o ).
+
+tff(p802_decl,type,
+    p802: $o ).
+
+tff(p803_decl,type,
+    p803: $o ).
+
+tff(p804_decl,type,
+    p804: $o ).
+
+tff(p805_decl,type,
+    p805: $o ).
+
+tff(p806_decl,type,
+    p806: $o ).
+
+tff(p807_decl,type,
+    p807: $o ).
+
+tff(p808_decl,type,
+    p808: $o ).
+
+tff(p809_decl,type,
+    p809: $o ).
+
+tff(p810_decl,type,
+    p810: $o ).
+
+tff(p811_decl,type,
+    p811: $o ).
+
+tff(p812_decl,type,
+    p812: $o ).
+
+tff(p813_decl,type,
+    p813: $o ).
+
+tff(p814_decl,type,
+    p814: $o ).
+
+tff(p815_decl,type,
+    p815: $o ).
+
+tff(p816_decl,type,
+    p816: $o ).
+
+tff(p817_decl,type,
+    p817: $o ).
+
+tff(p818_decl,type,
+    p818: $o ).
+
+tff(p819_decl,type,
+    p819: $o ).
+
+tff(p820_decl,type,
+    p820: $o ).
+
+tff(p901_decl,type,
+    p901: $o ).
+
+tff(p902_decl,type,
+    p902: $o ).
+
+tff(p903_decl,type,
+    p903: $o ).
+
+tff(p904_decl,type,
+    p904: $o ).
+
+tff(p905_decl,type,
+    p905: $o ).
+
+tff(p906_decl,type,
+    p906: $o ).
+
+tff(p907_decl,type,
+    p907: $o ).
+
+tff(p908_decl,type,
+    p908: $o ).
+
+tff(p909_decl,type,
+    p909: $o ).
+
+tff(p910_decl,type,
+    p910: $o ).
+
+tff(p911_decl,type,
+    p911: $o ).
+
+tff(p912_decl,type,
+    p912: $o ).
+
+tff(p913_decl,type,
+    p913: $o ).
+
+tff(p914_decl,type,
+    p914: $o ).
+
+tff(p915_decl,type,
+    p915: $o ).
+
+tff(p916_decl,type,
+    p916: $o ).
+
+tff(p917_decl,type,
+    p917: $o ).
+
+tff(p918_decl,type,
+    p918: $o ).
+
+tff(p919_decl,type,
+    p919: $o ).
+
+tff(p920_decl,type,
+    p920: $o ).
+
+tff(prove,conjecture,
+    ~ ~ ( ( ( p101
+            | [.] p102
+            | [.] p103
+            | [.] p104
+            | [.] p105
+            | [.] p106
+            | [.] p107
+            | [.] p108
+            | [.] p109
+            | [.] p110
+            | [.] p111
+            | [.] p112
+            | [.] p113
+            | [.] p114
+            | [.] p115
+            | [.] p116
+            | [.] p117
+            | [.] p118
+            | [.] p119
+            | [.] p120 )
+          & ( p201
+            | p202
+            | [.] p203
+            | [.] p204
+            | [.] p205
+            | [.] p206
+            | [.] p207
+            | [.] p208
+            | [.] p209
+            | [.] p210
+            | [.] p211
+            | [.] p212
+            | [.] p213
+            | [.] p214
+            | [.] p215
+            | [.] p216
+            | [.] p217
+            | [.] p218
+            | [.] p219
+            | [.] p220 )
+          & ( p301
+            | p302
+            | p303
+            | [.] p304
+            | [.] p305
+            | [.] p306
+            | [.] p307
+            | [.] p308
+            | [.] p309
+            | [.] p310
+            | [.] p311
+            | [.] p312
+            | [.] p313
+            | [.] p314
+            | [.] p315
+            | [.] p316
+            | [.] p317
+            | [.] p318
+            | [.] p319
+            | [.] p320 )
+          & ( p401
+            | p402
+            | p403
+            | p404
+            | [.] p405
+            | [.] p406
+            | [.] p407
+            | [.] p408
+            | [.] p409
+            | [.] p410
+            | [.] p411
+            | [.] p412
+            | [.] p413
+            | [.] p414
+            | [.] p415
+            | [.] p416
+            | [.] p417
+            | [.] p418
+            | [.] p419
+            | [.] p420 )
+          & ( p501
+            | p502
+            | p503
+            | p504
+            | p505
+            | [.] p506
+            | [.] p507
+            | [.] p508
+            | [.] p509
+            | [.] p510
+            | [.] p511
+            | [.] p512
+            | [.] p513
+            | [.] p514
+            | [.] p515
+            | [.] p516
+            | [.] p517
+            | [.] p518
+            | [.] p519
+            | [.] p520 )
+          & ( p601
+            | p602
+            | p603
+            | p604
+            | p605
+            | p606
+            | [.] p607
+            | [.] p608
+            | [.] p609
+            | [.] p610
+            | [.] p611
+            | [.] p612
+            | [.] p613
+            | [.] p614
+            | [.] p615
+            | [.] p616
+            | [.] p617
+            | [.] p618
+            | [.] p619
+            | [.] p620 )
+          & ( p701
+            | p702
+            | p703
+            | p704
+            | p705
+            | p706
+            | p707
+            | [.] p708
+            | [.] p709
+            | [.] p710
+            | [.] p711
+            | [.] p712
+            | [.] p713
+            | [.] p714
+            | [.] p715
+            | [.] p716
+            | [.] p717
+            | [.] p718
+            | [.] p719
+            | [.] p720 )
+          & ( p801
+            | p802
+            | p803
+            | p804
+            | p805
+            | p806
+            | p807
+            | p808
+            | [.] p809
+            | [.] p810
+            | [.] p811
+            | [.] p812
+            | [.] p813
+            | [.] p814
+            | [.] p815
+            | [.] p816
+            | [.] p817
+            | [.] p818
+            | [.] p819
+            | [.] p820 )
+          & ( p901
+            | p902
+            | p903
+            | p904
+            | p905
+            | p906
+            | p907
+            | p908
+            | p909
+            | [.] p910
+            | [.] p911
+            | [.] p912
+            | [.] p913
+            | [.] p914
+            | [.] p915
+            | [.] p916
+            | [.] p917
+            | [.] p918
+            | [.] p919
+            | [.] p920 )
+          & ( p1001
+            | p1002
+            | p1003
+            | p1004
+            | p1005
+            | p1006
+            | p1007
+            | p1008
+            | p1009
+            | p1010
+            | [.] p1011
+            | [.] p1012
+            | [.] p1013
+            | [.] p1014
+            | [.] p1015
+            | [.] p1016
+            | [.] p1017
+            | [.] p1018
+            | [.] p1019
+            | [.] p1020 )
+          & ( p1101
+            | p1102
+            | p1103
+            | p1104
+            | p1105
+            | p1106
+            | p1107
+            | p1108
+            | p1109
+            | p1110
+            | p1111
+            | [.] p1112
+            | [.] p1113
+            | [.] p1114
+            | [.] p1115
+            | [.] p1116
+            | [.] p1117
+            | [.] p1118
+            | [.] p1119
+            | [.] p1120 )
+          & ( p1201
+            | p1202
+            | p1203
+            | p1204
+            | p1205
+            | p1206
+            | p1207
+            | p1208
+            | p1209
+            | p1210
+            | p1211
+            | p1212
+            | [.] p1213
+            | [.] p1214
+            | [.] p1215
+            | [.] p1216
+            | [.] p1217
+            | [.] p1218
+            | [.] p1219
+            | [.] p1220 )
+          & ( p1301
+            | p1302
+            | p1303
+            | p1304
+            | p1305
+            | p1306
+            | p1307
+            | p1308
+            | p1309
+            | p1310
+            | p1311
+            | p1312
+            | p1313
+            | [.] p1314
+            | [.] p1315
+            | [.] p1316
+            | [.] p1317
+            | [.] p1318
+            | [.] p1319
+            | [.] p1320 )
+          & ( p1401
+            | p1402
+            | p1403
+            | p1404
+            | p1405
+            | p1406
+            | p1407
+            | p1408
+            | p1409
+            | p1410
+            | p1411
+            | p1412
+            | p1413
+            | p1414
+            | [.] p1415
+            | [.] p1416
+            | [.] p1417
+            | [.] p1418
+            | [.] p1419
+            | [.] p1420 )
+          & ( p1501
+            | p1502
+            | p1503
+            | p1504
+            | p1505
+            | p1506
+            | p1507
+            | p1508
+            | p1509
+            | p1510
+            | p1511
+            | p1512
+            | p1513
+            | p1514
+            | p1515
+            | [.] p1516
+            | [.] p1517
+            | [.] p1518
+            | [.] p1519
+            | [.] p1520 )
+          & ( p1601
+            | p1602
+            | p1603
+            | p1604
+            | p1605
+            | p1606
+            | p1607
+            | p1608
+            | p1609
+            | p1610
+            | p1611
+            | p1612
+            | p1613
+            | p1614
+            | p1615
+            | p1616
+            | [.] p1617
+            | [.] p1618
+            | [.] p1619
+            | [.] p1620 )
+          & ( p1701
+            | p1702
+            | p1703
+            | p1704
+            | p1705
+            | p1706
+            | p1707
+            | p1708
+            | p1709
+            | p1710
+            | p1711
+            | p1712
+            | p1713
+            | p1714
+            | p1715
+            | p1716
+            | p1717
+            | [.] p1718
+            | [.] p1719
+            | [.] p1720 )
+          & ( p1801
+            | p1802
+            | p1803
+            | p1804
+            | p1805
+            | p1806
+            | p1807
+            | p1808
+            | p1809
+            | p1810
+            | p1811
+            | p1812
+            | p1813
+            | p1814
+            | p1815
+            | p1816
+            | p1817
+            | p1818
+            | [.] p1819
+            | [.] p1820 )
+          & ( p1901
+            | p1902
+            | p1903
+            | p1904
+            | p1905
+            | p1906
+            | p1907
+            | p1908
+            | p1909
+            | p1910
+            | p1911
+            | p1912
+            | p1913
+            | p1914
+            | p1915
+            | p1916
+            | p1917
+            | p1918
+            | p1919
+            | [.] p1920 )
+          & ( p2001
+            | p2002
+            | p2003
+            | p2004
+            | p2005
+            | p2006
+            | p2007
+            | p2008
+            | p2009
+            | p2010
+            | p2011
+            | p2012
+            | p2013
+            | p2014
+            | p2015
+            | p2016
+            | p2017
+            | p2018
+            | p2019
+            | p2020 )
+          & ( p2101
+            | p2102
+            | p2103
+            | p2104
+            | p2105
+            | p2106
+            | p2107
+            | p2108
+            | p2109
+            | p2110
+            | p2111
+            | p2112
+            | p2113
+            | p2114
+            | p2115
+            | p2116
+            | p2117
+            | p2118
+            | p2119
+            | p2120 ) )
+       => <.> ( <.> ( p101
+                    & p201 )
+              | <.> ( p101
+                    & p301 )
+              | <.> ( p101
+                    & p401 )
+              | <.> ( p101
+                    & p501 )
+              | <.> ( p101
+                    & p601 )
+              | <.> ( p101
+                    & p701 )
+              | <.> ( p101
+                    & p801 )
+              | <.> ( p101
+                    & p901 )
+              | <.> ( p101
+                    & p1001 )
+              | <.> ( p101
+                    & p1101 )
+              | <.> ( p101
+                    & p1201 )
+              | <.> ( p101
+                    & p1301 )
+              | <.> ( p101
+                    & p1401 )
+              | <.> ( p101
+                    & p1501 )
+              | <.> ( p101
+                    & p1601 )
+              | <.> ( p101
+                    & p1701 )
+              | <.> ( p101
+                    & p1801 )
+              | <.> ( p101
+                    & p1901 )
+              | <.> ( p101
+                    & p2001 )
+              | <.> ( p101
+                    & p2101 )
+              | <.> ( p201
+                    & p301 )
+              | <.> ( p201
+                    & p401 )
+              | <.> ( p201
+                    & p501 )
+              | <.> ( p201
+                    & p601 )
+              | <.> ( p201
+                    & p701 )
+              | <.> ( p201
+                    & p801 )
+              | <.> ( p201
+                    & p901 )
+              | <.> ( p201
+                    & p1001 )
+              | <.> ( p201
+                    & p1101 )
+              | <.> ( p201
+                    & p1201 )
+              | <.> ( p201
+                    & p1301 )
+              | <.> ( p201
+                    & p1401 )
+              | <.> ( p201
+                    & p1501 )
+              | <.> ( p201
+                    & p1601 )
+              | <.> ( p201
+                    & p1701 )
+              | <.> ( p201
+                    & p1801 )
+              | <.> ( p201
+                    & p1901 )
+              | <.> ( p201
+                    & p2001 )
+              | <.> ( p201
+                    & p2101 )
+              | <.> ( p301
+                    & p401 )
+              | <.> ( p301
+                    & p501 )
+              | <.> ( p301
+                    & p601 )
+              | <.> ( p301
+                    & p701 )
+              | <.> ( p301
+                    & p801 )
+              | <.> ( p301
+                    & p901 )
+              | <.> ( p301
+                    & p1001 )
+              | <.> ( p301
+                    & p1101 )
+              | <.> ( p301
+                    & p1201 )
+              | <.> ( p301
+                    & p1301 )
+              | <.> ( p301
+                    & p1401 )
+              | <.> ( p301
+                    & p1501 )
+              | <.> ( p301
+                    & p1601 )
+              | <.> ( p301
+                    & p1701 )
+              | <.> ( p301
+                    & p1801 )
+              | <.> ( p301
+                    & p1901 )
+              | <.> ( p301
+                    & p2001 )
+              | <.> ( p301
+                    & p2101 )
+              | <.> ( p401
+                    & p501 )
+              | <.> ( p401
+                    & p601 )
+              | <.> ( p401
+                    & p701 )
+              | <.> ( p401
+                    & p801 )
+              | <.> ( p401
+                    & p901 )
+              | <.> ( p401
+                    & p1001 )
+              | <.> ( p401
+                    & p1101 )
+              | <.> ( p401
+                    & p1201 )
+              | <.> ( p401
+                    & p1301 )
+              | <.> ( p401
+                    & p1401 )
+              | <.> ( p401
+                    & p1501 )
+              | <.> ( p401
+                    & p1601 )
+              | <.> ( p401
+                    & p1701 )
+              | <.> ( p401
+                    & p1801 )
+              | <.> ( p401
+                    & p1901 )
+              | <.> ( p401
+                    & p2001 )
+              | <.> ( p401
+                    & p2101 )
+              | <.> ( p501
+                    & p601 )
+              | <.> ( p501
+                    & p701 )
+              | <.> ( p501
+                    & p801 )
+              | <.> ( p501
+                    & p901 )
+              | <.> ( p501
+                    & p1001 )
+              | <.> ( p501
+                    & p1101 )
+              | <.> ( p501
+                    & p1201 )
+              | <.> ( p501
+                    & p1301 )
+              | <.> ( p501
+                    & p1401 )
+              | <.> ( p501
+                    & p1501 )
+              | <.> ( p501
+                    & p1601 )
+              | <.> ( p501
+                    & p1701 )
+              | <.> ( p501
+                    & p1801 )
+              | <.> ( p501
+                    & p1901 )
+              | <.> ( p501
+                    & p2001 )
+              | <.> ( p501
+                    & p2101 )
+              | <.> ( p601
+                    & p701 )
+              | <.> ( p601
+                    & p801 )
+              | <.> ( p601
+                    & p901 )
+              | <.> ( p601
+                    & p1001 )
+              | <.> ( p601
+                    & p1101 )
+              | <.> ( p601
+                    & p1201 )
+              | <.> ( p601
+                    & p1301 )
+              | <.> ( p601
+                    & p1401 )
+              | <.> ( p601
+                    & p1501 )
+              | <.> ( p601
+                    & p1601 )
+              | <.> ( p601
+                    & p1701 )
+              | <.> ( p601
+                    & p1801 )
+              | <.> ( p601
+                    & p1901 )
+              | <.> ( p601
+                    & p2001 )
+              | <.> ( p601
+                    & p2101 )
+              | <.> ( p701
+                    & p801 )
+              | <.> ( p701
+                    & p901 )
+              | <.> ( p701
+                    & p1001 )
+              | <.> ( p701
+                    & p1101 )
+              | <.> ( p701
+                    & p1201 )
+              | <.> ( p701
+                    & p1301 )
+              | <.> ( p701
+                    & p1401 )
+              | <.> ( p701
+                    & p1501 )
+              | <.> ( p701
+                    & p1601 )
+              | <.> ( p701
+                    & p1701 )
+              | <.> ( p701
+                    & p1801 )
+              | <.> ( p701
+                    & p1901 )
+              | <.> ( p701
+                    & p2001 )
+              | <.> ( p701
+                    & p2101 )
+              | <.> ( p801
+                    & p901 )
+              | <.> ( p801
+                    & p1001 )
+              | <.> ( p801
+                    & p1101 )
+              | <.> ( p801
+                    & p1201 )
+              | <.> ( p801
+                    & p1301 )
+              | <.> ( p801
+                    & p1401 )
+              | <.> ( p801
+                    & p1501 )
+              | <.> ( p801
+                    & p1601 )
+              | <.> ( p801
+                    & p1701 )
+              | <.> ( p801
+                    & p1801 )
+              | <.> ( p801
+                    & p1901 )
+              | <.> ( p801
+                    & p2001 )
+              | <.> ( p801
+                    & p2101 )
+              | <.> ( p901
+                    & p1001 )
+              | <.> ( p901
+                    & p1101 )
+              | <.> ( p901
+                    & p1201 )
+              | <.> ( p901
+                    & p1301 )
+              | <.> ( p901
+                    & p1401 )
+              | <.> ( p901
+                    & p1501 )
+              | <.> ( p901
+                    & p1601 )
+              | <.> ( p901
+                    & p1701 )
+              | <.> ( p901
+                    & p1801 )
+              | <.> ( p901
+                    & p1901 )
+              | <.> ( p901
+                    & p2001 )
+              | <.> ( p901
+                    & p2101 )
+              | <.> ( p1001
+                    & p1101 )
+              | <.> ( p1001
+                    & p1201 )
+              | <.> ( p1001
+                    & p1301 )
+              | <.> ( p1001
+                    & p1401 )
+              | <.> ( p1001
+                    & p1501 )
+              | <.> ( p1001
+                    & p1601 )
+              | <.> ( p1001
+                    & p1701 )
+              | <.> ( p1001
+                    & p1801 )
+              | <.> ( p1001
+                    & p1901 )
+              | <.> ( p1001
+                    & p2001 )
+              | <.> ( p1001
+                    & p2101 )
+              | <.> ( p1101
+                    & p1201 )
+              | <.> ( p1101
+                    & p1301 )
+              | <.> ( p1101
+                    & p1401 )
+              | <.> ( p1101
+                    & p1501 )
+              | <.> ( p1101
+                    & p1601 )
+              | <.> ( p1101
+                    & p1701 )
+              | <.> ( p1101
+                    & p1801 )
+              | <.> ( p1101
+                    & p1901 )
+              | <.> ( p1101
+                    & p2001 )
+              | <.> ( p1101
+                    & p2101 )
+              | <.> ( p1201
+                    & p1301 )
+              | <.> ( p1201
+                    & p1401 )
+              | <.> ( p1201
+                    & p1501 )
+              | <.> ( p1201
+                    & p1601 )
+              | <.> ( p1201
+                    & p1701 )
+              | <.> ( p1201
+                    & p1801 )
+              | <.> ( p1201
+                    & p1901 )
+              | <.> ( p1201
+                    & p2001 )
+              | <.> ( p1201
+                    & p2101 )
+              | <.> ( p1301
+                    & p1401 )
+              | <.> ( p1301
+                    & p1501 )
+              | <.> ( p1301
+                    & p1601 )
+              | <.> ( p1301
+                    & p1701 )
+              | <.> ( p1301
+                    & p1801 )
+              | <.> ( p1301
+                    & p1901 )
+              | <.> ( p1301
+                    & p2001 )
+              | <.> ( p1301
+                    & p2101 )
+              | <.> ( p1401
+                    & p1501 )
+              | <.> ( p1401
+                    & p1601 )
+              | <.> ( p1401
+                    & p1701 )
+              | <.> ( p1401
+                    & p1801 )
+              | <.> ( p1401
+                    & p1901 )
+              | <.> ( p1401
+                    & p2001 )
+              | <.> ( p1401
+                    & p2101 )
+              | <.> ( p1501
+                    & p1601 )
+              | <.> ( p1501
+                    & p1701 )
+              | <.> ( p1501
+                    & p1801 )
+              | <.> ( p1501
+                    & p1901 )
+              | <.> ( p1501
+                    & p2001 )
+              | <.> ( p1501
+                    & p2101 )
+              | <.> ( p1601
+                    & p1701 )
+              | <.> ( p1601
+                    & p1801 )
+              | <.> ( p1601
+                    & p1901 )
+              | <.> ( p1601
+                    & p2001 )
+              | <.> ( p1601
+                    & p2101 )
+              | <.> ( p1701
+                    & p1801 )
+              | <.> ( p1701
+                    & p1901 )
+              | <.> ( p1701
+                    & p2001 )
+              | <.> ( p1701
+                    & p2101 )
+              | <.> ( p1801
+                    & p1901 )
+              | <.> ( p1801
+                    & p2001 )
+              | <.> ( p1801
+                    & p2101 )
+              | <.> ( p1901
+                    & p2001 )
+              | <.> ( p1901
+                    & p2101 )
+              | <.> ( p2001
+                    & p2101 )
+              | <.> ( [.] p102
+                    & p202 )
+              | <.> ( [.] p102
+                    & p302 )
+              | <.> ( [.] p102
+                    & p402 )
+              | <.> ( [.] p102
+                    & p502 )
+              | <.> ( [.] p102
+                    & p602 )
+              | <.> ( [.] p102
+                    & p702 )
+              | <.> ( [.] p102
+                    & p802 )
+              | <.> ( [.] p102
+                    & p902 )
+              | <.> ( [.] p102
+                    & p1002 )
+              | <.> ( [.] p102
+                    & p1102 )
+              | <.> ( [.] p102
+                    & p1202 )
+              | <.> ( [.] p102
+                    & p1302 )
+              | <.> ( [.] p102
+                    & p1402 )
+              | <.> ( [.] p102
+                    & p1502 )
+              | <.> ( [.] p102
+                    & p1602 )
+              | <.> ( [.] p102
+                    & p1702 )
+              | <.> ( [.] p102
+                    & p1802 )
+              | <.> ( [.] p102
+                    & p1902 )
+              | <.> ( [.] p102
+                    & p2002 )
+              | <.> ( [.] p102
+                    & p2102 )
+              | <.> ( p202
+                    & p302 )
+              | <.> ( p202
+                    & p402 )
+              | <.> ( p202
+                    & p502 )
+              | <.> ( p202
+                    & p602 )
+              | <.> ( p202
+                    & p702 )
+              | <.> ( p202
+                    & p802 )
+              | <.> ( p202
+                    & p902 )
+              | <.> ( p202
+                    & p1002 )
+              | <.> ( p202
+                    & p1102 )
+              | <.> ( p202
+                    & p1202 )
+              | <.> ( p202
+                    & p1302 )
+              | <.> ( p202
+                    & p1402 )
+              | <.> ( p202
+                    & p1502 )
+              | <.> ( p202
+                    & p1602 )
+              | <.> ( p202
+                    & p1702 )
+              | <.> ( p202
+                    & p1802 )
+              | <.> ( p202
+                    & p1902 )
+              | <.> ( p202
+                    & p2002 )
+              | <.> ( p202
+                    & p2102 )
+              | <.> ( p302
+                    & p402 )
+              | <.> ( p302
+                    & p502 )
+              | <.> ( p302
+                    & p602 )
+              | <.> ( p302
+                    & p702 )
+              | <.> ( p302
+                    & p802 )
+              | <.> ( p302
+                    & p902 )
+              | <.> ( p302
+                    & p1002 )
+              | <.> ( p302
+                    & p1102 )
+              | <.> ( p302
+                    & p1202 )
+              | <.> ( p302
+                    & p1302 )
+              | <.> ( p302
+                    & p1402 )
+              | <.> ( p302
+                    & p1502 )
+              | <.> ( p302
+                    & p1602 )
+              | <.> ( p302
+                    & p1702 )
+              | <.> ( p302
+                    & p1802 )
+              | <.> ( p302
+                    & p1902 )
+              | <.> ( p302
+                    & p2002 )
+              | <.> ( p302
+                    & p2102 )
+              | <.> ( p402
+                    & p502 )
+              | <.> ( p402
+                    & p602 )
+              | <.> ( p402
+                    & p702 )
+              | <.> ( p402
+                    & p802 )
+              | <.> ( p402
+                    & p902 )
+              | <.> ( p402
+                    & p1002 )
+              | <.> ( p402
+                    & p1102 )
+              | <.> ( p402
+                    & p1202 )
+              | <.> ( p402
+                    & p1302 )
+              | <.> ( p402
+                    & p1402 )
+              | <.> ( p402
+                    & p1502 )
+              | <.> ( p402
+                    & p1602 )
+              | <.> ( p402
+                    & p1702 )
+              | <.> ( p402
+                    & p1802 )
+              | <.> ( p402
+                    & p1902 )
+              | <.> ( p402
+                    & p2002 )
+              | <.> ( p402
+                    & p2102 )
+              | <.> ( p502
+                    & p602 )
+              | <.> ( p502
+                    & p702 )
+              | <.> ( p502
+                    & p802 )
+              | <.> ( p502
+                    & p902 )
+              | <.> ( p502
+                    & p1002 )
+              | <.> ( p502
+                    & p1102 )
+              | <.> ( p502
+                    & p1202 )
+              | <.> ( p502
+                    & p1302 )
+              | <.> ( p502
+                    & p1402 )
+              | <.> ( p502
+                    & p1502 )
+              | <.> ( p502
+                    & p1602 )
+              | <.> ( p502
+                    & p1702 )
+              | <.> ( p502
+                    & p1802 )
+              | <.> ( p502
+                    & p1902 )
+              | <.> ( p502
+                    & p2002 )
+              | <.> ( p502
+                    & p2102 )
+              | <.> ( p602
+                    & p702 )
+              | <.> ( p602
+                    & p802 )
+              | <.> ( p602
+                    & p902 )
+              | <.> ( p602
+                    & p1002 )
+              | <.> ( p602
+                    & p1102 )
+              | <.> ( p602
+                    & p1202 )
+              | <.> ( p602
+                    & p1302 )
+              | <.> ( p602
+                    & p1402 )
+              | <.> ( p602
+                    & p1502 )
+              | <.> ( p602
+                    & p1602 )
+              | <.> ( p602
+                    & p1702 )
+              | <.> ( p602
+                    & p1802 )
+              | <.> ( p602
+                    & p1902 )
+              | <.> ( p602
+                    & p2002 )
+              | <.> ( p602
+                    & p2102 )
+              | <.> ( p702
+                    & p802 )
+              | <.> ( p702
+                    & p902 )
+              | <.> ( p702
+                    & p1002 )
+              | <.> ( p702
+                    & p1102 )
+              | <.> ( p702
+                    & p1202 )
+              | <.> ( p702
+                    & p1302 )
+              | <.> ( p702
+                    & p1402 )
+              | <.> ( p702
+                    & p1502 )
+              | <.> ( p702
+                    & p1602 )
+              | <.> ( p702
+                    & p1702 )
+              | <.> ( p702
+                    & p1802 )
+              | <.> ( p702
+                    & p1902 )
+              | <.> ( p702
+                    & p2002 )
+              | <.> ( p702
+                    & p2102 )
+              | <.> ( p802
+                    & p902 )
+              | <.> ( p802
+                    & p1002 )
+              | <.> ( p802
+                    & p1102 )
+              | <.> ( p802
+                    & p1202 )
+              | <.> ( p802
+                    & p1302 )
+              | <.> ( p802
+                    & p1402 )
+              | <.> ( p802
+                    & p1502 )
+              | <.> ( p802
+                    & p1602 )
+              | <.> ( p802
+                    & p1702 )
+              | <.> ( p802
+                    & p1802 )
+              | <.> ( p802
+                    & p1902 )
+              | <.> ( p802
+                    & p2002 )
+              | <.> ( p802
+                    & p2102 )
+              | <.> ( p902
+                    & p1002 )
+              | <.> ( p902
+                    & p1102 )
+              | <.> ( p902
+                    & p1202 )
+              | <.> ( p902
+                    & p1302 )
+              | <.> ( p902
+                    & p1402 )
+              | <.> ( p902
+                    & p1502 )
+              | <.> ( p902
+                    & p1602 )
+              | <.> ( p902
+                    & p1702 )
+              | <.> ( p902
+                    & p1802 )
+              | <.> ( p902
+                    & p1902 )
+              | <.> ( p902
+                    & p2002 )
+              | <.> ( p902
+                    & p2102 )
+              | <.> ( p1002
+                    & p1102 )
+              | <.> ( p1002
+                    & p1202 )
+              | <.> ( p1002
+                    & p1302 )
+              | <.> ( p1002
+                    & p1402 )
+              | <.> ( p1002
+                    & p1502 )
+              | <.> ( p1002
+                    & p1602 )
+              | <.> ( p1002
+                    & p1702 )
+              | <.> ( p1002
+                    & p1802 )
+              | <.> ( p1002
+                    & p1902 )
+              | <.> ( p1002
+                    & p2002 )
+              | <.> ( p1002
+                    & p2102 )
+              | <.> ( p1102
+                    & p1202 )
+              | <.> ( p1102
+                    & p1302 )
+              | <.> ( p1102
+                    & p1402 )
+              | <.> ( p1102
+                    & p1502 )
+              | <.> ( p1102
+                    & p1602 )
+              | <.> ( p1102
+                    & p1702 )
+              | <.> ( p1102
+                    & p1802 )
+              | <.> ( p1102
+                    & p1902 )
+              | <.> ( p1102
+                    & p2002 )
+              | <.> ( p1102
+                    & p2102 )
+              | <.> ( p1202
+                    & p1302 )
+              | <.> ( p1202
+                    & p1402 )
+              | <.> ( p1202
+                    & p1502 )
+              | <.> ( p1202
+                    & p1602 )
+              | <.> ( p1202
+                    & p1702 )
+              | <.> ( p1202
+                    & p1802 )
+              | <.> ( p1202
+                    & p1902 )
+              | <.> ( p1202
+                    & p2002 )
+              | <.> ( p1202
+                    & p2102 )
+              | <.> ( p1302
+                    & p1402 )
+              | <.> ( p1302
+                    & p1502 )
+              | <.> ( p1302
+                    & p1602 )
+              | <.> ( p1302
+                    & p1702 )
+              | <.> ( p1302
+                    & p1802 )
+              | <.> ( p1302
+                    & p1902 )
+              | <.> ( p1302
+                    & p2002 )
+              | <.> ( p1302
+                    & p2102 )
+              | <.> ( p1402
+                    & p1502 )
+              | <.> ( p1402
+                    & p1602 )
+              | <.> ( p1402
+                    & p1702 )
+              | <.> ( p1402
+                    & p1802 )
+              | <.> ( p1402
+                    & p1902 )
+              | <.> ( p1402
+                    & p2002 )
+              | <.> ( p1402
+                    & p2102 )
+              | <.> ( p1502
+                    & p1602 )
+              | <.> ( p1502
+                    & p1702 )
+              | <.> ( p1502
+                    & p1802 )
+              | <.> ( p1502
+                    & p1902 )
+              | <.> ( p1502
+                    & p2002 )
+              | <.> ( p1502
+                    & p2102 )
+              | <.> ( p1602
+                    & p1702 )
+              | <.> ( p1602
+                    & p1802 )
+              | <.> ( p1602
+                    & p1902 )
+              | <.> ( p1602
+                    & p2002 )
+              | <.> ( p1602
+                    & p2102 )
+              | <.> ( p1702
+                    & p1802 )
+              | <.> ( p1702
+                    & p1902 )
+              | <.> ( p1702
+                    & p2002 )
+              | <.> ( p1702
+                    & p2102 )
+              | <.> ( p1802
+                    & p1902 )
+              | <.> ( p1802
+                    & p2002 )
+              | <.> ( p1802
+                    & p2102 )
+              | <.> ( p1902
+                    & p2002 )
+              | <.> ( p1902
+                    & p2102 )
+              | <.> ( p2002
+                    & p2102 )
+              | <.> ( [.] p103
+                    & [.] p203 )
+              | <.> ( [.] p103
+                    & p303 )
+              | <.> ( [.] p103
+                    & p403 )
+              | <.> ( [.] p103
+                    & p503 )
+              | <.> ( [.] p103
+                    & p603 )
+              | <.> ( [.] p103
+                    & p703 )
+              | <.> ( [.] p103
+                    & p803 )
+              | <.> ( [.] p103
+                    & p903 )
+              | <.> ( [.] p103
+                    & p1003 )
+              | <.> ( [.] p103
+                    & p1103 )
+              | <.> ( [.] p103
+                    & p1203 )
+              | <.> ( [.] p103
+                    & p1303 )
+              | <.> ( [.] p103
+                    & p1403 )
+              | <.> ( [.] p103
+                    & p1503 )
+              | <.> ( [.] p103
+                    & p1603 )
+              | <.> ( [.] p103
+                    & p1703 )
+              | <.> ( [.] p103
+                    & p1803 )
+              | <.> ( [.] p103
+                    & p1903 )
+              | <.> ( [.] p103
+                    & p2003 )
+              | <.> ( [.] p103
+                    & p2103 )
+              | <.> ( [.] p203
+                    & p303 )
+              | <.> ( [.] p203
+                    & p403 )
+              | <.> ( [.] p203
+                    & p503 )
+              | <.> ( [.] p203
+                    & p603 )
+              | <.> ( [.] p203
+                    & p703 )
+              | <.> ( [.] p203
+                    & p803 )
+              | <.> ( [.] p203
+                    & p903 )
+              | <.> ( [.] p203
+                    & p1003 )
+              | <.> ( [.] p203
+                    & p1103 )
+              | <.> ( [.] p203
+                    & p1203 )
+              | <.> ( [.] p203
+                    & p1303 )
+              | <.> ( [.] p203
+                    & p1403 )
+              | <.> ( [.] p203
+                    & p1503 )
+              | <.> ( [.] p203
+                    & p1603 )
+              | <.> ( [.] p203
+                    & p1703 )
+              | <.> ( [.] p203
+                    & p1803 )
+              | <.> ( [.] p203
+                    & p1903 )
+              | <.> ( [.] p203
+                    & p2003 )
+              | <.> ( [.] p203
+                    & p2103 )
+              | <.> ( p303
+                    & p403 )
+              | <.> ( p303
+                    & p503 )
+              | <.> ( p303
+                    & p603 )
+              | <.> ( p303
+                    & p703 )
+              | <.> ( p303
+                    & p803 )
+              | <.> ( p303
+                    & p903 )
+              | <.> ( p303
+                    & p1003 )
+              | <.> ( p303
+                    & p1103 )
+              | <.> ( p303
+                    & p1203 )
+              | <.> ( p303
+                    & p1303 )
+              | <.> ( p303
+                    & p1403 )
+              | <.> ( p303
+                    & p1503 )
+              | <.> ( p303
+                    & p1603 )
+              | <.> ( p303
+                    & p1703 )
+              | <.> ( p303
+                    & p1803 )
+              | <.> ( p303
+                    & p1903 )
+              | <.> ( p303
+                    & p2003 )
+              | <.> ( p303
+                    & p2103 )
+              | <.> ( p403
+                    & p503 )
+              | <.> ( p403
+                    & p603 )
+              | <.> ( p403
+                    & p703 )
+              | <.> ( p403
+                    & p803 )
+              | <.> ( p403
+                    & p903 )
+              | <.> ( p403
+                    & p1003 )
+              | <.> ( p403
+                    & p1103 )
+              | <.> ( p403
+                    & p1203 )
+              | <.> ( p403
+                    & p1303 )
+              | <.> ( p403
+                    & p1403 )
+              | <.> ( p403
+                    & p1503 )
+              | <.> ( p403
+                    & p1603 )
+              | <.> ( p403
+                    & p1703 )
+              | <.> ( p403
+                    & p1803 )
+              | <.> ( p403
+                    & p1903 )
+              | <.> ( p403
+                    & p2003 )
+              | <.> ( p403
+                    & p2103 )
+              | <.> ( p503
+                    & p603 )
+              | <.> ( p503
+                    & p703 )
+              | <.> ( p503
+                    & p803 )
+              | <.> ( p503
+                    & p903 )
+              | <.> ( p503
+                    & p1003 )
+              | <.> ( p503
+                    & p1103 )
+              | <.> ( p503
+                    & p1203 )
+              | <.> ( p503
+                    & p1303 )
+              | <.> ( p503
+                    & p1403 )
+              | <.> ( p503
+                    & p1503 )
+              | <.> ( p503
+                    & p1603 )
+              | <.> ( p503
+                    & p1703 )
+              | <.> ( p503
+                    & p1803 )
+              | <.> ( p503
+                    & p1903 )
+              | <.> ( p503
+                    & p2003 )
+              | <.> ( p503
+                    & p2103 )
+              | <.> ( p603
+                    & p703 )
+              | <.> ( p603
+                    & p803 )
+              | <.> ( p603
+                    & p903 )
+              | <.> ( p603
+                    & p1003 )
+              | <.> ( p603
+                    & p1103 )
+              | <.> ( p603
+                    & p1203 )
+              | <.> ( p603
+                    & p1303 )
+              | <.> ( p603
+                    & p1403 )
+              | <.> ( p603
+                    & p1503 )
+              | <.> ( p603
+                    & p1603 )
+              | <.> ( p603
+                    & p1703 )
+              | <.> ( p603
+                    & p1803 )
+              | <.> ( p603
+                    & p1903 )
+              | <.> ( p603
+                    & p2003 )
+              | <.> ( p603
+                    & p2103 )
+              | <.> ( p703
+                    & p803 )
+              | <.> ( p703
+                    & p903 )
+              | <.> ( p703
+                    & p1003 )
+              | <.> ( p703
+                    & p1103 )
+              | <.> ( p703
+                    & p1203 )
+              | <.> ( p703
+                    & p1303 )
+              | <.> ( p703
+                    & p1403 )
+              | <.> ( p703
+                    & p1503 )
+              | <.> ( p703
+                    & p1603 )
+              | <.> ( p703
+                    & p1703 )
+              | <.> ( p703
+                    & p1803 )
+              | <.> ( p703
+                    & p1903 )
+              | <.> ( p703
+                    & p2003 )
+              | <.> ( p703
+                    & p2103 )
+              | <.> ( p803
+                    & p903 )
+              | <.> ( p803
+                    & p1003 )
+              | <.> ( p803
+                    & p1103 )
+              | <.> ( p803
+                    & p1203 )
+              | <.> ( p803
+                    & p1303 )
+              | <.> ( p803
+                    & p1403 )
+              | <.> ( p803
+                    & p1503 )
+              | <.> ( p803
+                    & p1603 )
+              | <.> ( p803
+                    & p1703 )
+              | <.> ( p803
+                    & p1803 )
+              | <.> ( p803
+                    & p1903 )
+              | <.> ( p803
+                    & p2003 )
+              | <.> ( p803
+                    & p2103 )
+              | <.> ( p903
+                    & p1003 )
+              | <.> ( p903
+                    & p1103 )
+              | <.> ( p903
+                    & p1203 )
+              | <.> ( p903
+                    & p1303 )
+              | <.> ( p903
+                    & p1403 )
+              | <.> ( p903
+                    & p1503 )
+              | <.> ( p903
+                    & p1603 )
+              | <.> ( p903
+                    & p1703 )
+              | <.> ( p903
+                    & p1803 )
+              | <.> ( p903
+                    & p1903 )
+              | <.> ( p903
+                    & p2003 )
+              | <.> ( p903
+                    & p2103 )
+              | <.> ( p1003
+                    & p1103 )
+              | <.> ( p1003
+                    & p1203 )
+              | <.> ( p1003
+                    & p1303 )
+              | <.> ( p1003
+                    & p1403 )
+              | <.> ( p1003
+                    & p1503 )
+              | <.> ( p1003
+                    & p1603 )
+              | <.> ( p1003
+                    & p1703 )
+              | <.> ( p1003
+                    & p1803 )
+              | <.> ( p1003
+                    & p1903 )
+              | <.> ( p1003
+                    & p2003 )
+              | <.> ( p1003
+                    & p2103 )
+              | <.> ( p1103
+                    & p1203 )
+              | <.> ( p1103
+                    & p1303 )
+              | <.> ( p1103
+                    & p1403 )
+              | <.> ( p1103
+                    & p1503 )
+              | <.> ( p1103
+                    & p1603 )
+              | <.> ( p1103
+                    & p1703 )
+              | <.> ( p1103
+                    & p1803 )
+              | <.> ( p1103
+                    & p1903 )
+              | <.> ( p1103
+                    & p2003 )
+              | <.> ( p1103
+                    & p2103 )
+              | <.> ( p1203
+                    & p1303 )
+              | <.> ( p1203
+                    & p1403 )
+              | <.> ( p1203
+                    & p1503 )
+              | <.> ( p1203
+                    & p1603 )
+              | <.> ( p1203
+                    & p1703 )
+              | <.> ( p1203
+                    & p1803 )
+              | <.> ( p1203
+                    & p1903 )
+              | <.> ( p1203
+                    & p2003 )
+              | <.> ( p1203
+                    & p2103 )
+              | <.> ( p1303
+                    & p1403 )
+              | <.> ( p1303
+                    & p1503 )
+              | <.> ( p1303
+                    & p1603 )
+              | <.> ( p1303
+                    & p1703 )
+              | <.> ( p1303
+                    & p1803 )
+              | <.> ( p1303
+                    & p1903 )
+              | <.> ( p1303
+                    & p2003 )
+              | <.> ( p1303
+                    & p2103 )
+              | <.> ( p1403
+                    & p1503 )
+              | <.> ( p1403
+                    & p1603 )
+              | <.> ( p1403
+                    & p1703 )
+              | <.> ( p1403
+                    & p1803 )
+              | <.> ( p1403
+                    & p1903 )
+              | <.> ( p1403
+                    & p2003 )
+              | <.> ( p1403
+                    & p2103 )
+              | <.> ( p1503
+                    & p1603 )
+              | <.> ( p1503
+                    & p1703 )
+              | <.> ( p1503
+                    & p1803 )
+              | <.> ( p1503
+                    & p1903 )
+              | <.> ( p1503
+                    & p2003 )
+              | <.> ( p1503
+                    & p2103 )
+              | <.> ( p1603
+                    & p1703 )
+              | <.> ( p1603
+                    & p1803 )
+              | <.> ( p1603
+                    & p1903 )
+              | <.> ( p1603
+                    & p2003 )
+              | <.> ( p1603
+                    & p2103 )
+              | <.> ( p1703
+                    & p1803 )
+              | <.> ( p1703
+                    & p1903 )
+              | <.> ( p1703
+                    & p2003 )
+              | <.> ( p1703
+                    & p2103 )
+              | <.> ( p1803
+                    & p1903 )
+              | <.> ( p1803
+                    & p2003 )
+              | <.> ( p1803
+                    & p2103 )
+              | <.> ( p1903
+                    & p2003 )
+              | <.> ( p1903
+                    & p2103 )
+              | <.> ( p2003
+                    & p2103 )
+              | <.> ( [.] p104
+                    & [.] p204 )
+              | <.> ( [.] p104
+                    & [.] p304 )
+              | <.> ( [.] p104
+                    & p404 )
+              | <.> ( [.] p104
+                    & p504 )
+              | <.> ( [.] p104
+                    & p604 )
+              | <.> ( [.] p104
+                    & p704 )
+              | <.> ( [.] p104
+                    & p804 )
+              | <.> ( [.] p104
+                    & p904 )
+              | <.> ( [.] p104
+                    & p1004 )
+              | <.> ( [.] p104
+                    & p1104 )
+              | <.> ( [.] p104
+                    & p1204 )
+              | <.> ( [.] p104
+                    & p1304 )
+              | <.> ( [.] p104
+                    & p1404 )
+              | <.> ( [.] p104
+                    & p1504 )
+              | <.> ( [.] p104
+                    & p1604 )
+              | <.> ( [.] p104
+                    & p1704 )
+              | <.> ( [.] p104
+                    & p1804 )
+              | <.> ( [.] p104
+                    & p1904 )
+              | <.> ( [.] p104
+                    & p2004 )
+              | <.> ( [.] p104
+                    & p2104 )
+              | <.> ( [.] p204
+                    & [.] p304 )
+              | <.> ( [.] p204
+                    & p404 )
+              | <.> ( [.] p204
+                    & p504 )
+              | <.> ( [.] p204
+                    & p604 )
+              | <.> ( [.] p204
+                    & p704 )
+              | <.> ( [.] p204
+                    & p804 )
+              | <.> ( [.] p204
+                    & p904 )
+              | <.> ( [.] p204
+                    & p1004 )
+              | <.> ( [.] p204
+                    & p1104 )
+              | <.> ( [.] p204
+                    & p1204 )
+              | <.> ( [.] p204
+                    & p1304 )
+              | <.> ( [.] p204
+                    & p1404 )
+              | <.> ( [.] p204
+                    & p1504 )
+              | <.> ( [.] p204
+                    & p1604 )
+              | <.> ( [.] p204
+                    & p1704 )
+              | <.> ( [.] p204
+                    & p1804 )
+              | <.> ( [.] p204
+                    & p1904 )
+              | <.> ( [.] p204
+                    & p2004 )
+              | <.> ( [.] p204
+                    & p2104 )
+              | <.> ( [.] p304
+                    & p404 )
+              | <.> ( [.] p304
+                    & p504 )
+              | <.> ( [.] p304
+                    & p604 )
+              | <.> ( [.] p304
+                    & p704 )
+              | <.> ( [.] p304
+                    & p804 )
+              | <.> ( [.] p304
+                    & p904 )
+              | <.> ( [.] p304
+                    & p1004 )
+              | <.> ( [.] p304
+                    & p1104 )
+              | <.> ( [.] p304
+                    & p1204 )
+              | <.> ( [.] p304
+                    & p1304 )
+              | <.> ( [.] p304
+                    & p1404 )
+              | <.> ( [.] p304
+                    & p1504 )
+              | <.> ( [.] p304
+                    & p1604 )
+              | <.> ( [.] p304
+                    & p1704 )
+              | <.> ( [.] p304
+                    & p1804 )
+              | <.> ( [.] p304
+                    & p1904 )
+              | <.> ( [.] p304
+                    & p2004 )
+              | <.> ( [.] p304
+                    & p2104 )
+              | <.> ( p404
+                    & p504 )
+              | <.> ( p404
+                    & p604 )
+              | <.> ( p404
+                    & p704 )
+              | <.> ( p404
+                    & p804 )
+              | <.> ( p404
+                    & p904 )
+              | <.> ( p404
+                    & p1004 )
+              | <.> ( p404
+                    & p1104 )
+              | <.> ( p404
+                    & p1204 )
+              | <.> ( p404
+                    & p1304 )
+              | <.> ( p404
+                    & p1404 )
+              | <.> ( p404
+                    & p1504 )
+              | <.> ( p404
+                    & p1604 )
+              | <.> ( p404
+                    & p1704 )
+              | <.> ( p404
+                    & p1804 )
+              | <.> ( p404
+                    & p1904 )
+              | <.> ( p404
+                    & p2004 )
+              | <.> ( p404
+                    & p2104 )
+              | <.> ( p504
+                    & p604 )
+              | <.> ( p504
+                    & p704 )
+              | <.> ( p504
+                    & p804 )
+              | <.> ( p504
+                    & p904 )
+              | <.> ( p504
+                    & p1004 )
+              | <.> ( p504
+                    & p1104 )
+              | <.> ( p504
+                    & p1204 )
+              | <.> ( p504
+                    & p1304 )
+              | <.> ( p504
+                    & p1404 )
+              | <.> ( p504
+                    & p1504 )
+              | <.> ( p504
+                    & p1604 )
+              | <.> ( p504
+                    & p1704 )
+              | <.> ( p504
+                    & p1804 )
+              | <.> ( p504
+                    & p1904 )
+              | <.> ( p504
+                    & p2004 )
+              | <.> ( p504
+                    & p2104 )
+              | <.> ( p604
+                    & p704 )
+              | <.> ( p604
+                    & p804 )
+              | <.> ( p604
+                    & p904 )
+              | <.> ( p604
+                    & p1004 )
+              | <.> ( p604
+                    & p1104 )
+              | <.> ( p604
+                    & p1204 )
+              | <.> ( p604
+                    & p1304 )
+              | <.> ( p604
+                    & p1404 )
+              | <.> ( p604
+                    & p1504 )
+              | <.> ( p604
+                    & p1604 )
+              | <.> ( p604
+                    & p1704 )
+              | <.> ( p604
+                    & p1804 )
+              | <.> ( p604
+                    & p1904 )
+              | <.> ( p604
+                    & p2004 )
+              | <.> ( p604
+                    & p2104 )
+              | <.> ( p704
+                    & p804 )
+              | <.> ( p704
+                    & p904 )
+              | <.> ( p704
+                    & p1004 )
+              | <.> ( p704
+                    & p1104 )
+              | <.> ( p704
+                    & p1204 )
+              | <.> ( p704
+                    & p1304 )
+              | <.> ( p704
+                    & p1404 )
+              | <.> ( p704
+                    & p1504 )
+              | <.> ( p704
+                    & p1604 )
+              | <.> ( p704
+                    & p1704 )
+              | <.> ( p704
+                    & p1804 )
+              | <.> ( p704
+                    & p1904 )
+              | <.> ( p704
+                    & p2004 )
+              | <.> ( p704
+                    & p2104 )
+              | <.> ( p804
+                    & p904 )
+              | <.> ( p804
+                    & p1004 )
+              | <.> ( p804
+                    & p1104 )
+              | <.> ( p804
+                    & p1204 )
+              | <.> ( p804
+                    & p1304 )
+              | <.> ( p804
+                    & p1404 )
+              | <.> ( p804
+                    & p1504 )
+              | <.> ( p804
+                    & p1604 )
+              | <.> ( p804
+                    & p1704 )
+              | <.> ( p804
+                    & p1804 )
+              | <.> ( p804
+                    & p1904 )
+              | <.> ( p804
+                    & p2004 )
+              | <.> ( p804
+                    & p2104 )
+              | <.> ( p904
+                    & p1004 )
+              | <.> ( p904
+                    & p1104 )
+              | <.> ( p904
+                    & p1204 )
+              | <.> ( p904
+                    & p1304 )
+              | <.> ( p904
+                    & p1404 )
+              | <.> ( p904
+                    & p1504 )
+              | <.> ( p904
+                    & p1604 )
+              | <.> ( p904
+                    & p1704 )
+              | <.> ( p904
+                    & p1804 )
+              | <.> ( p904
+                    & p1904 )
+              | <.> ( p904
+                    & p2004 )
+              | <.> ( p904
+                    & p2104 )
+              | <.> ( p1004
+                    & p1104 )
+              | <.> ( p1004
+                    & p1204 )
+              | <.> ( p1004
+                    & p1304 )
+              | <.> ( p1004
+                    & p1404 )
+              | <.> ( p1004
+                    & p1504 )
+              | <.> ( p1004
+                    & p1604 )
+              | <.> ( p1004
+                    & p1704 )
+              | <.> ( p1004
+                    & p1804 )
+              | <.> ( p1004
+                    & p1904 )
+              | <.> ( p1004
+                    & p2004 )
+              | <.> ( p1004
+                    & p2104 )
+              | <.> ( p1104
+                    & p1204 )
+              | <.> ( p1104
+                    & p1304 )
+              | <.> ( p1104
+                    & p1404 )
+              | <.> ( p1104
+                    & p1504 )
+              | <.> ( p1104
+                    & p1604 )
+              | <.> ( p1104
+                    & p1704 )
+              | <.> ( p1104
+                    & p1804 )
+              | <.> ( p1104
+                    & p1904 )
+              | <.> ( p1104
+                    & p2004 )
+              | <.> ( p1104
+                    & p2104 )
+              | <.> ( p1204
+                    & p1304 )
+              | <.> ( p1204
+                    & p1404 )
+              | <.> ( p1204
+                    & p1504 )
+              | <.> ( p1204
+                    & p1604 )
+              | <.> ( p1204
+                    & p1704 )
+              | <.> ( p1204
+                    & p1804 )
+              | <.> ( p1204
+                    & p1904 )
+              | <.> ( p1204
+                    & p2004 )
+              | <.> ( p1204
+                    & p2104 )
+              | <.> ( p1304
+                    & p1404 )
+              | <.> ( p1304
+                    & p1504 )
+              | <.> ( p1304
+                    & p1604 )
+              | <.> ( p1304
+                    & p1704 )
+              | <.> ( p1304
+                    & p1804 )
+              | <.> ( p1304
+                    & p1904 )
+              | <.> ( p1304
+                    & p2004 )
+              | <.> ( p1304
+                    & p2104 )
+              | <.> ( p1404
+                    & p1504 )
+              | <.> ( p1404
+                    & p1604 )
+              | <.> ( p1404
+                    & p1704 )
+              | <.> ( p1404
+                    & p1804 )
+              | <.> ( p1404
+                    & p1904 )
+              | <.> ( p1404
+                    & p2004 )
+              | <.> ( p1404
+                    & p2104 )
+              | <.> ( p1504
+                    & p1604 )
+              | <.> ( p1504
+                    & p1704 )
+              | <.> ( p1504
+                    & p1804 )
+              | <.> ( p1504
+                    & p1904 )
+              | <.> ( p1504
+                    & p2004 )
+              | <.> ( p1504
+                    & p2104 )
+              | <.> ( p1604
+                    & p1704 )
+              | <.> ( p1604
+                    & p1804 )
+              | <.> ( p1604
+                    & p1904 )
+              | <.> ( p1604
+                    & p2004 )
+              | <.> ( p1604
+                    & p2104 )
+              | <.> ( p1704
+                    & p1804 )
+              | <.> ( p1704
+                    & p1904 )
+              | <.> ( p1704
+                    & p2004 )
+              | <.> ( p1704
+                    & p2104 )
+              | <.> ( p1804
+                    & p1904 )
+              | <.> ( p1804
+                    & p2004 )
+              | <.> ( p1804
+                    & p2104 )
+              | <.> ( p1904
+                    & p2004 )
+              | <.> ( p1904
+                    & p2104 )
+              | <.> ( p2004
+                    & p2104 )
+              | <.> ( [.] p105
+                    & [.] p205 )
+              | <.> ( [.] p105
+                    & [.] p305 )
+              | <.> ( [.] p105
+                    & [.] p405 )
+              | <.> ( [.] p105
+                    & p505 )
+              | <.> ( [.] p105
+                    & p605 )
+              | <.> ( [.] p105
+                    & p705 )
+              | <.> ( [.] p105
+                    & p805 )
+              | <.> ( [.] p105
+                    & p905 )
+              | <.> ( [.] p105
+                    & p1005 )
+              | <.> ( [.] p105
+                    & p1105 )
+              | <.> ( [.] p105
+                    & p1205 )
+              | <.> ( [.] p105
+                    & p1305 )
+              | <.> ( [.] p105
+                    & p1405 )
+              | <.> ( [.] p105
+                    & p1505 )
+              | <.> ( [.] p105
+                    & p1605 )
+              | <.> ( [.] p105
+                    & p1705 )
+              | <.> ( [.] p105
+                    & p1805 )
+              | <.> ( [.] p105
+                    & p1905 )
+              | <.> ( [.] p105
+                    & p2005 )
+              | <.> ( [.] p105
+                    & p2105 )
+              | <.> ( [.] p205
+                    & [.] p305 )
+              | <.> ( [.] p205
+                    & [.] p405 )
+              | <.> ( [.] p205
+                    & p505 )
+              | <.> ( [.] p205
+                    & p605 )
+              | <.> ( [.] p205
+                    & p705 )
+              | <.> ( [.] p205
+                    & p805 )
+              | <.> ( [.] p205
+                    & p905 )
+              | <.> ( [.] p205
+                    & p1005 )
+              | <.> ( [.] p205
+                    & p1105 )
+              | <.> ( [.] p205
+                    & p1205 )
+              | <.> ( [.] p205
+                    & p1305 )
+              | <.> ( [.] p205
+                    & p1405 )
+              | <.> ( [.] p205
+                    & p1505 )
+              | <.> ( [.] p205
+                    & p1605 )
+              | <.> ( [.] p205
+                    & p1705 )
+              | <.> ( [.] p205
+                    & p1805 )
+              | <.> ( [.] p205
+                    & p1905 )
+              | <.> ( [.] p205
+                    & p2005 )
+              | <.> ( [.] p205
+                    & p2105 )
+              | <.> ( [.] p305
+                    & [.] p405 )
+              | <.> ( [.] p305
+                    & p505 )
+              | <.> ( [.] p305
+                    & p605 )
+              | <.> ( [.] p305
+                    & p705 )
+              | <.> ( [.] p305
+                    & p805 )
+              | <.> ( [.] p305
+                    & p905 )
+              | <.> ( [.] p305
+                    & p1005 )
+              | <.> ( [.] p305
+                    & p1105 )
+              | <.> ( [.] p305
+                    & p1205 )
+              | <.> ( [.] p305
+                    & p1305 )
+              | <.> ( [.] p305
+                    & p1405 )
+              | <.> ( [.] p305
+                    & p1505 )
+              | <.> ( [.] p305
+                    & p1605 )
+              | <.> ( [.] p305
+                    & p1705 )
+              | <.> ( [.] p305
+                    & p1805 )
+              | <.> ( [.] p305
+                    & p1905 )
+              | <.> ( [.] p305
+                    & p2005 )
+              | <.> ( [.] p305
+                    & p2105 )
+              | <.> ( [.] p405
+                    & p505 )
+              | <.> ( [.] p405
+                    & p605 )
+              | <.> ( [.] p405
+                    & p705 )
+              | <.> ( [.] p405
+                    & p805 )
+              | <.> ( [.] p405
+                    & p905 )
+              | <.> ( [.] p405
+                    & p1005 )
+              | <.> ( [.] p405
+                    & p1105 )
+              | <.> ( [.] p405
+                    & p1205 )
+              | <.> ( [.] p405
+                    & p1305 )
+              | <.> ( [.] p405
+                    & p1405 )
+              | <.> ( [.] p405
+                    & p1505 )
+              | <.> ( [.] p405
+                    & p1605 )
+              | <.> ( [.] p405
+                    & p1705 )
+              | <.> ( [.] p405
+                    & p1805 )
+              | <.> ( [.] p405
+                    & p1905 )
+              | <.> ( [.] p405
+                    & p2005 )
+              | <.> ( [.] p405
+                    & p2105 )
+              | <.> ( p505
+                    & p605 )
+              | <.> ( p505
+                    & p705 )
+              | <.> ( p505
+                    & p805 )
+              | <.> ( p505
+                    & p905 )
+              | <.> ( p505
+                    & p1005 )
+              | <.> ( p505
+                    & p1105 )
+              | <.> ( p505
+                    & p1205 )
+              | <.> ( p505
+                    & p1305 )
+              | <.> ( p505
+                    & p1405 )
+              | <.> ( p505
+                    & p1505 )
+              | <.> ( p505
+                    & p1605 )
+              | <.> ( p505
+                    & p1705 )
+              | <.> ( p505
+                    & p1805 )
+              | <.> ( p505
+                    & p1905 )
+              | <.> ( p505
+                    & p2005 )
+              | <.> ( p505
+                    & p2105 )
+              | <.> ( p605
+                    & p705 )
+              | <.> ( p605
+                    & p805 )
+              | <.> ( p605
+                    & p905 )
+              | <.> ( p605
+                    & p1005 )
+              | <.> ( p605
+                    & p1105 )
+              | <.> ( p605
+                    & p1205 )
+              | <.> ( p605
+                    & p1305 )
+              | <.> ( p605
+                    & p1405 )
+              | <.> ( p605
+                    & p1505 )
+              | <.> ( p605
+                    & p1605 )
+              | <.> ( p605
+                    & p1705 )
+              | <.> ( p605
+                    & p1805 )
+              | <.> ( p605
+                    & p1905 )
+              | <.> ( p605
+                    & p2005 )
+              | <.> ( p605
+                    & p2105 )
+              | <.> ( p705
+                    & p805 )
+              | <.> ( p705
+                    & p905 )
+              | <.> ( p705
+                    & p1005 )
+              | <.> ( p705
+                    & p1105 )
+              | <.> ( p705
+                    & p1205 )
+              | <.> ( p705
+                    & p1305 )
+              | <.> ( p705
+                    & p1405 )
+              | <.> ( p705
+                    & p1505 )
+              | <.> ( p705
+                    & p1605 )
+              | <.> ( p705
+                    & p1705 )
+              | <.> ( p705
+                    & p1805 )
+              | <.> ( p705
+                    & p1905 )
+              | <.> ( p705
+                    & p2005 )
+              | <.> ( p705
+                    & p2105 )
+              | <.> ( p805
+                    & p905 )
+              | <.> ( p805
+                    & p1005 )
+              | <.> ( p805
+                    & p1105 )
+              | <.> ( p805
+                    & p1205 )
+              | <.> ( p805
+                    & p1305 )
+              | <.> ( p805
+                    & p1405 )
+              | <.> ( p805
+                    & p1505 )
+              | <.> ( p805
+                    & p1605 )
+              | <.> ( p805
+                    & p1705 )
+              | <.> ( p805
+                    & p1805 )
+              | <.> ( p805
+                    & p1905 )
+              | <.> ( p805
+                    & p2005 )
+              | <.> ( p805
+                    & p2105 )
+              | <.> ( p905
+                    & p1005 )
+              | <.> ( p905
+                    & p1105 )
+              | <.> ( p905
+                    & p1205 )
+              | <.> ( p905
+                    & p1305 )
+              | <.> ( p905
+                    & p1405 )
+              | <.> ( p905
+                    & p1505 )
+              | <.> ( p905
+                    & p1605 )
+              | <.> ( p905
+                    & p1705 )
+              | <.> ( p905
+                    & p1805 )
+              | <.> ( p905
+                    & p1905 )
+              | <.> ( p905
+                    & p2005 )
+              | <.> ( p905
+                    & p2105 )
+              | <.> ( p1005
+                    & p1105 )
+              | <.> ( p1005
+                    & p1205 )
+              | <.> ( p1005
+                    & p1305 )
+              | <.> ( p1005
+                    & p1405 )
+              | <.> ( p1005
+                    & p1505 )
+              | <.> ( p1005
+                    & p1605 )
+              | <.> ( p1005
+                    & p1705 )
+              | <.> ( p1005
+                    & p1805 )
+              | <.> ( p1005
+                    & p1905 )
+              | <.> ( p1005
+                    & p2005 )
+              | <.> ( p1005
+                    & p2105 )
+              | <.> ( p1105
+                    & p1205 )
+              | <.> ( p1105
+                    & p1305 )
+              | <.> ( p1105
+                    & p1405 )
+              | <.> ( p1105
+                    & p1505 )
+              | <.> ( p1105
+                    & p1605 )
+              | <.> ( p1105
+                    & p1705 )
+              | <.> ( p1105
+                    & p1805 )
+              | <.> ( p1105
+                    & p1905 )
+              | <.> ( p1105
+                    & p2005 )
+              | <.> ( p1105
+                    & p2105 )
+              | <.> ( p1205
+                    & p1305 )
+              | <.> ( p1205
+                    & p1405 )
+              | <.> ( p1205
+                    & p1505 )
+              | <.> ( p1205
+                    & p1605 )
+              | <.> ( p1205
+                    & p1705 )
+              | <.> ( p1205
+                    & p1805 )
+              | <.> ( p1205
+                    & p1905 )
+              | <.> ( p1205
+                    & p2005 )
+              | <.> ( p1205
+                    & p2105 )
+              | <.> ( p1305
+                    & p1405 )
+              | <.> ( p1305
+                    & p1505 )
+              | <.> ( p1305
+                    & p1605 )
+              | <.> ( p1305
+                    & p1705 )
+              | <.> ( p1305
+                    & p1805 )
+              | <.> ( p1305
+                    & p1905 )
+              | <.> ( p1305
+                    & p2005 )
+              | <.> ( p1305
+                    & p2105 )
+              | <.> ( p1405
+                    & p1505 )
+              | <.> ( p1405
+                    & p1605 )
+              | <.> ( p1405
+                    & p1705 )
+              | <.> ( p1405
+                    & p1805 )
+              | <.> ( p1405
+                    & p1905 )
+              | <.> ( p1405
+                    & p2005 )
+              | <.> ( p1405
+                    & p2105 )
+              | <.> ( p1505
+                    & p1605 )
+              | <.> ( p1505
+                    & p1705 )
+              | <.> ( p1505
+                    & p1805 )
+              | <.> ( p1505
+                    & p1905 )
+              | <.> ( p1505
+                    & p2005 )
+              | <.> ( p1505
+                    & p2105 )
+              | <.> ( p1605
+                    & p1705 )
+              | <.> ( p1605
+                    & p1805 )
+              | <.> ( p1605
+                    & p1905 )
+              | <.> ( p1605
+                    & p2005 )
+              | <.> ( p1605
+                    & p2105 )
+              | <.> ( p1705
+                    & p1805 )
+              | <.> ( p1705
+                    & p1905 )
+              | <.> ( p1705
+                    & p2005 )
+              | <.> ( p1705
+                    & p2105 )
+              | <.> ( p1805
+                    & p1905 )
+              | <.> ( p1805
+                    & p2005 )
+              | <.> ( p1805
+                    & p2105 )
+              | <.> ( p1905
+                    & p2005 )
+              | <.> ( p1905
+                    & p2105 )
+              | <.> ( p2005
+                    & p2105 )
+              | <.> ( [.] p106
+                    & [.] p206 )
+              | <.> ( [.] p106
+                    & [.] p306 )
+              | <.> ( [.] p106
+                    & [.] p406 )
+              | <.> ( [.] p106
+                    & [.] p506 )
+              | <.> ( [.] p106
+                    & p606 )
+              | <.> ( [.] p106
+                    & p706 )
+              | <.> ( [.] p106
+                    & p806 )
+              | <.> ( [.] p106
+                    & p906 )
+              | <.> ( [.] p106
+                    & p1006 )
+              | <.> ( [.] p106
+                    & p1106 )
+              | <.> ( [.] p106
+                    & p1206 )
+              | <.> ( [.] p106
+                    & p1306 )
+              | <.> ( [.] p106
+                    & p1406 )
+              | <.> ( [.] p106
+                    & p1506 )
+              | <.> ( [.] p106
+                    & p1606 )
+              | <.> ( [.] p106
+                    & p1706 )
+              | <.> ( [.] p106
+                    & p1806 )
+              | <.> ( [.] p106
+                    & p1906 )
+              | <.> ( [.] p106
+                    & p2006 )
+              | <.> ( [.] p106
+                    & p2106 )
+              | <.> ( [.] p206
+                    & [.] p306 )
+              | <.> ( [.] p206
+                    & [.] p406 )
+              | <.> ( [.] p206
+                    & [.] p506 )
+              | <.> ( [.] p206
+                    & p606 )
+              | <.> ( [.] p206
+                    & p706 )
+              | <.> ( [.] p206
+                    & p806 )
+              | <.> ( [.] p206
+                    & p906 )
+              | <.> ( [.] p206
+                    & p1006 )
+              | <.> ( [.] p206
+                    & p1106 )
+              | <.> ( [.] p206
+                    & p1206 )
+              | <.> ( [.] p206
+                    & p1306 )
+              | <.> ( [.] p206
+                    & p1406 )
+              | <.> ( [.] p206
+                    & p1506 )
+              | <.> ( [.] p206
+                    & p1606 )
+              | <.> ( [.] p206
+                    & p1706 )
+              | <.> ( [.] p206
+                    & p1806 )
+              | <.> ( [.] p206
+                    & p1906 )
+              | <.> ( [.] p206
+                    & p2006 )
+              | <.> ( [.] p206
+                    & p2106 )
+              | <.> ( [.] p306
+                    & [.] p406 )
+              | <.> ( [.] p306
+                    & [.] p506 )
+              | <.> ( [.] p306
+                    & p606 )
+              | <.> ( [.] p306
+                    & p706 )
+              | <.> ( [.] p306
+                    & p806 )
+              | <.> ( [.] p306
+                    & p906 )
+              | <.> ( [.] p306
+                    & p1006 )
+              | <.> ( [.] p306
+                    & p1106 )
+              | <.> ( [.] p306
+                    & p1206 )
+              | <.> ( [.] p306
+                    & p1306 )
+              | <.> ( [.] p306
+                    & p1406 )
+              | <.> ( [.] p306
+                    & p1506 )
+              | <.> ( [.] p306
+                    & p1606 )
+              | <.> ( [.] p306
+                    & p1706 )
+              | <.> ( [.] p306
+                    & p1806 )
+              | <.> ( [.] p306
+                    & p1906 )
+              | <.> ( [.] p306
+                    & p2006 )
+              | <.> ( [.] p306
+                    & p2106 )
+              | <.> ( [.] p406
+                    & [.] p506 )
+              | <.> ( [.] p406
+                    & p606 )
+              | <.> ( [.] p406
+                    & p706 )
+              | <.> ( [.] p406
+                    & p806 )
+              | <.> ( [.] p406
+                    & p906 )
+              | <.> ( [.] p406
+                    & p1006 )
+              | <.> ( [.] p406
+                    & p1106 )
+              | <.> ( [.] p406
+                    & p1206 )
+              | <.> ( [.] p406
+                    & p1306 )
+              | <.> ( [.] p406
+                    & p1406 )
+              | <.> ( [.] p406
+                    & p1506 )
+              | <.> ( [.] p406
+                    & p1606 )
+              | <.> ( [.] p406
+                    & p1706 )
+              | <.> ( [.] p406
+                    & p1806 )
+              | <.> ( [.] p406
+                    & p1906 )
+              | <.> ( [.] p406
+                    & p2006 )
+              | <.> ( [.] p406
+                    & p2106 )
+              | <.> ( [.] p506
+                    & p606 )
+              | <.> ( [.] p506
+                    & p706 )
+              | <.> ( [.] p506
+                    & p806 )
+              | <.> ( [.] p506
+                    & p906 )
+              | <.> ( [.] p506
+                    & p1006 )
+              | <.> ( [.] p506
+                    & p1106 )
+              | <.> ( [.] p506
+                    & p1206 )
+              | <.> ( [.] p506
+                    & p1306 )
+              | <.> ( [.] p506
+                    & p1406 )
+              | <.> ( [.] p506
+                    & p1506 )
+              | <.> ( [.] p506
+                    & p1606 )
+              | <.> ( [.] p506
+                    & p1706 )
+              | <.> ( [.] p506
+                    & p1806 )
+              | <.> ( [.] p506
+                    & p1906 )
+              | <.> ( [.] p506
+                    & p2006 )
+              | <.> ( [.] p506
+                    & p2106 )
+              | <.> ( p606
+                    & p706 )
+              | <.> ( p606
+                    & p806 )
+              | <.> ( p606
+                    & p906 )
+              | <.> ( p606
+                    & p1006 )
+              | <.> ( p606
+                    & p1106 )
+              | <.> ( p606
+                    & p1206 )
+              | <.> ( p606
+                    & p1306 )
+              | <.> ( p606
+                    & p1406 )
+              | <.> ( p606
+                    & p1506 )
+              | <.> ( p606
+                    & p1606 )
+              | <.> ( p606
+                    & p1706 )
+              | <.> ( p606
+                    & p1806 )
+              | <.> ( p606
+                    & p1906 )
+              | <.> ( p606
+                    & p2006 )
+              | <.> ( p606
+                    & p2106 )
+              | <.> ( p706
+                    & p806 )
+              | <.> ( p706
+                    & p906 )
+              | <.> ( p706
+                    & p1006 )
+              | <.> ( p706
+                    & p1106 )
+              | <.> ( p706
+                    & p1206 )
+              | <.> ( p706
+                    & p1306 )
+              | <.> ( p706
+                    & p1406 )
+              | <.> ( p706
+                    & p1506 )
+              | <.> ( p706
+                    & p1606 )
+              | <.> ( p706
+                    & p1706 )
+              | <.> ( p706
+                    & p1806 )
+              | <.> ( p706
+                    & p1906 )
+              | <.> ( p706
+                    & p2006 )
+              | <.> ( p706
+                    & p2106 )
+              | <.> ( p806
+                    & p906 )
+              | <.> ( p806
+                    & p1006 )
+              | <.> ( p806
+                    & p1106 )
+              | <.> ( p806
+                    & p1206 )
+              | <.> ( p806
+                    & p1306 )
+              | <.> ( p806
+                    & p1406 )
+              | <.> ( p806
+                    & p1506 )
+              | <.> ( p806
+                    & p1606 )
+              | <.> ( p806
+                    & p1706 )
+              | <.> ( p806
+                    & p1806 )
+              | <.> ( p806
+                    & p1906 )
+              | <.> ( p806
+                    & p2006 )
+              | <.> ( p806
+                    & p2106 )
+              | <.> ( p906
+                    & p1006 )
+              | <.> ( p906
+                    & p1106 )
+              | <.> ( p906
+                    & p1206 )
+              | <.> ( p906
+                    & p1306 )
+              | <.> ( p906
+                    & p1406 )
+              | <.> ( p906
+                    & p1506 )
+              | <.> ( p906
+                    & p1606 )
+              | <.> ( p906
+                    & p1706 )
+              | <.> ( p906
+                    & p1806 )
+              | <.> ( p906
+                    & p1906 )
+              | <.> ( p906
+                    & p2006 )
+              | <.> ( p906
+                    & p2106 )
+              | <.> ( p1006
+                    & p1106 )
+              | <.> ( p1006
+                    & p1206 )
+              | <.> ( p1006
+                    & p1306 )
+              | <.> ( p1006
+                    & p1406 )
+              | <.> ( p1006
+                    & p1506 )
+              | <.> ( p1006
+                    & p1606 )
+              | <.> ( p1006
+                    & p1706 )
+              | <.> ( p1006
+                    & p1806 )
+              | <.> ( p1006
+                    & p1906 )
+              | <.> ( p1006
+                    & p2006 )
+              | <.> ( p1006
+                    & p2106 )
+              | <.> ( p1106
+                    & p1206 )
+              | <.> ( p1106
+                    & p1306 )
+              | <.> ( p1106
+                    & p1406 )
+              | <.> ( p1106
+                    & p1506 )
+              | <.> ( p1106
+                    & p1606 )
+              | <.> ( p1106
+                    & p1706 )
+              | <.> ( p1106
+                    & p1806 )
+              | <.> ( p1106
+                    & p1906 )
+              | <.> ( p1106
+                    & p2006 )
+              | <.> ( p1106
+                    & p2106 )
+              | <.> ( p1206
+                    & p1306 )
+              | <.> ( p1206
+                    & p1406 )
+              | <.> ( p1206
+                    & p1506 )
+              | <.> ( p1206
+                    & p1606 )
+              | <.> ( p1206
+                    & p1706 )
+              | <.> ( p1206
+                    & p1806 )
+              | <.> ( p1206
+                    & p1906 )
+              | <.> ( p1206
+                    & p2006 )
+              | <.> ( p1206
+                    & p2106 )
+              | <.> ( p1306
+                    & p1406 )
+              | <.> ( p1306
+                    & p1506 )
+              | <.> ( p1306
+                    & p1606 )
+              | <.> ( p1306
+                    & p1706 )
+              | <.> ( p1306
+                    & p1806 )
+              | <.> ( p1306
+                    & p1906 )
+              | <.> ( p1306
+                    & p2006 )
+              | <.> ( p1306
+                    & p2106 )
+              | <.> ( p1406
+                    & p1506 )
+              | <.> ( p1406
+                    & p1606 )
+              | <.> ( p1406
+                    & p1706 )
+              | <.> ( p1406
+                    & p1806 )
+              | <.> ( p1406
+                    & p1906 )
+              | <.> ( p1406
+                    & p2006 )
+              | <.> ( p1406
+                    & p2106 )
+              | <.> ( p1506
+                    & p1606 )
+              | <.> ( p1506
+                    & p1706 )
+              | <.> ( p1506
+                    & p1806 )
+              | <.> ( p1506
+                    & p1906 )
+              | <.> ( p1506
+                    & p2006 )
+              | <.> ( p1506
+                    & p2106 )
+              | <.> ( p1606
+                    & p1706 )
+              | <.> ( p1606
+                    & p1806 )
+              | <.> ( p1606
+                    & p1906 )
+              | <.> ( p1606
+                    & p2006 )
+              | <.> ( p1606
+                    & p2106 )
+              | <.> ( p1706
+                    & p1806 )
+              | <.> ( p1706
+                    & p1906 )
+              | <.> ( p1706
+                    & p2006 )
+              | <.> ( p1706
+                    & p2106 )
+              | <.> ( p1806
+                    & p1906 )
+              | <.> ( p1806
+                    & p2006 )
+              | <.> ( p1806
+                    & p2106 )
+              | <.> ( p1906
+                    & p2006 )
+              | <.> ( p1906
+                    & p2106 )
+              | <.> ( p2006
+                    & p2106 )
+              | <.> ( [.] p107
+                    & [.] p207 )
+              | <.> ( [.] p107
+                    & [.] p307 )
+              | <.> ( [.] p107
+                    & [.] p407 )
+              | <.> ( [.] p107
+                    & [.] p507 )
+              | <.> ( [.] p107
+                    & [.] p607 )
+              | <.> ( [.] p107
+                    & p707 )
+              | <.> ( [.] p107
+                    & p807 )
+              | <.> ( [.] p107
+                    & p907 )
+              | <.> ( [.] p107
+                    & p1007 )
+              | <.> ( [.] p107
+                    & p1107 )
+              | <.> ( [.] p107
+                    & p1207 )
+              | <.> ( [.] p107
+                    & p1307 )
+              | <.> ( [.] p107
+                    & p1407 )
+              | <.> ( [.] p107
+                    & p1507 )
+              | <.> ( [.] p107
+                    & p1607 )
+              | <.> ( [.] p107
+                    & p1707 )
+              | <.> ( [.] p107
+                    & p1807 )
+              | <.> ( [.] p107
+                    & p1907 )
+              | <.> ( [.] p107
+                    & p2007 )
+              | <.> ( [.] p107
+                    & p2107 )
+              | <.> ( [.] p207
+                    & [.] p307 )
+              | <.> ( [.] p207
+                    & [.] p407 )
+              | <.> ( [.] p207
+                    & [.] p507 )
+              | <.> ( [.] p207
+                    & [.] p607 )
+              | <.> ( [.] p207
+                    & p707 )
+              | <.> ( [.] p207
+                    & p807 )
+              | <.> ( [.] p207
+                    & p907 )
+              | <.> ( [.] p207
+                    & p1007 )
+              | <.> ( [.] p207
+                    & p1107 )
+              | <.> ( [.] p207
+                    & p1207 )
+              | <.> ( [.] p207
+                    & p1307 )
+              | <.> ( [.] p207
+                    & p1407 )
+              | <.> ( [.] p207
+                    & p1507 )
+              | <.> ( [.] p207
+                    & p1607 )
+              | <.> ( [.] p207
+                    & p1707 )
+              | <.> ( [.] p207
+                    & p1807 )
+              | <.> ( [.] p207
+                    & p1907 )
+              | <.> ( [.] p207
+                    & p2007 )
+              | <.> ( [.] p207
+                    & p2107 )
+              | <.> ( [.] p307
+                    & [.] p407 )
+              | <.> ( [.] p307
+                    & [.] p507 )
+              | <.> ( [.] p307
+                    & [.] p607 )
+              | <.> ( [.] p307
+                    & p707 )
+              | <.> ( [.] p307
+                    & p807 )
+              | <.> ( [.] p307
+                    & p907 )
+              | <.> ( [.] p307
+                    & p1007 )
+              | <.> ( [.] p307
+                    & p1107 )
+              | <.> ( [.] p307
+                    & p1207 )
+              | <.> ( [.] p307
+                    & p1307 )
+              | <.> ( [.] p307
+                    & p1407 )
+              | <.> ( [.] p307
+                    & p1507 )
+              | <.> ( [.] p307
+                    & p1607 )
+              | <.> ( [.] p307
+                    & p1707 )
+              | <.> ( [.] p307
+                    & p1807 )
+              | <.> ( [.] p307
+                    & p1907 )
+              | <.> ( [.] p307
+                    & p2007 )
+              | <.> ( [.] p307
+                    & p2107 )
+              | <.> ( [.] p407
+                    & [.] p507 )
+              | <.> ( [.] p407
+                    & [.] p607 )
+              | <.> ( [.] p407
+                    & p707 )
+              | <.> ( [.] p407
+                    & p807 )
+              | <.> ( [.] p407
+                    & p907 )
+              | <.> ( [.] p407
+                    & p1007 )
+              | <.> ( [.] p407
+                    & p1107 )
+              | <.> ( [.] p407
+                    & p1207 )
+              | <.> ( [.] p407
+                    & p1307 )
+              | <.> ( [.] p407
+                    & p1407 )
+              | <.> ( [.] p407
+                    & p1507 )
+              | <.> ( [.] p407
+                    & p1607 )
+              | <.> ( [.] p407
+                    & p1707 )
+              | <.> ( [.] p407
+                    & p1807 )
+              | <.> ( [.] p407
+                    & p1907 )
+              | <.> ( [.] p407
+                    & p2007 )
+              | <.> ( [.] p407
+                    & p2107 )
+              | <.> ( [.] p507
+                    & [.] p607 )
+              | <.> ( [.] p507
+                    & p707 )
+              | <.> ( [.] p507
+                    & p807 )
+              | <.> ( [.] p507
+                    & p907 )
+              | <.> ( [.] p507
+                    & p1007 )
+              | <.> ( [.] p507
+                    & p1107 )
+              | <.> ( [.] p507
+                    & p1207 )
+              | <.> ( [.] p507
+                    & p1307 )
+              | <.> ( [.] p507
+                    & p1407 )
+              | <.> ( [.] p507
+                    & p1507 )
+              | <.> ( [.] p507
+                    & p1607 )
+              | <.> ( [.] p507
+                    & p1707 )
+              | <.> ( [.] p507
+                    & p1807 )
+              | <.> ( [.] p507
+                    & p1907 )
+              | <.> ( [.] p507
+                    & p2007 )
+              | <.> ( [.] p507
+                    & p2107 )
+              | <.> ( [.] p607
+                    & p707 )
+              | <.> ( [.] p607
+                    & p807 )
+              | <.> ( [.] p607
+                    & p907 )
+              | <.> ( [.] p607
+                    & p1007 )
+              | <.> ( [.] p607
+                    & p1107 )
+              | <.> ( [.] p607
+                    & p1207 )
+              | <.> ( [.] p607
+                    & p1307 )
+              | <.> ( [.] p607
+                    & p1407 )
+              | <.> ( [.] p607
+                    & p1507 )
+              | <.> ( [.] p607
+                    & p1607 )
+              | <.> ( [.] p607
+                    & p1707 )
+              | <.> ( [.] p607
+                    & p1807 )
+              | <.> ( [.] p607
+                    & p1907 )
+              | <.> ( [.] p607
+                    & p2007 )
+              | <.> ( [.] p607
+                    & p2107 )
+              | <.> ( p707
+                    & p807 )
+              | <.> ( p707
+                    & p907 )
+              | <.> ( p707
+                    & p1007 )
+              | <.> ( p707
+                    & p1107 )
+              | <.> ( p707
+                    & p1207 )
+              | <.> ( p707
+                    & p1307 )
+              | <.> ( p707
+                    & p1407 )
+              | <.> ( p707
+                    & p1507 )
+              | <.> ( p707
+                    & p1607 )
+              | <.> ( p707
+                    & p1707 )
+              | <.> ( p707
+                    & p1807 )
+              | <.> ( p707
+                    & p1907 )
+              | <.> ( p707
+                    & p2007 )
+              | <.> ( p707
+                    & p2107 )
+              | <.> ( p807
+                    & p907 )
+              | <.> ( p807
+                    & p1007 )
+              | <.> ( p807
+                    & p1107 )
+              | <.> ( p807
+                    & p1207 )
+              | <.> ( p807
+                    & p1307 )
+              | <.> ( p807
+                    & p1407 )
+              | <.> ( p807
+                    & p1507 )
+              | <.> ( p807
+                    & p1607 )
+              | <.> ( p807
+                    & p1707 )
+              | <.> ( p807
+                    & p1807 )
+              | <.> ( p807
+                    & p1907 )
+              | <.> ( p807
+                    & p2007 )
+              | <.> ( p807
+                    & p2107 )
+              | <.> ( p907
+                    & p1007 )
+              | <.> ( p907
+                    & p1107 )
+              | <.> ( p907
+                    & p1207 )
+              | <.> ( p907
+                    & p1307 )
+              | <.> ( p907
+                    & p1407 )
+              | <.> ( p907
+                    & p1507 )
+              | <.> ( p907
+                    & p1607 )
+              | <.> ( p907
+                    & p1707 )
+              | <.> ( p907
+                    & p1807 )
+              | <.> ( p907
+                    & p1907 )
+              | <.> ( p907
+                    & p2007 )
+              | <.> ( p907
+                    & p2107 )
+              | <.> ( p1007
+                    & p1107 )
+              | <.> ( p1007
+                    & p1207 )
+              | <.> ( p1007
+                    & p1307 )
+              | <.> ( p1007
+                    & p1407 )
+              | <.> ( p1007
+                    & p1507 )
+              | <.> ( p1007
+                    & p1607 )
+              | <.> ( p1007
+                    & p1707 )
+              | <.> ( p1007
+                    & p1807 )
+              | <.> ( p1007
+                    & p1907 )
+              | <.> ( p1007
+                    & p2007 )
+              | <.> ( p1007
+                    & p2107 )
+              | <.> ( p1107
+                    & p1207 )
+              | <.> ( p1107
+                    & p1307 )
+              | <.> ( p1107
+                    & p1407 )
+              | <.> ( p1107
+                    & p1507 )
+              | <.> ( p1107
+                    & p1607 )
+              | <.> ( p1107
+                    & p1707 )
+              | <.> ( p1107
+                    & p1807 )
+              | <.> ( p1107
+                    & p1907 )
+              | <.> ( p1107
+                    & p2007 )
+              | <.> ( p1107
+                    & p2107 )
+              | <.> ( p1207
+                    & p1307 )
+              | <.> ( p1207
+                    & p1407 )
+              | <.> ( p1207
+                    & p1507 )
+              | <.> ( p1207
+                    & p1607 )
+              | <.> ( p1207
+                    & p1707 )
+              | <.> ( p1207
+                    & p1807 )
+              | <.> ( p1207
+                    & p1907 )
+              | <.> ( p1207
+                    & p2007 )
+              | <.> ( p1207
+                    & p2107 )
+              | <.> ( p1307
+                    & p1407 )
+              | <.> ( p1307
+                    & p1507 )
+              | <.> ( p1307
+                    & p1607 )
+              | <.> ( p1307
+                    & p1707 )
+              | <.> ( p1307
+                    & p1807 )
+              | <.> ( p1307
+                    & p1907 )
+              | <.> ( p1307
+                    & p2007 )
+              | <.> ( p1307
+                    & p2107 )
+              | <.> ( p1407
+                    & p1507 )
+              | <.> ( p1407
+                    & p1607 )
+              | <.> ( p1407
+                    & p1707 )
+              | <.> ( p1407
+                    & p1807 )
+              | <.> ( p1407
+                    & p1907 )
+              | <.> ( p1407
+                    & p2007 )
+              | <.> ( p1407
+                    & p2107 )
+              | <.> ( p1507
+                    & p1607 )
+              | <.> ( p1507
+                    & p1707 )
+              | <.> ( p1507
+                    & p1807 )
+              | <.> ( p1507
+                    & p1907 )
+              | <.> ( p1507
+                    & p2007 )
+              | <.> ( p1507
+                    & p2107 )
+              | <.> ( p1607
+                    & p1707 )
+              | <.> ( p1607
+                    & p1807 )
+              | <.> ( p1607
+                    & p1907 )
+              | <.> ( p1607
+                    & p2007 )
+              | <.> ( p1607
+                    & p2107 )
+              | <.> ( p1707
+                    & p1807 )
+              | <.> ( p1707
+                    & p1907 )
+              | <.> ( p1707
+                    & p2007 )
+              | <.> ( p1707
+                    & p2107 )
+              | <.> ( p1807
+                    & p1907 )
+              | <.> ( p1807
+                    & p2007 )
+              | <.> ( p1807
+                    & p2107 )
+              | <.> ( p1907
+                    & p2007 )
+              | <.> ( p1907
+                    & p2107 )
+              | <.> ( p2007
+                    & p2107 )
+              | <.> ( [.] p108
+                    & [.] p208 )
+              | <.> ( [.] p108
+                    & [.] p308 )
+              | <.> ( [.] p108
+                    & [.] p408 )
+              | <.> ( [.] p108
+                    & [.] p508 )
+              | <.> ( [.] p108
+                    & [.] p608 )
+              | <.> ( [.] p108
+                    & [.] p708 )
+              | <.> ( [.] p108
+                    & p808 )
+              | <.> ( [.] p108
+                    & p908 )
+              | <.> ( [.] p108
+                    & p1008 )
+              | <.> ( [.] p108
+                    & p1108 )
+              | <.> ( [.] p108
+                    & p1208 )
+              | <.> ( [.] p108
+                    & p1308 )
+              | <.> ( [.] p108
+                    & p1408 )
+              | <.> ( [.] p108
+                    & p1508 )
+              | <.> ( [.] p108
+                    & p1608 )
+              | <.> ( [.] p108
+                    & p1708 )
+              | <.> ( [.] p108
+                    & p1808 )
+              | <.> ( [.] p108
+                    & p1908 )
+              | <.> ( [.] p108
+                    & p2008 )
+              | <.> ( [.] p108
+                    & p2108 )
+              | <.> ( [.] p208
+                    & [.] p308 )
+              | <.> ( [.] p208
+                    & [.] p408 )
+              | <.> ( [.] p208
+                    & [.] p508 )
+              | <.> ( [.] p208
+                    & [.] p608 )
+              | <.> ( [.] p208
+                    & [.] p708 )
+              | <.> ( [.] p208
+                    & p808 )
+              | <.> ( [.] p208
+                    & p908 )
+              | <.> ( [.] p208
+                    & p1008 )
+              | <.> ( [.] p208
+                    & p1108 )
+              | <.> ( [.] p208
+                    & p1208 )
+              | <.> ( [.] p208
+                    & p1308 )
+              | <.> ( [.] p208
+                    & p1408 )
+              | <.> ( [.] p208
+                    & p1508 )
+              | <.> ( [.] p208
+                    & p1608 )
+              | <.> ( [.] p208
+                    & p1708 )
+              | <.> ( [.] p208
+                    & p1808 )
+              | <.> ( [.] p208
+                    & p1908 )
+              | <.> ( [.] p208
+                    & p2008 )
+              | <.> ( [.] p208
+                    & p2108 )
+              | <.> ( [.] p308
+                    & [.] p408 )
+              | <.> ( [.] p308
+                    & [.] p508 )
+              | <.> ( [.] p308
+                    & [.] p608 )
+              | <.> ( [.] p308
+                    & [.] p708 )
+              | <.> ( [.] p308
+                    & p808 )
+              | <.> ( [.] p308
+                    & p908 )
+              | <.> ( [.] p308
+                    & p1008 )
+              | <.> ( [.] p308
+                    & p1108 )
+              | <.> ( [.] p308
+                    & p1208 )
+              | <.> ( [.] p308
+                    & p1308 )
+              | <.> ( [.] p308
+                    & p1408 )
+              | <.> ( [.] p308
+                    & p1508 )
+              | <.> ( [.] p308
+                    & p1608 )
+              | <.> ( [.] p308
+                    & p1708 )
+              | <.> ( [.] p308
+                    & p1808 )
+              | <.> ( [.] p308
+                    & p1908 )
+              | <.> ( [.] p308
+                    & p2008 )
+              | <.> ( [.] p308
+                    & p2108 )
+              | <.> ( [.] p408
+                    & [.] p508 )
+              | <.> ( [.] p408
+                    & [.] p608 )
+              | <.> ( [.] p408
+                    & [.] p708 )
+              | <.> ( [.] p408
+                    & p808 )
+              | <.> ( [.] p408
+                    & p908 )
+              | <.> ( [.] p408
+                    & p1008 )
+              | <.> ( [.] p408
+                    & p1108 )
+              | <.> ( [.] p408
+                    & p1208 )
+              | <.> ( [.] p408
+                    & p1308 )
+              | <.> ( [.] p408
+                    & p1408 )
+              | <.> ( [.] p408
+                    & p1508 )
+              | <.> ( [.] p408
+                    & p1608 )
+              | <.> ( [.] p408
+                    & p1708 )
+              | <.> ( [.] p408
+                    & p1808 )
+              | <.> ( [.] p408
+                    & p1908 )
+              | <.> ( [.] p408
+                    & p2008 )
+              | <.> ( [.] p408
+                    & p2108 )
+              | <.> ( [.] p508
+                    & [.] p608 )
+              | <.> ( [.] p508
+                    & [.] p708 )
+              | <.> ( [.] p508
+                    & p808 )
+              | <.> ( [.] p508
+                    & p908 )
+              | <.> ( [.] p508
+                    & p1008 )
+              | <.> ( [.] p508
+                    & p1108 )
+              | <.> ( [.] p508
+                    & p1208 )
+              | <.> ( [.] p508
+                    & p1308 )
+              | <.> ( [.] p508
+                    & p1408 )
+              | <.> ( [.] p508
+                    & p1508 )
+              | <.> ( [.] p508
+                    & p1608 )
+              | <.> ( [.] p508
+                    & p1708 )
+              | <.> ( [.] p508
+                    & p1808 )
+              | <.> ( [.] p508
+                    & p1908 )
+              | <.> ( [.] p508
+                    & p2008 )
+              | <.> ( [.] p508
+                    & p2108 )
+              | <.> ( [.] p608
+                    & [.] p708 )
+              | <.> ( [.] p608
+                    & p808 )
+              | <.> ( [.] p608
+                    & p908 )
+              | <.> ( [.] p608
+                    & p1008 )
+              | <.> ( [.] p608
+                    & p1108 )
+              | <.> ( [.] p608
+                    & p1208 )
+              | <.> ( [.] p608
+                    & p1308 )
+              | <.> ( [.] p608
+                    & p1408 )
+              | <.> ( [.] p608
+                    & p1508 )
+              | <.> ( [.] p608
+                    & p1608 )
+              | <.> ( [.] p608
+                    & p1708 )
+              | <.> ( [.] p608
+                    & p1808 )
+              | <.> ( [.] p608
+                    & p1908 )
+              | <.> ( [.] p608
+                    & p2008 )
+              | <.> ( [.] p608
+                    & p2108 )
+              | <.> ( [.] p708
+                    & p808 )
+              | <.> ( [.] p708
+                    & p908 )
+              | <.> ( [.] p708
+                    & p1008 )
+              | <.> ( [.] p708
+                    & p1108 )
+              | <.> ( [.] p708
+                    & p1208 )
+              | <.> ( [.] p708
+                    & p1308 )
+              | <.> ( [.] p708
+                    & p1408 )
+              | <.> ( [.] p708
+                    & p1508 )
+              | <.> ( [.] p708
+                    & p1608 )
+              | <.> ( [.] p708
+                    & p1708 )
+              | <.> ( [.] p708
+                    & p1808 )
+              | <.> ( [.] p708
+                    & p1908 )
+              | <.> ( [.] p708
+                    & p2008 )
+              | <.> ( [.] p708
+                    & p2108 )
+              | <.> ( p808
+                    & p908 )
+              | <.> ( p808
+                    & p1008 )
+              | <.> ( p808
+                    & p1108 )
+              | <.> ( p808
+                    & p1208 )
+              | <.> ( p808
+                    & p1308 )
+              | <.> ( p808
+                    & p1408 )
+              | <.> ( p808
+                    & p1508 )
+              | <.> ( p808
+                    & p1608 )
+              | <.> ( p808
+                    & p1708 )
+              | <.> ( p808
+                    & p1808 )
+              | <.> ( p808
+                    & p1908 )
+              | <.> ( p808
+                    & p2008 )
+              | <.> ( p808
+                    & p2108 )
+              | <.> ( p908
+                    & p1008 )
+              | <.> ( p908
+                    & p1108 )
+              | <.> ( p908
+                    & p1208 )
+              | <.> ( p908
+                    & p1308 )
+              | <.> ( p908
+                    & p1408 )
+              | <.> ( p908
+                    & p1508 )
+              | <.> ( p908
+                    & p1608 )
+              | <.> ( p908
+                    & p1708 )
+              | <.> ( p908
+                    & p1808 )
+              | <.> ( p908
+                    & p1908 )
+              | <.> ( p908
+                    & p2008 )
+              | <.> ( p908
+                    & p2108 )
+              | <.> ( p1008
+                    & p1108 )
+              | <.> ( p1008
+                    & p1208 )
+              | <.> ( p1008
+                    & p1308 )
+              | <.> ( p1008
+                    & p1408 )
+              | <.> ( p1008
+                    & p1508 )
+              | <.> ( p1008
+                    & p1608 )
+              | <.> ( p1008
+                    & p1708 )
+              | <.> ( p1008
+                    & p1808 )
+              | <.> ( p1008
+                    & p1908 )
+              | <.> ( p1008
+                    & p2008 )
+              | <.> ( p1008
+                    & p2108 )
+              | <.> ( p1108
+                    & p1208 )
+              | <.> ( p1108
+                    & p1308 )
+              | <.> ( p1108
+                    & p1408 )
+              | <.> ( p1108
+                    & p1508 )
+              | <.> ( p1108
+                    & p1608 )
+              | <.> ( p1108
+                    & p1708 )
+              | <.> ( p1108
+                    & p1808 )
+              | <.> ( p1108
+                    & p1908 )
+              | <.> ( p1108
+                    & p2008 )
+              | <.> ( p1108
+                    & p2108 )
+              | <.> ( p1208
+                    & p1308 )
+              | <.> ( p1208
+                    & p1408 )
+              | <.> ( p1208
+                    & p1508 )
+              | <.> ( p1208
+                    & p1608 )
+              | <.> ( p1208
+                    & p1708 )
+              | <.> ( p1208
+                    & p1808 )
+              | <.> ( p1208
+                    & p1908 )
+              | <.> ( p1208
+                    & p2008 )
+              | <.> ( p1208
+                    & p2108 )
+              | <.> ( p1308
+                    & p1408 )
+              | <.> ( p1308
+                    & p1508 )
+              | <.> ( p1308
+                    & p1608 )
+              | <.> ( p1308
+                    & p1708 )
+              | <.> ( p1308
+                    & p1808 )
+              | <.> ( p1308
+                    & p1908 )
+              | <.> ( p1308
+                    & p2008 )
+              | <.> ( p1308
+                    & p2108 )
+              | <.> ( p1408
+                    & p1508 )
+              | <.> ( p1408
+                    & p1608 )
+              | <.> ( p1408
+                    & p1708 )
+              | <.> ( p1408
+                    & p1808 )
+              | <.> ( p1408
+                    & p1908 )
+              | <.> ( p1408
+                    & p2008 )
+              | <.> ( p1408
+                    & p2108 )
+              | <.> ( p1508
+                    & p1608 )
+              | <.> ( p1508
+                    & p1708 )
+              | <.> ( p1508
+                    & p1808 )
+              | <.> ( p1508
+                    & p1908 )
+              | <.> ( p1508
+                    & p2008 )
+              | <.> ( p1508
+                    & p2108 )
+              | <.> ( p1608
+                    & p1708 )
+              | <.> ( p1608
+                    & p1808 )
+              | <.> ( p1608
+                    & p1908 )
+              | <.> ( p1608
+                    & p2008 )
+              | <.> ( p1608
+                    & p2108 )
+              | <.> ( p1708
+                    & p1808 )
+              | <.> ( p1708
+                    & p1908 )
+              | <.> ( p1708
+                    & p2008 )
+              | <.> ( p1708
+                    & p2108 )
+              | <.> ( p1808
+                    & p1908 )
+              | <.> ( p1808
+                    & p2008 )
+              | <.> ( p1808
+                    & p2108 )
+              | <.> ( p1908
+                    & p2008 )
+              | <.> ( p1908
+                    & p2108 )
+              | <.> ( p2008
+                    & p2108 )
+              | <.> ( [.] p109
+                    & [.] p209 )
+              | <.> ( [.] p109
+                    & [.] p309 )
+              | <.> ( [.] p109
+                    & [.] p409 )
+              | <.> ( [.] p109
+                    & [.] p509 )
+              | <.> ( [.] p109
+                    & [.] p609 )
+              | <.> ( [.] p109
+                    & [.] p709 )
+              | <.> ( [.] p109
+                    & [.] p809 )
+              | <.> ( [.] p109
+                    & p909 )
+              | <.> ( [.] p109
+                    & p1009 )
+              | <.> ( [.] p109
+                    & p1109 )
+              | <.> ( [.] p109
+                    & p1209 )
+              | <.> ( [.] p109
+                    & p1309 )
+              | <.> ( [.] p109
+                    & p1409 )
+              | <.> ( [.] p109
+                    & p1509 )
+              | <.> ( [.] p109
+                    & p1609 )
+              | <.> ( [.] p109
+                    & p1709 )
+              | <.> ( [.] p109
+                    & p1809 )
+              | <.> ( [.] p109
+                    & p1909 )
+              | <.> ( [.] p109
+                    & p2009 )
+              | <.> ( [.] p109
+                    & p2109 )
+              | <.> ( [.] p209
+                    & [.] p309 )
+              | <.> ( [.] p209
+                    & [.] p409 )
+              | <.> ( [.] p209
+                    & [.] p509 )
+              | <.> ( [.] p209
+                    & [.] p609 )
+              | <.> ( [.] p209
+                    & [.] p709 )
+              | <.> ( [.] p209
+                    & [.] p809 )
+              | <.> ( [.] p209
+                    & p909 )
+              | <.> ( [.] p209
+                    & p1009 )
+              | <.> ( [.] p209
+                    & p1109 )
+              | <.> ( [.] p209
+                    & p1209 )
+              | <.> ( [.] p209
+                    & p1309 )
+              | <.> ( [.] p209
+                    & p1409 )
+              | <.> ( [.] p209
+                    & p1509 )
+              | <.> ( [.] p209
+                    & p1609 )
+              | <.> ( [.] p209
+                    & p1709 )
+              | <.> ( [.] p209
+                    & p1809 )
+              | <.> ( [.] p209
+                    & p1909 )
+              | <.> ( [.] p209
+                    & p2009 )
+              | <.> ( [.] p209
+                    & p2109 )
+              | <.> ( [.] p309
+                    & [.] p409 )
+              | <.> ( [.] p309
+                    & [.] p509 )
+              | <.> ( [.] p309
+                    & [.] p609 )
+              | <.> ( [.] p309
+                    & [.] p709 )
+              | <.> ( [.] p309
+                    & [.] p809 )
+              | <.> ( [.] p309
+                    & p909 )
+              | <.> ( [.] p309
+                    & p1009 )
+              | <.> ( [.] p309
+                    & p1109 )
+              | <.> ( [.] p309
+                    & p1209 )
+              | <.> ( [.] p309
+                    & p1309 )
+              | <.> ( [.] p309
+                    & p1409 )
+              | <.> ( [.] p309
+                    & p1509 )
+              | <.> ( [.] p309
+                    & p1609 )
+              | <.> ( [.] p309
+                    & p1709 )
+              | <.> ( [.] p309
+                    & p1809 )
+              | <.> ( [.] p309
+                    & p1909 )
+              | <.> ( [.] p309
+                    & p2009 )
+              | <.> ( [.] p309
+                    & p2109 )
+              | <.> ( [.] p409
+                    & [.] p509 )
+              | <.> ( [.] p409
+                    & [.] p609 )
+              | <.> ( [.] p409
+                    & [.] p709 )
+              | <.> ( [.] p409
+                    & [.] p809 )
+              | <.> ( [.] p409
+                    & p909 )
+              | <.> ( [.] p409
+                    & p1009 )
+              | <.> ( [.] p409
+                    & p1109 )
+              | <.> ( [.] p409
+                    & p1209 )
+              | <.> ( [.] p409
+                    & p1309 )
+              | <.> ( [.] p409
+                    & p1409 )
+              | <.> ( [.] p409
+                    & p1509 )
+              | <.> ( [.] p409
+                    & p1609 )
+              | <.> ( [.] p409
+                    & p1709 )
+              | <.> ( [.] p409
+                    & p1809 )
+              | <.> ( [.] p409
+                    & p1909 )
+              | <.> ( [.] p409
+                    & p2009 )
+              | <.> ( [.] p409
+                    & p2109 )
+              | <.> ( [.] p509
+                    & [.] p609 )
+              | <.> ( [.] p509
+                    & [.] p709 )
+              | <.> ( [.] p509
+                    & [.] p809 )
+              | <.> ( [.] p509
+                    & p909 )
+              | <.> ( [.] p509
+                    & p1009 )
+              | <.> ( [.] p509
+                    & p1109 )
+              | <.> ( [.] p509
+                    & p1209 )
+              | <.> ( [.] p509
+                    & p1309 )
+              | <.> ( [.] p509
+                    & p1409 )
+              | <.> ( [.] p509
+                    & p1509 )
+              | <.> ( [.] p509
+                    & p1609 )
+              | <.> ( [.] p509
+                    & p1709 )
+              | <.> ( [.] p509
+                    & p1809 )
+              | <.> ( [.] p509
+                    & p1909 )
+              | <.> ( [.] p509
+                    & p2009 )
+              | <.> ( [.] p509
+                    & p2109 )
+              | <.> ( [.] p609
+                    & [.] p709 )
+              | <.> ( [.] p609
+                    & [.] p809 )
+              | <.> ( [.] p609
+                    & p909 )
+              | <.> ( [.] p609
+                    & p1009 )
+              | <.> ( [.] p609
+                    & p1109 )
+              | <.> ( [.] p609
+                    & p1209 )
+              | <.> ( [.] p609
+                    & p1309 )
+              | <.> ( [.] p609
+                    & p1409 )
+              | <.> ( [.] p609
+                    & p1509 )
+              | <.> ( [.] p609
+                    & p1609 )
+              | <.> ( [.] p609
+                    & p1709 )
+              | <.> ( [.] p609
+                    & p1809 )
+              | <.> ( [.] p609
+                    & p1909 )
+              | <.> ( [.] p609
+                    & p2009 )
+              | <.> ( [.] p609
+                    & p2109 )
+              | <.> ( [.] p709
+                    & [.] p809 )
+              | <.> ( [.] p709
+                    & p909 )
+              | <.> ( [.] p709
+                    & p1009 )
+              | <.> ( [.] p709
+                    & p1109 )
+              | <.> ( [.] p709
+                    & p1209 )
+              | <.> ( [.] p709
+                    & p1309 )
+              | <.> ( [.] p709
+                    & p1409 )
+              | <.> ( [.] p709
+                    & p1509 )
+              | <.> ( [.] p709
+                    & p1609 )
+              | <.> ( [.] p709
+                    & p1709 )
+              | <.> ( [.] p709
+                    & p1809 )
+              | <.> ( [.] p709
+                    & p1909 )
+              | <.> ( [.] p709
+                    & p2009 )
+              | <.> ( [.] p709
+                    & p2109 )
+              | <.> ( [.] p809
+                    & p909 )
+              | <.> ( [.] p809
+                    & p1009 )
+              | <.> ( [.] p809
+                    & p1109 )
+              | <.> ( [.] p809
+                    & p1209 )
+              | <.> ( [.] p809
+                    & p1309 )
+              | <.> ( [.] p809
+                    & p1409 )
+              | <.> ( [.] p809
+                    & p1509 )
+              | <.> ( [.] p809
+                    & p1609 )
+              | <.> ( [.] p809
+                    & p1709 )
+              | <.> ( [.] p809
+                    & p1809 )
+              | <.> ( [.] p809
+                    & p1909 )
+              | <.> ( [.] p809
+                    & p2009 )
+              | <.> ( [.] p809
+                    & p2109 )
+              | <.> ( p909
+                    & p1009 )
+              | <.> ( p909
+                    & p1109 )
+              | <.> ( p909
+                    & p1209 )
+              | <.> ( p909
+                    & p1309 )
+              | <.> ( p909
+                    & p1409 )
+              | <.> ( p909
+                    & p1509 )
+              | <.> ( p909
+                    & p1609 )
+              | <.> ( p909
+                    & p1709 )
+              | <.> ( p909
+                    & p1809 )
+              | <.> ( p909
+                    & p1909 )
+              | <.> ( p909
+                    & p2009 )
+              | <.> ( p909
+                    & p2109 )
+              | <.> ( p1009
+                    & p1109 )
+              | <.> ( p1009
+                    & p1209 )
+              | <.> ( p1009
+                    & p1309 )
+              | <.> ( p1009
+                    & p1409 )
+              | <.> ( p1009
+                    & p1509 )
+              | <.> ( p1009
+                    & p1609 )
+              | <.> ( p1009
+                    & p1709 )
+              | <.> ( p1009
+                    & p1809 )
+              | <.> ( p1009
+                    & p1909 )
+              | <.> ( p1009
+                    & p2009 )
+              | <.> ( p1009
+                    & p2109 )
+              | <.> ( p1109
+                    & p1209 )
+              | <.> ( p1109
+                    & p1309 )
+              | <.> ( p1109
+                    & p1409 )
+              | <.> ( p1109
+                    & p1509 )
+              | <.> ( p1109
+                    & p1609 )
+              | <.> ( p1109
+                    & p1709 )
+              | <.> ( p1109
+                    & p1809 )
+              | <.> ( p1109
+                    & p1909 )
+              | <.> ( p1109
+                    & p2009 )
+              | <.> ( p1109
+                    & p2109 )
+              | <.> ( p1209
+                    & p1309 )
+              | <.> ( p1209
+                    & p1409 )
+              | <.> ( p1209
+                    & p1509 )
+              | <.> ( p1209
+                    & p1609 )
+              | <.> ( p1209
+                    & p1709 )
+              | <.> ( p1209
+                    & p1809 )
+              | <.> ( p1209
+                    & p1909 )
+              | <.> ( p1209
+                    & p2009 )
+              | <.> ( p1209
+                    & p2109 )
+              | <.> ( p1309
+                    & p1409 )
+              | <.> ( p1309
+                    & p1509 )
+              | <.> ( p1309
+                    & p1609 )
+              | <.> ( p1309
+                    & p1709 )
+              | <.> ( p1309
+                    & p1809 )
+              | <.> ( p1309
+                    & p1909 )
+              | <.> ( p1309
+                    & p2009 )
+              | <.> ( p1309
+                    & p2109 )
+              | <.> ( p1409
+                    & p1509 )
+              | <.> ( p1409
+                    & p1609 )
+              | <.> ( p1409
+                    & p1709 )
+              | <.> ( p1409
+                    & p1809 )
+              | <.> ( p1409
+                    & p1909 )
+              | <.> ( p1409
+                    & p2009 )
+              | <.> ( p1409
+                    & p2109 )
+              | <.> ( p1509
+                    & p1609 )
+              | <.> ( p1509
+                    & p1709 )
+              | <.> ( p1509
+                    & p1809 )
+              | <.> ( p1509
+                    & p1909 )
+              | <.> ( p1509
+                    & p2009 )
+              | <.> ( p1509
+                    & p2109 )
+              | <.> ( p1609
+                    & p1709 )
+              | <.> ( p1609
+                    & p1809 )
+              | <.> ( p1609
+                    & p1909 )
+              | <.> ( p1609
+                    & p2009 )
+              | <.> ( p1609
+                    & p2109 )
+              | <.> ( p1709
+                    & p1809 )
+              | <.> ( p1709
+                    & p1909 )
+              | <.> ( p1709
+                    & p2009 )
+              | <.> ( p1709
+                    & p2109 )
+              | <.> ( p1809
+                    & p1909 )
+              | <.> ( p1809
+                    & p2009 )
+              | <.> ( p1809
+                    & p2109 )
+              | <.> ( p1909
+                    & p2009 )
+              | <.> ( p1909
+                    & p2109 )
+              | <.> ( p2009
+                    & p2109 )
+              | <.> ( [.] p110
+                    & [.] p210 )
+              | <.> ( [.] p110
+                    & [.] p310 )
+              | <.> ( [.] p110
+                    & [.] p410 )
+              | <.> ( [.] p110
+                    & [.] p510 )
+              | <.> ( [.] p110
+                    & [.] p610 )
+              | <.> ( [.] p110
+                    & [.] p710 )
+              | <.> ( [.] p110
+                    & [.] p810 )
+              | <.> ( [.] p110
+                    & [.] p910 )
+              | <.> ( [.] p110
+                    & p1010 )
+              | <.> ( [.] p110
+                    & p1110 )
+              | <.> ( [.] p110
+                    & p1210 )
+              | <.> ( [.] p110
+                    & p1310 )
+              | <.> ( [.] p110
+                    & p1410 )
+              | <.> ( [.] p110
+                    & p1510 )
+              | <.> ( [.] p110
+                    & p1610 )
+              | <.> ( [.] p110
+                    & p1710 )
+              | <.> ( [.] p110
+                    & p1810 )
+              | <.> ( [.] p110
+                    & p1910 )
+              | <.> ( [.] p110
+                    & p2010 )
+              | <.> ( [.] p110
+                    & p2110 )
+              | <.> ( [.] p210
+                    & [.] p310 )
+              | <.> ( [.] p210
+                    & [.] p410 )
+              | <.> ( [.] p210
+                    & [.] p510 )
+              | <.> ( [.] p210
+                    & [.] p610 )
+              | <.> ( [.] p210
+                    & [.] p710 )
+              | <.> ( [.] p210
+                    & [.] p810 )
+              | <.> ( [.] p210
+                    & [.] p910 )
+              | <.> ( [.] p210
+                    & p1010 )
+              | <.> ( [.] p210
+                    & p1110 )
+              | <.> ( [.] p210
+                    & p1210 )
+              | <.> ( [.] p210
+                    & p1310 )
+              | <.> ( [.] p210
+                    & p1410 )
+              | <.> ( [.] p210
+                    & p1510 )
+              | <.> ( [.] p210
+                    & p1610 )
+              | <.> ( [.] p210
+                    & p1710 )
+              | <.> ( [.] p210
+                    & p1810 )
+              | <.> ( [.] p210
+                    & p1910 )
+              | <.> ( [.] p210
+                    & p2010 )
+              | <.> ( [.] p210
+                    & p2110 )
+              | <.> ( [.] p310
+                    & [.] p410 )
+              | <.> ( [.] p310
+                    & [.] p510 )
+              | <.> ( [.] p310
+                    & [.] p610 )
+              | <.> ( [.] p310
+                    & [.] p710 )
+              | <.> ( [.] p310
+                    & [.] p810 )
+              | <.> ( [.] p310
+                    & [.] p910 )
+              | <.> ( [.] p310
+                    & p1010 )
+              | <.> ( [.] p310
+                    & p1110 )
+              | <.> ( [.] p310
+                    & p1210 )
+              | <.> ( [.] p310
+                    & p1310 )
+              | <.> ( [.] p310
+                    & p1410 )
+              | <.> ( [.] p310
+                    & p1510 )
+              | <.> ( [.] p310
+                    & p1610 )
+              | <.> ( [.] p310
+                    & p1710 )
+              | <.> ( [.] p310
+                    & p1810 )
+              | <.> ( [.] p310
+                    & p1910 )
+              | <.> ( [.] p310
+                    & p2010 )
+              | <.> ( [.] p310
+                    & p2110 )
+              | <.> ( [.] p410
+                    & [.] p510 )
+              | <.> ( [.] p410
+                    & [.] p610 )
+              | <.> ( [.] p410
+                    & [.] p710 )
+              | <.> ( [.] p410
+                    & [.] p810 )
+              | <.> ( [.] p410
+                    & [.] p910 )
+              | <.> ( [.] p410
+                    & p1010 )
+              | <.> ( [.] p410
+                    & p1110 )
+              | <.> ( [.] p410
+                    & p1210 )
+              | <.> ( [.] p410
+                    & p1310 )
+              | <.> ( [.] p410
+                    & p1410 )
+              | <.> ( [.] p410
+                    & p1510 )
+              | <.> ( [.] p410
+                    & p1610 )
+              | <.> ( [.] p410
+                    & p1710 )
+              | <.> ( [.] p410
+                    & p1810 )
+              | <.> ( [.] p410
+                    & p1910 )
+              | <.> ( [.] p410
+                    & p2010 )
+              | <.> ( [.] p410
+                    & p2110 )
+              | <.> ( [.] p510
+                    & [.] p610 )
+              | <.> ( [.] p510
+                    & [.] p710 )
+              | <.> ( [.] p510
+                    & [.] p810 )
+              | <.> ( [.] p510
+                    & [.] p910 )
+              | <.> ( [.] p510
+                    & p1010 )
+              | <.> ( [.] p510
+                    & p1110 )
+              | <.> ( [.] p510
+                    & p1210 )
+              | <.> ( [.] p510
+                    & p1310 )
+              | <.> ( [.] p510
+                    & p1410 )
+              | <.> ( [.] p510
+                    & p1510 )
+              | <.> ( [.] p510
+                    & p1610 )
+              | <.> ( [.] p510
+                    & p1710 )
+              | <.> ( [.] p510
+                    & p1810 )
+              | <.> ( [.] p510
+                    & p1910 )
+              | <.> ( [.] p510
+                    & p2010 )
+              | <.> ( [.] p510
+                    & p2110 )
+              | <.> ( [.] p610
+                    & [.] p710 )
+              | <.> ( [.] p610
+                    & [.] p810 )
+              | <.> ( [.] p610
+                    & [.] p910 )
+              | <.> ( [.] p610
+                    & p1010 )
+              | <.> ( [.] p610
+                    & p1110 )
+              | <.> ( [.] p610
+                    & p1210 )
+              | <.> ( [.] p610
+                    & p1310 )
+              | <.> ( [.] p610
+                    & p1410 )
+              | <.> ( [.] p610
+                    & p1510 )
+              | <.> ( [.] p610
+                    & p1610 )
+              | <.> ( [.] p610
+                    & p1710 )
+              | <.> ( [.] p610
+                    & p1810 )
+              | <.> ( [.] p610
+                    & p1910 )
+              | <.> ( [.] p610
+                    & p2010 )
+              | <.> ( [.] p610
+                    & p2110 )
+              | <.> ( [.] p710
+                    & [.] p810 )
+              | <.> ( [.] p710
+                    & [.] p910 )
+              | <.> ( [.] p710
+                    & p1010 )
+              | <.> ( [.] p710
+                    & p1110 )
+              | <.> ( [.] p710
+                    & p1210 )
+              | <.> ( [.] p710
+                    & p1310 )
+              | <.> ( [.] p710
+                    & p1410 )
+              | <.> ( [.] p710
+                    & p1510 )
+              | <.> ( [.] p710
+                    & p1610 )
+              | <.> ( [.] p710
+                    & p1710 )
+              | <.> ( [.] p710
+                    & p1810 )
+              | <.> ( [.] p710
+                    & p1910 )
+              | <.> ( [.] p710
+                    & p2010 )
+              | <.> ( [.] p710
+                    & p2110 )
+              | <.> ( [.] p810
+                    & [.] p910 )
+              | <.> ( [.] p810
+                    & p1010 )
+              | <.> ( [.] p810
+                    & p1110 )
+              | <.> ( [.] p810
+                    & p1210 )
+              | <.> ( [.] p810
+                    & p1310 )
+              | <.> ( [.] p810
+                    & p1410 )
+              | <.> ( [.] p810
+                    & p1510 )
+              | <.> ( [.] p810
+                    & p1610 )
+              | <.> ( [.] p810
+                    & p1710 )
+              | <.> ( [.] p810
+                    & p1810 )
+              | <.> ( [.] p810
+                    & p1910 )
+              | <.> ( [.] p810
+                    & p2010 )
+              | <.> ( [.] p810
+                    & p2110 )
+              | <.> ( [.] p910
+                    & p1010 )
+              | <.> ( [.] p910
+                    & p1110 )
+              | <.> ( [.] p910
+                    & p1210 )
+              | <.> ( [.] p910
+                    & p1310 )
+              | <.> ( [.] p910
+                    & p1410 )
+              | <.> ( [.] p910
+                    & p1510 )
+              | <.> ( [.] p910
+                    & p1610 )
+              | <.> ( [.] p910
+                    & p1710 )
+              | <.> ( [.] p910
+                    & p1810 )
+              | <.> ( [.] p910
+                    & p1910 )
+              | <.> ( [.] p910
+                    & p2010 )
+              | <.> ( [.] p910
+                    & p2110 )
+              | <.> ( p1010
+                    & p1110 )
+              | <.> ( p1010
+                    & p1210 )
+              | <.> ( p1010
+                    & p1310 )
+              | <.> ( p1010
+                    & p1410 )
+              | <.> ( p1010
+                    & p1510 )
+              | <.> ( p1010
+                    & p1610 )
+              | <.> ( p1010
+                    & p1710 )
+              | <.> ( p1010
+                    & p1810 )
+              | <.> ( p1010
+                    & p1910 )
+              | <.> ( p1010
+                    & p2010 )
+              | <.> ( p1010
+                    & p2110 )
+              | <.> ( p1110
+                    & p1210 )
+              | <.> ( p1110
+                    & p1310 )
+              | <.> ( p1110
+                    & p1410 )
+              | <.> ( p1110
+                    & p1510 )
+              | <.> ( p1110
+                    & p1610 )
+              | <.> ( p1110
+                    & p1710 )
+              | <.> ( p1110
+                    & p1810 )
+              | <.> ( p1110
+                    & p1910 )
+              | <.> ( p1110
+                    & p2010 )
+              | <.> ( p1110
+                    & p2110 )
+              | <.> ( p1210
+                    & p1310 )
+              | <.> ( p1210
+                    & p1410 )
+              | <.> ( p1210
+                    & p1510 )
+              | <.> ( p1210
+                    & p1610 )
+              | <.> ( p1210
+                    & p1710 )
+              | <.> ( p1210
+                    & p1810 )
+              | <.> ( p1210
+                    & p1910 )
+              | <.> ( p1210
+                    & p2010 )
+              | <.> ( p1210
+                    & p2110 )
+              | <.> ( p1310
+                    & p1410 )
+              | <.> ( p1310
+                    & p1510 )
+              | <.> ( p1310
+                    & p1610 )
+              | <.> ( p1310
+                    & p1710 )
+              | <.> ( p1310
+                    & p1810 )
+              | <.> ( p1310
+                    & p1910 )
+              | <.> ( p1310
+                    & p2010 )
+              | <.> ( p1310
+                    & p2110 )
+              | <.> ( p1410
+                    & p1510 )
+              | <.> ( p1410
+                    & p1610 )
+              | <.> ( p1410
+                    & p1710 )
+              | <.> ( p1410
+                    & p1810 )
+              | <.> ( p1410
+                    & p1910 )
+              | <.> ( p1410
+                    & p2010 )
+              | <.> ( p1410
+                    & p2110 )
+              | <.> ( p1510
+                    & p1610 )
+              | <.> ( p1510
+                    & p1710 )
+              | <.> ( p1510
+                    & p1810 )
+              | <.> ( p1510
+                    & p1910 )
+              | <.> ( p1510
+                    & p2010 )
+              | <.> ( p1510
+                    & p2110 )
+              | <.> ( p1610
+                    & p1710 )
+              | <.> ( p1610
+                    & p1810 )
+              | <.> ( p1610
+                    & p1910 )
+              | <.> ( p1610
+                    & p2010 )
+              | <.> ( p1610
+                    & p2110 )
+              | <.> ( p1710
+                    & p1810 )
+              | <.> ( p1710
+                    & p1910 )
+              | <.> ( p1710
+                    & p2010 )
+              | <.> ( p1710
+                    & p2110 )
+              | <.> ( p1810
+                    & p1910 )
+              | <.> ( p1810
+                    & p2010 )
+              | <.> ( p1810
+                    & p2110 )
+              | <.> ( p1910
+                    & p2010 )
+              | <.> ( p1910
+                    & p2110 )
+              | <.> ( p2010
+                    & p2110 )
+              | <.> ( [.] p111
+                    & [.] p211 )
+              | <.> ( [.] p111
+                    & [.] p311 )
+              | <.> ( [.] p111
+                    & [.] p411 )
+              | <.> ( [.] p111
+                    & [.] p511 )
+              | <.> ( [.] p111
+                    & [.] p611 )
+              | <.> ( [.] p111
+                    & [.] p711 )
+              | <.> ( [.] p111
+                    & [.] p811 )
+              | <.> ( [.] p111
+                    & [.] p911 )
+              | <.> ( [.] p111
+                    & [.] p1011 )
+              | <.> ( [.] p111
+                    & p1111 )
+              | <.> ( [.] p111
+                    & p1211 )
+              | <.> ( [.] p111
+                    & p1311 )
+              | <.> ( [.] p111
+                    & p1411 )
+              | <.> ( [.] p111
+                    & p1511 )
+              | <.> ( [.] p111
+                    & p1611 )
+              | <.> ( [.] p111
+                    & p1711 )
+              | <.> ( [.] p111
+                    & p1811 )
+              | <.> ( [.] p111
+                    & p1911 )
+              | <.> ( [.] p111
+                    & p2011 )
+              | <.> ( [.] p111
+                    & p2111 )
+              | <.> ( [.] p211
+                    & [.] p311 )
+              | <.> ( [.] p211
+                    & [.] p411 )
+              | <.> ( [.] p211
+                    & [.] p511 )
+              | <.> ( [.] p211
+                    & [.] p611 )
+              | <.> ( [.] p211
+                    & [.] p711 )
+              | <.> ( [.] p211
+                    & [.] p811 )
+              | <.> ( [.] p211
+                    & [.] p911 )
+              | <.> ( [.] p211
+                    & [.] p1011 )
+              | <.> ( [.] p211
+                    & p1111 )
+              | <.> ( [.] p211
+                    & p1211 )
+              | <.> ( [.] p211
+                    & p1311 )
+              | <.> ( [.] p211
+                    & p1411 )
+              | <.> ( [.] p211
+                    & p1511 )
+              | <.> ( [.] p211
+                    & p1611 )
+              | <.> ( [.] p211
+                    & p1711 )
+              | <.> ( [.] p211
+                    & p1811 )
+              | <.> ( [.] p211
+                    & p1911 )
+              | <.> ( [.] p211
+                    & p2011 )
+              | <.> ( [.] p211
+                    & p2111 )
+              | <.> ( [.] p311
+                    & [.] p411 )
+              | <.> ( [.] p311
+                    & [.] p511 )
+              | <.> ( [.] p311
+                    & [.] p611 )
+              | <.> ( [.] p311
+                    & [.] p711 )
+              | <.> ( [.] p311
+                    & [.] p811 )
+              | <.> ( [.] p311
+                    & [.] p911 )
+              | <.> ( [.] p311
+                    & [.] p1011 )
+              | <.> ( [.] p311
+                    & p1111 )
+              | <.> ( [.] p311
+                    & p1211 )
+              | <.> ( [.] p311
+                    & p1311 )
+              | <.> ( [.] p311
+                    & p1411 )
+              | <.> ( [.] p311
+                    & p1511 )
+              | <.> ( [.] p311
+                    & p1611 )
+              | <.> ( [.] p311
+                    & p1711 )
+              | <.> ( [.] p311
+                    & p1811 )
+              | <.> ( [.] p311
+                    & p1911 )
+              | <.> ( [.] p311
+                    & p2011 )
+              | <.> ( [.] p311
+                    & p2111 )
+              | <.> ( [.] p411
+                    & [.] p511 )
+              | <.> ( [.] p411
+                    & [.] p611 )
+              | <.> ( [.] p411
+                    & [.] p711 )
+              | <.> ( [.] p411
+                    & [.] p811 )
+              | <.> ( [.] p411
+                    & [.] p911 )
+              | <.> ( [.] p411
+                    & [.] p1011 )
+              | <.> ( [.] p411
+                    & p1111 )
+              | <.> ( [.] p411
+                    & p1211 )
+              | <.> ( [.] p411
+                    & p1311 )
+              | <.> ( [.] p411
+                    & p1411 )
+              | <.> ( [.] p411
+                    & p1511 )
+              | <.> ( [.] p411
+                    & p1611 )
+              | <.> ( [.] p411
+                    & p1711 )
+              | <.> ( [.] p411
+                    & p1811 )
+              | <.> ( [.] p411
+                    & p1911 )
+              | <.> ( [.] p411
+                    & p2011 )
+              | <.> ( [.] p411
+                    & p2111 )
+              | <.> ( [.] p511
+                    & [.] p611 )
+              | <.> ( [.] p511
+                    & [.] p711 )
+              | <.> ( [.] p511
+                    & [.] p811 )
+              | <.> ( [.] p511
+                    & [.] p911 )
+              | <.> ( [.] p511
+                    & [.] p1011 )
+              | <.> ( [.] p511
+                    & p1111 )
+              | <.> ( [.] p511
+                    & p1211 )
+              | <.> ( [.] p511
+                    & p1311 )
+              | <.> ( [.] p511
+                    & p1411 )
+              | <.> ( [.] p511
+                    & p1511 )
+              | <.> ( [.] p511
+                    & p1611 )
+              | <.> ( [.] p511
+                    & p1711 )
+              | <.> ( [.] p511
+                    & p1811 )
+              | <.> ( [.] p511
+                    & p1911 )
+              | <.> ( [.] p511
+                    & p2011 )
+              | <.> ( [.] p511
+                    & p2111 )
+              | <.> ( [.] p611
+                    & [.] p711 )
+              | <.> ( [.] p611
+                    & [.] p811 )
+              | <.> ( [.] p611
+                    & [.] p911 )
+              | <.> ( [.] p611
+                    & [.] p1011 )
+              | <.> ( [.] p611
+                    & p1111 )
+              | <.> ( [.] p611
+                    & p1211 )
+              | <.> ( [.] p611
+                    & p1311 )
+              | <.> ( [.] p611
+                    & p1411 )
+              | <.> ( [.] p611
+                    & p1511 )
+              | <.> ( [.] p611
+                    & p1611 )
+              | <.> ( [.] p611
+                    & p1711 )
+              | <.> ( [.] p611
+                    & p1811 )
+              | <.> ( [.] p611
+                    & p1911 )
+              | <.> ( [.] p611
+                    & p2011 )
+              | <.> ( [.] p611
+                    & p2111 )
+              | <.> ( [.] p711
+                    & [.] p811 )
+              | <.> ( [.] p711
+                    & [.] p911 )
+              | <.> ( [.] p711
+                    & [.] p1011 )
+              | <.> ( [.] p711
+                    & p1111 )
+              | <.> ( [.] p711
+                    & p1211 )
+              | <.> ( [.] p711
+                    & p1311 )
+              | <.> ( [.] p711
+                    & p1411 )
+              | <.> ( [.] p711
+                    & p1511 )
+              | <.> ( [.] p711
+                    & p1611 )
+              | <.> ( [.] p711
+                    & p1711 )
+              | <.> ( [.] p711
+                    & p1811 )
+              | <.> ( [.] p711
+                    & p1911 )
+              | <.> ( [.] p711
+                    & p2011 )
+              | <.> ( [.] p711
+                    & p2111 )
+              | <.> ( [.] p811
+                    & [.] p911 )
+              | <.> ( [.] p811
+                    & [.] p1011 )
+              | <.> ( [.] p811
+                    & p1111 )
+              | <.> ( [.] p811
+                    & p1211 )
+              | <.> ( [.] p811
+                    & p1311 )
+              | <.> ( [.] p811
+                    & p1411 )
+              | <.> ( [.] p811
+                    & p1511 )
+              | <.> ( [.] p811
+                    & p1611 )
+              | <.> ( [.] p811
+                    & p1711 )
+              | <.> ( [.] p811
+                    & p1811 )
+              | <.> ( [.] p811
+                    & p1911 )
+              | <.> ( [.] p811
+                    & p2011 )
+              | <.> ( [.] p811
+                    & p2111 )
+              | <.> ( [.] p911
+                    & [.] p1011 )
+              | <.> ( [.] p911
+                    & p1111 )
+              | <.> ( [.] p911
+                    & p1211 )
+              | <.> ( [.] p911
+                    & p1311 )
+              | <.> ( [.] p911
+                    & p1411 )
+              | <.> ( [.] p911
+                    & p1511 )
+              | <.> ( [.] p911
+                    & p1611 )
+              | <.> ( [.] p911
+                    & p1711 )
+              | <.> ( [.] p911
+                    & p1811 )
+              | <.> ( [.] p911
+                    & p1911 )
+              | <.> ( [.] p911
+                    & p2011 )
+              | <.> ( [.] p911
+                    & p2111 )
+              | <.> ( [.] p1011
+                    & p1111 )
+              | <.> ( [.] p1011
+                    & p1211 )
+              | <.> ( [.] p1011
+                    & p1311 )
+              | <.> ( [.] p1011
+                    & p1411 )
+              | <.> ( [.] p1011
+                    & p1511 )
+              | <.> ( [.] p1011
+                    & p1611 )
+              | <.> ( [.] p1011
+                    & p1711 )
+              | <.> ( [.] p1011
+                    & p1811 )
+              | <.> ( [.] p1011
+                    & p1911 )
+              | <.> ( [.] p1011
+                    & p2011 )
+              | <.> ( [.] p1011
+                    & p2111 )
+              | <.> ( p1111
+                    & p1211 )
+              | <.> ( p1111
+                    & p1311 )
+              | <.> ( p1111
+                    & p1411 )
+              | <.> ( p1111
+                    & p1511 )
+              | <.> ( p1111
+                    & p1611 )
+              | <.> ( p1111
+                    & p1711 )
+              | <.> ( p1111
+                    & p1811 )
+              | <.> ( p1111
+                    & p1911 )
+              | <.> ( p1111
+                    & p2011 )
+              | <.> ( p1111
+                    & p2111 )
+              | <.> ( p1211
+                    & p1311 )
+              | <.> ( p1211
+                    & p1411 )
+              | <.> ( p1211
+                    & p1511 )
+              | <.> ( p1211
+                    & p1611 )
+              | <.> ( p1211
+                    & p1711 )
+              | <.> ( p1211
+                    & p1811 )
+              | <.> ( p1211
+                    & p1911 )
+              | <.> ( p1211
+                    & p2011 )
+              | <.> ( p1211
+                    & p2111 )
+              | <.> ( p1311
+                    & p1411 )
+              | <.> ( p1311
+                    & p1511 )
+              | <.> ( p1311
+                    & p1611 )
+              | <.> ( p1311
+                    & p1711 )
+              | <.> ( p1311
+                    & p1811 )
+              | <.> ( p1311
+                    & p1911 )
+              | <.> ( p1311
+                    & p2011 )
+              | <.> ( p1311
+                    & p2111 )
+              | <.> ( p1411
+                    & p1511 )
+              | <.> ( p1411
+                    & p1611 )
+              | <.> ( p1411
+                    & p1711 )
+              | <.> ( p1411
+                    & p1811 )
+              | <.> ( p1411
+                    & p1911 )
+              | <.> ( p1411
+                    & p2011 )
+              | <.> ( p1411
+                    & p2111 )
+              | <.> ( p1511
+                    & p1611 )
+              | <.> ( p1511
+                    & p1711 )
+              | <.> ( p1511
+                    & p1811 )
+              | <.> ( p1511
+                    & p1911 )
+              | <.> ( p1511
+                    & p2011 )
+              | <.> ( p1511
+                    & p2111 )
+              | <.> ( p1611
+                    & p1711 )
+              | <.> ( p1611
+                    & p1811 )
+              | <.> ( p1611
+                    & p1911 )
+              | <.> ( p1611
+                    & p2011 )
+              | <.> ( p1611
+                    & p2111 )
+              | <.> ( p1711
+                    & p1811 )
+              | <.> ( p1711
+                    & p1911 )
+              | <.> ( p1711
+                    & p2011 )
+              | <.> ( p1711
+                    & p2111 )
+              | <.> ( p1811
+                    & p1911 )
+              | <.> ( p1811
+                    & p2011 )
+              | <.> ( p1811
+                    & p2111 )
+              | <.> ( p1911
+                    & p2011 )
+              | <.> ( p1911
+                    & p2111 )
+              | <.> ( p2011
+                    & p2111 )
+              | <.> ( [.] p112
+                    & [.] p212 )
+              | <.> ( [.] p112
+                    & [.] p312 )
+              | <.> ( [.] p112
+                    & [.] p412 )
+              | <.> ( [.] p112
+                    & [.] p512 )
+              | <.> ( [.] p112
+                    & [.] p612 )
+              | <.> ( [.] p112
+                    & [.] p712 )
+              | <.> ( [.] p112
+                    & [.] p812 )
+              | <.> ( [.] p112
+                    & [.] p912 )
+              | <.> ( [.] p112
+                    & [.] p1012 )
+              | <.> ( [.] p112
+                    & [.] p1112 )
+              | <.> ( [.] p112
+                    & p1212 )
+              | <.> ( [.] p112
+                    & p1312 )
+              | <.> ( [.] p112
+                    & p1412 )
+              | <.> ( [.] p112
+                    & p1512 )
+              | <.> ( [.] p112
+                    & p1612 )
+              | <.> ( [.] p112
+                    & p1712 )
+              | <.> ( [.] p112
+                    & p1812 )
+              | <.> ( [.] p112
+                    & p1912 )
+              | <.> ( [.] p112
+                    & p2012 )
+              | <.> ( [.] p112
+                    & p2112 )
+              | <.> ( [.] p212
+                    & [.] p312 )
+              | <.> ( [.] p212
+                    & [.] p412 )
+              | <.> ( [.] p212
+                    & [.] p512 )
+              | <.> ( [.] p212
+                    & [.] p612 )
+              | <.> ( [.] p212
+                    & [.] p712 )
+              | <.> ( [.] p212
+                    & [.] p812 )
+              | <.> ( [.] p212
+                    & [.] p912 )
+              | <.> ( [.] p212
+                    & [.] p1012 )
+              | <.> ( [.] p212
+                    & [.] p1112 )
+              | <.> ( [.] p212
+                    & p1212 )
+              | <.> ( [.] p212
+                    & p1312 )
+              | <.> ( [.] p212
+                    & p1412 )
+              | <.> ( [.] p212
+                    & p1512 )
+              | <.> ( [.] p212
+                    & p1612 )
+              | <.> ( [.] p212
+                    & p1712 )
+              | <.> ( [.] p212
+                    & p1812 )
+              | <.> ( [.] p212
+                    & p1912 )
+              | <.> ( [.] p212
+                    & p2012 )
+              | <.> ( [.] p212
+                    & p2112 )
+              | <.> ( [.] p312
+                    & [.] p412 )
+              | <.> ( [.] p312
+                    & [.] p512 )
+              | <.> ( [.] p312
+                    & [.] p612 )
+              | <.> ( [.] p312
+                    & [.] p712 )
+              | <.> ( [.] p312
+                    & [.] p812 )
+              | <.> ( [.] p312
+                    & [.] p912 )
+              | <.> ( [.] p312
+                    & [.] p1012 )
+              | <.> ( [.] p312
+                    & [.] p1112 )
+              | <.> ( [.] p312
+                    & p1212 )
+              | <.> ( [.] p312
+                    & p1312 )
+              | <.> ( [.] p312
+                    & p1412 )
+              | <.> ( [.] p312
+                    & p1512 )
+              | <.> ( [.] p312
+                    & p1612 )
+              | <.> ( [.] p312
+                    & p1712 )
+              | <.> ( [.] p312
+                    & p1812 )
+              | <.> ( [.] p312
+                    & p1912 )
+              | <.> ( [.] p312
+                    & p2012 )
+              | <.> ( [.] p312
+                    & p2112 )
+              | <.> ( [.] p412
+                    & [.] p512 )
+              | <.> ( [.] p412
+                    & [.] p612 )
+              | <.> ( [.] p412
+                    & [.] p712 )
+              | <.> ( [.] p412
+                    & [.] p812 )
+              | <.> ( [.] p412
+                    & [.] p912 )
+              | <.> ( [.] p412
+                    & [.] p1012 )
+              | <.> ( [.] p412
+                    & [.] p1112 )
+              | <.> ( [.] p412
+                    & p1212 )
+              | <.> ( [.] p412
+                    & p1312 )
+              | <.> ( [.] p412
+                    & p1412 )
+              | <.> ( [.] p412
+                    & p1512 )
+              | <.> ( [.] p412
+                    & p1612 )
+              | <.> ( [.] p412
+                    & p1712 )
+              | <.> ( [.] p412
+                    & p1812 )
+              | <.> ( [.] p412
+                    & p1912 )
+              | <.> ( [.] p412
+                    & p2012 )
+              | <.> ( [.] p412
+                    & p2112 )
+              | <.> ( [.] p512
+                    & [.] p612 )
+              | <.> ( [.] p512
+                    & [.] p712 )
+              | <.> ( [.] p512
+                    & [.] p812 )
+              | <.> ( [.] p512
+                    & [.] p912 )
+              | <.> ( [.] p512
+                    & [.] p1012 )
+              | <.> ( [.] p512
+                    & [.] p1112 )
+              | <.> ( [.] p512
+                    & p1212 )
+              | <.> ( [.] p512
+                    & p1312 )
+              | <.> ( [.] p512
+                    & p1412 )
+              | <.> ( [.] p512
+                    & p1512 )
+              | <.> ( [.] p512
+                    & p1612 )
+              | <.> ( [.] p512
+                    & p1712 )
+              | <.> ( [.] p512
+                    & p1812 )
+              | <.> ( [.] p512
+                    & p1912 )
+              | <.> ( [.] p512
+                    & p2012 )
+              | <.> ( [.] p512
+                    & p2112 )
+              | <.> ( [.] p612
+                    & [.] p712 )
+              | <.> ( [.] p612
+                    & [.] p812 )
+              | <.> ( [.] p612
+                    & [.] p912 )
+              | <.> ( [.] p612
+                    & [.] p1012 )
+              | <.> ( [.] p612
+                    & [.] p1112 )
+              | <.> ( [.] p612
+                    & p1212 )
+              | <.> ( [.] p612
+                    & p1312 )
+              | <.> ( [.] p612
+                    & p1412 )
+              | <.> ( [.] p612
+                    & p1512 )
+              | <.> ( [.] p612
+                    & p1612 )
+              | <.> ( [.] p612
+                    & p1712 )
+              | <.> ( [.] p612
+                    & p1812 )
+              | <.> ( [.] p612
+                    & p1912 )
+              | <.> ( [.] p612
+                    & p2012 )
+              | <.> ( [.] p612
+                    & p2112 )
+              | <.> ( [.] p712
+                    & [.] p812 )
+              | <.> ( [.] p712
+                    & [.] p912 )
+              | <.> ( [.] p712
+                    & [.] p1012 )
+              | <.> ( [.] p712
+                    & [.] p1112 )
+              | <.> ( [.] p712
+                    & p1212 )
+              | <.> ( [.] p712
+                    & p1312 )
+              | <.> ( [.] p712
+                    & p1412 )
+              | <.> ( [.] p712
+                    & p1512 )
+              | <.> ( [.] p712
+                    & p1612 )
+              | <.> ( [.] p712
+                    & p1712 )
+              | <.> ( [.] p712
+                    & p1812 )
+              | <.> ( [.] p712
+                    & p1912 )
+              | <.> ( [.] p712
+                    & p2012 )
+              | <.> ( [.] p712
+                    & p2112 )
+              | <.> ( [.] p812
+                    & [.] p912 )
+              | <.> ( [.] p812
+                    & [.] p1012 )
+              | <.> ( [.] p812
+                    & [.] p1112 )
+              | <.> ( [.] p812
+                    & p1212 )
+              | <.> ( [.] p812
+                    & p1312 )
+              | <.> ( [.] p812
+                    & p1412 )
+              | <.> ( [.] p812
+                    & p1512 )
+              | <.> ( [.] p812
+                    & p1612 )
+              | <.> ( [.] p812
+                    & p1712 )
+              | <.> ( [.] p812
+                    & p1812 )
+              | <.> ( [.] p812
+                    & p1912 )
+              | <.> ( [.] p812
+                    & p2012 )
+              | <.> ( [.] p812
+                    & p2112 )
+              | <.> ( [.] p912
+                    & [.] p1012 )
+              | <.> ( [.] p912
+                    & [.] p1112 )
+              | <.> ( [.] p912
+                    & p1212 )
+              | <.> ( [.] p912
+                    & p1312 )
+              | <.> ( [.] p912
+                    & p1412 )
+              | <.> ( [.] p912
+                    & p1512 )
+              | <.> ( [.] p912
+                    & p1612 )
+              | <.> ( [.] p912
+                    & p1712 )
+              | <.> ( [.] p912
+                    & p1812 )
+              | <.> ( [.] p912
+                    & p1912 )
+              | <.> ( [.] p912
+                    & p2012 )
+              | <.> ( [.] p912
+                    & p2112 )
+              | <.> ( [.] p1012
+                    & [.] p1112 )
+              | <.> ( [.] p1012
+                    & p1212 )
+              | <.> ( [.] p1012
+                    & p1312 )
+              | <.> ( [.] p1012
+                    & p1412 )
+              | <.> ( [.] p1012
+                    & p1512 )
+              | <.> ( [.] p1012
+                    & p1612 )
+              | <.> ( [.] p1012
+                    & p1712 )
+              | <.> ( [.] p1012
+                    & p1812 )
+              | <.> ( [.] p1012
+                    & p1912 )
+              | <.> ( [.] p1012
+                    & p2012 )
+              | <.> ( [.] p1012
+                    & p2112 )
+              | <.> ( [.] p1112
+                    & p1212 )
+              | <.> ( [.] p1112
+                    & p1312 )
+              | <.> ( [.] p1112
+                    & p1412 )
+              | <.> ( [.] p1112
+                    & p1512 )
+              | <.> ( [.] p1112
+                    & p1612 )
+              | <.> ( [.] p1112
+                    & p1712 )
+              | <.> ( [.] p1112
+                    & p1812 )
+              | <.> ( [.] p1112
+                    & p1912 )
+              | <.> ( [.] p1112
+                    & p2012 )
+              | <.> ( [.] p1112
+                    & p2112 )
+              | <.> ( p1212
+                    & p1312 )
+              | <.> ( p1212
+                    & p1412 )
+              | <.> ( p1212
+                    & p1512 )
+              | <.> ( p1212
+                    & p1612 )
+              | <.> ( p1212
+                    & p1712 )
+              | <.> ( p1212
+                    & p1812 )
+              | <.> ( p1212
+                    & p1912 )
+              | <.> ( p1212
+                    & p2012 )
+              | <.> ( p1212
+                    & p2112 )
+              | <.> ( p1312
+                    & p1412 )
+              | <.> ( p1312
+                    & p1512 )
+              | <.> ( p1312
+                    & p1612 )
+              | <.> ( p1312
+                    & p1712 )
+              | <.> ( p1312
+                    & p1812 )
+              | <.> ( p1312
+                    & p1912 )
+              | <.> ( p1312
+                    & p2012 )
+              | <.> ( p1312
+                    & p2112 )
+              | <.> ( p1412
+                    & p1512 )
+              | <.> ( p1412
+                    & p1612 )
+              | <.> ( p1412
+                    & p1712 )
+              | <.> ( p1412
+                    & p1812 )
+              | <.> ( p1412
+                    & p1912 )
+              | <.> ( p1412
+                    & p2012 )
+              | <.> ( p1412
+                    & p2112 )
+              | <.> ( p1512
+                    & p1612 )
+              | <.> ( p1512
+                    & p1712 )
+              | <.> ( p1512
+                    & p1812 )
+              | <.> ( p1512
+                    & p1912 )
+              | <.> ( p1512
+                    & p2012 )
+              | <.> ( p1512
+                    & p2112 )
+              | <.> ( p1612
+                    & p1712 )
+              | <.> ( p1612
+                    & p1812 )
+              | <.> ( p1612
+                    & p1912 )
+              | <.> ( p1612
+                    & p2012 )
+              | <.> ( p1612
+                    & p2112 )
+              | <.> ( p1712
+                    & p1812 )
+              | <.> ( p1712
+                    & p1912 )
+              | <.> ( p1712
+                    & p2012 )
+              | <.> ( p1712
+                    & p2112 )
+              | <.> ( p1812
+                    & p1912 )
+              | <.> ( p1812
+                    & p2012 )
+              | <.> ( p1812
+                    & p2112 )
+              | <.> ( p1912
+                    & p2012 )
+              | <.> ( p1912
+                    & p2112 )
+              | <.> ( p2012
+                    & p2112 )
+              | <.> ( [.] p113
+                    & [.] p213 )
+              | <.> ( [.] p113
+                    & [.] p313 )
+              | <.> ( [.] p113
+                    & [.] p413 )
+              | <.> ( [.] p113
+                    & [.] p513 )
+              | <.> ( [.] p113
+                    & [.] p613 )
+              | <.> ( [.] p113
+                    & [.] p713 )
+              | <.> ( [.] p113
+                    & [.] p813 )
+              | <.> ( [.] p113
+                    & [.] p913 )
+              | <.> ( [.] p113
+                    & [.] p1013 )
+              | <.> ( [.] p113
+                    & [.] p1113 )
+              | <.> ( [.] p113
+                    & [.] p1213 )
+              | <.> ( [.] p113
+                    & p1313 )
+              | <.> ( [.] p113
+                    & p1413 )
+              | <.> ( [.] p113
+                    & p1513 )
+              | <.> ( [.] p113
+                    & p1613 )
+              | <.> ( [.] p113
+                    & p1713 )
+              | <.> ( [.] p113
+                    & p1813 )
+              | <.> ( [.] p113
+                    & p1913 )
+              | <.> ( [.] p113
+                    & p2013 )
+              | <.> ( [.] p113
+                    & p2113 )
+              | <.> ( [.] p213
+                    & [.] p313 )
+              | <.> ( [.] p213
+                    & [.] p413 )
+              | <.> ( [.] p213
+                    & [.] p513 )
+              | <.> ( [.] p213
+                    & [.] p613 )
+              | <.> ( [.] p213
+                    & [.] p713 )
+              | <.> ( [.] p213
+                    & [.] p813 )
+              | <.> ( [.] p213
+                    & [.] p913 )
+              | <.> ( [.] p213
+                    & [.] p1013 )
+              | <.> ( [.] p213
+                    & [.] p1113 )
+              | <.> ( [.] p213
+                    & [.] p1213 )
+              | <.> ( [.] p213
+                    & p1313 )
+              | <.> ( [.] p213
+                    & p1413 )
+              | <.> ( [.] p213
+                    & p1513 )
+              | <.> ( [.] p213
+                    & p1613 )
+              | <.> ( [.] p213
+                    & p1713 )
+              | <.> ( [.] p213
+                    & p1813 )
+              | <.> ( [.] p213
+                    & p1913 )
+              | <.> ( [.] p213
+                    & p2013 )
+              | <.> ( [.] p213
+                    & p2113 )
+              | <.> ( [.] p313
+                    & [.] p413 )
+              | <.> ( [.] p313
+                    & [.] p513 )
+              | <.> ( [.] p313
+                    & [.] p613 )
+              | <.> ( [.] p313
+                    & [.] p713 )
+              | <.> ( [.] p313
+                    & [.] p813 )
+              | <.> ( [.] p313
+                    & [.] p913 )
+              | <.> ( [.] p313
+                    & [.] p1013 )
+              | <.> ( [.] p313
+                    & [.] p1113 )
+              | <.> ( [.] p313
+                    & [.] p1213 )
+              | <.> ( [.] p313
+                    & p1313 )
+              | <.> ( [.] p313
+                    & p1413 )
+              | <.> ( [.] p313
+                    & p1513 )
+              | <.> ( [.] p313
+                    & p1613 )
+              | <.> ( [.] p313
+                    & p1713 )
+              | <.> ( [.] p313
+                    & p1813 )
+              | <.> ( [.] p313
+                    & p1913 )
+              | <.> ( [.] p313
+                    & p2013 )
+              | <.> ( [.] p313
+                    & p2113 )
+              | <.> ( [.] p413
+                    & [.] p513 )
+              | <.> ( [.] p413
+                    & [.] p613 )
+              | <.> ( [.] p413
+                    & [.] p713 )
+              | <.> ( [.] p413
+                    & [.] p813 )
+              | <.> ( [.] p413
+                    & [.] p913 )
+              | <.> ( [.] p413
+                    & [.] p1013 )
+              | <.> ( [.] p413
+                    & [.] p1113 )
+              | <.> ( [.] p413
+                    & [.] p1213 )
+              | <.> ( [.] p413
+                    & p1313 )
+              | <.> ( [.] p413
+                    & p1413 )
+              | <.> ( [.] p413
+                    & p1513 )
+              | <.> ( [.] p413
+                    & p1613 )
+              | <.> ( [.] p413
+                    & p1713 )
+              | <.> ( [.] p413
+                    & p1813 )
+              | <.> ( [.] p413
+                    & p1913 )
+              | <.> ( [.] p413
+                    & p2013 )
+              | <.> ( [.] p413
+                    & p2113 )
+              | <.> ( [.] p513
+                    & [.] p613 )
+              | <.> ( [.] p513
+                    & [.] p713 )
+              | <.> ( [.] p513
+                    & [.] p813 )
+              | <.> ( [.] p513
+                    & [.] p913 )
+              | <.> ( [.] p513
+                    & [.] p1013 )
+              | <.> ( [.] p513
+                    & [.] p1113 )
+              | <.> ( [.] p513
+                    & [.] p1213 )
+              | <.> ( [.] p513
+                    & p1313 )
+              | <.> ( [.] p513
+                    & p1413 )
+              | <.> ( [.] p513
+                    & p1513 )
+              | <.> ( [.] p513
+                    & p1613 )
+              | <.> ( [.] p513
+                    & p1713 )
+              | <.> ( [.] p513
+                    & p1813 )
+              | <.> ( [.] p513
+                    & p1913 )
+              | <.> ( [.] p513
+                    & p2013 )
+              | <.> ( [.] p513
+                    & p2113 )
+              | <.> ( [.] p613
+                    & [.] p713 )
+              | <.> ( [.] p613
+                    & [.] p813 )
+              | <.> ( [.] p613
+                    & [.] p913 )
+              | <.> ( [.] p613
+                    & [.] p1013 )
+              | <.> ( [.] p613
+                    & [.] p1113 )
+              | <.> ( [.] p613
+                    & [.] p1213 )
+              | <.> ( [.] p613
+                    & p1313 )
+              | <.> ( [.] p613
+                    & p1413 )
+              | <.> ( [.] p613
+                    & p1513 )
+              | <.> ( [.] p613
+                    & p1613 )
+              | <.> ( [.] p613
+                    & p1713 )
+              | <.> ( [.] p613
+                    & p1813 )
+              | <.> ( [.] p613
+                    & p1913 )
+              | <.> ( [.] p613
+                    & p2013 )
+              | <.> ( [.] p613
+                    & p2113 )
+              | <.> ( [.] p713
+                    & [.] p813 )
+              | <.> ( [.] p713
+                    & [.] p913 )
+              | <.> ( [.] p713
+                    & [.] p1013 )
+              | <.> ( [.] p713
+                    & [.] p1113 )
+              | <.> ( [.] p713
+                    & [.] p1213 )
+              | <.> ( [.] p713
+                    & p1313 )
+              | <.> ( [.] p713
+                    & p1413 )
+              | <.> ( [.] p713
+                    & p1513 )
+              | <.> ( [.] p713
+                    & p1613 )
+              | <.> ( [.] p713
+                    & p1713 )
+              | <.> ( [.] p713
+                    & p1813 )
+              | <.> ( [.] p713
+                    & p1913 )
+              | <.> ( [.] p713
+                    & p2013 )
+              | <.> ( [.] p713
+                    & p2113 )
+              | <.> ( [.] p813
+                    & [.] p913 )
+              | <.> ( [.] p813
+                    & [.] p1013 )
+              | <.> ( [.] p813
+                    & [.] p1113 )
+              | <.> ( [.] p813
+                    & [.] p1213 )
+              | <.> ( [.] p813
+                    & p1313 )
+              | <.> ( [.] p813
+                    & p1413 )
+              | <.> ( [.] p813
+                    & p1513 )
+              | <.> ( [.] p813
+                    & p1613 )
+              | <.> ( [.] p813
+                    & p1713 )
+              | <.> ( [.] p813
+                    & p1813 )
+              | <.> ( [.] p813
+                    & p1913 )
+              | <.> ( [.] p813
+                    & p2013 )
+              | <.> ( [.] p813
+                    & p2113 )
+              | <.> ( [.] p913
+                    & [.] p1013 )
+              | <.> ( [.] p913
+                    & [.] p1113 )
+              | <.> ( [.] p913
+                    & [.] p1213 )
+              | <.> ( [.] p913
+                    & p1313 )
+              | <.> ( [.] p913
+                    & p1413 )
+              | <.> ( [.] p913
+                    & p1513 )
+              | <.> ( [.] p913
+                    & p1613 )
+              | <.> ( [.] p913
+                    & p1713 )
+              | <.> ( [.] p913
+                    & p1813 )
+              | <.> ( [.] p913
+                    & p1913 )
+              | <.> ( [.] p913
+                    & p2013 )
+              | <.> ( [.] p913
+                    & p2113 )
+              | <.> ( [.] p1013
+                    & [.] p1113 )
+              | <.> ( [.] p1013
+                    & [.] p1213 )
+              | <.> ( [.] p1013
+                    & p1313 )
+              | <.> ( [.] p1013
+                    & p1413 )
+              | <.> ( [.] p1013
+                    & p1513 )
+              | <.> ( [.] p1013
+                    & p1613 )
+              | <.> ( [.] p1013
+                    & p1713 )
+              | <.> ( [.] p1013
+                    & p1813 )
+              | <.> ( [.] p1013
+                    & p1913 )
+              | <.> ( [.] p1013
+                    & p2013 )
+              | <.> ( [.] p1013
+                    & p2113 )
+              | <.> ( [.] p1113
+                    & [.] p1213 )
+              | <.> ( [.] p1113
+                    & p1313 )
+              | <.> ( [.] p1113
+                    & p1413 )
+              | <.> ( [.] p1113
+                    & p1513 )
+              | <.> ( [.] p1113
+                    & p1613 )
+              | <.> ( [.] p1113
+                    & p1713 )
+              | <.> ( [.] p1113
+                    & p1813 )
+              | <.> ( [.] p1113
+                    & p1913 )
+              | <.> ( [.] p1113
+                    & p2013 )
+              | <.> ( [.] p1113
+                    & p2113 )
+              | <.> ( [.] p1213
+                    & p1313 )
+              | <.> ( [.] p1213
+                    & p1413 )
+              | <.> ( [.] p1213
+                    & p1513 )
+              | <.> ( [.] p1213
+                    & p1613 )
+              | <.> ( [.] p1213
+                    & p1713 )
+              | <.> ( [.] p1213
+                    & p1813 )
+              | <.> ( [.] p1213
+                    & p1913 )
+              | <.> ( [.] p1213
+                    & p2013 )
+              | <.> ( [.] p1213
+                    & p2113 )
+              | <.> ( p1313
+                    & p1413 )
+              | <.> ( p1313
+                    & p1513 )
+              | <.> ( p1313
+                    & p1613 )
+              | <.> ( p1313
+                    & p1713 )
+              | <.> ( p1313
+                    & p1813 )
+              | <.> ( p1313
+                    & p1913 )
+              | <.> ( p1313
+                    & p2013 )
+              | <.> ( p1313
+                    & p2113 )
+              | <.> ( p1413
+                    & p1513 )
+              | <.> ( p1413
+                    & p1613 )
+              | <.> ( p1413
+                    & p1713 )
+              | <.> ( p1413
+                    & p1813 )
+              | <.> ( p1413
+                    & p1913 )
+              | <.> ( p1413
+                    & p2013 )
+              | <.> ( p1413
+                    & p2113 )
+              | <.> ( p1513
+                    & p1613 )
+              | <.> ( p1513
+                    & p1713 )
+              | <.> ( p1513
+                    & p1813 )
+              | <.> ( p1513
+                    & p1913 )
+              | <.> ( p1513
+                    & p2013 )
+              | <.> ( p1513
+                    & p2113 )
+              | <.> ( p1613
+                    & p1713 )
+              | <.> ( p1613
+                    & p1813 )
+              | <.> ( p1613
+                    & p1913 )
+              | <.> ( p1613
+                    & p2013 )
+              | <.> ( p1613
+                    & p2113 )
+              | <.> ( p1713
+                    & p1813 )
+              | <.> ( p1713
+                    & p1913 )
+              | <.> ( p1713
+                    & p2013 )
+              | <.> ( p1713
+                    & p2113 )
+              | <.> ( p1813
+                    & p1913 )
+              | <.> ( p1813
+                    & p2013 )
+              | <.> ( p1813
+                    & p2113 )
+              | <.> ( p1913
+                    & p2013 )
+              | <.> ( p1913
+                    & p2113 )
+              | <.> ( p2013
+                    & p2113 )
+              | <.> ( [.] p114
+                    & [.] p214 )
+              | <.> ( [.] p114
+                    & [.] p314 )
+              | <.> ( [.] p114
+                    & [.] p414 )
+              | <.> ( [.] p114
+                    & [.] p514 )
+              | <.> ( [.] p114
+                    & [.] p614 )
+              | <.> ( [.] p114
+                    & [.] p714 )
+              | <.> ( [.] p114
+                    & [.] p814 )
+              | <.> ( [.] p114
+                    & [.] p914 )
+              | <.> ( [.] p114
+                    & [.] p1014 )
+              | <.> ( [.] p114
+                    & [.] p1114 )
+              | <.> ( [.] p114
+                    & [.] p1214 )
+              | <.> ( [.] p114
+                    & [.] p1314 )
+              | <.> ( [.] p114
+                    & ~ p1414 )
+              | <.> ( [.] p114
+                    & p1514 )
+              | <.> ( [.] p114
+                    & p1614 )
+              | <.> ( [.] p114
+                    & p1714 )
+              | <.> ( [.] p114
+                    & p1814 )
+              | <.> ( [.] p114
+                    & p1914 )
+              | <.> ( [.] p114
+                    & p2014 )
+              | <.> ( [.] p114
+                    & p2114 )
+              | <.> ( [.] p214
+                    & [.] p314 )
+              | <.> ( [.] p214
+                    & [.] p414 )
+              | <.> ( [.] p214
+                    & [.] p514 )
+              | <.> ( [.] p214
+                    & [.] p614 )
+              | <.> ( [.] p214
+                    & [.] p714 )
+              | <.> ( [.] p214
+                    & [.] p814 )
+              | <.> ( [.] p214
+                    & [.] p914 )
+              | <.> ( [.] p214
+                    & [.] p1014 )
+              | <.> ( [.] p214
+                    & [.] p1114 )
+              | <.> ( [.] p214
+                    & [.] p1214 )
+              | <.> ( [.] p214
+                    & [.] p1314 )
+              | <.> ( [.] p214
+                    & ~ p1414 )
+              | <.> ( [.] p214
+                    & p1514 )
+              | <.> ( [.] p214
+                    & p1614 )
+              | <.> ( [.] p214
+                    & p1714 )
+              | <.> ( [.] p214
+                    & p1814 )
+              | <.> ( [.] p214
+                    & p1914 )
+              | <.> ( [.] p214
+                    & p2014 )
+              | <.> ( [.] p214
+                    & p2114 )
+              | <.> ( [.] p314
+                    & [.] p414 )
+              | <.> ( [.] p314
+                    & [.] p514 )
+              | <.> ( [.] p314
+                    & [.] p614 )
+              | <.> ( [.] p314
+                    & [.] p714 )
+              | <.> ( [.] p314
+                    & [.] p814 )
+              | <.> ( [.] p314
+                    & [.] p914 )
+              | <.> ( [.] p314
+                    & [.] p1014 )
+              | <.> ( [.] p314
+                    & [.] p1114 )
+              | <.> ( [.] p314
+                    & [.] p1214 )
+              | <.> ( [.] p314
+                    & [.] p1314 )
+              | <.> ( [.] p314
+                    & ~ p1414 )
+              | <.> ( [.] p314
+                    & p1514 )
+              | <.> ( [.] p314
+                    & p1614 )
+              | <.> ( [.] p314
+                    & p1714 )
+              | <.> ( [.] p314
+                    & p1814 )
+              | <.> ( [.] p314
+                    & p1914 )
+              | <.> ( [.] p314
+                    & p2014 )
+              | <.> ( [.] p314
+                    & p2114 )
+              | <.> ( [.] p414
+                    & [.] p514 )
+              | <.> ( [.] p414
+                    & [.] p614 )
+              | <.> ( [.] p414
+                    & [.] p714 )
+              | <.> ( [.] p414
+                    & [.] p814 )
+              | <.> ( [.] p414
+                    & [.] p914 )
+              | <.> ( [.] p414
+                    & [.] p1014 )
+              | <.> ( [.] p414
+                    & [.] p1114 )
+              | <.> ( [.] p414
+                    & [.] p1214 )
+              | <.> ( [.] p414
+                    & [.] p1314 )
+              | <.> ( [.] p414
+                    & ~ p1414 )
+              | <.> ( [.] p414
+                    & p1514 )
+              | <.> ( [.] p414
+                    & p1614 )
+              | <.> ( [.] p414
+                    & p1714 )
+              | <.> ( [.] p414
+                    & p1814 )
+              | <.> ( [.] p414
+                    & p1914 )
+              | <.> ( [.] p414
+                    & p2014 )
+              | <.> ( [.] p414
+                    & p2114 )
+              | <.> ( [.] p514
+                    & [.] p614 )
+              | <.> ( [.] p514
+                    & [.] p714 )
+              | <.> ( [.] p514
+                    & [.] p814 )
+              | <.> ( [.] p514
+                    & [.] p914 )
+              | <.> ( [.] p514
+                    & [.] p1014 )
+              | <.> ( [.] p514
+                    & [.] p1114 )
+              | <.> ( [.] p514
+                    & [.] p1214 )
+              | <.> ( [.] p514
+                    & [.] p1314 )
+              | <.> ( [.] p514
+                    & ~ p1414 )
+              | <.> ( [.] p514
+                    & p1514 )
+              | <.> ( [.] p514
+                    & p1614 )
+              | <.> ( [.] p514
+                    & p1714 )
+              | <.> ( [.] p514
+                    & p1814 )
+              | <.> ( [.] p514
+                    & p1914 )
+              | <.> ( [.] p514
+                    & p2014 )
+              | <.> ( [.] p514
+                    & p2114 )
+              | <.> ( [.] p614
+                    & [.] p714 )
+              | <.> ( [.] p614
+                    & [.] p814 )
+              | <.> ( [.] p614
+                    & [.] p914 )
+              | <.> ( [.] p614
+                    & [.] p1014 )
+              | <.> ( [.] p614
+                    & [.] p1114 )
+              | <.> ( [.] p614
+                    & [.] p1214 )
+              | <.> ( [.] p614
+                    & [.] p1314 )
+              | <.> ( [.] p614
+                    & ~ p1414 )
+              | <.> ( [.] p614
+                    & p1514 )
+              | <.> ( [.] p614
+                    & p1614 )
+              | <.> ( [.] p614
+                    & p1714 )
+              | <.> ( [.] p614
+                    & p1814 )
+              | <.> ( [.] p614
+                    & p1914 )
+              | <.> ( [.] p614
+                    & p2014 )
+              | <.> ( [.] p614
+                    & p2114 )
+              | <.> ( [.] p714
+                    & [.] p814 )
+              | <.> ( [.] p714
+                    & [.] p914 )
+              | <.> ( [.] p714
+                    & [.] p1014 )
+              | <.> ( [.] p714
+                    & [.] p1114 )
+              | <.> ( [.] p714
+                    & [.] p1214 )
+              | <.> ( [.] p714
+                    & [.] p1314 )
+              | <.> ( [.] p714
+                    & ~ p1414 )
+              | <.> ( [.] p714
+                    & p1514 )
+              | <.> ( [.] p714
+                    & p1614 )
+              | <.> ( [.] p714
+                    & p1714 )
+              | <.> ( [.] p714
+                    & p1814 )
+              | <.> ( [.] p714
+                    & p1914 )
+              | <.> ( [.] p714
+                    & p2014 )
+              | <.> ( [.] p714
+                    & p2114 )
+              | <.> ( [.] p814
+                    & [.] p914 )
+              | <.> ( [.] p814
+                    & [.] p1014 )
+              | <.> ( [.] p814
+                    & [.] p1114 )
+              | <.> ( [.] p814
+                    & [.] p1214 )
+              | <.> ( [.] p814
+                    & [.] p1314 )
+              | <.> ( [.] p814
+                    & ~ p1414 )
+              | <.> ( [.] p814
+                    & p1514 )
+              | <.> ( [.] p814
+                    & p1614 )
+              | <.> ( [.] p814
+                    & p1714 )
+              | <.> ( [.] p814
+                    & p1814 )
+              | <.> ( [.] p814
+                    & p1914 )
+              | <.> ( [.] p814
+                    & p2014 )
+              | <.> ( [.] p814
+                    & p2114 )
+              | <.> ( [.] p914
+                    & [.] p1014 )
+              | <.> ( [.] p914
+                    & [.] p1114 )
+              | <.> ( [.] p914
+                    & [.] p1214 )
+              | <.> ( [.] p914
+                    & [.] p1314 )
+              | <.> ( [.] p914
+                    & ~ p1414 )
+              | <.> ( [.] p914
+                    & p1514 )
+              | <.> ( [.] p914
+                    & p1614 )
+              | <.> ( [.] p914
+                    & p1714 )
+              | <.> ( [.] p914
+                    & p1814 )
+              | <.> ( [.] p914
+                    & p1914 )
+              | <.> ( [.] p914
+                    & p2014 )
+              | <.> ( [.] p914
+                    & p2114 )
+              | <.> ( [.] p1014
+                    & [.] p1114 )
+              | <.> ( [.] p1014
+                    & [.] p1214 )
+              | <.> ( [.] p1014
+                    & [.] p1314 )
+              | <.> ( [.] p1014
+                    & ~ p1414 )
+              | <.> ( [.] p1014
+                    & p1514 )
+              | <.> ( [.] p1014
+                    & p1614 )
+              | <.> ( [.] p1014
+                    & p1714 )
+              | <.> ( [.] p1014
+                    & p1814 )
+              | <.> ( [.] p1014
+                    & p1914 )
+              | <.> ( [.] p1014
+                    & p2014 )
+              | <.> ( [.] p1014
+                    & p2114 )
+              | <.> ( [.] p1114
+                    & [.] p1214 )
+              | <.> ( [.] p1114
+                    & [.] p1314 )
+              | <.> ( [.] p1114
+                    & ~ p1414 )
+              | <.> ( [.] p1114
+                    & p1514 )
+              | <.> ( [.] p1114
+                    & p1614 )
+              | <.> ( [.] p1114
+                    & p1714 )
+              | <.> ( [.] p1114
+                    & p1814 )
+              | <.> ( [.] p1114
+                    & p1914 )
+              | <.> ( [.] p1114
+                    & p2014 )
+              | <.> ( [.] p1114
+                    & p2114 )
+              | <.> ( [.] p1214
+                    & [.] p1314 )
+              | <.> ( [.] p1214
+                    & ~ p1414 )
+              | <.> ( [.] p1214
+                    & p1514 )
+              | <.> ( [.] p1214
+                    & p1614 )
+              | <.> ( [.] p1214
+                    & p1714 )
+              | <.> ( [.] p1214
+                    & p1814 )
+              | <.> ( [.] p1214
+                    & p1914 )
+              | <.> ( [.] p1214
+                    & p2014 )
+              | <.> ( [.] p1214
+                    & p2114 )
+              | <.> ( [.] p1314
+                    & ~ p1414 )
+              | <.> ( [.] p1314
+                    & p1514 )
+              | <.> ( [.] p1314
+                    & p1614 )
+              | <.> ( [.] p1314
+                    & p1714 )
+              | <.> ( [.] p1314
+                    & p1814 )
+              | <.> ( [.] p1314
+                    & p1914 )
+              | <.> ( [.] p1314
+                    & p2014 )
+              | <.> ( [.] p1314
+                    & p2114 )
+              | <.> ( ~ p1414
+                    & p1514 )
+              | <.> ( ~ p1414
+                    & p1614 )
+              | <.> ( ~ p1414
+                    & p1714 )
+              | <.> ( ~ p1414
+                    & p1814 )
+              | <.> ( ~ p1414
+                    & p1914 )
+              | <.> ( ~ p1414
+                    & p2014 )
+              | <.> ( ~ p1414
+                    & p2114 )
+              | <.> ( p1514
+                    & p1614 )
+              | <.> ( p1514
+                    & p1714 )
+              | <.> ( p1514
+                    & p1814 )
+              | <.> ( p1514
+                    & p1914 )
+              | <.> ( p1514
+                    & p2014 )
+              | <.> ( p1514
+                    & p2114 )
+              | <.> ( p1614
+                    & p1714 )
+              | <.> ( p1614
+                    & p1814 )
+              | <.> ( p1614
+                    & p1914 )
+              | <.> ( p1614
+                    & p2014 )
+              | <.> ( p1614
+                    & p2114 )
+              | <.> ( p1714
+                    & p1814 )
+              | <.> ( p1714
+                    & p1914 )
+              | <.> ( p1714
+                    & p2014 )
+              | <.> ( p1714
+                    & p2114 )
+              | <.> ( p1814
+                    & p1914 )
+              | <.> ( p1814
+                    & p2014 )
+              | <.> ( p1814
+                    & p2114 )
+              | <.> ( p1914
+                    & p2014 )
+              | <.> ( p1914
+                    & p2114 )
+              | <.> ( p2014
+                    & p2114 )
+              | <.> ( [.] p115
+                    & [.] p215 )
+              | <.> ( [.] p115
+                    & [.] p315 )
+              | <.> ( [.] p115
+                    & [.] p415 )
+              | <.> ( [.] p115
+                    & [.] p515 )
+              | <.> ( [.] p115
+                    & [.] p615 )
+              | <.> ( [.] p115
+                    & [.] p715 )
+              | <.> ( [.] p115
+                    & [.] p815 )
+              | <.> ( [.] p115
+                    & [.] p915 )
+              | <.> ( [.] p115
+                    & [.] p1015 )
+              | <.> ( [.] p115
+                    & [.] p1115 )
+              | <.> ( [.] p115
+                    & [.] p1215 )
+              | <.> ( [.] p115
+                    & [.] p1315 )
+              | <.> ( [.] p115
+                    & [.] p1415 )
+              | <.> ( [.] p115
+                    & p1515 )
+              | <.> ( [.] p115
+                    & p1615 )
+              | <.> ( [.] p115
+                    & p1715 )
+              | <.> ( [.] p115
+                    & p1815 )
+              | <.> ( [.] p115
+                    & p1915 )
+              | <.> ( [.] p115
+                    & p2015 )
+              | <.> ( [.] p115
+                    & p2115 )
+              | <.> ( [.] p215
+                    & [.] p315 )
+              | <.> ( [.] p215
+                    & [.] p415 )
+              | <.> ( [.] p215
+                    & [.] p515 )
+              | <.> ( [.] p215
+                    & [.] p615 )
+              | <.> ( [.] p215
+                    & [.] p715 )
+              | <.> ( [.] p215
+                    & [.] p815 )
+              | <.> ( [.] p215
+                    & [.] p915 )
+              | <.> ( [.] p215
+                    & [.] p1015 )
+              | <.> ( [.] p215
+                    & [.] p1115 )
+              | <.> ( [.] p215
+                    & [.] p1215 )
+              | <.> ( [.] p215
+                    & [.] p1315 )
+              | <.> ( [.] p215
+                    & [.] p1415 )
+              | <.> ( [.] p215
+                    & p1515 )
+              | <.> ( [.] p215
+                    & p1615 )
+              | <.> ( [.] p215
+                    & p1715 )
+              | <.> ( [.] p215
+                    & p1815 )
+              | <.> ( [.] p215
+                    & p1915 )
+              | <.> ( [.] p215
+                    & p2015 )
+              | <.> ( [.] p215
+                    & p2115 )
+              | <.> ( [.] p315
+                    & [.] p415 )
+              | <.> ( [.] p315
+                    & [.] p515 )
+              | <.> ( [.] p315
+                    & [.] p615 )
+              | <.> ( [.] p315
+                    & [.] p715 )
+              | <.> ( [.] p315
+                    & [.] p815 )
+              | <.> ( [.] p315
+                    & [.] p915 )
+              | <.> ( [.] p315
+                    & [.] p1015 )
+              | <.> ( [.] p315
+                    & [.] p1115 )
+              | <.> ( [.] p315
+                    & [.] p1215 )
+              | <.> ( [.] p315
+                    & [.] p1315 )
+              | <.> ( [.] p315
+                    & [.] p1415 )
+              | <.> ( [.] p315
+                    & p1515 )
+              | <.> ( [.] p315
+                    & p1615 )
+              | <.> ( [.] p315
+                    & p1715 )
+              | <.> ( [.] p315
+                    & p1815 )
+              | <.> ( [.] p315
+                    & p1915 )
+              | <.> ( [.] p315
+                    & p2015 )
+              | <.> ( [.] p315
+                    & p2115 )
+              | <.> ( [.] p415
+                    & [.] p515 )
+              | <.> ( [.] p415
+                    & [.] p615 )
+              | <.> ( [.] p415
+                    & [.] p715 )
+              | <.> ( [.] p415
+                    & [.] p815 )
+              | <.> ( [.] p415
+                    & [.] p915 )
+              | <.> ( [.] p415
+                    & [.] p1015 )
+              | <.> ( [.] p415
+                    & [.] p1115 )
+              | <.> ( [.] p415
+                    & [.] p1215 )
+              | <.> ( [.] p415
+                    & [.] p1315 )
+              | <.> ( [.] p415
+                    & [.] p1415 )
+              | <.> ( [.] p415
+                    & p1515 )
+              | <.> ( [.] p415
+                    & p1615 )
+              | <.> ( [.] p415
+                    & p1715 )
+              | <.> ( [.] p415
+                    & p1815 )
+              | <.> ( [.] p415
+                    & p1915 )
+              | <.> ( [.] p415
+                    & p2015 )
+              | <.> ( [.] p415
+                    & p2115 )
+              | <.> ( [.] p515
+                    & [.] p615 )
+              | <.> ( [.] p515
+                    & [.] p715 )
+              | <.> ( [.] p515
+                    & [.] p815 )
+              | <.> ( [.] p515
+                    & [.] p915 )
+              | <.> ( [.] p515
+                    & [.] p1015 )
+              | <.> ( [.] p515
+                    & [.] p1115 )
+              | <.> ( [.] p515
+                    & [.] p1215 )
+              | <.> ( [.] p515
+                    & [.] p1315 )
+              | <.> ( [.] p515
+                    & [.] p1415 )
+              | <.> ( [.] p515
+                    & p1515 )
+              | <.> ( [.] p515
+                    & p1615 )
+              | <.> ( [.] p515
+                    & p1715 )
+              | <.> ( [.] p515
+                    & p1815 )
+              | <.> ( [.] p515
+                    & p1915 )
+              | <.> ( [.] p515
+                    & p2015 )
+              | <.> ( [.] p515
+                    & p2115 )
+              | <.> ( [.] p615
+                    & [.] p715 )
+              | <.> ( [.] p615
+                    & [.] p815 )
+              | <.> ( [.] p615
+                    & [.] p915 )
+              | <.> ( [.] p615
+                    & [.] p1015 )
+              | <.> ( [.] p615
+                    & [.] p1115 )
+              | <.> ( [.] p615
+                    & [.] p1215 )
+              | <.> ( [.] p615
+                    & [.] p1315 )
+              | <.> ( [.] p615
+                    & [.] p1415 )
+              | <.> ( [.] p615
+                    & p1515 )
+              | <.> ( [.] p615
+                    & p1615 )
+              | <.> ( [.] p615
+                    & p1715 )
+              | <.> ( [.] p615
+                    & p1815 )
+              | <.> ( [.] p615
+                    & p1915 )
+              | <.> ( [.] p615
+                    & p2015 )
+              | <.> ( [.] p615
+                    & p2115 )
+              | <.> ( [.] p715
+                    & [.] p815 )
+              | <.> ( [.] p715
+                    & [.] p915 )
+              | <.> ( [.] p715
+                    & [.] p1015 )
+              | <.> ( [.] p715
+                    & [.] p1115 )
+              | <.> ( [.] p715
+                    & [.] p1215 )
+              | <.> ( [.] p715
+                    & [.] p1315 )
+              | <.> ( [.] p715
+                    & [.] p1415 )
+              | <.> ( [.] p715
+                    & p1515 )
+              | <.> ( [.] p715
+                    & p1615 )
+              | <.> ( [.] p715
+                    & p1715 )
+              | <.> ( [.] p715
+                    & p1815 )
+              | <.> ( [.] p715
+                    & p1915 )
+              | <.> ( [.] p715
+                    & p2015 )
+              | <.> ( [.] p715
+                    & p2115 )
+              | <.> ( [.] p815
+                    & [.] p915 )
+              | <.> ( [.] p815
+                    & [.] p1015 )
+              | <.> ( [.] p815
+                    & [.] p1115 )
+              | <.> ( [.] p815
+                    & [.] p1215 )
+              | <.> ( [.] p815
+                    & [.] p1315 )
+              | <.> ( [.] p815
+                    & [.] p1415 )
+              | <.> ( [.] p815
+                    & p1515 )
+              | <.> ( [.] p815
+                    & p1615 )
+              | <.> ( [.] p815
+                    & p1715 )
+              | <.> ( [.] p815
+                    & p1815 )
+              | <.> ( [.] p815
+                    & p1915 )
+              | <.> ( [.] p815
+                    & p2015 )
+              | <.> ( [.] p815
+                    & p2115 )
+              | <.> ( [.] p915
+                    & [.] p1015 )
+              | <.> ( [.] p915
+                    & [.] p1115 )
+              | <.> ( [.] p915
+                    & [.] p1215 )
+              | <.> ( [.] p915
+                    & [.] p1315 )
+              | <.> ( [.] p915
+                    & [.] p1415 )
+              | <.> ( [.] p915
+                    & p1515 )
+              | <.> ( [.] p915
+                    & p1615 )
+              | <.> ( [.] p915
+                    & p1715 )
+              | <.> ( [.] p915
+                    & p1815 )
+              | <.> ( [.] p915
+                    & p1915 )
+              | <.> ( [.] p915
+                    & p2015 )
+              | <.> ( [.] p915
+                    & p2115 )
+              | <.> ( [.] p1015
+                    & [.] p1115 )
+              | <.> ( [.] p1015
+                    & [.] p1215 )
+              | <.> ( [.] p1015
+                    & [.] p1315 )
+              | <.> ( [.] p1015
+                    & [.] p1415 )
+              | <.> ( [.] p1015
+                    & p1515 )
+              | <.> ( [.] p1015
+                    & p1615 )
+              | <.> ( [.] p1015
+                    & p1715 )
+              | <.> ( [.] p1015
+                    & p1815 )
+              | <.> ( [.] p1015
+                    & p1915 )
+              | <.> ( [.] p1015
+                    & p2015 )
+              | <.> ( [.] p1015
+                    & p2115 )
+              | <.> ( [.] p1115
+                    & [.] p1215 )
+              | <.> ( [.] p1115
+                    & [.] p1315 )
+              | <.> ( [.] p1115
+                    & [.] p1415 )
+              | <.> ( [.] p1115
+                    & p1515 )
+              | <.> ( [.] p1115
+                    & p1615 )
+              | <.> ( [.] p1115
+                    & p1715 )
+              | <.> ( [.] p1115
+                    & p1815 )
+              | <.> ( [.] p1115
+                    & p1915 )
+              | <.> ( [.] p1115
+                    & p2015 )
+              | <.> ( [.] p1115
+                    & p2115 )
+              | <.> ( [.] p1215
+                    & [.] p1315 )
+              | <.> ( [.] p1215
+                    & [.] p1415 )
+              | <.> ( [.] p1215
+                    & p1515 )
+              | <.> ( [.] p1215
+                    & p1615 )
+              | <.> ( [.] p1215
+                    & p1715 )
+              | <.> ( [.] p1215
+                    & p1815 )
+              | <.> ( [.] p1215
+                    & p1915 )
+              | <.> ( [.] p1215
+                    & p2015 )
+              | <.> ( [.] p1215
+                    & p2115 )
+              | <.> ( [.] p1315
+                    & [.] p1415 )
+              | <.> ( [.] p1315
+                    & p1515 )
+              | <.> ( [.] p1315
+                    & p1615 )
+              | <.> ( [.] p1315
+                    & p1715 )
+              | <.> ( [.] p1315
+                    & p1815 )
+              | <.> ( [.] p1315
+                    & p1915 )
+              | <.> ( [.] p1315
+                    & p2015 )
+              | <.> ( [.] p1315
+                    & p2115 )
+              | <.> ( [.] p1415
+                    & p1515 )
+              | <.> ( [.] p1415
+                    & p1615 )
+              | <.> ( [.] p1415
+                    & p1715 )
+              | <.> ( [.] p1415
+                    & p1815 )
+              | <.> ( [.] p1415
+                    & p1915 )
+              | <.> ( [.] p1415
+                    & p2015 )
+              | <.> ( [.] p1415
+                    & p2115 )
+              | <.> ( p1515
+                    & p1615 )
+              | <.> ( p1515
+                    & p1715 )
+              | <.> ( p1515
+                    & p1815 )
+              | <.> ( p1515
+                    & p1915 )
+              | <.> ( p1515
+                    & p2015 )
+              | <.> ( p1515
+                    & p2115 )
+              | <.> ( p1615
+                    & p1715 )
+              | <.> ( p1615
+                    & p1815 )
+              | <.> ( p1615
+                    & p1915 )
+              | <.> ( p1615
+                    & p2015 )
+              | <.> ( p1615
+                    & p2115 )
+              | <.> ( p1715
+                    & p1815 )
+              | <.> ( p1715
+                    & p1915 )
+              | <.> ( p1715
+                    & p2015 )
+              | <.> ( p1715
+                    & p2115 )
+              | <.> ( p1815
+                    & p1915 )
+              | <.> ( p1815
+                    & p2015 )
+              | <.> ( p1815
+                    & p2115 )
+              | <.> ( p1915
+                    & p2015 )
+              | <.> ( p1915
+                    & p2115 )
+              | <.> ( p2015
+                    & p2115 )
+              | <.> ( [.] p116
+                    & [.] p216 )
+              | <.> ( [.] p116
+                    & [.] p316 )
+              | <.> ( [.] p116
+                    & [.] p416 )
+              | <.> ( [.] p116
+                    & [.] p516 )
+              | <.> ( [.] p116
+                    & [.] p616 )
+              | <.> ( [.] p116
+                    & [.] p716 )
+              | <.> ( [.] p116
+                    & [.] p816 )
+              | <.> ( [.] p116
+                    & [.] p916 )
+              | <.> ( [.] p116
+                    & [.] p1016 )
+              | <.> ( [.] p116
+                    & [.] p1116 )
+              | <.> ( [.] p116
+                    & [.] p1216 )
+              | <.> ( [.] p116
+                    & [.] p1316 )
+              | <.> ( [.] p116
+                    & [.] p1416 )
+              | <.> ( [.] p116
+                    & [.] p1516 )
+              | <.> ( [.] p116
+                    & p1616 )
+              | <.> ( [.] p116
+                    & p1716 )
+              | <.> ( [.] p116
+                    & p1816 )
+              | <.> ( [.] p116
+                    & p1916 )
+              | <.> ( [.] p116
+                    & p2016 )
+              | <.> ( [.] p116
+                    & p2116 )
+              | <.> ( [.] p216
+                    & [.] p316 )
+              | <.> ( [.] p216
+                    & [.] p416 )
+              | <.> ( [.] p216
+                    & [.] p516 )
+              | <.> ( [.] p216
+                    & [.] p616 )
+              | <.> ( [.] p216
+                    & [.] p716 )
+              | <.> ( [.] p216
+                    & [.] p816 )
+              | <.> ( [.] p216
+                    & [.] p916 )
+              | <.> ( [.] p216
+                    & [.] p1016 )
+              | <.> ( [.] p216
+                    & [.] p1116 )
+              | <.> ( [.] p216
+                    & [.] p1216 )
+              | <.> ( [.] p216
+                    & [.] p1316 )
+              | <.> ( [.] p216
+                    & [.] p1416 )
+              | <.> ( [.] p216
+                    & [.] p1516 )
+              | <.> ( [.] p216
+                    & p1616 )
+              | <.> ( [.] p216
+                    & p1716 )
+              | <.> ( [.] p216
+                    & p1816 )
+              | <.> ( [.] p216
+                    & p1916 )
+              | <.> ( [.] p216
+                    & p2016 )
+              | <.> ( [.] p216
+                    & p2116 )
+              | <.> ( [.] p316
+                    & [.] p416 )
+              | <.> ( [.] p316
+                    & [.] p516 )
+              | <.> ( [.] p316
+                    & [.] p616 )
+              | <.> ( [.] p316
+                    & [.] p716 )
+              | <.> ( [.] p316
+                    & [.] p816 )
+              | <.> ( [.] p316
+                    & [.] p916 )
+              | <.> ( [.] p316
+                    & [.] p1016 )
+              | <.> ( [.] p316
+                    & [.] p1116 )
+              | <.> ( [.] p316
+                    & [.] p1216 )
+              | <.> ( [.] p316
+                    & [.] p1316 )
+              | <.> ( [.] p316
+                    & [.] p1416 )
+              | <.> ( [.] p316
+                    & [.] p1516 )
+              | <.> ( [.] p316
+                    & p1616 )
+              | <.> ( [.] p316
+                    & p1716 )
+              | <.> ( [.] p316
+                    & p1816 )
+              | <.> ( [.] p316
+                    & p1916 )
+              | <.> ( [.] p316
+                    & p2016 )
+              | <.> ( [.] p316
+                    & p2116 )
+              | <.> ( [.] p416
+                    & [.] p516 )
+              | <.> ( [.] p416
+                    & [.] p616 )
+              | <.> ( [.] p416
+                    & [.] p716 )
+              | <.> ( [.] p416
+                    & [.] p816 )
+              | <.> ( [.] p416
+                    & [.] p916 )
+              | <.> ( [.] p416
+                    & [.] p1016 )
+              | <.> ( [.] p416
+                    & [.] p1116 )
+              | <.> ( [.] p416
+                    & [.] p1216 )
+              | <.> ( [.] p416
+                    & [.] p1316 )
+              | <.> ( [.] p416
+                    & [.] p1416 )
+              | <.> ( [.] p416
+                    & [.] p1516 )
+              | <.> ( [.] p416
+                    & p1616 )
+              | <.> ( [.] p416
+                    & p1716 )
+              | <.> ( [.] p416
+                    & p1816 )
+              | <.> ( [.] p416
+                    & p1916 )
+              | <.> ( [.] p416
+                    & p2016 )
+              | <.> ( [.] p416
+                    & p2116 )
+              | <.> ( [.] p516
+                    & [.] p616 )
+              | <.> ( [.] p516
+                    & [.] p716 )
+              | <.> ( [.] p516
+                    & [.] p816 )
+              | <.> ( [.] p516
+                    & [.] p916 )
+              | <.> ( [.] p516
+                    & [.] p1016 )
+              | <.> ( [.] p516
+                    & [.] p1116 )
+              | <.> ( [.] p516
+                    & [.] p1216 )
+              | <.> ( [.] p516
+                    & [.] p1316 )
+              | <.> ( [.] p516
+                    & [.] p1416 )
+              | <.> ( [.] p516
+                    & [.] p1516 )
+              | <.> ( [.] p516
+                    & p1616 )
+              | <.> ( [.] p516
+                    & p1716 )
+              | <.> ( [.] p516
+                    & p1816 )
+              | <.> ( [.] p516
+                    & p1916 )
+              | <.> ( [.] p516
+                    & p2016 )
+              | <.> ( [.] p516
+                    & p2116 )
+              | <.> ( [.] p616
+                    & [.] p716 )
+              | <.> ( [.] p616
+                    & [.] p816 )
+              | <.> ( [.] p616
+                    & [.] p916 )
+              | <.> ( [.] p616
+                    & [.] p1016 )
+              | <.> ( [.] p616
+                    & [.] p1116 )
+              | <.> ( [.] p616
+                    & [.] p1216 )
+              | <.> ( [.] p616
+                    & [.] p1316 )
+              | <.> ( [.] p616
+                    & [.] p1416 )
+              | <.> ( [.] p616
+                    & [.] p1516 )
+              | <.> ( [.] p616
+                    & p1616 )
+              | <.> ( [.] p616
+                    & p1716 )
+              | <.> ( [.] p616
+                    & p1816 )
+              | <.> ( [.] p616
+                    & p1916 )
+              | <.> ( [.] p616
+                    & p2016 )
+              | <.> ( [.] p616
+                    & p2116 )
+              | <.> ( [.] p716
+                    & [.] p816 )
+              | <.> ( [.] p716
+                    & [.] p916 )
+              | <.> ( [.] p716
+                    & [.] p1016 )
+              | <.> ( [.] p716
+                    & [.] p1116 )
+              | <.> ( [.] p716
+                    & [.] p1216 )
+              | <.> ( [.] p716
+                    & [.] p1316 )
+              | <.> ( [.] p716
+                    & [.] p1416 )
+              | <.> ( [.] p716
+                    & [.] p1516 )
+              | <.> ( [.] p716
+                    & p1616 )
+              | <.> ( [.] p716
+                    & p1716 )
+              | <.> ( [.] p716
+                    & p1816 )
+              | <.> ( [.] p716
+                    & p1916 )
+              | <.> ( [.] p716
+                    & p2016 )
+              | <.> ( [.] p716
+                    & p2116 )
+              | <.> ( [.] p816
+                    & [.] p916 )
+              | <.> ( [.] p816
+                    & [.] p1016 )
+              | <.> ( [.] p816
+                    & [.] p1116 )
+              | <.> ( [.] p816
+                    & [.] p1216 )
+              | <.> ( [.] p816
+                    & [.] p1316 )
+              | <.> ( [.] p816
+                    & [.] p1416 )
+              | <.> ( [.] p816
+                    & [.] p1516 )
+              | <.> ( [.] p816
+                    & p1616 )
+              | <.> ( [.] p816
+                    & p1716 )
+              | <.> ( [.] p816
+                    & p1816 )
+              | <.> ( [.] p816
+                    & p1916 )
+              | <.> ( [.] p816
+                    & p2016 )
+              | <.> ( [.] p816
+                    & p2116 )
+              | <.> ( [.] p916
+                    & [.] p1016 )
+              | <.> ( [.] p916
+                    & [.] p1116 )
+              | <.> ( [.] p916
+                    & [.] p1216 )
+              | <.> ( [.] p916
+                    & [.] p1316 )
+              | <.> ( [.] p916
+                    & [.] p1416 )
+              | <.> ( [.] p916
+                    & [.] p1516 )
+              | <.> ( [.] p916
+                    & p1616 )
+              | <.> ( [.] p916
+                    & p1716 )
+              | <.> ( [.] p916
+                    & p1816 )
+              | <.> ( [.] p916
+                    & p1916 )
+              | <.> ( [.] p916
+                    & p2016 )
+              | <.> ( [.] p916
+                    & p2116 )
+              | <.> ( [.] p1016
+                    & [.] p1116 )
+              | <.> ( [.] p1016
+                    & [.] p1216 )
+              | <.> ( [.] p1016
+                    & [.] p1316 )
+              | <.> ( [.] p1016
+                    & [.] p1416 )
+              | <.> ( [.] p1016
+                    & [.] p1516 )
+              | <.> ( [.] p1016
+                    & p1616 )
+              | <.> ( [.] p1016
+                    & p1716 )
+              | <.> ( [.] p1016
+                    & p1816 )
+              | <.> ( [.] p1016
+                    & p1916 )
+              | <.> ( [.] p1016
+                    & p2016 )
+              | <.> ( [.] p1016
+                    & p2116 )
+              | <.> ( [.] p1116
+                    & [.] p1216 )
+              | <.> ( [.] p1116
+                    & [.] p1316 )
+              | <.> ( [.] p1116
+                    & [.] p1416 )
+              | <.> ( [.] p1116
+                    & [.] p1516 )
+              | <.> ( [.] p1116
+                    & p1616 )
+              | <.> ( [.] p1116
+                    & p1716 )
+              | <.> ( [.] p1116
+                    & p1816 )
+              | <.> ( [.] p1116
+                    & p1916 )
+              | <.> ( [.] p1116
+                    & p2016 )
+              | <.> ( [.] p1116
+                    & p2116 )
+              | <.> ( [.] p1216
+                    & [.] p1316 )
+              | <.> ( [.] p1216
+                    & [.] p1416 )
+              | <.> ( [.] p1216
+                    & [.] p1516 )
+              | <.> ( [.] p1216
+                    & p1616 )
+              | <.> ( [.] p1216
+                    & p1716 )
+              | <.> ( [.] p1216
+                    & p1816 )
+              | <.> ( [.] p1216
+                    & p1916 )
+              | <.> ( [.] p1216
+                    & p2016 )
+              | <.> ( [.] p1216
+                    & p2116 )
+              | <.> ( [.] p1316
+                    & [.] p1416 )
+              | <.> ( [.] p1316
+                    & [.] p1516 )
+              | <.> ( [.] p1316
+                    & p1616 )
+              | <.> ( [.] p1316
+                    & p1716 )
+              | <.> ( [.] p1316
+                    & p1816 )
+              | <.> ( [.] p1316
+                    & p1916 )
+              | <.> ( [.] p1316
+                    & p2016 )
+              | <.> ( [.] p1316
+                    & p2116 )
+              | <.> ( [.] p1416
+                    & [.] p1516 )
+              | <.> ( [.] p1416
+                    & p1616 )
+              | <.> ( [.] p1416
+                    & p1716 )
+              | <.> ( [.] p1416
+                    & p1816 )
+              | <.> ( [.] p1416
+                    & p1916 )
+              | <.> ( [.] p1416
+                    & p2016 )
+              | <.> ( [.] p1416
+                    & p2116 )
+              | <.> ( [.] p1516
+                    & p1616 )
+              | <.> ( [.] p1516
+                    & p1716 )
+              | <.> ( [.] p1516
+                    & p1816 )
+              | <.> ( [.] p1516
+                    & p1916 )
+              | <.> ( [.] p1516
+                    & p2016 )
+              | <.> ( [.] p1516
+                    & p2116 )
+              | <.> ( p1616
+                    & p1716 )
+              | <.> ( p1616
+                    & p1816 )
+              | <.> ( p1616
+                    & p1916 )
+              | <.> ( p1616
+                    & p2016 )
+              | <.> ( p1616
+                    & p2116 )
+              | <.> ( p1716
+                    & p1816 )
+              | <.> ( p1716
+                    & p1916 )
+              | <.> ( p1716
+                    & p2016 )
+              | <.> ( p1716
+                    & p2116 )
+              | <.> ( p1816
+                    & p1916 )
+              | <.> ( p1816
+                    & p2016 )
+              | <.> ( p1816
+                    & p2116 )
+              | <.> ( p1916
+                    & p2016 )
+              | <.> ( p1916
+                    & p2116 )
+              | <.> ( p2016
+                    & p2116 )
+              | <.> ( [.] p117
+                    & [.] p217 )
+              | <.> ( [.] p117
+                    & [.] p317 )
+              | <.> ( [.] p117
+                    & [.] p417 )
+              | <.> ( [.] p117
+                    & [.] p517 )
+              | <.> ( [.] p117
+                    & [.] p617 )
+              | <.> ( [.] p117
+                    & [.] p717 )
+              | <.> ( [.] p117
+                    & [.] p817 )
+              | <.> ( [.] p117
+                    & [.] p917 )
+              | <.> ( [.] p117
+                    & [.] p1017 )
+              | <.> ( [.] p117
+                    & [.] p1117 )
+              | <.> ( [.] p117
+                    & [.] p1217 )
+              | <.> ( [.] p117
+                    & [.] p1317 )
+              | <.> ( [.] p117
+                    & [.] p1417 )
+              | <.> ( [.] p117
+                    & [.] p1517 )
+              | <.> ( [.] p117
+                    & [.] p1617 )
+              | <.> ( [.] p117
+                    & p1717 )
+              | <.> ( [.] p117
+                    & p1817 )
+              | <.> ( [.] p117
+                    & p1917 )
+              | <.> ( [.] p117
+                    & p2017 )
+              | <.> ( [.] p117
+                    & p2117 )
+              | <.> ( [.] p217
+                    & [.] p317 )
+              | <.> ( [.] p217
+                    & [.] p417 )
+              | <.> ( [.] p217
+                    & [.] p517 )
+              | <.> ( [.] p217
+                    & [.] p617 )
+              | <.> ( [.] p217
+                    & [.] p717 )
+              | <.> ( [.] p217
+                    & [.] p817 )
+              | <.> ( [.] p217
+                    & [.] p917 )
+              | <.> ( [.] p217
+                    & [.] p1017 )
+              | <.> ( [.] p217
+                    & [.] p1117 )
+              | <.> ( [.] p217
+                    & [.] p1217 )
+              | <.> ( [.] p217
+                    & [.] p1317 )
+              | <.> ( [.] p217
+                    & [.] p1417 )
+              | <.> ( [.] p217
+                    & [.] p1517 )
+              | <.> ( [.] p217
+                    & [.] p1617 )
+              | <.> ( [.] p217
+                    & p1717 )
+              | <.> ( [.] p217
+                    & p1817 )
+              | <.> ( [.] p217
+                    & p1917 )
+              | <.> ( [.] p217
+                    & p2017 )
+              | <.> ( [.] p217
+                    & p2117 )
+              | <.> ( [.] p317
+                    & [.] p417 )
+              | <.> ( [.] p317
+                    & [.] p517 )
+              | <.> ( [.] p317
+                    & [.] p617 )
+              | <.> ( [.] p317
+                    & [.] p717 )
+              | <.> ( [.] p317
+                    & [.] p817 )
+              | <.> ( [.] p317
+                    & [.] p917 )
+              | <.> ( [.] p317
+                    & [.] p1017 )
+              | <.> ( [.] p317
+                    & [.] p1117 )
+              | <.> ( [.] p317
+                    & [.] p1217 )
+              | <.> ( [.] p317
+                    & [.] p1317 )
+              | <.> ( [.] p317
+                    & [.] p1417 )
+              | <.> ( [.] p317
+                    & [.] p1517 )
+              | <.> ( [.] p317
+                    & [.] p1617 )
+              | <.> ( [.] p317
+                    & p1717 )
+              | <.> ( [.] p317
+                    & p1817 )
+              | <.> ( [.] p317
+                    & p1917 )
+              | <.> ( [.] p317
+                    & p2017 )
+              | <.> ( [.] p317
+                    & p2117 )
+              | <.> ( [.] p417
+                    & [.] p517 )
+              | <.> ( [.] p417
+                    & [.] p617 )
+              | <.> ( [.] p417
+                    & [.] p717 )
+              | <.> ( [.] p417
+                    & [.] p817 )
+              | <.> ( [.] p417
+                    & [.] p917 )
+              | <.> ( [.] p417
+                    & [.] p1017 )
+              | <.> ( [.] p417
+                    & [.] p1117 )
+              | <.> ( [.] p417
+                    & [.] p1217 )
+              | <.> ( [.] p417
+                    & [.] p1317 )
+              | <.> ( [.] p417
+                    & [.] p1417 )
+              | <.> ( [.] p417
+                    & [.] p1517 )
+              | <.> ( [.] p417
+                    & [.] p1617 )
+              | <.> ( [.] p417
+                    & p1717 )
+              | <.> ( [.] p417
+                    & p1817 )
+              | <.> ( [.] p417
+                    & p1917 )
+              | <.> ( [.] p417
+                    & p2017 )
+              | <.> ( [.] p417
+                    & p2117 )
+              | <.> ( [.] p517
+                    & [.] p617 )
+              | <.> ( [.] p517
+                    & [.] p717 )
+              | <.> ( [.] p517
+                    & [.] p817 )
+              | <.> ( [.] p517
+                    & [.] p917 )
+              | <.> ( [.] p517
+                    & [.] p1017 )
+              | <.> ( [.] p517
+                    & [.] p1117 )
+              | <.> ( [.] p517
+                    & [.] p1217 )
+              | <.> ( [.] p517
+                    & [.] p1317 )
+              | <.> ( [.] p517
+                    & [.] p1417 )
+              | <.> ( [.] p517
+                    & [.] p1517 )
+              | <.> ( [.] p517
+                    & [.] p1617 )
+              | <.> ( [.] p517
+                    & p1717 )
+              | <.> ( [.] p517
+                    & p1817 )
+              | <.> ( [.] p517
+                    & p1917 )
+              | <.> ( [.] p517
+                    & p2017 )
+              | <.> ( [.] p517
+                    & p2117 )
+              | <.> ( [.] p617
+                    & [.] p717 )
+              | <.> ( [.] p617
+                    & [.] p817 )
+              | <.> ( [.] p617
+                    & [.] p917 )
+              | <.> ( [.] p617
+                    & [.] p1017 )
+              | <.> ( [.] p617
+                    & [.] p1117 )
+              | <.> ( [.] p617
+                    & [.] p1217 )
+              | <.> ( [.] p617
+                    & [.] p1317 )
+              | <.> ( [.] p617
+                    & [.] p1417 )
+              | <.> ( [.] p617
+                    & [.] p1517 )
+              | <.> ( [.] p617
+                    & [.] p1617 )
+              | <.> ( [.] p617
+                    & p1717 )
+              | <.> ( [.] p617
+                    & p1817 )
+              | <.> ( [.] p617
+                    & p1917 )
+              | <.> ( [.] p617
+                    & p2017 )
+              | <.> ( [.] p617
+                    & p2117 )
+              | <.> ( [.] p717
+                    & [.] p817 )
+              | <.> ( [.] p717
+                    & [.] p917 )
+              | <.> ( [.] p717
+                    & [.] p1017 )
+              | <.> ( [.] p717
+                    & [.] p1117 )
+              | <.> ( [.] p717
+                    & [.] p1217 )
+              | <.> ( [.] p717
+                    & [.] p1317 )
+              | <.> ( [.] p717
+                    & [.] p1417 )
+              | <.> ( [.] p717
+                    & [.] p1517 )
+              | <.> ( [.] p717
+                    & [.] p1617 )
+              | <.> ( [.] p717
+                    & p1717 )
+              | <.> ( [.] p717
+                    & p1817 )
+              | <.> ( [.] p717
+                    & p1917 )
+              | <.> ( [.] p717
+                    & p2017 )
+              | <.> ( [.] p717
+                    & p2117 )
+              | <.> ( [.] p817
+                    & [.] p917 )
+              | <.> ( [.] p817
+                    & [.] p1017 )
+              | <.> ( [.] p817
+                    & [.] p1117 )
+              | <.> ( [.] p817
+                    & [.] p1217 )
+              | <.> ( [.] p817
+                    & [.] p1317 )
+              | <.> ( [.] p817
+                    & [.] p1417 )
+              | <.> ( [.] p817
+                    & [.] p1517 )
+              | <.> ( [.] p817
+                    & [.] p1617 )
+              | <.> ( [.] p817
+                    & p1717 )
+              | <.> ( [.] p817
+                    & p1817 )
+              | <.> ( [.] p817
+                    & p1917 )
+              | <.> ( [.] p817
+                    & p2017 )
+              | <.> ( [.] p817
+                    & p2117 )
+              | <.> ( [.] p917
+                    & [.] p1017 )
+              | <.> ( [.] p917
+                    & [.] p1117 )
+              | <.> ( [.] p917
+                    & [.] p1217 )
+              | <.> ( [.] p917
+                    & [.] p1317 )
+              | <.> ( [.] p917
+                    & [.] p1417 )
+              | <.> ( [.] p917
+                    & [.] p1517 )
+              | <.> ( [.] p917
+                    & [.] p1617 )
+              | <.> ( [.] p917
+                    & p1717 )
+              | <.> ( [.] p917
+                    & p1817 )
+              | <.> ( [.] p917
+                    & p1917 )
+              | <.> ( [.] p917
+                    & p2017 )
+              | <.> ( [.] p917
+                    & p2117 )
+              | <.> ( [.] p1017
+                    & [.] p1117 )
+              | <.> ( [.] p1017
+                    & [.] p1217 )
+              | <.> ( [.] p1017
+                    & [.] p1317 )
+              | <.> ( [.] p1017
+                    & [.] p1417 )
+              | <.> ( [.] p1017
+                    & [.] p1517 )
+              | <.> ( [.] p1017
+                    & [.] p1617 )
+              | <.> ( [.] p1017
+                    & p1717 )
+              | <.> ( [.] p1017
+                    & p1817 )
+              | <.> ( [.] p1017
+                    & p1917 )
+              | <.> ( [.] p1017
+                    & p2017 )
+              | <.> ( [.] p1017
+                    & p2117 )
+              | <.> ( [.] p1117
+                    & [.] p1217 )
+              | <.> ( [.] p1117
+                    & [.] p1317 )
+              | <.> ( [.] p1117
+                    & [.] p1417 )
+              | <.> ( [.] p1117
+                    & [.] p1517 )
+              | <.> ( [.] p1117
+                    & [.] p1617 )
+              | <.> ( [.] p1117
+                    & p1717 )
+              | <.> ( [.] p1117
+                    & p1817 )
+              | <.> ( [.] p1117
+                    & p1917 )
+              | <.> ( [.] p1117
+                    & p2017 )
+              | <.> ( [.] p1117
+                    & p2117 )
+              | <.> ( [.] p1217
+                    & [.] p1317 )
+              | <.> ( [.] p1217
+                    & [.] p1417 )
+              | <.> ( [.] p1217
+                    & [.] p1517 )
+              | <.> ( [.] p1217
+                    & [.] p1617 )
+              | <.> ( [.] p1217
+                    & p1717 )
+              | <.> ( [.] p1217
+                    & p1817 )
+              | <.> ( [.] p1217
+                    & p1917 )
+              | <.> ( [.] p1217
+                    & p2017 )
+              | <.> ( [.] p1217
+                    & p2117 )
+              | <.> ( [.] p1317
+                    & [.] p1417 )
+              | <.> ( [.] p1317
+                    & [.] p1517 )
+              | <.> ( [.] p1317
+                    & [.] p1617 )
+              | <.> ( [.] p1317
+                    & p1717 )
+              | <.> ( [.] p1317
+                    & p1817 )
+              | <.> ( [.] p1317
+                    & p1917 )
+              | <.> ( [.] p1317
+                    & p2017 )
+              | <.> ( [.] p1317
+                    & p2117 )
+              | <.> ( [.] p1417
+                    & [.] p1517 )
+              | <.> ( [.] p1417
+                    & [.] p1617 )
+              | <.> ( [.] p1417
+                    & p1717 )
+              | <.> ( [.] p1417
+                    & p1817 )
+              | <.> ( [.] p1417
+                    & p1917 )
+              | <.> ( [.] p1417
+                    & p2017 )
+              | <.> ( [.] p1417
+                    & p2117 )
+              | <.> ( [.] p1517
+                    & [.] p1617 )
+              | <.> ( [.] p1517
+                    & p1717 )
+              | <.> ( [.] p1517
+                    & p1817 )
+              | <.> ( [.] p1517
+                    & p1917 )
+              | <.> ( [.] p1517
+                    & p2017 )
+              | <.> ( [.] p1517
+                    & p2117 )
+              | <.> ( [.] p1617
+                    & p1717 )
+              | <.> ( [.] p1617
+                    & p1817 )
+              | <.> ( [.] p1617
+                    & p1917 )
+              | <.> ( [.] p1617
+                    & p2017 )
+              | <.> ( [.] p1617
+                    & p2117 )
+              | <.> ( p1717
+                    & p1817 )
+              | <.> ( p1717
+                    & p1917 )
+              | <.> ( p1717
+                    & p2017 )
+              | <.> ( p1717
+                    & p2117 )
+              | <.> ( p1817
+                    & p1917 )
+              | <.> ( p1817
+                    & p2017 )
+              | <.> ( p1817
+                    & p2117 )
+              | <.> ( p1917
+                    & p2017 )
+              | <.> ( p1917
+                    & p2117 )
+              | <.> ( p2017
+                    & p2117 )
+              | <.> ( [.] p118
+                    & [.] p218 )
+              | <.> ( [.] p118
+                    & [.] p318 )
+              | <.> ( [.] p118
+                    & [.] p418 )
+              | <.> ( [.] p118
+                    & [.] p518 )
+              | <.> ( [.] p118
+                    & [.] p618 )
+              | <.> ( [.] p118
+                    & [.] p718 )
+              | <.> ( [.] p118
+                    & [.] p818 )
+              | <.> ( [.] p118
+                    & [.] p918 )
+              | <.> ( [.] p118
+                    & [.] p1018 )
+              | <.> ( [.] p118
+                    & [.] p1118 )
+              | <.> ( [.] p118
+                    & [.] p1218 )
+              | <.> ( [.] p118
+                    & [.] p1318 )
+              | <.> ( [.] p118
+                    & [.] p1418 )
+              | <.> ( [.] p118
+                    & [.] p1518 )
+              | <.> ( [.] p118
+                    & [.] p1618 )
+              | <.> ( [.] p118
+                    & [.] p1718 )
+              | <.> ( [.] p118
+                    & p1818 )
+              | <.> ( [.] p118
+                    & p1918 )
+              | <.> ( [.] p118
+                    & p2018 )
+              | <.> ( [.] p118
+                    & p2118 )
+              | <.> ( [.] p218
+                    & [.] p318 )
+              | <.> ( [.] p218
+                    & [.] p418 )
+              | <.> ( [.] p218
+                    & [.] p518 )
+              | <.> ( [.] p218
+                    & [.] p618 )
+              | <.> ( [.] p218
+                    & [.] p718 )
+              | <.> ( [.] p218
+                    & [.] p818 )
+              | <.> ( [.] p218
+                    & [.] p918 )
+              | <.> ( [.] p218
+                    & [.] p1018 )
+              | <.> ( [.] p218
+                    & [.] p1118 )
+              | <.> ( [.] p218
+                    & [.] p1218 )
+              | <.> ( [.] p218
+                    & [.] p1318 )
+              | <.> ( [.] p218
+                    & [.] p1418 )
+              | <.> ( [.] p218
+                    & [.] p1518 )
+              | <.> ( [.] p218
+                    & [.] p1618 )
+              | <.> ( [.] p218
+                    & [.] p1718 )
+              | <.> ( [.] p218
+                    & p1818 )
+              | <.> ( [.] p218
+                    & p1918 )
+              | <.> ( [.] p218
+                    & p2018 )
+              | <.> ( [.] p218
+                    & p2118 )
+              | <.> ( [.] p318
+                    & [.] p418 )
+              | <.> ( [.] p318
+                    & [.] p518 )
+              | <.> ( [.] p318
+                    & [.] p618 )
+              | <.> ( [.] p318
+                    & [.] p718 )
+              | <.> ( [.] p318
+                    & [.] p818 )
+              | <.> ( [.] p318
+                    & [.] p918 )
+              | <.> ( [.] p318
+                    & [.] p1018 )
+              | <.> ( [.] p318
+                    & [.] p1118 )
+              | <.> ( [.] p318
+                    & [.] p1218 )
+              | <.> ( [.] p318
+                    & [.] p1318 )
+              | <.> ( [.] p318
+                    & [.] p1418 )
+              | <.> ( [.] p318
+                    & [.] p1518 )
+              | <.> ( [.] p318
+                    & [.] p1618 )
+              | <.> ( [.] p318
+                    & [.] p1718 )
+              | <.> ( [.] p318
+                    & p1818 )
+              | <.> ( [.] p318
+                    & p1918 )
+              | <.> ( [.] p318
+                    & p2018 )
+              | <.> ( [.] p318
+                    & p2118 )
+              | <.> ( [.] p418
+                    & [.] p518 )
+              | <.> ( [.] p418
+                    & [.] p618 )
+              | <.> ( [.] p418
+                    & [.] p718 )
+              | <.> ( [.] p418
+                    & [.] p818 )
+              | <.> ( [.] p418
+                    & [.] p918 )
+              | <.> ( [.] p418
+                    & [.] p1018 )
+              | <.> ( [.] p418
+                    & [.] p1118 )
+              | <.> ( [.] p418
+                    & [.] p1218 )
+              | <.> ( [.] p418
+                    & [.] p1318 )
+              | <.> ( [.] p418
+                    & [.] p1418 )
+              | <.> ( [.] p418
+                    & [.] p1518 )
+              | <.> ( [.] p418
+                    & [.] p1618 )
+              | <.> ( [.] p418
+                    & [.] p1718 )
+              | <.> ( [.] p418
+                    & p1818 )
+              | <.> ( [.] p418
+                    & p1918 )
+              | <.> ( [.] p418
+                    & p2018 )
+              | <.> ( [.] p418
+                    & p2118 )
+              | <.> ( [.] p518
+                    & [.] p618 )
+              | <.> ( [.] p518
+                    & [.] p718 )
+              | <.> ( [.] p518
+                    & [.] p818 )
+              | <.> ( [.] p518
+                    & [.] p918 )
+              | <.> ( [.] p518
+                    & [.] p1018 )
+              | <.> ( [.] p518
+                    & [.] p1118 )
+              | <.> ( [.] p518
+                    & [.] p1218 )
+              | <.> ( [.] p518
+                    & [.] p1318 )
+              | <.> ( [.] p518
+                    & [.] p1418 )
+              | <.> ( [.] p518
+                    & [.] p1518 )
+              | <.> ( [.] p518
+                    & [.] p1618 )
+              | <.> ( [.] p518
+                    & [.] p1718 )
+              | <.> ( [.] p518
+                    & p1818 )
+              | <.> ( [.] p518
+                    & p1918 )
+              | <.> ( [.] p518
+                    & p2018 )
+              | <.> ( [.] p518
+                    & p2118 )
+              | <.> ( [.] p618
+                    & [.] p718 )
+              | <.> ( [.] p618
+                    & [.] p818 )
+              | <.> ( [.] p618
+                    & [.] p918 )
+              | <.> ( [.] p618
+                    & [.] p1018 )
+              | <.> ( [.] p618
+                    & [.] p1118 )
+              | <.> ( [.] p618
+                    & [.] p1218 )
+              | <.> ( [.] p618
+                    & [.] p1318 )
+              | <.> ( [.] p618
+                    & [.] p1418 )
+              | <.> ( [.] p618
+                    & [.] p1518 )
+              | <.> ( [.] p618
+                    & [.] p1618 )
+              | <.> ( [.] p618
+                    & [.] p1718 )
+              | <.> ( [.] p618
+                    & p1818 )
+              | <.> ( [.] p618
+                    & p1918 )
+              | <.> ( [.] p618
+                    & p2018 )
+              | <.> ( [.] p618
+                    & p2118 )
+              | <.> ( [.] p718
+                    & [.] p818 )
+              | <.> ( [.] p718
+                    & [.] p918 )
+              | <.> ( [.] p718
+                    & [.] p1018 )
+              | <.> ( [.] p718
+                    & [.] p1118 )
+              | <.> ( [.] p718
+                    & [.] p1218 )
+              | <.> ( [.] p718
+                    & [.] p1318 )
+              | <.> ( [.] p718
+                    & [.] p1418 )
+              | <.> ( [.] p718
+                    & [.] p1518 )
+              | <.> ( [.] p718
+                    & [.] p1618 )
+              | <.> ( [.] p718
+                    & [.] p1718 )
+              | <.> ( [.] p718
+                    & p1818 )
+              | <.> ( [.] p718
+                    & p1918 )
+              | <.> ( [.] p718
+                    & p2018 )
+              | <.> ( [.] p718
+                    & p2118 )
+              | <.> ( [.] p818
+                    & [.] p918 )
+              | <.> ( [.] p818
+                    & [.] p1018 )
+              | <.> ( [.] p818
+                    & [.] p1118 )
+              | <.> ( [.] p818
+                    & [.] p1218 )
+              | <.> ( [.] p818
+                    & [.] p1318 )
+              | <.> ( [.] p818
+                    & [.] p1418 )
+              | <.> ( [.] p818
+                    & [.] p1518 )
+              | <.> ( [.] p818
+                    & [.] p1618 )
+              | <.> ( [.] p818
+                    & [.] p1718 )
+              | <.> ( [.] p818
+                    & p1818 )
+              | <.> ( [.] p818
+                    & p1918 )
+              | <.> ( [.] p818
+                    & p2018 )
+              | <.> ( [.] p818
+                    & p2118 )
+              | <.> ( [.] p918
+                    & [.] p1018 )
+              | <.> ( [.] p918
+                    & [.] p1118 )
+              | <.> ( [.] p918
+                    & [.] p1218 )
+              | <.> ( [.] p918
+                    & [.] p1318 )
+              | <.> ( [.] p918
+                    & [.] p1418 )
+              | <.> ( [.] p918
+                    & [.] p1518 )
+              | <.> ( [.] p918
+                    & [.] p1618 )
+              | <.> ( [.] p918
+                    & [.] p1718 )
+              | <.> ( [.] p918
+                    & p1818 )
+              | <.> ( [.] p918
+                    & p1918 )
+              | <.> ( [.] p918
+                    & p2018 )
+              | <.> ( [.] p918
+                    & p2118 )
+              | <.> ( [.] p1018
+                    & [.] p1118 )
+              | <.> ( [.] p1018
+                    & [.] p1218 )
+              | <.> ( [.] p1018
+                    & [.] p1318 )
+              | <.> ( [.] p1018
+                    & [.] p1418 )
+              | <.> ( [.] p1018
+                    & [.] p1518 )
+              | <.> ( [.] p1018
+                    & [.] p1618 )
+              | <.> ( [.] p1018
+                    & [.] p1718 )
+              | <.> ( [.] p1018
+                    & p1818 )
+              | <.> ( [.] p1018
+                    & p1918 )
+              | <.> ( [.] p1018
+                    & p2018 )
+              | <.> ( [.] p1018
+                    & p2118 )
+              | <.> ( [.] p1118
+                    & [.] p1218 )
+              | <.> ( [.] p1118
+                    & [.] p1318 )
+              | <.> ( [.] p1118
+                    & [.] p1418 )
+              | <.> ( [.] p1118
+                    & [.] p1518 )
+              | <.> ( [.] p1118
+                    & [.] p1618 )
+              | <.> ( [.] p1118
+                    & [.] p1718 )
+              | <.> ( [.] p1118
+                    & p1818 )
+              | <.> ( [.] p1118
+                    & p1918 )
+              | <.> ( [.] p1118
+                    & p2018 )
+              | <.> ( [.] p1118
+                    & p2118 )
+              | <.> ( [.] p1218
+                    & [.] p1318 )
+              | <.> ( [.] p1218
+                    & [.] p1418 )
+              | <.> ( [.] p1218
+                    & [.] p1518 )
+              | <.> ( [.] p1218
+                    & [.] p1618 )
+              | <.> ( [.] p1218
+                    & [.] p1718 )
+              | <.> ( [.] p1218
+                    & p1818 )
+              | <.> ( [.] p1218
+                    & p1918 )
+              | <.> ( [.] p1218
+                    & p2018 )
+              | <.> ( [.] p1218
+                    & p2118 )
+              | <.> ( [.] p1318
+                    & [.] p1418 )
+              | <.> ( [.] p1318
+                    & [.] p1518 )
+              | <.> ( [.] p1318
+                    & [.] p1618 )
+              | <.> ( [.] p1318
+                    & [.] p1718 )
+              | <.> ( [.] p1318
+                    & p1818 )
+              | <.> ( [.] p1318
+                    & p1918 )
+              | <.> ( [.] p1318
+                    & p2018 )
+              | <.> ( [.] p1318
+                    & p2118 )
+              | <.> ( [.] p1418
+                    & [.] p1518 )
+              | <.> ( [.] p1418
+                    & [.] p1618 )
+              | <.> ( [.] p1418
+                    & [.] p1718 )
+              | <.> ( [.] p1418
+                    & p1818 )
+              | <.> ( [.] p1418
+                    & p1918 )
+              | <.> ( [.] p1418
+                    & p2018 )
+              | <.> ( [.] p1418
+                    & p2118 )
+              | <.> ( [.] p1518
+                    & [.] p1618 )
+              | <.> ( [.] p1518
+                    & [.] p1718 )
+              | <.> ( [.] p1518
+                    & p1818 )
+              | <.> ( [.] p1518
+                    & p1918 )
+              | <.> ( [.] p1518
+                    & p2018 )
+              | <.> ( [.] p1518
+                    & p2118 )
+              | <.> ( [.] p1618
+                    & [.] p1718 )
+              | <.> ( [.] p1618
+                    & p1818 )
+              | <.> ( [.] p1618
+                    & p1918 )
+              | <.> ( [.] p1618
+                    & p2018 )
+              | <.> ( [.] p1618
+                    & p2118 )
+              | <.> ( [.] p1718
+                    & p1818 )
+              | <.> ( [.] p1718
+                    & p1918 )
+              | <.> ( [.] p1718
+                    & p2018 )
+              | <.> ( [.] p1718
+                    & p2118 )
+              | <.> ( p1818
+                    & p1918 )
+              | <.> ( p1818
+                    & p2018 )
+              | <.> ( p1818
+                    & p2118 )
+              | <.> ( p1918
+                    & p2018 )
+              | <.> ( p1918
+                    & p2118 )
+              | <.> ( p2018
+                    & p2118 )
+              | <.> ( [.] p119
+                    & [.] p219 )
+              | <.> ( [.] p119
+                    & [.] p319 )
+              | <.> ( [.] p119
+                    & [.] p419 )
+              | <.> ( [.] p119
+                    & [.] p519 )
+              | <.> ( [.] p119
+                    & [.] p619 )
+              | <.> ( [.] p119
+                    & [.] p719 )
+              | <.> ( [.] p119
+                    & [.] p819 )
+              | <.> ( [.] p119
+                    & [.] p919 )
+              | <.> ( [.] p119
+                    & [.] p1019 )
+              | <.> ( [.] p119
+                    & [.] p1119 )
+              | <.> ( [.] p119
+                    & [.] p1219 )
+              | <.> ( [.] p119
+                    & [.] p1319 )
+              | <.> ( [.] p119
+                    & [.] p1419 )
+              | <.> ( [.] p119
+                    & [.] p1519 )
+              | <.> ( [.] p119
+                    & [.] p1619 )
+              | <.> ( [.] p119
+                    & [.] p1719 )
+              | <.> ( [.] p119
+                    & [.] p1819 )
+              | <.> ( [.] p119
+                    & p1919 )
+              | <.> ( [.] p119
+                    & p2019 )
+              | <.> ( [.] p119
+                    & p2119 )
+              | <.> ( [.] p219
+                    & [.] p319 )
+              | <.> ( [.] p219
+                    & [.] p419 )
+              | <.> ( [.] p219
+                    & [.] p519 )
+              | <.> ( [.] p219
+                    & [.] p619 )
+              | <.> ( [.] p219
+                    & [.] p719 )
+              | <.> ( [.] p219
+                    & [.] p819 )
+              | <.> ( [.] p219
+                    & [.] p919 )
+              | <.> ( [.] p219
+                    & [.] p1019 )
+              | <.> ( [.] p219
+                    & [.] p1119 )
+              | <.> ( [.] p219
+                    & [.] p1219 )
+              | <.> ( [.] p219
+                    & [.] p1319 )
+              | <.> ( [.] p219
+                    & [.] p1419 )
+              | <.> ( [.] p219
+                    & [.] p1519 )
+              | <.> ( [.] p219
+                    & [.] p1619 )
+              | <.> ( [.] p219
+                    & [.] p1719 )
+              | <.> ( [.] p219
+                    & [.] p1819 )
+              | <.> ( [.] p219
+                    & p1919 )
+              | <.> ( [.] p219
+                    & p2019 )
+              | <.> ( [.] p219
+                    & p2119 )
+              | <.> ( [.] p319
+                    & [.] p419 )
+              | <.> ( [.] p319
+                    & [.] p519 )
+              | <.> ( [.] p319
+                    & [.] p619 )
+              | <.> ( [.] p319
+                    & [.] p719 )
+              | <.> ( [.] p319
+                    & [.] p819 )
+              | <.> ( [.] p319
+                    & [.] p919 )
+              | <.> ( [.] p319
+                    & [.] p1019 )
+              | <.> ( [.] p319
+                    & [.] p1119 )
+              | <.> ( [.] p319
+                    & [.] p1219 )
+              | <.> ( [.] p319
+                    & [.] p1319 )
+              | <.> ( [.] p319
+                    & [.] p1419 )
+              | <.> ( [.] p319
+                    & [.] p1519 )
+              | <.> ( [.] p319
+                    & [.] p1619 )
+              | <.> ( [.] p319
+                    & [.] p1719 )
+              | <.> ( [.] p319
+                    & [.] p1819 )
+              | <.> ( [.] p319
+                    & p1919 )
+              | <.> ( [.] p319
+                    & p2019 )
+              | <.> ( [.] p319
+                    & p2119 )
+              | <.> ( [.] p419
+                    & [.] p519 )
+              | <.> ( [.] p419
+                    & [.] p619 )
+              | <.> ( [.] p419
+                    & [.] p719 )
+              | <.> ( [.] p419
+                    & [.] p819 )
+              | <.> ( [.] p419
+                    & [.] p919 )
+              | <.> ( [.] p419
+                    & [.] p1019 )
+              | <.> ( [.] p419
+                    & [.] p1119 )
+              | <.> ( [.] p419
+                    & [.] p1219 )
+              | <.> ( [.] p419
+                    & [.] p1319 )
+              | <.> ( [.] p419
+                    & [.] p1419 )
+              | <.> ( [.] p419
+                    & [.] p1519 )
+              | <.> ( [.] p419
+                    & [.] p1619 )
+              | <.> ( [.] p419
+                    & [.] p1719 )
+              | <.> ( [.] p419
+                    & [.] p1819 )
+              | <.> ( [.] p419
+                    & p1919 )
+              | <.> ( [.] p419
+                    & p2019 )
+              | <.> ( [.] p419
+                    & p2119 )
+              | <.> ( [.] p519
+                    & [.] p619 )
+              | <.> ( [.] p519
+                    & [.] p719 )
+              | <.> ( [.] p519
+                    & [.] p819 )
+              | <.> ( [.] p519
+                    & [.] p919 )
+              | <.> ( [.] p519
+                    & [.] p1019 )
+              | <.> ( [.] p519
+                    & [.] p1119 )
+              | <.> ( [.] p519
+                    & [.] p1219 )
+              | <.> ( [.] p519
+                    & [.] p1319 )
+              | <.> ( [.] p519
+                    & [.] p1419 )
+              | <.> ( [.] p519
+                    & [.] p1519 )
+              | <.> ( [.] p519
+                    & [.] p1619 )
+              | <.> ( [.] p519
+                    & [.] p1719 )
+              | <.> ( [.] p519
+                    & [.] p1819 )
+              | <.> ( [.] p519
+                    & p1919 )
+              | <.> ( [.] p519
+                    & p2019 )
+              | <.> ( [.] p519
+                    & p2119 )
+              | <.> ( [.] p619
+                    & [.] p719 )
+              | <.> ( [.] p619
+                    & [.] p819 )
+              | <.> ( [.] p619
+                    & [.] p919 )
+              | <.> ( [.] p619
+                    & [.] p1019 )
+              | <.> ( [.] p619
+                    & [.] p1119 )
+              | <.> ( [.] p619
+                    & [.] p1219 )
+              | <.> ( [.] p619
+                    & [.] p1319 )
+              | <.> ( [.] p619
+                    & [.] p1419 )
+              | <.> ( [.] p619
+                    & [.] p1519 )
+              | <.> ( [.] p619
+                    & [.] p1619 )
+              | <.> ( [.] p619
+                    & [.] p1719 )
+              | <.> ( [.] p619
+                    & [.] p1819 )
+              | <.> ( [.] p619
+                    & p1919 )
+              | <.> ( [.] p619
+                    & p2019 )
+              | <.> ( [.] p619
+                    & p2119 )
+              | <.> ( [.] p719
+                    & [.] p819 )
+              | <.> ( [.] p719
+                    & [.] p919 )
+              | <.> ( [.] p719
+                    & [.] p1019 )
+              | <.> ( [.] p719
+                    & [.] p1119 )
+              | <.> ( [.] p719
+                    & [.] p1219 )
+              | <.> ( [.] p719
+                    & [.] p1319 )
+              | <.> ( [.] p719
+                    & [.] p1419 )
+              | <.> ( [.] p719
+                    & [.] p1519 )
+              | <.> ( [.] p719
+                    & [.] p1619 )
+              | <.> ( [.] p719
+                    & [.] p1719 )
+              | <.> ( [.] p719
+                    & [.] p1819 )
+              | <.> ( [.] p719
+                    & p1919 )
+              | <.> ( [.] p719
+                    & p2019 )
+              | <.> ( [.] p719
+                    & p2119 )
+              | <.> ( [.] p819
+                    & [.] p919 )
+              | <.> ( [.] p819
+                    & [.] p1019 )
+              | <.> ( [.] p819
+                    & [.] p1119 )
+              | <.> ( [.] p819
+                    & [.] p1219 )
+              | <.> ( [.] p819
+                    & [.] p1319 )
+              | <.> ( [.] p819
+                    & [.] p1419 )
+              | <.> ( [.] p819
+                    & [.] p1519 )
+              | <.> ( [.] p819
+                    & [.] p1619 )
+              | <.> ( [.] p819
+                    & [.] p1719 )
+              | <.> ( [.] p819
+                    & [.] p1819 )
+              | <.> ( [.] p819
+                    & p1919 )
+              | <.> ( [.] p819
+                    & p2019 )
+              | <.> ( [.] p819
+                    & p2119 )
+              | <.> ( [.] p919
+                    & [.] p1019 )
+              | <.> ( [.] p919
+                    & [.] p1119 )
+              | <.> ( [.] p919
+                    & [.] p1219 )
+              | <.> ( [.] p919
+                    & [.] p1319 )
+              | <.> ( [.] p919
+                    & [.] p1419 )
+              | <.> ( [.] p919
+                    & [.] p1519 )
+              | <.> ( [.] p919
+                    & [.] p1619 )
+              | <.> ( [.] p919
+                    & [.] p1719 )
+              | <.> ( [.] p919
+                    & [.] p1819 )
+              | <.> ( [.] p919
+                    & p1919 )
+              | <.> ( [.] p919
+                    & p2019 )
+              | <.> ( [.] p919
+                    & p2119 )
+              | <.> ( [.] p1019
+                    & [.] p1119 )
+              | <.> ( [.] p1019
+                    & [.] p1219 )
+              | <.> ( [.] p1019
+                    & [.] p1319 )
+              | <.> ( [.] p1019
+                    & [.] p1419 )
+              | <.> ( [.] p1019
+                    & [.] p1519 )
+              | <.> ( [.] p1019
+                    & [.] p1619 )
+              | <.> ( [.] p1019
+                    & [.] p1719 )
+              | <.> ( [.] p1019
+                    & [.] p1819 )
+              | <.> ( [.] p1019
+                    & p1919 )
+              | <.> ( [.] p1019
+                    & p2019 )
+              | <.> ( [.] p1019
+                    & p2119 )
+              | <.> ( [.] p1119
+                    & [.] p1219 )
+              | <.> ( [.] p1119
+                    & [.] p1319 )
+              | <.> ( [.] p1119
+                    & [.] p1419 )
+              | <.> ( [.] p1119
+                    & [.] p1519 )
+              | <.> ( [.] p1119
+                    & [.] p1619 )
+              | <.> ( [.] p1119
+                    & [.] p1719 )
+              | <.> ( [.] p1119
+                    & [.] p1819 )
+              | <.> ( [.] p1119
+                    & p1919 )
+              | <.> ( [.] p1119
+                    & p2019 )
+              | <.> ( [.] p1119
+                    & p2119 )
+              | <.> ( [.] p1219
+                    & [.] p1319 )
+              | <.> ( [.] p1219
+                    & [.] p1419 )
+              | <.> ( [.] p1219
+                    & [.] p1519 )
+              | <.> ( [.] p1219
+                    & [.] p1619 )
+              | <.> ( [.] p1219
+                    & [.] p1719 )
+              | <.> ( [.] p1219
+                    & [.] p1819 )
+              | <.> ( [.] p1219
+                    & p1919 )
+              | <.> ( [.] p1219
+                    & p2019 )
+              | <.> ( [.] p1219
+                    & p2119 )
+              | <.> ( [.] p1319
+                    & [.] p1419 )
+              | <.> ( [.] p1319
+                    & [.] p1519 )
+              | <.> ( [.] p1319
+                    & [.] p1619 )
+              | <.> ( [.] p1319
+                    & [.] p1719 )
+              | <.> ( [.] p1319
+                    & [.] p1819 )
+              | <.> ( [.] p1319
+                    & p1919 )
+              | <.> ( [.] p1319
+                    & p2019 )
+              | <.> ( [.] p1319
+                    & p2119 )
+              | <.> ( [.] p1419
+                    & [.] p1519 )
+              | <.> ( [.] p1419
+                    & [.] p1619 )
+              | <.> ( [.] p1419
+                    & [.] p1719 )
+              | <.> ( [.] p1419
+                    & [.] p1819 )
+              | <.> ( [.] p1419
+                    & p1919 )
+              | <.> ( [.] p1419
+                    & p2019 )
+              | <.> ( [.] p1419
+                    & p2119 )
+              | <.> ( [.] p1519
+                    & [.] p1619 )
+              | <.> ( [.] p1519
+                    & [.] p1719 )
+              | <.> ( [.] p1519
+                    & [.] p1819 )
+              | <.> ( [.] p1519
+                    & p1919 )
+              | <.> ( [.] p1519
+                    & p2019 )
+              | <.> ( [.] p1519
+                    & p2119 )
+              | <.> ( [.] p1619
+                    & [.] p1719 )
+              | <.> ( [.] p1619
+                    & [.] p1819 )
+              | <.> ( [.] p1619
+                    & p1919 )
+              | <.> ( [.] p1619
+                    & p2019 )
+              | <.> ( [.] p1619
+                    & p2119 )
+              | <.> ( [.] p1719
+                    & [.] p1819 )
+              | <.> ( [.] p1719
+                    & p1919 )
+              | <.> ( [.] p1719
+                    & p2019 )
+              | <.> ( [.] p1719
+                    & p2119 )
+              | <.> ( [.] p1819
+                    & p1919 )
+              | <.> ( [.] p1819
+                    & p2019 )
+              | <.> ( [.] p1819
+                    & p2119 )
+              | <.> ( p1919
+                    & p2019 )
+              | <.> ( p1919
+                    & p2119 )
+              | <.> ( p2019
+                    & p2119 )
+              | <.> ( [.] p120
+                    & [.] p220 )
+              | <.> ( [.] p120
+                    & [.] p320 )
+              | <.> ( [.] p120
+                    & [.] p420 )
+              | <.> ( [.] p120
+                    & [.] p520 )
+              | <.> ( [.] p120
+                    & [.] p620 )
+              | <.> ( [.] p120
+                    & [.] p720 )
+              | <.> ( [.] p120
+                    & [.] p820 )
+              | <.> ( [.] p120
+                    & [.] p920 )
+              | <.> ( [.] p120
+                    & [.] p1020 )
+              | <.> ( [.] p120
+                    & [.] p1120 )
+              | <.> ( [.] p120
+                    & [.] p1220 )
+              | <.> ( [.] p120
+                    & [.] p1320 )
+              | <.> ( [.] p120
+                    & [.] p1420 )
+              | <.> ( [.] p120
+                    & [.] p1520 )
+              | <.> ( [.] p120
+                    & [.] p1620 )
+              | <.> ( [.] p120
+                    & [.] p1720 )
+              | <.> ( [.] p120
+                    & [.] p1820 )
+              | <.> ( [.] p120
+                    & [.] p1920 )
+              | <.> ( [.] p120
+                    & p2020 )
+              | <.> ( [.] p120
+                    & p2120 )
+              | <.> ( [.] p220
+                    & [.] p320 )
+              | <.> ( [.] p220
+                    & [.] p420 )
+              | <.> ( [.] p220
+                    & [.] p520 )
+              | <.> ( [.] p220
+                    & [.] p620 )
+              | <.> ( [.] p220
+                    & [.] p720 )
+              | <.> ( [.] p220
+                    & [.] p820 )
+              | <.> ( [.] p220
+                    & [.] p920 )
+              | <.> ( [.] p220
+                    & [.] p1020 )
+              | <.> ( [.] p220
+                    & [.] p1120 )
+              | <.> ( [.] p220
+                    & [.] p1220 )
+              | <.> ( [.] p220
+                    & [.] p1320 )
+              | <.> ( [.] p220
+                    & [.] p1420 )
+              | <.> ( [.] p220
+                    & [.] p1520 )
+              | <.> ( [.] p220
+                    & [.] p1620 )
+              | <.> ( [.] p220
+                    & [.] p1720 )
+              | <.> ( [.] p220
+                    & [.] p1820 )
+              | <.> ( [.] p220
+                    & [.] p1920 )
+              | <.> ( [.] p220
+                    & p2020 )
+              | <.> ( [.] p220
+                    & p2120 )
+              | <.> ( [.] p320
+                    & [.] p420 )
+              | <.> ( [.] p320
+                    & [.] p520 )
+              | <.> ( [.] p320
+                    & [.] p620 )
+              | <.> ( [.] p320
+                    & [.] p720 )
+              | <.> ( [.] p320
+                    & [.] p820 )
+              | <.> ( [.] p320
+                    & [.] p920 )
+              | <.> ( [.] p320
+                    & [.] p1020 )
+              | <.> ( [.] p320
+                    & [.] p1120 )
+              | <.> ( [.] p320
+                    & [.] p1220 )
+              | <.> ( [.] p320
+                    & [.] p1320 )
+              | <.> ( [.] p320
+                    & [.] p1420 )
+              | <.> ( [.] p320
+                    & [.] p1520 )
+              | <.> ( [.] p320
+                    & [.] p1620 )
+              | <.> ( [.] p320
+                    & [.] p1720 )
+              | <.> ( [.] p320
+                    & [.] p1820 )
+              | <.> ( [.] p320
+                    & [.] p1920 )
+              | <.> ( [.] p320
+                    & p2020 )
+              | <.> ( [.] p320
+                    & p2120 )
+              | <.> ( [.] p420
+                    & [.] p520 )
+              | <.> ( [.] p420
+                    & [.] p620 )
+              | <.> ( [.] p420
+                    & [.] p720 )
+              | <.> ( [.] p420
+                    & [.] p820 )
+              | <.> ( [.] p420
+                    & [.] p920 )
+              | <.> ( [.] p420
+                    & [.] p1020 )
+              | <.> ( [.] p420
+                    & [.] p1120 )
+              | <.> ( [.] p420
+                    & [.] p1220 )
+              | <.> ( [.] p420
+                    & [.] p1320 )
+              | <.> ( [.] p420
+                    & [.] p1420 )
+              | <.> ( [.] p420
+                    & [.] p1520 )
+              | <.> ( [.] p420
+                    & [.] p1620 )
+              | <.> ( [.] p420
+                    & [.] p1720 )
+              | <.> ( [.] p420
+                    & [.] p1820 )
+              | <.> ( [.] p420
+                    & [.] p1920 )
+              | <.> ( [.] p420
+                    & p2020 )
+              | <.> ( [.] p420
+                    & p2120 )
+              | <.> ( [.] p520
+                    & [.] p620 )
+              | <.> ( [.] p520
+                    & [.] p720 )
+              | <.> ( [.] p520
+                    & [.] p820 )
+              | <.> ( [.] p520
+                    & [.] p920 )
+              | <.> ( [.] p520
+                    & [.] p1020 )
+              | <.> ( [.] p520
+                    & [.] p1120 )
+              | <.> ( [.] p520
+                    & [.] p1220 )
+              | <.> ( [.] p520
+                    & [.] p1320 )
+              | <.> ( [.] p520
+                    & [.] p1420 )
+              | <.> ( [.] p520
+                    & [.] p1520 )
+              | <.> ( [.] p520
+                    & [.] p1620 )
+              | <.> ( [.] p520
+                    & [.] p1720 )
+              | <.> ( [.] p520
+                    & [.] p1820 )
+              | <.> ( [.] p520
+                    & [.] p1920 )
+              | <.> ( [.] p520
+                    & p2020 )
+              | <.> ( [.] p520
+                    & p2120 )
+              | <.> ( [.] p620
+                    & [.] p720 )
+              | <.> ( [.] p620
+                    & [.] p820 )
+              | <.> ( [.] p620
+                    & [.] p920 )
+              | <.> ( [.] p620
+                    & [.] p1020 )
+              | <.> ( [.] p620
+                    & [.] p1120 )
+              | <.> ( [.] p620
+                    & [.] p1220 )
+              | <.> ( [.] p620
+                    & [.] p1320 )
+              | <.> ( [.] p620
+                    & [.] p1420 )
+              | <.> ( [.] p620
+                    & [.] p1520 )
+              | <.> ( [.] p620
+                    & [.] p1620 )
+              | <.> ( [.] p620
+                    & [.] p1720 )
+              | <.> ( [.] p620
+                    & [.] p1820 )
+              | <.> ( [.] p620
+                    & [.] p1920 )
+              | <.> ( [.] p620
+                    & p2020 )
+              | <.> ( [.] p620
+                    & p2120 )
+              | <.> ( [.] p720
+                    & [.] p820 )
+              | <.> ( [.] p720
+                    & [.] p920 )
+              | <.> ( [.] p720
+                    & [.] p1020 )
+              | <.> ( [.] p720
+                    & [.] p1120 )
+              | <.> ( [.] p720
+                    & [.] p1220 )
+              | <.> ( [.] p720
+                    & [.] p1320 )
+              | <.> ( [.] p720
+                    & [.] p1420 )
+              | <.> ( [.] p720
+                    & [.] p1520 )
+              | <.> ( [.] p720
+                    & [.] p1620 )
+              | <.> ( [.] p720
+                    & [.] p1720 )
+              | <.> ( [.] p720
+                    & [.] p1820 )
+              | <.> ( [.] p720
+                    & [.] p1920 )
+              | <.> ( [.] p720
+                    & p2020 )
+              | <.> ( [.] p720
+                    & p2120 )
+              | <.> ( [.] p820
+                    & [.] p920 )
+              | <.> ( [.] p820
+                    & [.] p1020 )
+              | <.> ( [.] p820
+                    & [.] p1120 )
+              | <.> ( [.] p820
+                    & [.] p1220 )
+              | <.> ( [.] p820
+                    & [.] p1320 )
+              | <.> ( [.] p820
+                    & [.] p1420 )
+              | <.> ( [.] p820
+                    & [.] p1520 )
+              | <.> ( [.] p820
+                    & [.] p1620 )
+              | <.> ( [.] p820
+                    & [.] p1720 )
+              | <.> ( [.] p820
+                    & [.] p1820 )
+              | <.> ( [.] p820
+                    & [.] p1920 )
+              | <.> ( [.] p820
+                    & p2020 )
+              | <.> ( [.] p820
+                    & p2120 )
+              | <.> ( [.] p920
+                    & [.] p1020 )
+              | <.> ( [.] p920
+                    & [.] p1120 )
+              | <.> ( [.] p920
+                    & [.] p1220 )
+              | <.> ( [.] p920
+                    & [.] p1320 )
+              | <.> ( [.] p920
+                    & [.] p1420 )
+              | <.> ( [.] p920
+                    & [.] p1520 )
+              | <.> ( [.] p920
+                    & [.] p1620 )
+              | <.> ( [.] p920
+                    & [.] p1720 )
+              | <.> ( [.] p920
+                    & [.] p1820 )
+              | <.> ( [.] p920
+                    & [.] p1920 )
+              | <.> ( [.] p920
+                    & p2020 )
+              | <.> ( [.] p920
+                    & p2120 )
+              | <.> ( [.] p1020
+                    & [.] p1120 )
+              | <.> ( [.] p1020
+                    & [.] p1220 )
+              | <.> ( [.] p1020
+                    & [.] p1320 )
+              | <.> ( [.] p1020
+                    & [.] p1420 )
+              | <.> ( [.] p1020
+                    & [.] p1520 )
+              | <.> ( [.] p1020
+                    & [.] p1620 )
+              | <.> ( [.] p1020
+                    & [.] p1720 )
+              | <.> ( [.] p1020
+                    & [.] p1820 )
+              | <.> ( [.] p1020
+                    & [.] p1920 )
+              | <.> ( [.] p1020
+                    & p2020 )
+              | <.> ( [.] p1020
+                    & p2120 )
+              | <.> ( [.] p1120
+                    & [.] p1220 )
+              | <.> ( [.] p1120
+                    & [.] p1320 )
+              | <.> ( [.] p1120
+                    & [.] p1420 )
+              | <.> ( [.] p1120
+                    & [.] p1520 )
+              | <.> ( [.] p1120
+                    & [.] p1620 )
+              | <.> ( [.] p1120
+                    & [.] p1720 )
+              | <.> ( [.] p1120
+                    & [.] p1820 )
+              | <.> ( [.] p1120
+                    & [.] p1920 )
+              | <.> ( [.] p1120
+                    & p2020 )
+              | <.> ( [.] p1120
+                    & p2120 )
+              | <.> ( [.] p1220
+                    & [.] p1320 )
+              | <.> ( [.] p1220
+                    & [.] p1420 )
+              | <.> ( [.] p1220
+                    & [.] p1520 )
+              | <.> ( [.] p1220
+                    & [.] p1620 )
+              | <.> ( [.] p1220
+                    & [.] p1720 )
+              | <.> ( [.] p1220
+                    & [.] p1820 )
+              | <.> ( [.] p1220
+                    & [.] p1920 )
+              | <.> ( [.] p1220
+                    & p2020 )
+              | <.> ( [.] p1220
+                    & p2120 )
+              | <.> ( [.] p1320
+                    & [.] p1420 )
+              | <.> ( [.] p1320
+                    & [.] p1520 )
+              | <.> ( [.] p1320
+                    & [.] p1620 )
+              | <.> ( [.] p1320
+                    & [.] p1720 )
+              | <.> ( [.] p1320
+                    & [.] p1820 )
+              | <.> ( [.] p1320
+                    & [.] p1920 )
+              | <.> ( [.] p1320
+                    & p2020 )
+              | <.> ( [.] p1320
+                    & p2120 )
+              | <.> ( [.] p1420
+                    & [.] p1520 )
+              | <.> ( [.] p1420
+                    & [.] p1620 )
+              | <.> ( [.] p1420
+                    & [.] p1720 )
+              | <.> ( [.] p1420
+                    & [.] p1820 )
+              | <.> ( [.] p1420
+                    & [.] p1920 )
+              | <.> ( [.] p1420
+                    & p2020 )
+              | <.> ( [.] p1420
+                    & p2120 )
+              | <.> ( [.] p1520
+                    & [.] p1620 )
+              | <.> ( [.] p1520
+                    & [.] p1720 )
+              | <.> ( [.] p1520
+                    & [.] p1820 )
+              | <.> ( [.] p1520
+                    & [.] p1920 )
+              | <.> ( [.] p1520
+                    & p2020 )
+              | <.> ( [.] p1520
+                    & p2120 )
+              | <.> ( [.] p1620
+                    & [.] p1720 )
+              | <.> ( [.] p1620
+                    & [.] p1820 )
+              | <.> ( [.] p1620
+                    & [.] p1920 )
+              | <.> ( [.] p1620
+                    & p2020 )
+              | <.> ( [.] p1620
+                    & p2120 )
+              | <.> ( [.] p1720
+                    & [.] p1820 )
+              | <.> ( [.] p1720
+                    & [.] p1920 )
+              | <.> ( [.] p1720
+                    & p2020 )
+              | <.> ( [.] p1720
+                    & p2120 )
+              | <.> ( [.] p1820
+                    & [.] p1920 )
+              | <.> ( [.] p1820
+                    & p2020 )
+              | <.> ( [.] p1820
+                    & p2120 )
+              | <.> ( [.] p1920
+                    & p2020 )
+              | <.> ( [.] p1920
+                    & p2120 )
+              | <.> ( p2020
+                    & p2120 ) ) ) ).

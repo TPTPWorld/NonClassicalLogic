@@ -1,0 +1,53 @@
+%------------------------------------------------------------------------------
+% File     : 
+% Domain   : 
+% Problem  : muddy forehead problem
+% Version  : 
+% English  : Three children are playing together...
+
+% Refs     : [Fit07] Modal Proof Theory [RO12] QMLTP
+% Source   : [Fit07]
+% Names    : 
+
+% Status   : Theorem
+% Rating   : 
+% Syntax   : 
+% SPC      : 
+
+% Comments : 
+%------------------------------------------------------------------------------
+
+tff(T,logic,
+    $modal == 
+      [ $domains == $constant,
+        $designation == $rigid,
+        $terms == $global,
+        $modalities == [$modal_system_T, {$box(#a)} == $modal_system_T, {$box(#b)} == $modal_system_T, {$box(#c)} == $modal_system_T] ] ).
+
+tff(a_type,type,a: $i).
+tff(b_type,type,b: $i).
+tff(c_type,type,c: $i).
+tff(s_type,type,s: $o).
+tff(mf_type,type,mf: $i>$o).
+
+tff(a1,axiom,(({$box(#a)}@(({$box(#a)}@(mf(b)))|({$box(#a)}@(~mf(b)))))&({$box(#b)}@(({$box(#a)}@(mf(b)))|({$box(#a)}@(~mf(b)))))&({$box(#c)}@(({$box(#a)}@(mf(b)))|({$box(#a)}@(~mf(b))))))).
+tff(a2,axiom,(({$box(#a)}@(({$box(#a)}@(mf(c)))|({$box(#a)}@(~mf(c)))))&({$box(#b)}@(({$box(#a)}@(mf(c)))|({$box(#a)}@(~mf(c)))))&({$box(#c)}@(({$box(#a)}@(mf(c)))|({$box(#a)}@(~mf(c))))))).
+tff(a3,axiom,(({$box(#a)}@(({$box(#b)}@(mf(a)))|({$box(#b)}@(~mf(a)))))&({$box(#b)}@(({$box(#b)}@(mf(a)))|({$box(#b)}@(~mf(a)))))&({$box(#c)}@(({$box(#b)}@(mf(a)))|({$box(#b)}@(~mf(a))))))).
+tff(a4,axiom,(({$box(#a)}@(({$box(#b)}@(mf(c)))|({$box(#b)}@(~mf(c)))))&({$box(#b)}@(({$box(#b)}@(mf(c)))|({$box(#b)}@(~mf(c)))))&({$box(#c)}@(({$box(#b)}@(mf(c)))|({$box(#b)}@(~mf(c))))))).
+tff(a5,axiom,(({$box(#a)}@(({$box(#c)}@(mf(a)))|({$box(#c)}@(~mf(a)))))&({$box(#b)}@(({$box(#c)}@(mf(a)))|({$box(#c)}@(~mf(a)))))&({$box(#c)}@(({$box(#c)}@(mf(a)))|({$box(#c)}@(~mf(a))))))).
+tff(a6,axiom,(({$box(#a)}@(({$box(#c)}@(mf(b)))|({$box(#c)}@(~mf(b)))))&({$box(#b)}@(({$box(#c)}@(mf(b)))|({$box(#c)}@(~mf(b)))))&({$box(#c)}@(({$box(#c)}@(mf(b)))|({$box(#c)}@(~mf(b))))))).
+tff(a7,axiom,(s<=>(({$box(#a)}@(mf(a)))|({$box(#a)}@(~mf(a)))|({$box(#b)}@(mf(b)))|({$box(#b)}@(~mf(b)))|({$box(#c)}@(mf(c)))|({$box(#c)}@(~mf(c)))))).
+
+tff(con,conjecture,(
+    (({$box(#a)}@(~((({$box(#a)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s)))
+    &({$box(#b)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s)))
+    &({$box(#c)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s))))=>s)))
+    &({$box(#b)}@(~((({$box(#a)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s)))
+    &({$box(#b)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s)))
+    &({$box(#c)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s))))=>s)))
+    &({$box(#c)}@(~((({$box(#a)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s)))
+    &({$box(#b)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s)))
+    &({$box(#c)}@(~((({$box(#a)}@(mf(a)|mf(b)|mf(c)))&({$box(#b)}@(mf(a)|mf(b)|mf(c)))&({$box(#c)}@(mf(a)|mf(b)|mf(c))))=>s))))=>s))))
+    =>({$box(#a)}@(mf(a))&{$box(#b)}@(mf(b))&{$box(#c)}@(mf(c)))
+    )).
+%------------------------------------------------------------------------------

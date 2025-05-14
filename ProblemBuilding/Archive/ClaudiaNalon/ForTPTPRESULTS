@@ -1,0 +1,306 @@
+KSP---0.1.6   system information being retrieved
+KSP---0.1.6's non-default parameters being retrieved
+KSP---0.1.6's SYO925_1.017 does not need preparation
+KSP---0.1.6   being executed on GRA076_1.001 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA076_1.001.p'
+RESULT: GRA076_1.001 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.08 WC = 0.20 
+OUTPUT: GRA076_1.001 - KSP---0.1.6 says Assurance - CPU = 0.08 WC = 0.20 
+KSP---0.1.6   being executed on GRA076_1.002 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA076_1.002.p'
+RESULT: GRA076_1.002 - KSP---0.1.6 says Theorem - CPU = 0.09 WC = 0.20 
+OUTPUT: GRA076_1.002 - KSP---0.1.6 says Assurance - CPU = 0.09 WC = 0.20 
+KSP---0.1.6   being executed on GRA076_1.005 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA076_1.005.p'
+RESULT: GRA076_1.005 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.07 WC = 0.20 
+OUTPUT: GRA076_1.005 - KSP---0.1.6 says Assurance - CPU = 0.07 WC = 0.20 
+KSP---0.1.6   being executed on GRA076_1.009 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA076_1.009.p'
+RESULT: GRA076_1.009 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.05 WC = 0.22 
+OUTPUT: GRA076_1.009 - KSP---0.1.6 says Assurance - CPU = 0.05 WC = 0.22 
+KSP---0.1.6   being executed on GRA076_1.013 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA076_1.013.p'
+RESULT: GRA076_1.013 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.21 WC = 0.28 
+OUTPUT: GRA076_1.013 - KSP---0.1.6 says Assurance - CPU = 0.21 WC = 0.28 
+KSP---0.1.6   being executed on GRA076_1.017 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA076_1.017.p'
+RESULT: GRA076_1.017 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.23 WC = 0.35 
+OUTPUT: GRA076_1.017 - KSP---0.1.6 says Assurance - CPU = 0.23 WC = 0.35 
+KSP---0.1.6   being executed on GRA077_1.010 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA077_1.010.p'
+RESULT: GRA077_1.010 - KSP---0.1.6 says Timeout - CPU = 60.07 WC = 60.43 
+OUTPUT: GRA077_1.010 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on GRA078_1.002 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA078_1.002.p'
+RESULT: GRA078_1.002 - KSP---0.1.6 says Theorem - CPU = 36.72 WC = 36.79 
+OUTPUT: GRA078_1.002 - KSP---0.1.6 says Assurance - CPU = 36.72 WC = 36.79 
+KSP---0.1.6   being executed on GRA078_1.018 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA078_1.018.p'
+RESULT: GRA078_1.018 - KSP---0.1.6 says Timeout - CPU = 60.01 WC = 60.26 
+OUTPUT: GRA078_1.018 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on GRA079_1.002 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA079_1.002.p'
+RESULT: GRA079_1.002 - KSP---0.1.6 says Timeout - CPU = 60.06 WC = 60.21 
+OUTPUT: GRA079_1.002 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on GRA080_1.006 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA080_1.006.p'
+RESULT: GRA080_1.006 - KSP---0.1.6 says Timeout - CPU = 60.07 WC = 60.31 
+OUTPUT: GRA080_1.006 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on GRA080_1.014 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'GRA080_1.014.p'
+RESULT: GRA080_1.014 - KSP---0.1.6 says Timeout - CPU = 60.08 WC = 60.34 
+OUTPUT: GRA080_1.014 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL971_1.014 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL971_1.014.p'
+RESULT: LCL971_1.014 - KSP---0.1.6 says Timeout - CPU = 60.02 WC = 60.22 
+OUTPUT: LCL971_1.014 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL972_1.014 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL972_1.014.p'
+RESULT: LCL972_1.014 - KSP---0.1.6 says Timeout - CPU = 60.08 WC = 62.56 
+OUTPUT: LCL972_1.014 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL973_1.006 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL973_1.006.p'
+RESULT: LCL973_1.006 - KSP---0.1.6 says Timeout - CPU = 60.05 WC = 60.44 
+OUTPUT: LCL973_1.006 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL974_1.006 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL974_1.006.p'
+RESULT: LCL974_1.006 - KSP---0.1.6 says Timeout - CPU = 60.06 WC = 60.29 
+OUTPUT: LCL974_1.006 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL974_1.014 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL974_1.014.p'
+RESULT: LCL974_1.014 - KSP---0.1.6 says Timeout - CPU = 60.07 WC = 60.98 
+OUTPUT: LCL974_1.014 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL975_1.001 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL975_1.001.p'
+RESULT: LCL975_1.001 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.07 WC = 0.25 
+OUTPUT: LCL975_1.001 - KSP---0.1.6 says Assurance - CPU = 0.07 WC = 0.25 
+KSP---0.1.6   being executed on LCL975_1.005 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL975_1.005.p'
+RESULT: LCL975_1.005 - KSP---0.1.6 says CounterSatisfiable - CPU = 11.97 WC = 12.04 
+OUTPUT: LCL975_1.005 - KSP---0.1.6 says Assurance - CPU = 11.97 WC = 12.04 
+KSP---0.1.6   being executed on LCL975_1.009 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL975_1.009.p'
+RESULT: LCL975_1.009 - KSP---0.1.6 says Timeout - CPU = 60.06 WC = 60.34 
+OUTPUT: LCL975_1.009 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL975_1.013 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL975_1.013.p'
+RESULT: LCL975_1.013 - KSP---0.1.6 says Timeout - CPU = 60.06 WC = 60.41 
+OUTPUT: LCL975_1.013 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL975_1.017 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL975_1.017.p'
+RESULT: LCL975_1.017 - KSP---0.1.6 says Timeout - CPU = 60.02 WC = 60.42 
+OUTPUT: LCL975_1.017 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL976_1.002 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL976_1.002.p'
+RESULT: LCL976_1.002 - KSP---0.1.6 says Timeout - CPU = 60.06 WC = 60.16 
+OUTPUT: LCL976_1.002 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on LCL976_1.018 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'LCL976_1.018.p'
+RESULT: LCL976_1.018 - KSP---0.1.6 says Timeout - CPU = 60.04 WC = 61.50 
+OUTPUT: LCL976_1.018 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on PLA055_1.010 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA055_1.010.p'
+RESULT: PLA055_1.010 - KSP---0.1.6 says Theorem - CPU = 0.04 WC = 0.17 
+OUTPUT: PLA055_1.010 - KSP---0.1.6 says Assurance - CPU = 0.04 WC = 0.17 
+KSP---0.1.6   being executed on PLA056_1.010 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA056_1.010.p'
+RESULT: PLA056_1.010 - KSP---0.1.6 says Theorem - CPU = 23.28 WC = 23.33 
+OUTPUT: PLA056_1.010 - KSP---0.1.6 says Assurance - CPU = 23.28 WC = 23.33 
+KSP---0.1.6   being executed on PLA057_1.018 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA057_1.018.p'
+RESULT: PLA057_1.018 - KSP---0.1.6 says Timeout - CPU = 60.07 WC = 60.24 
+OUTPUT: PLA057_1.018 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on PLA058_1.018 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA058_1.018.p'
+RESULT: PLA058_1.018 - KSP---0.1.6 says Timeout - CPU = 60.01 WC = 60.20 
+OUTPUT: PLA058_1.018 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on PLA059_1.001 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA059_1.001.p'
+RESULT: PLA059_1.001 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.20 WC = 0.21 
+OUTPUT: PLA059_1.001 - KSP---0.1.6 says Assurance - CPU = 0.20 WC = 0.21 
+KSP---0.1.6   being executed on PLA059_1.005 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA059_1.005.p'
+RESULT: PLA059_1.005 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.18 WC = 0.33 
+OUTPUT: PLA059_1.005 - KSP---0.1.6 says Assurance - CPU = 0.18 WC = 0.33 
+KSP---0.1.6   being executed on PLA059_1.009 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA059_1.009.p'
+RESULT: PLA059_1.009 - KSP---0.1.6 says CounterSatisfiable - CPU = 1.30 WC = 1.32 
+OUTPUT: PLA059_1.009 - KSP---0.1.6 says Assurance - CPU = 1.30 WC = 1.32 
+KSP---0.1.6   being executed on PLA059_1.013 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA059_1.013.p'
+RESULT: PLA059_1.013 - KSP---0.1.6 says CounterSatisfiable - CPU = 13.66 WC = 13.71 
+OUTPUT: PLA059_1.013 - KSP---0.1.6 says Assurance - CPU = 13.66 WC = 13.71 
+KSP---0.1.6   being executed on PLA059_1.014 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA059_1.014.p'
+RESULT: PLA059_1.014 - KSP---0.1.6 says Timeout - CPU = 60.06 WC = 60.24 
+OUTPUT: PLA059_1.014 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on PLA059_1.017 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'PLA059_1.017.p'
+RESULT: PLA059_1.017 - KSP---0.1.6 says CounterSatisfiable - CPU = 53.96 WC = 54.08 
+OUTPUT: PLA059_1.017 - KSP---0.1.6 says Assurance - CPU = 53.96 WC = 54.08 
+KSP---0.1.6   being executed on SYO919_1.001 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO919_1.001.p'
+RESULT: SYO919_1.001 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.18 WC = 0.21 
+OUTPUT: SYO919_1.001 - KSP---0.1.6 says Assurance - CPU = 0.18 WC = 0.21 
+KSP---0.1.6   being executed on SYO919_1.005 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO919_1.005.p'
+RESULT: SYO919_1.005 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.18 WC = 0.45 
+OUTPUT: SYO919_1.005 - KSP---0.1.6 says Assurance - CPU = 0.18 WC = 0.45 
+KSP---0.1.6   being executed on SYO919_1.009 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO919_1.009.p'
+RESULT: SYO919_1.009 - KSP---0.1.6 says Timeout - CPU = 60.07 WC = 60.45 
+OUTPUT: SYO919_1.009 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO919_1.013 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO919_1.013.p'
+RESULT: SYO919_1.013 - KSP---0.1.6 says Timeout - CPU = 60.02 WC = 60.35 
+OUTPUT: SYO919_1.013 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO919_1.017 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO919_1.017.p'
+RESULT: SYO919_1.017 - KSP---0.1.6 says Timeout - CPU = 60.04 WC = 60.23 
+OUTPUT: SYO919_1.017 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO920_1.014 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO920_1.014.p'
+RESULT: SYO920_1.014 - KSP---0.1.6 says Theorem - CPU = 0.08 WC = 0.22 
+OUTPUT: SYO920_1.014 - KSP---0.1.6 says Assurance - CPU = 0.08 WC = 0.22 
+KSP---0.1.6   being executed on SYO921_1.006 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO921_1.006.p'
+RESULT: SYO921_1.006 - KSP---0.1.6 says Timeout - CPU = 60.02 WC = 60.25 
+OUTPUT: SYO921_1.006 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO922_1.014 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO922_1.014.p'
+RESULT: SYO922_1.014 - KSP---0.1.6 says Timeout - CPU = 60.05 WC = 60.43 
+OUTPUT: SYO922_1.014 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO923_1.010 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO923_1.010.p'
+RESULT: SYO923_1.010 - KSP---0.1.6 says Timeout - CPU = 60.11 WC = 60.27 
+OUTPUT: SYO923_1.010 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO924_1.002 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO924_1.002.p'
+RESULT: SYO924_1.002 - KSP---0.1.6 says Theorem - CPU = 53.30 WC = 53.42 
+OUTPUT: SYO924_1.002 - KSP---0.1.6 says Assurance - CPU = 53.30 WC = 53.42 
+KSP---0.1.6   being executed on SYO924_1.018 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO924_1.018.p'
+RESULT: SYO924_1.018 - KSP---0.1.6 says Timeout - CPU = 60.07 WC = 60.29 
+OUTPUT: SYO924_1.018 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO925_1.001 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO925_1.001.p'
+RESULT: SYO925_1.001 - KSP---0.1.6 says CounterSatisfiable - CPU = 0.04 WC = 0.17 
+OUTPUT: SYO925_1.001 - KSP---0.1.6 says Assurance - CPU = 0.04 WC = 0.17 
+KSP---0.1.6   being executed on SYO925_1.005 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO925_1.005.p'
+RESULT: SYO925_1.005 - KSP---0.1.6 says Timeout - CPU = 60.05 WC = 60.26 
+OUTPUT: SYO925_1.005 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO925_1.009 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO925_1.009.p'
+RESULT: SYO925_1.009 - KSP---0.1.6 says Timeout - CPU = 60.05 WC = 60.39 
+OUTPUT: SYO925_1.009 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO925_1.013 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO925_1.013.p'
+RESULT: SYO925_1.013 - KSP---0.1.6 says Timeout - CPU = 60.05 WC = 60.61 
+OUTPUT: SYO925_1.013 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+KSP---0.1.6   being executed on SYO925_1.017 using /exp/home/tptp/Systems/KSP---0.1.6/run_ksp 'SYO925_1.017.p'
+RESULT: SYO925_1.017 - KSP---0.1.6 says Timeout - CPU = 60.05 WC = 60.34 
+OUTPUT: SYO925_1.017 - KSP---0.1.6 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   system information being retrieved
+Leo-III---1.7.8's non-default parameters being retrieved
+Leo-III---1.7.8's SYO925_1.017 does not need preparation
+Leo-III---1.7.8   being executed on GRA076_1.001 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA076_1.001.p' 60 THM
+RESULT: GRA076_1.001 - Leo-III---1.7.8 says Timeout - CPU = 60.35 WC = 12.81 
+OUTPUT: GRA076_1.001 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA076_1.002 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA076_1.002.p' 60 THM
+RESULT: GRA076_1.002 - Leo-III---1.7.8 says Theorem - CPU = 5.51 WC = 2.22 
+OUTPUT: GRA076_1.002 - Leo-III---1.7.8 says Refutation - CPU = 5.58 WC = 2.31 
+Leo-III---1.7.8   being executed on GRA076_1.005 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA076_1.005.p' 60 THM
+RESULT: GRA076_1.005 - Leo-III---1.7.8 says Timeout - CPU = 60.15 WC = 11.94 
+OUTPUT: GRA076_1.005 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA076_1.009 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA076_1.009.p' 60 THM
+RESULT: GRA076_1.009 - Leo-III---1.7.8 says Timeout - CPU = 60.17 WC = 15.96 
+OUTPUT: GRA076_1.009 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA076_1.013 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA076_1.013.p' 60 THM
+RESULT: GRA076_1.013 - Leo-III---1.7.8 says Timeout - CPU = 60.67 WC = 24.86 
+OUTPUT: GRA076_1.013 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA076_1.017 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA076_1.017.p' 60 THM
+RESULT: GRA076_1.017 - Leo-III---1.7.8 says Timeout - CPU = 60.05 WC = 38.54 
+OUTPUT: GRA076_1.017 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA077_1.010 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA077_1.010.p' 60 THM
+RESULT: GRA077_1.010 - Leo-III---1.7.8 says Timeout - CPU = 60.36 WC = 19.96 
+OUTPUT: GRA077_1.010 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA078_1.002 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA078_1.002.p' 60 THM
+RESULT: GRA078_1.002 - Leo-III---1.7.8 says Timeout - CPU = 60.13 WC = 11.02 
+OUTPUT: GRA078_1.002 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA078_1.018 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA078_1.018.p' 60 THM
+RESULT: GRA078_1.018 - Leo-III---1.7.8 says Timeout - CPU = 60.23 WC = 45.67 
+OUTPUT: GRA078_1.018 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA079_1.002 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA079_1.002.p' 60 THM
+RESULT: GRA079_1.002 - Leo-III---1.7.8 says Timeout - CPU = 60.56 WC = 11.58 
+OUTPUT: GRA079_1.002 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA080_1.006 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA080_1.006.p' 60 THM
+RESULT: GRA080_1.006 - Leo-III---1.7.8 says Timeout - CPU = 60.62 WC = 22.20 
+OUTPUT: GRA080_1.006 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on GRA080_1.014 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'GRA080_1.014.p' 60 THM
+RESULT: GRA080_1.014 - Leo-III---1.7.8 says Timeout - CPU = 60.51 WC = 36.93 
+OUTPUT: GRA080_1.014 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL971_1.014 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL971_1.014.p' 60 THM
+RESULT: LCL971_1.014 - Leo-III---1.7.8 says Timeout - CPU = 60.02 WC = 53.37 
+OUTPUT: LCL971_1.014 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL972_1.014 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL972_1.014.p' 60 THM
+RESULT: LCL972_1.014 - Leo-III---1.7.8 says Timeout - CPU = 60.09 WC = 52.46 
+OUTPUT: LCL972_1.014 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL973_1.006 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL973_1.006.p' 60 THM
+RESULT: LCL973_1.006 - Leo-III---1.7.8 says Timeout - CPU = 60.20 WC = 15.94 
+OUTPUT: LCL973_1.006 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL974_1.006 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL974_1.006.p' 60 THM
+RESULT: LCL974_1.006 - Leo-III---1.7.8 says Timeout - CPU = 60.42 WC = 15.41 
+OUTPUT: LCL974_1.006 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL974_1.014 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL974_1.014.p' 60 THM
+RESULT: LCL974_1.014 - Leo-III---1.7.8 says Timeout - CPU = 60.04 WC = 52.21 
+OUTPUT: LCL974_1.014 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL975_1.001 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL975_1.001.p' 60 THM
+RESULT: LCL975_1.001 - Leo-III---1.7.8 says Timeout - CPU = 60.02 WC = 34.70 
+OUTPUT: LCL975_1.001 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL975_1.005 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL975_1.005.p' 60 THM
+RESULT: LCL975_1.005 - Leo-III---1.7.8 says Timeout - CPU = 60.58 WC = 10.89 
+OUTPUT: LCL975_1.005 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL975_1.009 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL975_1.009.p' 60 THM
+RESULT: LCL975_1.009 - Leo-III---1.7.8 says Timeout - CPU = 60.49 WC = 18.99 
+OUTPUT: LCL975_1.009 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL975_1.013 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL975_1.013.p' 60 THM
+RESULT: LCL975_1.013 - Leo-III---1.7.8 says Timeout - CPU = 60.07 WC = 53.00 
+OUTPUT: LCL975_1.013 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL975_1.017 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL975_1.017.p' 60 THM
+RESULT: LCL975_1.017 - Leo-III---1.7.8 says Timeout - CPU = 60.01 WC = 54.49 
+OUTPUT: LCL975_1.017 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on LCL976_1.002 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL976_1.002.p' 60 THM
+RESULT: LCL976_1.002 - Leo-III---1.7.8 says Theorem - CPU = 5.89 WC = 2.35 
+OUTPUT: LCL976_1.002 - Leo-III---1.7.8 says Refutation - CPU = 6.15 WC = 2.44 
+Leo-III---1.7.8   being executed on LCL976_1.018 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'LCL976_1.018.p' 60 THM
+RESULT: LCL976_1.018 - Leo-III---1.7.8 says Timeout - CPU = 60.04 WC = 51.82 
+OUTPUT: LCL976_1.018 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA055_1.010 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA055_1.010.p' 60 THM
+RESULT: PLA055_1.010 - Leo-III---1.7.8 says Timeout - CPU = 60.09 WC = 15.12 
+OUTPUT: PLA055_1.010 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA056_1.010 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA056_1.010.p' 60 THM
+RESULT: PLA056_1.010 - Leo-III---1.7.8 says Timeout - CPU = 60.50 WC = 17.68 
+OUTPUT: PLA056_1.010 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA057_1.018 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA057_1.018.p' 60 THM
+RESULT: PLA057_1.018 - Leo-III---1.7.8 says Timeout - CPU = 60.16 WC = 48.95 
+OUTPUT: PLA057_1.018 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA058_1.018 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA058_1.018.p' 60 THM
+RESULT: PLA058_1.018 - Leo-III---1.7.8 says Timeout - CPU = 60.11 WC = 45.74 
+OUTPUT: PLA058_1.018 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA059_1.001 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA059_1.001.p' 60 THM
+RESULT: PLA059_1.001 - Leo-III---1.7.8 says Timeout - CPU = 60.33 WC = 10.33 
+OUTPUT: PLA059_1.001 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA059_1.005 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA059_1.005.p' 60 THM
+RESULT: PLA059_1.005 - Leo-III---1.7.8 says Timeout - CPU = 60.09 WC = 11.36 
+OUTPUT: PLA059_1.005 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA059_1.009 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA059_1.009.p' 60 THM
+RESULT: PLA059_1.009 - Leo-III---1.7.8 says Timeout - CPU = 60.55 WC = 14.79 
+OUTPUT: PLA059_1.009 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA059_1.013 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA059_1.013.p' 60 THM
+RESULT: PLA059_1.013 - Leo-III---1.7.8 says Timeout - CPU = 60.36 WC = 21.27 
+OUTPUT: PLA059_1.013 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA059_1.014 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA059_1.014.p' 60 THM
+RESULT: PLA059_1.014 - Leo-III---1.7.8 says Timeout - CPU = 60.18 WC = 34.27 
+OUTPUT: PLA059_1.014 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on PLA059_1.017 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'PLA059_1.017.p' 60 THM
+RESULT: PLA059_1.017 - Leo-III---1.7.8 says Timeout - CPU = 60.23 WC = 33.21 
+OUTPUT: PLA059_1.017 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO919_1.001 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO919_1.001.p' 60 THM
+RESULT: SYO919_1.001 - Leo-III---1.7.8 says Timeout - CPU = 60.03 WC = 31.23 
+OUTPUT: SYO919_1.001 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO919_1.005 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO919_1.005.p' 60 THM
+RESULT: SYO919_1.005 - Leo-III---1.7.8 says Timeout - CPU = 60.56 WC = 10.79 
+OUTPUT: SYO919_1.005 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO919_1.009 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO919_1.009.p' 60 THM
+RESULT: SYO919_1.009 - Leo-III---1.7.8 says Timeout - CPU = 60.26 WC = 16.16 
+OUTPUT: SYO919_1.009 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO919_1.013 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO919_1.013.p' 60 THM
+RESULT: SYO919_1.013 - Leo-III---1.7.8 says Timeout - CPU = 60.09 WC = 52.76 
+OUTPUT: SYO919_1.013 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO919_1.017 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO919_1.017.p' 60 THM
+RESULT: SYO919_1.017 - Leo-III---1.7.8 says Timeout - CPU = 60.03 WC = 50.24 
+OUTPUT: SYO919_1.017 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO920_1.014 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO920_1.014.p' 60 THM
+RESULT: SYO920_1.014 - Leo-III---1.7.8 says Timeout - CPU = 60.29 WC = 11.07 
+OUTPUT: SYO920_1.014 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO921_1.006 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO921_1.006.p' 60 THM
+RESULT: SYO921_1.006 - Leo-III---1.7.8 says Timeout - CPU = 60.27 WC = 10.70 
+OUTPUT: SYO921_1.006 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO922_1.014 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO922_1.014.p' 60 THM
+RESULT: SYO922_1.014 - Leo-III---1.7.8 says Timeout - CPU = 60.32 WC = 13.53 
+OUTPUT: SYO922_1.014 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO923_1.010 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO923_1.010.p' 60 THM
+RESULT: SYO923_1.010 - Leo-III---1.7.8 says Timeout - CPU = 60.53 WC = 12.74 
+OUTPUT: SYO923_1.010 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO924_1.002 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO924_1.002.p' 60 THM
+RESULT: SYO924_1.002 - Leo-III---1.7.8 says Theorem - CPU = 8.98 WC = 3.08 
+OUTPUT: SYO924_1.002 - Leo-III---1.7.8 says Refutation - CPU = 9.67 WC = 3.25 
+Leo-III---1.7.8   being executed on SYO924_1.018 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO924_1.018.p' 60 THM
+RESULT: SYO924_1.018 - Leo-III---1.7.8 says Theorem - CPU = 29.89 WC = 13.08 
+OUTPUT: SYO924_1.018 - Leo-III---1.7.8 says Refutation - CPU = 31.02 WC = 13.40 
+Leo-III---1.7.8   being executed on SYO925_1.001 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO925_1.001.p' 60 THM
+RESULT: SYO925_1.001 - Leo-III---1.7.8 says Timeout - CPU = 60.74 WC = 10.28 
+OUTPUT: SYO925_1.001 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO925_1.005 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO925_1.005.p' 60 THM
+RESULT: SYO925_1.005 - Leo-III---1.7.8 says Timeout - CPU = 60.57 WC = 10.39 
+OUTPUT: SYO925_1.005 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO925_1.009 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO925_1.009.p' 60 THM
+RESULT: SYO925_1.009 - Leo-III---1.7.8 says Timeout - CPU = 60.58 WC = 12.50 
+OUTPUT: SYO925_1.009 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO925_1.013 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO925_1.013.p' 60 THM
+RESULT: SYO925_1.013 - Leo-III---1.7.8 says Timeout - CPU = 60.11 WC = 17.33 
+OUTPUT: SYO925_1.013 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 
+Leo-III---1.7.8   being executed on SYO925_1.017 using /exp/home/tptp/Systems/Leo-III---1.7.8/run_Leo-III 'SYO925_1.017.p' 60 THM
+RESULT: SYO925_1.017 - Leo-III---1.7.8 says Timeout - CPU = 60.12 WC = 27.15 
+OUTPUT: SYO925_1.017 - Leo-III---1.7.8 says None - CPU = 0 WC = 0 

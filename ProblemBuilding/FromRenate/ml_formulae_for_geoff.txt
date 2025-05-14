@@ -1,0 +1,85 @@
+Unsatisfiable in K:
+not(equiv(
+            box(r,p),
+            and(box(r,implies(q,p)), box(r,implies(not(q),p)))))
+
+Unsatisfiable in multi-modal K:
+not(implies(
+            and(
+            box(rc,implies(not(pc),box(rb,not(pc)))),
+            and(
+            box(rc,box(rb,box(ra,or(pa,or(pb,pc))))),
+            and(
+            box(rc,box(rb,implies(not(pb),box(ra,not(pb))))),
+            and(
+            box(rc,box(rb,implies(not(pc),box(ra,not(pc))))),
+            and(
+            box(rc,not(box(rb,pb))),
+            box(rc,box(rb,not(box(ra,pa))))
+            ))))),
+        box(rc,pc)
+        ))
+
+Unsatisfiable in K:
+and(and(
+            dia(r,dia(r,not(q))),
+            dia(r,p)), 
+            box(r,box(r,q)))
+
+Unsatisfiable in K:
+and(
+            dia(r,not(q)), 
+            box(r,q)),
+
+Unsatisfiable in K5:
+        not(implies(
+            not(box(r,implies(box(r,p),q))), 
+            box(r,implies(box(r,p), not(box(r,implies(box(r,p),q))))))),
+
+Unsatisfiable in K5:
+not(
+        box(r,implies(box(r,implies(box(r,p),
+                            box(r,implies(box(r,q),box(r,t))))),
+        box(r,implies(box(r,implies(box(r,p),box(r,q))),
+              box(r,implies(box(r,p),box(r,t)))))))
+        )
+
+Unsatisfiable in K5:
+not(
+        box(r,implies(box(r,implies(box(r,p),
+                            box(r,implies(box(r,q),box(r,t))))),
+        box(r,implies(box(r,q),
+              box(r,implies(box(r,p),box(r,t)))))))
+        )
+
+Unsatisfiable in K5:
+not(implies(
+            dia(r,box(r,box(r,box(r,box(r,p))))), 
+            box(r,box(r,dia(r,p))) )),
+
+Unsatisfiable in K5:
+        not(implies(dia(r,box(r,p)), dia(r,p))),
+
+Unsatisfiable in K5:
+        and(dia(r,box(r,p)), 
+            dia(r,dia(r,and(not(p), box(r,q))))),
+
+Unsatisfiable in K5:
+        and(
+            dia(r,box(r,p)), 
+            dia(r,dia(r,not(p)))),
+
+Unsatisfiable in K5:
+        and(dia(r,and(box(r,p), dia(r,dia(r,not(q))))), 
+        dia(r,dia(r,box(r,q)))),
+
+Unsatisfiable in K5:
+        and(and(
+            dia(r,dia(r,dia(r,dia(r,not(q))))), 
+            dia(r,p)), 
+            box(r,box(r,q))),
+
+Unsatisfiable in K5:
+        and(
+            dia(r,dia(r,dia(r,dia(r,not(q))))), 
+            box(r,box(r,q))),

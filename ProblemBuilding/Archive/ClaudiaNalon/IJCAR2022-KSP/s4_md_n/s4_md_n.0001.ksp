@@ -1,0 +1,3 @@
+sos(formulas).
+~((p1 | false)).
+end_of_list.

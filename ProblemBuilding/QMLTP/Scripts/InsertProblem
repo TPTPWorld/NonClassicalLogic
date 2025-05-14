@@ -1,0 +1,12 @@
+#!/bin/tcsh
+
+foreach qmltp (*/*.p)
+    set abstract=`basename $qmltp .p | sed -e 's/+/^/'`
+    set domain=`echo $abstract | sed -e 's/\(...\).*/\1/'`
+    set probline=`grep -m1 'Problem  :' $qmltp | sed -e 's/^% Problem  : //'`
+#    set probline=`grep -m1 'English  :' $qmltp | sed -e 's/^% English  : //'`
+    echo "Abstract $domain $abstract ---$probline---"
+    foreach thf (/exp/home/tptp/NonClassicalLogic/QMLTP/5_THF/$domain/${abstract}*)
+        sed -i -e "s/Problem  :.*/Problem  : $probline/" $thf
+    end
+end
